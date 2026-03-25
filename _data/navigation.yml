@@ -1,0 +1,15 @@
+main:
+  - title: "MEPs"
+    url:   /meps/
+  - title: "Votes"
+    url:   /votes/
+  - title: "Sessions"
+    url:   /sessions/
+  - title: "Documents"
+    url:   /documents/
+  - title: "Questions"
+    url:   /questions/
+  - title: "Committees"
+    url:   /committees/
+  - title: "About"
+    url:   /about/

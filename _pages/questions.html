@@ -1,0 +1,67 @@
+---
+layout: default
+title: Parliamentary Questions
+permalink: /questions/
+---
+
+<div class="ep-toolbar">
+  <input type="text" id="q-search" placeholder="Search questions…" class="ep-search-input">
+  <select id="q-type-filter" class="ep-filter-select">
+    <option value="">All types</option>
+    <option value="written">Written questions</option>
+    <option value="oral">Oral questions</option>
+  </select>
+</div>
+
+<p class="ep-count">
+  {{ site.data.questions | size }} questions — data updated {{ site.data.meta.last_updated }}
+</p>
+
+<ul class="ep-question-list" id="q-list">
+  {% for q in site.data.questions %}
+  <li class="ep-question-item"
+    data-search="{{ q.title | downcase }}"
+    data-type="{{ q.type | downcase }}">
+    <div class="ep-question-meta">
+      <span class="ep-col-date">{{ q.date }}</span>
+      <span class="ep-type-badge">{{ q.type }}</span>
+      {% if q.ref != "" %}<code class="ep-ref">{{ q.ref }}</code>{% endif %}
+    </div>
+    <div class="ep-question-title">
+      {% if q.ep_url != "" %}
+        <a href="{{ q.ep_url }}" target="_blank" rel="noopener">{{ q.title }}</a>
+      {% else %}
+        {{ q.title }}
+      {% endif %}
+    </div>
+    {% if q.authors.size > 0 %}
+    <div class="ep-question-authors">
+      By:
+      {% for author_id in q.authors %}
+        {% assign author = site.data.meps | where: "id", author_id | first %}
+        {% if author %}
+          <a href="/meps/{{ author.id }}/">{{ author.full_name }}</a>{% unless forloop.last %}, {% endunless %}
+        {% else %}
+          {{ author_id }}
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
+<script>
+const qs = document.getElementById('q-search');
+const qt = document.getElementById('q-type-filter');
+function filterQ() {
+  const q = qs.value.toLowerCase();
+  const type = qt.value.toLowerCase();
+  document.querySelectorAll('.ep-question-item').forEach(el => {
+    el.style.display =
+      (!q || el.dataset.search.includes(q)) &&
+      (!type || el.dataset.type.includes(type)) ? '' : 'none';
+  });
+}
+[qs, qt].forEach(el => el.addEventListener('input', filterQ));
+</script>

@@ -1,0 +1,112 @@
+---
+layout: default
+title: Members of the European Parliament
+permalink: /meps/
+---
+
+<div class="ep-toolbar">
+  <input type="text" id="mep-search" placeholder="Search by name, country, or group…" class="ep-search-input">
+  <select id="mep-group-filter" class="ep-filter-select">
+    <option value="">All political groups</option>
+    {% assign groups = site.data.meps | map: "group_abbr" | uniq | sort %}
+    {% for group in groups %}
+      {% if group != "" %}
+        <option value="{{ group }}">{{ group }}</option>
+      {% endif %}
+    {% endfor %}
+  </select>
+  <select id="mep-country-filter" class="ep-filter-select">
+    <option value="">All countries</option>
+    {% assign countries = site.data.meps | map: "country" | uniq | sort %}
+    {% for country in countries %}
+      {% if country != "" %}
+        <option value="{{ country }}">{{ country }}</option>
+      {% endif %}
+    {% endfor %}
+  </select>
+  <select id="mep-committee-filter" class="ep-filter-select">
+    <option value="">All committees</option>
+    {% for committee in site.data.committees %}
+      <option value="{{ committee.abbreviation }}">{{ committee.abbreviation }}</option>
+    {% endfor %}
+  </select>
+</div>
+
+<p class="ep-count">
+  Showing <span id="visible-count">{{ site.data.meps | size }}</span>
+  of {{ site.data.meps | size }} MEPs
+  — data updated {{ site.data.meta.last_updated }}
+</p>
+
+<div class="ep-mep-grid" id="mep-grid">
+  {% for mep in site.data.meps %}
+  <article class="ep-mep-card"
+    data-name="{{ mep.full_name | downcase }}"
+    data-group="{{ mep.group_abbr }}"
+    data-country="{{ mep.country }}"
+    data-committees="{% for c in mep.committees %}{{ c.id }} {% endfor %}">
+
+    <a href="/meps/{{ mep.id }}/" class="ep-mep-card__link">
+      <img src="{{ mep.photo_url }}"
+           alt="Photo of {{ mep.full_name }}"
+           class="ep-mep-card__photo"
+           loading="lazy"
+           onerror="this.src='/assets/images/mep-placeholder.jpg'">
+      <div class="ep-mep-card__body">
+        <h3 class="ep-mep-card__name">{{ mep.full_name }}</h3>
+        <p class="ep-mep-card__meta">
+          <span class="ep-badge ep-badge--group ep-badge--{{ mep.group_abbr | downcase | replace: '/', '-' }}">
+            {{ mep.group_abbr }}
+          </span>
+          {{ mep.country }}
+        </p>
+        <p class="ep-mep-card__party">{{ mep.national_party }}</p>
+      </div>
+    </a>
+
+    <div class="ep-mep-card__contact">
+      {% if mep.email != "" %}
+        <a href="mailto:{{ mep.email }}" title="Email {{ mep.full_name }}" class="ep-contact-icon">✉</a>
+      {% endif %}
+      {% if mep.social.linkedin != "" and mep.social.linkedin %}
+        <a href="{{ mep.social.linkedin }}" target="_blank" rel="noopener" title="LinkedIn" class="ep-contact-icon">in</a>
+      {% endif %}
+      {% if mep.social.twitter != "" and mep.social.twitter %}
+        <a href="{{ mep.social.twitter }}" target="_blank" rel="noopener" title="X / Twitter" class="ep-contact-icon">𝕏</a>
+      {% endif %}
+    </div>
+
+  </article>
+  {% endfor %}
+</div>
+
+<script>
+(function () {
+  const cards   = Array.from(document.querySelectorAll('.ep-mep-card'));
+  const counter = document.getElementById('visible-count');
+  const search  = document.getElementById('mep-search');
+  const group   = document.getElementById('mep-group-filter');
+  const country = document.getElementById('mep-country-filter');
+  const comm    = document.getElementById('mep-committee-filter');
+
+  function filter() {
+    const q  = search.value.toLowerCase().trim();
+    const g  = group.value;
+    const c  = country.value;
+    const co = comm.value;
+    let visible = 0;
+    cards.forEach(card => {
+      const show =
+        (!q  || card.dataset.name.includes(q))        &&
+        (!g  || card.dataset.group === g)              &&
+        (!c  || card.dataset.country === c)            &&
+        (!co || card.dataset.committees.includes(co));
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    counter.textContent = visible;
+  }
+
+  [search, group, country, comm].forEach(el => el.addEventListener('input', filter));
+})();
+</script>

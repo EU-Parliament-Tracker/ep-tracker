@@ -1,0 +1,54 @@
+---
+layout: default
+title: Legislative Documents
+permalink: /documents/
+---
+
+<div class="ep-toolbar">
+  <input type="text" id="doc-search" placeholder="Search documents…" class="ep-search-input">
+  <select id="doc-type-filter" class="ep-filter-select">
+    <option value="">All types</option>
+    <option value="adopted">Adopted texts</option>
+    <option value="tabled">Tabled documents</option>
+  </select>
+</div>
+
+<p class="ep-count">
+  {{ site.data.documents | size }} documents — data updated {{ site.data.meta.last_updated }}
+</p>
+
+<ul class="ep-doc-list" id="doc-list">
+  {% for doc in site.data.documents %}
+  <li class="ep-doc-item"
+    data-search="{{ doc.title | downcase }} {{ doc.ref | downcase }}"
+    data-type="{{ doc.type }}">
+    <div class="ep-doc-meta">
+      <span class="ep-col-date">{{ doc.date }}</span>
+      <span class="ep-type-badge ep-type-badge--{{ doc.type }}">{{ doc.type }}</span>
+      {% if doc.ref != "" %}<code class="ep-ref">{{ doc.ref }}</code>{% endif %}
+    </div>
+    <div class="ep-doc-title">
+      {% if doc.ep_url != "" %}
+        <a href="{{ doc.ep_url }}" target="_blank" rel="noopener">{{ doc.title }}</a>
+      {% else %}
+        {{ doc.title }}
+      {% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+
+<script>
+const s = document.getElementById('doc-search');
+const t = document.getElementById('doc-type-filter');
+function filterDocs() {
+  const q = s.value.toLowerCase();
+  const type = t.value;
+  document.querySelectorAll('.ep-doc-item').forEach(el => {
+    el.style.display =
+      (!q || el.dataset.search.includes(q)) &&
+      (!type || el.dataset.type === type) ? '' : 'none';
+  });
+}
+[s, t].forEach(el => el.addEventListener('input', filterDocs));
+</script>

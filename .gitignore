@@ -1,0 +1,26 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+Gemfile.lock
+*.gem
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Local secrets / overrides
+.env
+_config.local.yml
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/

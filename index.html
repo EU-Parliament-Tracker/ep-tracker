@@ -1,0 +1,144 @@
+---
+layout: default
+title: "EP Tracker — European Parliament activity at a glance"
+permalink: /
+---
+
+<section class="ep-hero">
+  <h1 class="ep-hero__title">Track the European Parliament</h1>
+  <p class="ep-hero__sub">
+    MEP voting records, plenary sessions, legislative documents, and parliamentary
+    questions — updated daily from the official EP Open Data API.
+  </p>
+  <p class="ep-hero__updated">
+    Last updated: <strong>{{ site.data.meta.last_updated }}</strong>
+  </p>
+</section>
+
+<!-- ── Stats row ────────────────────────────────────────────────── -->
+<div class="ep-stats-row">
+  <a href="/meps/" class="ep-stat-card">
+    <span class="ep-stat-card__number">{{ site.data.meps | size }}</span>
+    <span class="ep-stat-card__label">MEPs</span>
+  </a>
+  <a href="/votes/" class="ep-stat-card">
+    <span class="ep-stat-card__number">{{ site.data.votes | size }}</span>
+    <span class="ep-stat-card__label">Recent votes</span>
+  </a>
+  <a href="/sessions/" class="ep-stat-card">
+    <span class="ep-stat-card__number">{{ site.data.sessions | size }}</span>
+    <span class="ep-stat-card__label">Sessions tracked</span>
+  </a>
+  <a href="/documents/" class="ep-stat-card">
+    <span class="ep-stat-card__number">{{ site.data.documents | size }}</span>
+    <span class="ep-stat-card__label">Documents</span>
+  </a>
+  <a href="/questions/" class="ep-stat-card">
+    <span class="ep-stat-card__number">{{ site.data.questions | size }}</span>
+    <span class="ep-stat-card__label">Questions</span>
+  </a>
+  <a href="/committees/" class="ep-stat-card">
+    <span class="ep-stat-card__number">{{ site.data.committees | size }}</span>
+    <span class="ep-stat-card__label">Committees</span>
+  </a>
+</div>
+
+<!-- ── Latest votes ──────────────────────────────────────────────── -->
+<section class="ep-home-section">
+  <div class="ep-home-section__header">
+    <h2>Latest votes</h2>
+    <a href="/votes/" class="ep-see-all">See all →</a>
+  </div>
+  <ul class="ep-compact-list">
+    {% for vote in site.data.votes limit: 8 %}
+    <li class="ep-compact-list__item">
+      <span class="ep-col-date">{{ vote.date }}</span>
+      <span class="ep-compact-list__title">
+        {% if vote.ep_url != "" %}
+          <a href="{{ vote.ep_url }}" target="_blank" rel="noopener">{{ vote.title | truncate: 90 }}</a>
+        {% else %}
+          {{ vote.title | truncate: 90 }}
+        {% endif %}
+      </span>
+      <span class="ep-vote-result ep-vote-result--{{ vote.result | downcase }}">{{ vote.result }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<!-- ── Upcoming sessions ─────────────────────────────────────────── -->
+{% assign today = 'now' | date: "%Y-%m-%d" %}
+{% assign upcoming = site.data.sessions | where_exp: "s", "s.start >= today" | sort: "start" %}
+
+<section class="ep-home-section">
+  <div class="ep-home-section__header">
+    <h2>Upcoming plenary sessions</h2>
+    <a href="/sessions/" class="ep-see-all">See all →</a>
+  </div>
+  {% if upcoming.size > 0 %}
+  <ul class="ep-compact-list">
+    {% for session in upcoming limit: 4 %}
+    <li class="ep-compact-list__item">
+      <span class="ep-col-date">{{ session.start }}</span>
+      <span class="ep-compact-list__title">
+        {% if session.ep_url != "" %}
+          <a href="{{ session.ep_url }}" target="_blank" rel="noopener">{{ session.label }}</a>
+        {% else %}
+          {{ session.label }}
+        {% endif %}
+      </span>
+      {% if session.location != "" %}
+        <span class="ep-session-location">{{ session.location }}</span>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+    <p class="ep-empty">No upcoming sessions in the current dataset.</p>
+  {% endif %}
+</section>
+
+<!-- ── Recent documents ──────────────────────────────────────────── -->
+<section class="ep-home-section">
+  <div class="ep-home-section__header">
+    <h2>Recent documents</h2>
+    <a href="/documents/" class="ep-see-all">See all →</a>
+  </div>
+  <ul class="ep-compact-list">
+    {% for doc in site.data.documents limit: 6 %}
+    <li class="ep-compact-list__item">
+      <span class="ep-col-date">{{ doc.date }}</span>
+      <span class="ep-type-badge ep-type-badge--{{ doc.type }}">{{ doc.type }}</span>
+      <span class="ep-compact-list__title">
+        {% if doc.ep_url != "" %}
+          <a href="{{ doc.ep_url }}" target="_blank" rel="noopener">{{ doc.title | truncate: 90 }}</a>
+        {% else %}
+          {{ doc.title | truncate: 90 }}
+        {% endif %}
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<!-- ── Recent questions ──────────────────────────────────────────── -->
+<section class="ep-home-section">
+  <div class="ep-home-section__header">
+    <h2>Recent parliamentary questions</h2>
+    <a href="/questions/" class="ep-see-all">See all →</a>
+  </div>
+  <ul class="ep-compact-list">
+    {% for q in site.data.questions limit: 6 %}
+    <li class="ep-compact-list__item">
+      <span class="ep-col-date">{{ q.date }}</span>
+      <span class="ep-compact-list__title">
+        {% if q.ep_url != "" %}
+          <a href="{{ q.ep_url }}" target="_blank" rel="noopener">{{ q.title | truncate: 90 }}</a>
+        {% else %}
+          {{ q.title | truncate: 90 }}
+        {% endif %}
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

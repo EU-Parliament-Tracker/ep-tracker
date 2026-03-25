@@ -1,0 +1,59 @@
+---
+layout: default
+title: Roll-call Votes
+permalink: /votes/
+---
+
+<div class="ep-toolbar">
+  <input type="text" id="vote-search" placeholder="Search votes…" class="ep-search-input">
+</div>
+
+<p class="ep-count">
+  {{ site.data.votes | size }} votes — data updated {{ site.data.meta.last_updated }}
+</p>
+
+<table class="ep-table" id="votes-table">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Title</th>
+      <th>Result</th>
+      <th class="ep-col-num">For</th>
+      <th class="ep-col-num">Against</th>
+      <th class="ep-col-num">Abstain</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for vote in site.data.votes %}
+    <tr class="ep-vote-row" data-search="{{ vote.title | downcase }} {{ vote.subject | downcase }}">
+      <td class="ep-col-date">{{ vote.date }}</td>
+      <td>
+        {% if vote.ep_url != "" %}
+          <a href="{{ vote.ep_url }}" target="_blank" rel="noopener">{{ vote.title }}</a>
+        {% else %}
+          {{ vote.title }}
+        {% endif %}
+        {% if vote.ep_ref != "" %}<small class="ep-ref">{{ vote.ep_ref }}</small>{% endif %}
+      </td>
+      <td>
+        <span class="ep-vote-result ep-vote-result--{{ vote.result | downcase }}">
+          {{ vote.result }}
+        </span>
+      </td>
+      <td class="ep-col-num ep-for">{{ vote.for }}</td>
+      <td class="ep-col-num ep-against">{{ vote.against }}</td>
+      <td class="ep-col-num ep-abstain">{{ vote.abstention }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<script>
+const searchInput = document.getElementById('vote-search');
+searchInput.addEventListener('input', () => {
+  const q = searchInput.value.toLowerCase();
+  document.querySelectorAll('.ep-vote-row').forEach(row => {
+    row.style.display = row.dataset.search.includes(q) ? '' : 'none';
+  });
+});
+</script>

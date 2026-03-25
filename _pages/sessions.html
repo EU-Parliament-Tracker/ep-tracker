@@ -1,0 +1,39 @@
+---
+layout: default
+title: Plenary Sessions
+permalink: /sessions/
+---
+
+<p class="ep-count">
+  {{ site.data.sessions | size }} sessions — data updated {{ site.data.meta.last_updated }}
+</p>
+
+{% assign today = 'now' | date: "%Y-%m-%d" %}
+
+{% assign upcoming = site.data.sessions | where_exp: "s", "s.start >= today" | sort: "start" %}
+{% assign past     = site.data.sessions | where_exp: "s", "s.start < today"  | sort: "start" | reverse %}
+
+{% if upcoming.size > 0 %}
+<h2>Upcoming sessions</h2>
+<ul class="ep-session-list ep-session-list--upcoming">
+  {% for session in upcoming %}
+  <li class="ep-session-item">
+    <span class="ep-session-date">{{ session.start }}{% if session.end != session.start %} – {{ session.end }}{% endif %}</span>
+    <span class="ep-session-label">{{ session.label }}</span>
+    {% if session.location != "" %}<span class="ep-session-location">📍 {{ session.location }}</span>{% endif %}
+    {% if session.ep_url != "" %}<a href="{{ session.ep_url }}" target="_blank" rel="noopener" class="ep-session-link">View agenda →</a>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+<h2>Past sessions</h2>
+<ul class="ep-session-list">
+  {% for session in past limit: 50 %}
+  <li class="ep-session-item">
+    <span class="ep-session-date">{{ session.start }}{% if session.end != session.start %} – {{ session.end }}{% endif %}</span>
+    <span class="ep-session-label">{{ session.label }}</span>
+    {% if session.ep_url != "" %}<a href="{{ session.ep_url }}" target="_blank" rel="noopener" class="ep-session-link">Minutes / docs →</a>{% endif %}
+  </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,39 @@
+---
+layout: default
+title: Committees
+permalink: /committees/
+---
+
+<p class="ep-count">
+  {{ site.data.committees | size }} committees — data updated {{ site.data.meta.last_updated }}
+</p>
+
+<div class="ep-committee-grid">
+  {% for committee in site.data.committees %}
+  <div class="ep-committee-card" id="{{ committee.id | downcase }}">
+    <div class="ep-committee-card__header">
+      <span class="ep-committee-abbr">{{ committee.abbreviation }}</span>
+      <a href="{{ committee.ep_url }}" target="_blank" rel="noopener" class="ep-committee-ep-link" title="View on europarl.europa.eu">↗</a>
+    </div>
+    <h3 class="ep-committee-name">{{ committee.name }}</h3>
+
+    <!-- MEPs in this committee -->
+    {% assign committee_meps = site.data.meps | where_exp: "m", "m.committees | map: 'id' | contains: committee.id" %}
+    {% if committee_meps.size > 0 %}
+    <p class="ep-committee-count">{{ committee_meps.size }} members</p>
+    <ul class="ep-committee-members">
+      {% for mep in committee_meps limit: 8 %}
+      <li>
+        <a href="/meps/{{ mep.id }}/">{{ mep.full_name }}</a>
+        {% assign membership = mep.committees | where: "id", committee.id | first %}
+        {% if membership.role != "" %}<span class="ep-role-badge">{{ membership.role }}</span>{% endif %}
+      </li>
+      {% endfor %}
+      {% if committee_meps.size > 8 %}
+      <li class="ep-more">+ {{ committee_meps.size | minus: 8 }} more</li>
+      {% endif %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
