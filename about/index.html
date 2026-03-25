@@ -1,0 +1,269 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en-EU" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>About EP Tracker - EP Tracker</title>
+<meta name="description" content="Track MEP voting records, plenary sessions, legislative documents, and parliamentary questions from the European Parliament.">
+
+
+  <meta name="author" content="EP Tracker">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_EU">
+<meta property="og:site_name" content="EP Tracker">
+<meta property="og:title" content="About EP Tracker">
+<meta property="og:url" content="https://your-org.github.io/ep-tracker/about/">
+
+
+  <meta property="og:description" content="Track MEP voting records, plenary sessions, legislative documents, and parliamentary questions from the European Parliament.">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://your-org.github.io/ep-tracker/about/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/ep-tracker/feed.xml" type="application/atom+xml" rel="alternate" title="EP Tracker Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/ep-tracker/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--default">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/ep-tracker/">
+          EP Tracker
+          <span class="site-subtitle">European Parliament activity at a glance</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/ep-tracker/meps/"
+                
+                
+              >MEPs</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/ep-tracker/votes/"
+                
+                
+              >Votes</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/ep-tracker/sessions/"
+                
+                
+              >Sessions</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/ep-tracker/documents/"
+                
+                
+              >Documents</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/ep-tracker/questions/"
+                
+                
+              >Questions</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/ep-tracker/committees/"
+                
+                
+              >Committees</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/ep-tracker/about/"
+                
+                
+              >About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      <h2 id="what-is-ep-tracker">What is EP Tracker?</h2>
+
+<p>EP Tracker is an independent, open-source tool for monitoring the activity
+of the <strong>European Parliament</strong>. It is designed for EU policy professionals,
+journalists, NGOs, and engaged citizens who want easy access to parliamentary
+data without having to navigate the official EP website.</p>
+
+<h2 id="what-data-is-shown">What data is shown?</h2>
+
+<p>All data comes from the
+<a href="https://data.europarl.europa.eu">European Parliament Open Data Portal</a>
+(API v2), which is the official open data service of the European Parliament.</p>
+
+<p>The following datasets are updated daily:</p>
+
+<ul>
+  <li><strong>MEPs</strong> — all 720 sitting members of the 10th parliamentary term,
+including contact details, committee memberships, and social media links</li>
+  <li><strong>Roll-call votes</strong> — results of all recorded votes in plenary,
+including breakdown of for / against / abstentions</li>
+  <li><strong>Plenary sessions</strong> — past and upcoming sessions with links to
+agendas and minutes</li>
+  <li><strong>Legislative documents</strong> — adopted texts and documents tabled
+for plenary</li>
+  <li><strong>Parliamentary questions</strong> — written and oral questions submitted
+by MEPs</li>
+  <li><strong>Committees</strong> — all standing committees and their membership</li>
+</ul>
+
+<h2 id="how-is-data-updated">How is data updated?</h2>
+
+<p>A Python script runs daily via GitHub Actions, fetches the latest data
+from the EP API, and commits updated JSON files to this repository.
+Jekyll then rebuilds the static site automatically. No database or server
+is required.</p>
+
+<h2 id="source-code">Source code</h2>
+
+<p>This project is fully open source. You can inspect, fork, and contribute at:
+<a href="https://github.com/your-org/ep-tracker">github.com/your-org/ep-tracker</a></p>
+
+<h2 id="data-sources--attribution">Data sources &amp; attribution</h2>
+
+<p>Data is sourced from the European Parliament under their
+<a href="https://data.europarl.europa.eu/en/developer-corner/opendata-api">open data terms of use</a>.
+EP Tracker is an independent project and is not affiliated with or endorsed
+by the European Parliament.</p>
+
+<h2 id="contact">Contact</h2>
+
+<p>Questions or suggestions? Open an issue on GitHub or email
+<a href="mailto:hello@example.com">hello@example.com</a>.</p>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/ep-tracker/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2026 <a href="https://your-org.github.io">EP Tracker</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/ep-tracker/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/ep-tracker/assets/js/lunr/lunr.min.js"></script>
+<script src="/ep-tracker/assets/js/lunr/lunr-store.js"></script>
+<script src="/ep-tracker/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
