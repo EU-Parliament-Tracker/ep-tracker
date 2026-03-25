@@ -1,0 +1,15 @@
+{
+  "last_updated": "2026-03-25",
+  "last_updated_ts": 1774457054.176058,
+  "term": 10,
+  "lookback_days": 180,
+  "failed_datasets": [],
+  "counts": {
+    "meps": 0,
+    "committees": 0,
+    "sessions": 0,
+    "votes": 0,
+    "documents": 0,
+    "questions": 0
+  }
+}
