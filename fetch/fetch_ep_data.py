@@ -26,7 +26,8 @@ QUESTIONS_LOOKBACK_DAYS = 90
 MAX_VOTES     = 500
 MAX_DOCUMENTS = 300
 MAX_QUESTIONS = 300
-OUTPUT_DIR = Path(os.environ.get("EP_DATA_DIR", str(Path(__file__).resolve().parent.parent / "_data")))MEPS_DIR   = OUTPUT_DIR / "meps"
+OUTPUT_DIR = Path(os.environ.get("EP_DATA_DIR", str(Path(__file__).resolve().parent.parent / "_data")))
+MEPS_DIR   = OUTPUT_DIR / "meps"
 TIMEOUT    = 30
 PAGE_SIZE  = 100
 RATE_LIMIT = 0.3
