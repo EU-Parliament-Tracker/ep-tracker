@@ -12,7 +12,7 @@ import time
 import xml.etree.ElementTree as ET
 from datetime import date, timedelta
 from pathlib import Path
-
+import os
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -26,8 +26,7 @@ QUESTIONS_LOOKBACK_DAYS = 90
 MAX_VOTES     = 500
 MAX_DOCUMENTS = 300
 MAX_QUESTIONS = 300
-OUTPUT_DIR = Path(__file__).resolve().parent.parent / "_data"
-MEPS_DIR   = OUTPUT_DIR / "meps"
+OUTPUT_DIR = Path(os.environ.get("EP_DATA_DIR", str(Path(__file__).resolve().parent.parent / "_data")))MEPS_DIR   = OUTPUT_DIR / "meps"
 TIMEOUT    = 30
 PAGE_SIZE  = 100
 RATE_LIMIT = 0.3
