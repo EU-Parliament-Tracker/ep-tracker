@@ -44,13 +44,13 @@ jobs:
           # EP_API_KEY: ${{ secrets.EP_API_KEY }}
           FORCE_FULL_REFRESH: ${{ github.event.inputs.force_full_refresh }}
 
-      # ── 4. Commit updated data files ───────────────────────────────────
+# ── 4. Commit updated data files ───────────────────────────────────
       - name: Commit updated data files
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name  "github-actions[bot]"
+          git pull origin main --rebase
           git add _data/
-          # Only commit if something actually changed
           if git diff --staged --quiet; then
             echo "No data changes — skipping commit."
           else
@@ -63,7 +63,6 @@ jobs:
             git commit -m "data: daily EP update $(date -u +%Y-%m-%d) [$STATS]"
             git push
           fi
-
       # ── 5. Build & deploy Jekyll site ─────────────────────────────────
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
