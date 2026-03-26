@@ -36,12 +36,12 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r fetch/requirements.txt
 
-      # ── 3. Run the fetch script ────────────────────────────────────────
+# ── 3. Run the fetch script ────────────────────────────────────────
       - name: Fetch EP data
         run: python fetch/fetch_ep_data.py
+        working-directory: ${{ github.workspace }}
         env:
-          # Add any API keys here if EP ever requires auth
-          # EP_API_KEY: ${{ secrets.EP_API_KEY }}
+          EP_DATA_DIR: ${{ github.workspace }}/_data
           FORCE_FULL_REFRESH: ${{ github.event.inputs.force_full_refresh }}
 
 # ── 4. Commit updated data files ───────────────────────────────────
