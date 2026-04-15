@@ -34,11 +34,11 @@ jobs:
         with:
           ruby-version: "3.2"
           bundler-cache: true
-
-      - name: Build Jekyll site
+- name: Build Jekyll site
         run: bundle exec jekyll build --trace
         env:
           JEKYLL_ENV: production
+          RUBYOPT: "-E utf-8"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
