@@ -39,7 +39,8 @@ permalink: /meps/
 </p>
 
 <div class="ep-mep-grid" id="mep-grid">
-  {% for mep in site.data.meps %}
+ {% for item in site.data.meps %}
+{% assign mep = item[1] %}
   <article class="ep-mep-card"
     data-name="{{ mep.full_name | downcase }}"
     data-group="{{ mep.group_abbr }}"
