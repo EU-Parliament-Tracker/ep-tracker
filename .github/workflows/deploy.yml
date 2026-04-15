@@ -16,6 +16,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
+      - name: Clear Jekyll cache
+        run: |
+          rm -rf .jekyll-cache
+          rm -rf .sass-cache
+          rm -rf _site
+
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -23,7 +29,7 @@ jobs:
           bundler-cache: true
 
       - name: Build Jekyll site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --trace
         env:
           JEKYLL_ENV: production
 
