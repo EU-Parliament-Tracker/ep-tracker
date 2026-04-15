@@ -1,32 +1,22 @@
 name: Fetch EP data & deploy
 
 on:
-  # Run every day at 06:30 UTC (before EU working hours)
   schedule:
     - cron: "30 6 * * *"
-
-  # Allow manual trigger from the GitHub Actions UI
   workflow_dispatch:
-    inputs:
-      force_full_refresh:
-        description: "Force full MEP refresh (slow)"
-        required: false
-        default: "false"
 
 jobs:
   fetch-and-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # needed to commit updated _data/ files
+      contents: write
 
     steps:
-      # ── 1. Checkout ────────────────────────────────────────────────────
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ── 2. Set up Python ───────────────────────────────────────────────
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
         with:
@@ -36,34 +26,19 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r fetch/requirements.txt
 
-# ── 3. Run the fetch script ────────────────────────────────────────
       - name: Fetch EP data
         run: python fetch/fetch_ep_data.py
-        working-directory: ${{ github.workspace }}
         env:
           EP_DATA_DIR: ${{ github.workspace }}/_data
-          FORCE_FULL_REFRESH: ${{ github.event.inputs.force_full_refresh }}
 
-# ── 4. Commit updated data files ───────────────────────────────────
       - name: Commit updated data files
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name  "github-actions[bot]"
-          git pull origin main --rebase
+          git config --local user.name "github-actions[bot]"
           git add _data/
-          if git diff --staged --quiet; then
-            echo "No data changes — skipping commit."
-          else
-            STATS=$(python -c "
-          import json, pathlib
-          m = json.loads(pathlib.Path('_data/meta.json').read_text())
-          c = m.get('counts', {})
-          print(f\"MEPs:{c.get('meps','?')} votes:{c.get('votes','?')} docs:{c.get('documents','?')}\")
-          " 2>/dev/null || echo "")
-            git commit -m "data: daily EP update $(date -u +%Y-%m-%d) [$STATS]"
-            git push
-          fi
-      # ── 5. Build & deploy Jekyll site ─────────────────────────────────
+          git commit -m "data: daily EP update $(date -u +%Y-%m-%d)" || echo "No changes to commit"
+          git push origin main || echo "Nothing to push"
+
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -79,5 +54,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir:  ./_site
-          cname: ${{ secrets.CUSTOM_DOMAIN }}   # optional: remove if not using a custom domain
+          publish_dir: ./_site
