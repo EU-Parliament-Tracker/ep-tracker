@@ -52,7 +52,7 @@ permalink: /meps/
            loading="lazy"
            onerror="this.src='/assets/images/mep-placeholder.jpg'">
       <div class="ep-mep-card__body">
-        <h3 class="ep-mep-card__name">{{ mep.full_name }}</h3>
+<h3 class="ep-mep-card__name">{{ mep.full_name | default: "NO NAME FOUND" }}</h3>
         <p class="ep-mep-card__meta">
           <span class="ep-badge ep-badge--group ep-badge--{{ mep.group_abbr | downcase | replace: '/', '-' }}">
             {{ mep.group_abbr }}
