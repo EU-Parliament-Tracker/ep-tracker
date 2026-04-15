@@ -35,7 +35,8 @@ permalink: /meps/
 <p class="ep-count">
   Showing <span id="visible-count">{{ site.data.meps | size }}</span>
   of {{ site.data.meps | size }} MEPs
-— data updated {{ site.data.meta.last_updated }} — first MEP: {{ site.data.meps.first.full_name }}
+  — data updated {{ site.data.meta.last_updated }}
+</p>
 
 <div class="ep-mep-grid" id="mep-grid">
   {% for mep in site.data.meps %}
@@ -45,14 +46,14 @@ permalink: /meps/
     data-country="{{ mep.country }}"
     data-committees="{% for c in mep.committees %}{{ c.id }} {% endfor %}">
 
-    <a href="/meps/{{ mep.id }}/" class="ep-mep-card__link">
+    <a href="{{ '/meps/' | append: mep.id | append: '/' | relative_url }}" class="ep-mep-card__link">
       <img src="{{ mep.photo_url }}"
            alt="Photo of {{ mep.full_name }}"
            class="ep-mep-card__photo"
            loading="lazy"
            onerror="this.src='/assets/images/mep-placeholder.jpg'">
       <div class="ep-mep-card__body">
-<h3 class="ep-mep-card__name">{{ mep.full_name | default: "NO NAME FOUND" }}</h3>
+        <h3 class="ep-mep-card__name">{{ mep.full_name }}</h3>
         <p class="ep-mep-card__meta">
           <span class="ep-badge ep-badge--group ep-badge--{{ mep.group_abbr | downcase | replace: '/', '-' }}">
             {{ mep.group_abbr }}
