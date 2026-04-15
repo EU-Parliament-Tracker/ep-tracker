@@ -5,9 +5,6 @@
 encoding: utf-8
 liquid:
   error_mode: warn
-
-title:          "EP Tracker"
-subtitle:       "European Parliament activity at a glance"
 title:          "EP Tracker"
 subtitle:       "European Parliament activity at a glance"
 name:           "EP Tracker"
