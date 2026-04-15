@@ -2,6 +2,9 @@ name: Deploy site
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -34,7 +37,8 @@ jobs:
         with:
           ruby-version: "3.2"
           bundler-cache: true
-- name: Build Jekyll site
+
+      - name: Build Jekyll site
         run: bundle exec jekyll build --trace
         env:
           JEKYLL_ENV: production
