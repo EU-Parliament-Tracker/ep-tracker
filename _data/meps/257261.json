@@ -1,0 +1,33 @@
+{
+  "id": "257261",
+  "full_name": "Ilia LAZAROV",
+  "given_name": "Ilia",
+  "last_name": "Lazarov",
+  "country": "Bulgaria",
+  "national_party": "Union of Democratic Forces",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "ilia.lazarov@europarl.europa.eu",
+  "phone": "+33388175951",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257261.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257261",
+  "committees": [
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6624",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "257148",
+  "full_name": "Raffaele TOPO",
+  "given_name": "Raffaele",
+  "last_name": "Topo",
+  "country": "Italy",
+  "national_party": "Partito Democratico",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "raffaele.topo@europarl.europa.eu",
+  "phone": "+3222845227",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257148.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257148",
+  "committees": [
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

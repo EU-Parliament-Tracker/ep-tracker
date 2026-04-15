@@ -1,0 +1,38 @@
+{
+  "id": "190713",
+  "full_name": "Lukas MANDL",
+  "given_name": "Lukas",
+  "last_name": "Mandl",
+  "country": "Austria",
+  "national_party": "Österreichische Volkspartei",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "lukas.mandl@europarl.europa.eu",
+  "phone": "+33388175211",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/190713.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/190713",
+  "committees": [
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "197405",
+  "full_name": "Jörgen WARBORN",
+  "given_name": "Jörgen",
+  "last_name": "Warborn",
+  "country": "Sweden",
+  "national_party": "Moderaterna",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "jorgen.warborn@europarl.europa.eu",
+  "phone": "+33388175897",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197405.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197405",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

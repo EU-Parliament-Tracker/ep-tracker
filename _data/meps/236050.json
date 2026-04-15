@@ -1,0 +1,28 @@
+{
+  "id": "236050",
+  "full_name": "Marie DAUCHY",
+  "given_name": "Marie",
+  "last_name": "Dauchy",
+  "country": "France",
+  "national_party": "Rassemblement national",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "marie.dauchy@europarl.europa.eu",
+  "phone": "+33388175501",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/236050.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/236050",
+  "committees": [
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

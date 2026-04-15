@@ -1,0 +1,33 @@
+{
+  "id": "197498",
+  "full_name": "Robert BIEDROŃ",
+  "given_name": "Robert",
+  "last_name": "Biedroń",
+  "country": "Poland",
+  "national_party": "Nowa Lewica",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "robert.biedron@europarl.europa.eu",
+  "phone": "+3222845141",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197498.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197498",
+  "committees": [
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

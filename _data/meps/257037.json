@@ -1,0 +1,33 @@
+{
+  "id": "257037",
+  "full_name": "Michał KOBOSKO",
+  "given_name": "Michał",
+  "last_name": "Kobosko",
+  "country": "Poland",
+  "national_party": "Independent",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "michal.kobosko@europarl.europa.eu",
+  "phone": "+33388175523",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257037.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257037",
+  "committees": [
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

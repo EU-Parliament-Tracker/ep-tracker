@@ -1,0 +1,33 @@
+{
+  "id": "257005",
+  "full_name": "Ľuboš BLAHA",
+  "given_name": "Ľuboš",
+  "last_name": "Blaha",
+  "country": "Slovakia",
+  "national_party": "SMER-Sociálna demokracia",
+  "group_name": "Non-attached Members",
+  "group_abbr": "NI",
+  "email": "lubos.blaha@europarl.europa.eu",
+  "phone": "+33388175410",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257005.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257005",
+  "committees": [
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

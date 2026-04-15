@@ -1,0 +1,33 @@
+{
+  "id": "197784",
+  "full_name": "Susana SOLÍS PÉREZ",
+  "given_name": "Susana",
+  "last_name": "Solís Pérez",
+  "country": "Spain",
+  "national_party": "Partido Popular",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "susana.solisperez@europarl.europa.eu",
+  "phone": "+3222845706",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197784.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197784",
+  "committees": [
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

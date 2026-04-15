@@ -1,0 +1,38 @@
+{
+  "id": "197490",
+  "full_name": "Magdalena ADAMOWICZ",
+  "given_name": "Magdalena",
+  "last_name": "Adamowicz",
+  "country": "Poland",
+  "national_party": "Independent",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "magdalena.adamowicz@europarl.europa.eu",
+  "phone": "+33388175378",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197490.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197490",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "204413",
+  "full_name": "Marcos ROS SEMPERE",
+  "given_name": "Marcos",
+  "last_name": "Ros Sempere",
+  "country": "Spain",
+  "national_party": "Partido Socialista Obrero Español",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "marcos.ros@europarl.europa.eu",
+  "phone": "+3222845696",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/204413.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/204413",
+  "committees": [
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "193292",
+  "full_name": "Tilly METZ",
+  "given_name": "Tilly",
+  "last_name": "Metz",
+  "country": "Luxembourg",
+  "national_party": "Déi Gréng - Les Verts",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "tilly.metz@europarl.europa.eu",
+  "phone": "+3222845246",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/193292.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/193292",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

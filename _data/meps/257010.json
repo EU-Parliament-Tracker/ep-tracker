@@ -1,0 +1,33 @@
+{
+  "id": "257010",
+  "full_name": "Ľudovít ÓDOR",
+  "given_name": "Ľudovít",
+  "last_name": "Ódor",
+  "country": "Slovakia",
+  "national_party": "Progresívne Slovensko",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "ludovit.odor@europarl.europa.eu",
+  "phone": "+3222845958",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257010.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257010",
+  "committees": [
+    {
+      "id": "6624",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

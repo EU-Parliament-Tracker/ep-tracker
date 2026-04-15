@@ -1,0 +1,33 @@
+{
+  "id": "257055",
+  "full_name": "Małgorzata GOSIEWSKA",
+  "given_name": "Małgorzata",
+  "last_name": "Gosiewska",
+  "country": "Poland",
+  "national_party": "Prawo i Sprawiedliwość",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "malgorzata.gosiewska@europarl.europa.eu",
+  "phone": "+33388175575",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257055.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257055",
+  "committees": [
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

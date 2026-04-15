@@ -1,0 +1,43 @@
+{
+  "id": "197406",
+  "full_name": "Arba KOKALARI",
+  "given_name": "Arba",
+  "last_name": "Kokalari",
+  "country": "Sweden",
+  "national_party": "Moderaterna",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "arba.kokalari@europarl.europa.eu",
+  "phone": "+3222845450",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197406.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197406",
+  "committees": [
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6627",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

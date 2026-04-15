@@ -1,0 +1,33 @@
+{
+  "id": "197537",
+  "full_name": "Alexandr VONDRA",
+  "given_name": "Alexandr",
+  "last_name": "Vondra",
+  "country": "Czechia",
+  "national_party": "Občanská demokratická strana",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "alexandr.vondra@europarl.europa.eu",
+  "phone": "+3222845483",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197537.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197537",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "257150",
+  "full_name": "Michele PICARO",
+  "given_name": "Michele",
+  "last_name": "Picaro",
+  "country": "Italy",
+  "national_party": "FRATELLI D' ITALIA",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "michele.picaro@europarl.europa.eu",
+  "phone": "+33388175884",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257150.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257150",
+  "committees": [
+    {
+      "id": "6627",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "124867",
+  "full_name": "Brando BENIFEI",
+  "given_name": "Brando",
+  "last_name": "Benifei",
+  "country": "Italy",
+  "national_party": "Partito Democratico",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "brando.benifei@europarl.europa.eu",
+  "phone": "+33388175644",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124867.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124867",
+  "committees": [
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

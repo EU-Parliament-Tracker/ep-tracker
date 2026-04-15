@@ -1,0 +1,43 @@
+{
+  "id": "197649",
+  "full_name": "Gheorghe FALCĂ",
+  "given_name": "Gheorghe",
+  "last_name": "Falcă",
+  "country": "Romania",
+  "national_party": "Partidul Naţional Liberal",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "gheorghe.falca@europarl.europa.eu",
+  "phone": "+33388175550",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197649.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197649",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6626",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

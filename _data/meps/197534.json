@@ -1,0 +1,38 @@
+{
+  "id": "197534",
+  "full_name": "François-Xavier BELLAMY",
+  "given_name": "François-Xavier",
+  "last_name": "Bellamy",
+  "country": "France",
+  "national_party": "Les Républicains",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "fxbellamy@europarl.europa.eu",
+  "phone": "+3222845367",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197534.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197534",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

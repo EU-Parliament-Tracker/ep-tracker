@@ -1,0 +1,28 @@
+{
+  "id": "28150",
+  "full_name": "Kinga GÁL",
+  "given_name": "Kinga",
+  "last_name": "Gál",
+  "country": "Hungary",
+  "national_party": "Fidesz-Magyar Polgári Szövetség-Kereszténydemokrata Néppárt",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "kinga.gal@europarl.europa.eu",
+  "phone": "+33388175599",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/28150.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/28150",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

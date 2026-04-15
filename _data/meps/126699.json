@@ -1,0 +1,28 @@
+{
+  "id": "126699",
+  "full_name": "Gilles PENNELLE",
+  "given_name": "Gilles",
+  "last_name": "Pennelle",
+  "country": "France",
+  "national_party": "Rassemblement national",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "gilles.pennelle@europarl.europa.eu",
+  "phone": "+3222845426",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/126699.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/126699",
+  "committees": [
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

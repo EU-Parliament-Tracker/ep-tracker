@@ -1,0 +1,33 @@
+{
+  "id": "256957",
+  "full_name": "Mary KHAN",
+  "given_name": "Mary",
+  "last_name": "Khan",
+  "country": "Germany",
+  "national_party": "Alternative für Deutschland",
+  "group_name": "Europe of Sovereign Nations Group",
+  "group_abbr": "ESN",
+  "email": "mary.khan@europarl.europa.eu",
+  "phone": "+33388175810",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256957.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256957",
+  "committees": [
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

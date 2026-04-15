@@ -1,0 +1,38 @@
+{
+  "id": "257133",
+  "full_name": "Pasquale TRIDICO",
+  "given_name": "Pasquale",
+  "last_name": "Tridico",
+  "country": "Italy",
+  "national_party": "Movimento 5 Stelle",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "pasquale.tridico@europarl.europa.eu",
+  "phone": "+33388175396",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257133.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257133",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "CHAIR"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

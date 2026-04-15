@@ -1,0 +1,33 @@
+{
+  "id": "257257",
+  "full_name": "Hristo PETROV",
+  "given_name": "Hristo",
+  "last_name": "Petrov",
+  "country": "Bulgaria",
+  "national_party": "We continue the change – Democratic Bulgaria",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "hristo.petrov@europarl.europa.eu",
+  "phone": "+33388175567",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257257.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257257",
+  "committees": [
+    {
+      "id": "6584",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6621",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

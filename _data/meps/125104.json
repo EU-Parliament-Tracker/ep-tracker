@@ -1,0 +1,33 @@
+{
+  "id": "125104",
+  "full_name": "Romana TOMC",
+  "given_name": "Romana",
+  "last_name": "Tomc",
+  "country": "Slovenia",
+  "national_party": "Slovenska demokratska stranka",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "romana.tomc@europarl.europa.eu",
+  "phone": "+33388175665",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/125104.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/125104",
+  "committees": [
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

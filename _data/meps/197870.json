@@ -1,0 +1,33 @@
+{
+  "id": "197870",
+  "full_name": "Kim VAN SPARRENTAK",
+  "given_name": "Kim",
+  "last_name": "Van Sparrentak",
+  "country": "Netherlands",
+  "national_party": "GroenLinks-PvdA",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "kim.vansparrentak@europarl.europa.eu",
+  "phone": "+33388175933",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197870.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197870",
+  "committees": [
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

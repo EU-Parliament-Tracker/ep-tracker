@@ -1,0 +1,28 @@
+{
+  "id": "37324",
+  "full_name": "Adina VĂLEAN",
+  "given_name": "Adina",
+  "last_name": "Vălean",
+  "country": "Romania",
+  "national_party": "Partidul Naţional Liberal",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "adina.valean@europarl.europa.eu",
+  "phone": "+33388175840",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/37324.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/37324",
+  "committees": [
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

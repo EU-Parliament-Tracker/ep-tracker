@@ -1,0 +1,38 @@
+{
+  "id": "257103",
+  "full_name": "Ştefan MUŞOIU",
+  "given_name": "Ştefan",
+  "last_name": "Muşoiu",
+  "country": "Romania",
+  "national_party": "Partidul Social Democrat",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "stefan.musoiu@europarl.europa.eu",
+  "phone": "+3222845690",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257103.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257103",
+  "committees": [
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

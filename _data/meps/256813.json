@@ -1,0 +1,48 @@
+{
+  "id": "256813",
+  "full_name": "Vladimir PREBILIČ",
+  "given_name": "Vladimir",
+  "last_name": "Prebilič",
+  "country": "Slovenia",
+  "national_party": "Prerod – Stranka Vladimirja Prebiliča",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "vladimir.prebilic@europarl.europa.eu",
+  "phone": "+3222845439",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256813.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256813",
+  "committees": [
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6626",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6628",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6621",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "124784",
+  "full_name": "Dan NICA",
+  "given_name": "Dan",
+  "last_name": "Nica",
+  "country": "Romania",
+  "national_party": "Partidul Social Democrat",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "dan.nica@europarl.europa.eu",
+  "phone": "+3222845448",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124784.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124784",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

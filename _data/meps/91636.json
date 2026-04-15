@@ -1,0 +1,43 @@
+{
+  "id": "91636",
+  "full_name": "Marit MAIJ",
+  "given_name": "Marit",
+  "last_name": "Maij",
+  "country": "Netherlands",
+  "national_party": "GroenLinks-PvdA",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "marit.maij@europarl.europa.eu",
+  "phone": "+33388175641",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/91636.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/91636",
+  "committees": [
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6625",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

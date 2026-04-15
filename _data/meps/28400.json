@@ -1,0 +1,28 @@
+{
+  "id": "28400",
+  "full_name": "Francisco José MILLÁN MON",
+  "given_name": "Francisco José",
+  "last_name": "Millán Mon",
+  "country": "Spain",
+  "national_party": "Partido Popular",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "francisco.millanmon@europarl.europa.eu",
+  "phone": "+33388175430",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/28400.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/28400",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "257155",
+  "full_name": "Danilo DELLA VALLE",
+  "given_name": "Danilo",
+  "last_name": "Della Valle",
+  "country": "Italy",
+  "national_party": "Movimento 5 Stelle",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "danilo.dellavalle@europarl.europa.eu",
+  "phone": "+33388175374",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257155.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257155",
+  "committees": [
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

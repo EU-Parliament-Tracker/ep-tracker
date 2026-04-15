@@ -1,0 +1,43 @@
+{
+  "id": "257028",
+  "full_name": "Henrik DAHL",
+  "given_name": "Henrik",
+  "last_name": "Dahl",
+  "country": "Denmark",
+  "national_party": "Liberal Alliance",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "henrik.dahl@europarl.europa.eu",
+  "phone": "+3222845259",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257028.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257028",
+  "committees": [
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

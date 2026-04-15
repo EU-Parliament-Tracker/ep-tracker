@@ -1,0 +1,38 @@
+{
+  "id": "202073",
+  "full_name": "Marc ANGEL",
+  "given_name": "Marc",
+  "last_name": "Angel",
+  "country": "Luxembourg",
+  "national_party": "Parti ouvrier socialiste luxembourgeois",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "marc.angel@europarl.europa.eu",
+  "phone": "+33388175513",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/202073.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/202073",
+  "committees": [
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6624",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

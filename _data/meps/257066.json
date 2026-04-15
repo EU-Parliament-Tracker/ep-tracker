@@ -1,0 +1,43 @@
+{
+  "id": "257066",
+  "full_name": "André FRANQUEIRA RODRIGUES",
+  "given_name": "André",
+  "last_name": "Franqueira Rodrigues",
+  "country": "Portugal",
+  "national_party": "Partido Socialista",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "andre.franqueirarodrigues@europarl.europa.eu",
+  "phone": "+3222845826",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257066.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257066",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

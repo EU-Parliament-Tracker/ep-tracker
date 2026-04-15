@@ -1,0 +1,28 @@
+{
+  "id": "124795",
+  "full_name": "Flavio TOSI",
+  "given_name": "Flavio",
+  "last_name": "Tosi",
+  "country": "Italy",
+  "national_party": "Forza Italia",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "flavio.tosi@europarl.europa.eu",
+  "phone": "+3222845835",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124795.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124795",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "36392",
+  "full_name": "Aldo PATRICIELLO",
+  "given_name": "Aldo",
+  "last_name": "Patriciello",
+  "country": "Italy",
+  "national_party": "Lega",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "aldo.patriciello@europarl.europa.eu",
+  "phone": "+33388175418",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/36392.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/36392",
+  "committees": [
+    {
+      "id": "6626",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6627",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

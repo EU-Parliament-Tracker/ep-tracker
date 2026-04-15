@@ -1,0 +1,33 @@
+{
+  "id": "256864",
+  "full_name": "András Tivadar KULJA",
+  "given_name": "András Tivadar",
+  "last_name": "Kulja",
+  "country": "Hungary",
+  "national_party": "Tisztelet és Szabadság Párt",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "andras.kulja@europarl.europa.eu",
+  "phone": "+33388175962",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256864.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256864",
+  "committees": [
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

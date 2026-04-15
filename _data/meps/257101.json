@@ -1,0 +1,38 @@
+{
+  "id": "257101",
+  "full_name": "Cecilia STRADA",
+  "given_name": "Cecilia",
+  "last_name": "Strada",
+  "country": "Italy",
+  "national_party": "Partito Democratico",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "cecilia.strada@europarl.europa.eu",
+  "phone": "+33388175188",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257101.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257101",
+  "committees": [
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

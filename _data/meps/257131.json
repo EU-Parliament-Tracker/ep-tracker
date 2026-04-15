@@ -1,0 +1,38 @@
+{
+  "id": "257131",
+  "full_name": "Anna Maria CISINT",
+  "given_name": "Anna Maria",
+  "last_name": "Cisint",
+  "country": "Italy",
+  "national_party": "Lega",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "anna.cisint@europarl.europa.eu",
+  "phone": "+33388175569",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257131.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257131",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

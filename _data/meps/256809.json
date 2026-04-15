@@ -1,0 +1,33 @@
+{
+  "id": "256809",
+  "full_name": "Paulius SAUDARGAS",
+  "given_name": "Paulius",
+  "last_name": "Saudargas",
+  "country": "Lithuania",
+  "national_party": "Tėvynės sąjunga-Lietuvos krikščionys demokratai",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "paulius.saudargas@europarl.europa.eu",
+  "phone": "+33388175737",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256809.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256809",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "256833",
+  "full_name": "Lena SCHILLING",
+  "given_name": "Lena",
+  "last_name": "Schilling",
+  "country": "Austria",
+  "national_party": "Die Grünen - Die Grüne Alternative",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "lena.schilling@europarl.europa.eu",
+  "phone": "+3222845477",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256833.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256833",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

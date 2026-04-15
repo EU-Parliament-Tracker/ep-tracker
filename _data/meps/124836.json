@@ -1,0 +1,43 @@
+{
+  "id": "124836",
+  "full_name": "Maria NOICHL",
+  "given_name": "Maria",
+  "last_name": "Noichl",
+  "country": "Germany",
+  "national_party": "Sozialdemokratische Partei Deutschlands",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "maria.noichl@europarl.europa.eu",
+  "phone": "+3222845157",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124836.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124836",
+  "committees": [
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

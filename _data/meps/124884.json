@@ -1,0 +1,43 @@
+{
+  "id": "124884",
+  "full_name": "Kosma ZŁOTOWSKI",
+  "given_name": "Kosma",
+  "last_name": "Złotowski",
+  "country": "Poland",
+  "national_party": "Prawo i Sprawiedliwość",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "kosma.zlotowski@europarl.europa.eu",
+  "phone": "+3222845775",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124884.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124884",
+  "committees": [
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

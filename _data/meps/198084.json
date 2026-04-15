@@ -1,0 +1,43 @@
+{
+  "id": "198084",
+  "full_name": "Katri KULMUNI",
+  "given_name": "Katri",
+  "last_name": "Kulmuni",
+  "country": "Finland",
+  "national_party": "Suomen Keskusta",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "katri.kulmuni@europarl.europa.eu",
+  "phone": "+33388175541",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/198084.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/198084",
+  "committees": [
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

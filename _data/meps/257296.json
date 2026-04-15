@@ -1,0 +1,38 @@
+{
+  "id": "257296",
+  "full_name": "Nina CARBERRY",
+  "given_name": "Nina",
+  "last_name": "Carberry",
+  "country": "Ireland",
+  "national_party": "Fine Gael Party",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "nina.carberry@europarl.europa.eu",
+  "phone": "+33388175218",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257296.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257296",
+  "committees": [
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

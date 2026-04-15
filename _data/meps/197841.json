@@ -1,0 +1,38 @@
+{
+  "id": "197841",
+  "full_name": "Liudas MAŽYLIS",
+  "given_name": "Liudas",
+  "last_name": "Mažylis",
+  "country": "Lithuania",
+  "national_party": "Tėvynės sąjunga-Lietuvos krikščionys demokratai",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "liudas.mazylis@europarl.europa.eu",
+  "phone": "+33388175735",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197841.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197841",
+  "committees": [
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

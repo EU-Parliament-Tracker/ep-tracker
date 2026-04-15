@@ -1,0 +1,33 @@
+{
+  "id": "257031",
+  "full_name": "Dariusz JOŃSKI",
+  "given_name": "Dariusz",
+  "last_name": "Joński",
+  "country": "Poland",
+  "national_party": "Koalicja Obywatelska",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "dariusz.jonski@europarl.europa.eu",
+  "phone": "+3222845947",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257031.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257031",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

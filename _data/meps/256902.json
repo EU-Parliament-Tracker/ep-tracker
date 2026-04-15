@@ -1,0 +1,38 @@
+{
+  "id": "256902",
+  "full_name": "Emma RAFOWICZ",
+  "given_name": "Emma",
+  "last_name": "Rafowicz",
+  "country": "France",
+  "national_party": "Parti socialiste",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "emma.rafowicz@europarl.europa.eu",
+  "phone": "+33388175734",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256902.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256902",
+  "committees": [
+    {
+      "id": "6584",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

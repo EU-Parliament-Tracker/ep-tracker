@@ -1,0 +1,43 @@
+{
+  "id": "197462",
+  "full_name": "Erik MARQUARDT",
+  "given_name": "Erik",
+  "last_name": "Marquardt",
+  "country": "Germany",
+  "national_party": "Bündnis 90/Die Grünen",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "erik.marquardt@europarl.europa.eu",
+  "phone": "+33388175851",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197462.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197462",
+  "committees": [
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

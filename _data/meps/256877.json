@@ -1,0 +1,33 @@
+{
+  "id": "256877",
+  "full_name": "Pascale PIERA",
+  "given_name": "Pascale",
+  "last_name": "Piera",
+  "country": "France",
+  "national_party": "Rassemblement national",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "pascale.piera@europarl.europa.eu",
+  "phone": "+3222845442",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256877.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256877",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

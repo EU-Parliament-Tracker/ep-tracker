@@ -1,0 +1,43 @@
+{
+  "id": "257016",
+  "full_name": "Vicent MARZÀ IBÁÑEZ",
+  "given_name": "Vicent",
+  "last_name": "Marzà Ibáñez",
+  "country": "Spain",
+  "national_party": "Compromís",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "vicent.marzaibanez@europarl.europa.eu",
+  "phone": "+33388175382",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257016.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257016",
+  "committees": [
+    {
+      "id": "7915",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6624",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

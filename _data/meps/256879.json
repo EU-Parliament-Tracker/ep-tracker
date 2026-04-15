@@ -1,0 +1,38 @@
+{
+  "id": "256879",
+  "full_name": "Yvan VEROUGSTRAETE",
+  "given_name": "Yvan",
+  "last_name": "Verougstraete",
+  "country": "Belgium",
+  "national_party": "Les Engagés",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "yvan.verougstraete@europarl.europa.eu",
+  "phone": "+33388175788",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256879.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256879",
+  "committees": [
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

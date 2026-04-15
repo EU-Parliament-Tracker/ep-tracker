@@ -1,0 +1,43 @@
+{
+  "id": "197578",
+  "full_name": "Silvia SARDONE",
+  "given_name": "Silvia",
+  "last_name": "Sardone",
+  "country": "Italy",
+  "national_party": "Lega",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "silvia.sardone@europarl.europa.eu",
+  "phone": "+3222845757",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197578.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197578",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6623",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

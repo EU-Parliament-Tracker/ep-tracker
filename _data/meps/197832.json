@@ -1,0 +1,38 @@
+{
+  "id": "197832",
+  "full_name": "Diana RIBA I GINER",
+  "given_name": "Diana",
+  "last_name": "Riba i Giner",
+  "country": "Spain",
+  "national_party": "Esquerra Republicana de Catalunya",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "diana.ribaiginer@europarl.europa.eu",
+  "phone": "+33388175630",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197832.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197832",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6623",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

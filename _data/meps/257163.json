@@ -1,0 +1,43 @@
+{
+  "id": "257163",
+  "full_name": "Francesco TORSELLI",
+  "given_name": "Francesco",
+  "last_name": "Torselli",
+  "country": "Italy",
+  "national_party": "FRATELLI D' ITALIA",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "francesco.torselli@europarl.europa.eu",
+  "phone": "+33388175935",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257163.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257163",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6623",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

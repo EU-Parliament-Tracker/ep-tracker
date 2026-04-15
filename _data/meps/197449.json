@@ -1,0 +1,28 @@
+{
+  "id": "197449",
+  "full_name": "Michael BLOSS",
+  "given_name": "Michael",
+  "last_name": "Bloss",
+  "country": "Germany",
+  "national_party": "Bündnis 90/Die Grünen",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "michael.bloss@europarl.europa.eu",
+  "phone": "+33388175743",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197449.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197449",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

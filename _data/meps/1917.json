@@ -1,0 +1,43 @@
+{
+  "id": "1917",
+  "full_name": "Markus FERBER",
+  "given_name": "Markus",
+  "last_name": "Ferber",
+  "country": "Germany",
+  "national_party": "Christlich-Soziale Union in Bayern e.V.",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "markus.ferber@europarl.europa.eu",
+  "phone": "+3222845230",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/1917.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/1917",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6624",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

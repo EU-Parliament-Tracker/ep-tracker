@@ -1,0 +1,33 @@
+{
+  "id": "197492",
+  "full_name": "Bartosz ARŁUKOWICZ",
+  "given_name": "Bartosz",
+  "last_name": "Arłukowicz",
+  "country": "Poland",
+  "national_party": "Platforma Obywatelska",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "bartosz.arlukowicz@europarl.europa.eu",
+  "phone": "+33388175194",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197492.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197492",
+  "committees": [
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

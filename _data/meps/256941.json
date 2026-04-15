@@ -1,0 +1,33 @@
+{
+  "id": "256941",
+  "full_name": "Alexander JUNGBLUTH",
+  "given_name": "Alexander",
+  "last_name": "Jungbluth",
+  "country": "Germany",
+  "national_party": "Alternative für Deutschland",
+  "group_name": "Europe of Sovereign Nations Group",
+  "group_abbr": "ESN",
+  "email": "alexander.jungbluth@europarl.europa.eu",
+  "phone": "+3222845799",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256941.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256941",
+  "committees": [
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

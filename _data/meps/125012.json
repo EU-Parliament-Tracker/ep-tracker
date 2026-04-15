@@ -1,0 +1,48 @@
+{
+  "id": "125012",
+  "full_name": "Daniel BUDA",
+  "given_name": "Daniel",
+  "last_name": "Buda",
+  "country": "Romania",
+  "national_party": "Partidul Naţional Liberal",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "daniel.buda@europarl.europa.eu",
+  "phone": "+33388175110",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/125012.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/125012",
+  "committees": [
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

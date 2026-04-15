@@ -1,0 +1,38 @@
+{
+  "id": "256904",
+  "full_name": "Chloé RIDEL",
+  "given_name": "Chloé",
+  "last_name": "Ridel",
+  "country": "France",
+  "national_party": "Parti socialiste",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "chloe.ridel@europarl.europa.eu",
+  "phone": "+3222845823",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256904.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256904",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

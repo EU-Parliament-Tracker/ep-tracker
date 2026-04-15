@@ -1,0 +1,38 @@
+{
+  "id": "197464",
+  "full_name": "Hannah NEUMANN",
+  "given_name": "Hannah",
+  "last_name": "Neumann",
+  "country": "Germany",
+  "national_party": "Bündnis 90/Die Grünen",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "hannah.neumann@europarl.europa.eu",
+  "phone": "+33388175705",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197464.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197464",
+  "committees": [
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

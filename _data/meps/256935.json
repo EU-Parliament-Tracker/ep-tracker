@@ -1,0 +1,33 @@
+{
+  "id": "256935",
+  "full_name": "Sabrina REPP",
+  "given_name": "Sabrina",
+  "last_name": "Repp",
+  "country": "Germany",
+  "national_party": "Sozialdemokratische Partei Deutschlands",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "sabrina.repp@europarl.europa.eu",
+  "phone": "+33388175783",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256935.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256935",
+  "committees": [
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

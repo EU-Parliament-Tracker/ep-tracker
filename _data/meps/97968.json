@@ -1,0 +1,43 @@
+{
+  "id": "97968",
+  "full_name": "Andrey KOVATCHEV",
+  "given_name": "Andrey",
+  "last_name": "Kovatchev",
+  "country": "Bulgaria",
+  "national_party": "Citizens for European Development of Bulgaria",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "andrey.kovatchev@europarl.europa.eu",
+  "phone": "+3222845662",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/97968.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/97968",
+  "committees": [
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6621",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

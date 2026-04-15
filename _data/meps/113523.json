@@ -1,0 +1,38 @@
+{
+  "id": "113523",
+  "full_name": "Peter AGIUS",
+  "given_name": "Peter",
+  "last_name": "Agius",
+  "country": "Malta",
+  "national_party": "Partit Nazzjonalista",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "peter.agius@europarl.europa.eu",
+  "phone": "+33388175192",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/113523.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/113523",
+  "committees": [
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

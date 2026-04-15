@@ -1,0 +1,38 @@
+{
+  "id": "256948",
+  "full_name": "Arno BAUSEMER",
+  "given_name": "Arno",
+  "last_name": "Bausemer",
+  "country": "Germany",
+  "national_party": "Alternative für Deutschland",
+  "group_name": "Europe of Sovereign Nations Group",
+  "group_abbr": "ESN",
+  "email": "arno.bausemer@europarl.europa.eu",
+  "phone": "+3222845290",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256948.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256948",
+  "committees": [
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

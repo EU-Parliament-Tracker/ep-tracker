@@ -1,0 +1,38 @@
+{
+  "id": "197529",
+  "full_name": "Leila CHAIBI",
+  "given_name": "Leila",
+  "last_name": "Chaibi",
+  "country": "France",
+  "national_party": "La France Insoumise",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "leila.chaibi@europarl.europa.eu",
+  "phone": "+33388175498",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197529.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197529",
+  "committees": [
+    {
+      "id": "6623",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

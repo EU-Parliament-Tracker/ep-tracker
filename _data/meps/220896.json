@@ -1,0 +1,38 @@
+{
+  "id": "220896",
+  "full_name": "Reinhold LOPATKA",
+  "given_name": "Reinhold",
+  "last_name": "Lopatka",
+  "country": "Austria",
+  "national_party": "Österreichische Volkspartei",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "reinhold.lopatka@europarl.europa.eu",
+  "phone": "+33388175676",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/220896.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/220896",
+  "committees": [
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6628",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "256939",
+  "full_name": "Thomas GEISEL",
+  "given_name": "Thomas",
+  "last_name": "Geisel",
+  "country": "Germany",
+  "national_party": "Bündnis Sahra Wagenknecht – Vernunft und Gerechtigkeit",
+  "group_name": "Non-attached Members",
+  "group_abbr": "NI",
+  "email": "thomas.geisel@europarl.europa.eu",
+  "phone": "+33388175659",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256939.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256939",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

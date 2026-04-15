@@ -1,0 +1,38 @@
+{
+  "id": "256865",
+  "full_name": "Eszter LAKOS",
+  "given_name": "Eszter",
+  "last_name": "Lakos",
+  "country": "Hungary",
+  "national_party": "Tisztelet és Szabadság Párt",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "eszter.lakos@europarl.europa.eu",
+  "phone": "+33388175631",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256865.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256865",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

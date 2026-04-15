@@ -1,0 +1,33 @@
+{
+  "id": "257033",
+  "full_name": "Niels Flemming HANSEN",
+  "given_name": "Niels Flemming",
+  "last_name": "Hansen",
+  "country": "Denmark",
+  "national_party": "Det Konservative Folkeparti",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "niels.hansen@europarl.europa.eu",
+  "phone": "+3222845508",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257033.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257033",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

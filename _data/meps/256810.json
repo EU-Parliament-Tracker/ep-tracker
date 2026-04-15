@@ -1,0 +1,38 @@
+{
+  "id": "256810",
+  "full_name": "Mika AALTOLA",
+  "given_name": "Mika",
+  "last_name": "Aaltola",
+  "country": "Finland",
+  "national_party": "Kansallinen Kokoomus",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "mika.aaltola@europarl.europa.eu",
+  "phone": "+33388175975",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256810.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256810",
+  "committees": [
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

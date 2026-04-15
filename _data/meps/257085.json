@@ -1,0 +1,33 @@
+{
+  "id": "257085",
+  "full_name": "Krzysztof ŚMISZEK",
+  "given_name": "Krzysztof",
+  "last_name": "Śmiszek",
+  "country": "Poland",
+  "national_party": "Nowa Lewica",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "krzysztof.smiszek@europarl.europa.eu",
+  "phone": "+33388175187",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257085.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257085",
+  "committees": [
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

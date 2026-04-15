@@ -1,0 +1,38 @@
+{
+  "id": "256823",
+  "full_name": "Nikolas FARANTOURIS",
+  "given_name": "Nikolas",
+  "last_name": "Farantouris",
+  "country": "Greece",
+  "national_party": "Independent",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "nikolaos.farantouris@europarl.europa.eu",
+  "phone": "+33388175969",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256823.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256823",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

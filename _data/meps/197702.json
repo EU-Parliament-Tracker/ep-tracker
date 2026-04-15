@@ -1,0 +1,33 @@
+{
+  "id": "197702",
+  "full_name": "Lina GÁLVEZ",
+  "given_name": "Lina",
+  "last_name": "Gálvez",
+  "country": "Spain",
+  "national_party": "Partido Socialista Obrero Español",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "lina.galvezmunoz@europarl.europa.eu",
+  "phone": "+3222845497",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197702.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197702",
+  "committees": [
+    {
+      "id": "6588",
+      "name": "",
+      "role": "CHAIR"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

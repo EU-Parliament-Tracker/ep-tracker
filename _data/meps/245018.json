@@ -1,0 +1,38 @@
+{
+  "id": "245018",
+  "full_name": "Christophe CLERGEAU",
+  "given_name": "Christophe",
+  "last_name": "Clergeau",
+  "country": "France",
+  "national_party": "Parti socialiste",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "christophe.clergeau@europarl.europa.eu",
+  "phone": "+3222845170",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/245018.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/245018",
+  "committees": [
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

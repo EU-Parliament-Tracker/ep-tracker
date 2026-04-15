@@ -1,0 +1,38 @@
+{
+  "id": "58766",
+  "full_name": "Nicolae ȘTEFĂNUȚĂ",
+  "given_name": "Nicolae",
+  "last_name": "Ștefănuță",
+  "country": "Romania",
+  "national_party": "Independent",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "nicolae.stefanuta@europarl.europa.eu",
+  "phone": "+3222845865",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/58766.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/58766",
+  "committees": [
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

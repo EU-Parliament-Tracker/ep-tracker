@@ -1,0 +1,33 @@
+{
+  "id": "257034",
+  "full_name": "Carmen CRESPO DÍAZ",
+  "given_name": "Carmen",
+  "last_name": "Crespo Díaz",
+  "country": "Spain",
+  "national_party": "Partido Popular",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "mariacarmen.crespodiaz@europarl.europa.eu",
+  "phone": "+3222845241",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257034.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257034",
+  "committees": [
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6583",
+      "name": "",
+      "role": "CHAIR"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

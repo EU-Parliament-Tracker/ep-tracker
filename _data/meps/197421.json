@@ -1,0 +1,43 @@
+{
+  "id": "197421",
+  "full_name": "Isabel WISELER-LIMA",
+  "given_name": "Isabel",
+  "last_name": "Wiseler-Lima",
+  "country": "Luxembourg",
+  "national_party": "Parti chrétien social luxembourgeois",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "isabel.wiseler@europarl.europa.eu",
+  "phone": "+3222845125",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197421.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197421",
+  "committees": [
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

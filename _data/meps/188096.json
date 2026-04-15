@@ -1,0 +1,33 @@
+{
+  "id": "188096",
+  "full_name": "Jüri RATAS",
+  "given_name": "Jüri",
+  "last_name": "Ratas",
+  "country": "Estonia",
+  "national_party": "Isamaa",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "juri.ratas@europarl.europa.eu",
+  "phone": "+33388175731",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/188096.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/188096",
+  "committees": [
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

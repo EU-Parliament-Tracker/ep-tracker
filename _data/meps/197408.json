@@ -1,0 +1,38 @@
+{
+  "id": "197408",
+  "full_name": "Hildegard BENTELE",
+  "given_name": "Hildegard",
+  "last_name": "Bentele",
+  "country": "Germany",
+  "national_party": "Christlich Demokratische Union Deutschlands",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "hildegard.bentele@europarl.europa.eu",
+  "phone": "+33388175234",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197408.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197408",
+  "committees": [
+    {
+      "id": "6563",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6628",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

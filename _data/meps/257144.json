@@ -1,0 +1,38 @@
+{
+  "id": "257144",
+  "full_name": "Paolo INSELVINI",
+  "given_name": "Paolo",
+  "last_name": "Inselvini",
+  "country": "Italy",
+  "national_party": "FRATELLI D' ITALIA",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "paolo.inselvini@europarl.europa.eu",
+  "phone": "+33388175606",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257144.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257144",
+  "committees": [
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

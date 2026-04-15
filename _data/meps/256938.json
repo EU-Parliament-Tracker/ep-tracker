@@ -1,0 +1,33 @@
+{
+  "id": "256938",
+  "full_name": "Tobias CREMER",
+  "given_name": "Tobias",
+  "last_name": "Cremer",
+  "country": "Germany",
+  "national_party": "Sozialdemokratische Partei Deutschlands",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "tobias.cremer@europarl.europa.eu",
+  "phone": "+33388175423",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256938.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256938",
+  "committees": [
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "257129",
+  "full_name": "Mimmo LUCANO",
+  "given_name": "Mimmo",
+  "last_name": "Lucano",
+  "country": "Italy",
+  "national_party": "Alleanza Verdi e Sinistra",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "domenico.lucano@europarl.europa.eu",
+  "phone": "+33388175838",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257129.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257129",
+  "committees": [
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

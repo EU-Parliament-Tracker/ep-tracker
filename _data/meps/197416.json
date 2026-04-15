@@ -1,0 +1,38 @@
+{
+  "id": "197416",
+  "full_name": "Giorgos GEORGIOU",
+  "given_name": "Giorgos",
+  "last_name": "Georgiou",
+  "country": "Cyprus",
+  "national_party": "Progressive Party of Working People - Left - New Forces",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "giorgos.georgiou@europarl.europa.eu",
+  "phone": "+3222847150",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197416.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197416",
+  "committees": [
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

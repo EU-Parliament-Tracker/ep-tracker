@@ -1,0 +1,28 @@
+{
+  "id": "257080",
+  "full_name": "Piotr MÜLLER",
+  "given_name": "Piotr",
+  "last_name": "Müller",
+  "country": "Poland",
+  "national_party": "Prawo i Sprawiedliwość",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "piotr.muller@europarl.europa.eu",
+  "phone": "+33388175776",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257080.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257080",
+  "committees": [
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

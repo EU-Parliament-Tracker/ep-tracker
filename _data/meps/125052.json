@@ -1,0 +1,43 @@
+{
+  "id": "125052",
+  "full_name": "Juan Carlos GIRAUTA VIDAL",
+  "given_name": "Juan Carlos",
+  "last_name": "Girauta Vidal",
+  "country": "Spain",
+  "national_party": "VOX",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "juancarlos.girautavidal@europarl.europa.eu",
+  "phone": "+33388175817",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/125052.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/125052",
+  "committees": [
+    {
+      "id": "6623",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "256847",
+  "full_name": "Danuše NERUDOVÁ",
+  "given_name": "Danuše",
+  "last_name": "Nerudová",
+  "country": "Czechia",
+  "national_party": "Starostové a nezávisli",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "danuse.nerudova@europarl.europa.eu",
+  "phone": "+33388175767",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256847.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256847",
+  "committees": [
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

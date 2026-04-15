@@ -1,0 +1,33 @@
+{
+  "id": "257067",
+  "full_name": "Grzegorz BRAUN",
+  "given_name": "Grzegorz",
+  "last_name": "Braun",
+  "country": "Poland",
+  "national_party": "Konfederacja Korony Polskiej",
+  "group_name": "Non-attached Members",
+  "group_abbr": "NI",
+  "email": "grzegorz.braun@europarl.europa.eu",
+  "phone": "+33388145444",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257067.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257067",
+  "committees": [
+    {
+      "id": "6628",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

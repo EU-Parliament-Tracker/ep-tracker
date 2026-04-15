@@ -1,0 +1,33 @@
+{
+  "id": "257102",
+  "full_name": "Giorgio GORI",
+  "given_name": "Giorgio",
+  "last_name": "Gori",
+  "country": "Italy",
+  "national_party": "Partito Democratico",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "giorgio.gori@europarl.europa.eu",
+  "phone": "+33388175578",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257102.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257102",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6627",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

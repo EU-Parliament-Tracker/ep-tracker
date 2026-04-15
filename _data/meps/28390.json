@@ -1,0 +1,38 @@
+{
+  "id": "28390",
+  "full_name": "Pilar DEL CASTILLO VERA",
+  "given_name": "Pilar",
+  "last_name": "del Castillo Vera",
+  "country": "Spain",
+  "national_party": "Partido Popular",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "pilar.delcastillo@europarl.europa.eu",
+  "phone": "+3222845982",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/28390.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/28390",
+  "committees": [
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

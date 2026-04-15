@@ -1,0 +1,43 @@
+{
+  "id": "257237",
+  "full_name": "Regina DOHERTY",
+  "given_name": "Regina",
+  "last_name": "Doherty",
+  "country": "Ireland",
+  "national_party": "Fine Gael Party",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "regina.doherty@europarl.europa.eu",
+  "phone": "+33388175286",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257237.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257237",
+  "committees": [
+    {
+      "id": "7007",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

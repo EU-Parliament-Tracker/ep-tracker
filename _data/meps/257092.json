@@ -1,0 +1,33 @@
+{
+  "id": "257092",
+  "full_name": "Hanna GEDIN",
+  "given_name": "Hanna",
+  "last_name": "Gedin",
+  "country": "Sweden",
+  "national_party": "Vänsterpartiet",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "hanna.gedin@europarl.europa.eu",
+  "phone": "+33388175790",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257092.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257092",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

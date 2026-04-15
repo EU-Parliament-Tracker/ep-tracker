@@ -1,0 +1,38 @@
+{
+  "id": "256928",
+  "full_name": "Petr BYSTRON",
+  "given_name": "Petr",
+  "last_name": "Bystron",
+  "country": "Germany",
+  "national_party": "Alternative für Deutschland",
+  "group_name": "Europe of Sovereign Nations Group",
+  "group_abbr": "ESN",
+  "email": "petr.bystron@europarl.europa.eu",
+  "phone": "+33388175534",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256928.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256928",
+  "committees": [
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

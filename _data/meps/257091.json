@@ -1,0 +1,33 @@
+{
+  "id": "257091",
+  "full_name": "Dick ERIXON",
+  "given_name": "Dick",
+  "last_name": "Erixon",
+  "country": "Sweden",
+  "national_party": "Sverigedemokraterna",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "dick.erixon@europarl.europa.eu",
+  "phone": "+33388175510",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257091.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257091",
+  "committees": [
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

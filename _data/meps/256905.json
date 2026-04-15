@@ -1,0 +1,43 @@
+{
+  "id": "256905",
+  "full_name": "Eric SARGIACOMO",
+  "given_name": "Eric",
+  "last_name": "Sargiacomo",
+  "country": "France",
+  "national_party": "Parti socialiste",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "eric.sargiacomo@europarl.europa.eu",
+  "phone": "+33388175892",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256905.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256905",
+  "committees": [
+    {
+      "id": "6627",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6628",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

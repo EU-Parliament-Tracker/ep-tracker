@@ -1,0 +1,28 @@
+{
+  "id": "198183",
+  "full_name": "Mihai TUDOSE",
+  "given_name": "Mihai",
+  "last_name": "Tudose",
+  "country": "Romania",
+  "national_party": "Partidul Social Democrat",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "mihai.tudose@europarl.europa.eu",
+  "phone": "+33388175128",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/198183.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/198183",
+  "committees": [
+    {
+      "id": "7911",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

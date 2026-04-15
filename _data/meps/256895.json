@@ -1,0 +1,33 @@
+{
+  "id": "256895",
+  "full_name": "Julien LEONARDELLI",
+  "given_name": "Julien",
+  "last_name": "Leonardelli",
+  "country": "France",
+  "national_party": "Rassemblement national",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "julien.leonardelli@europarl.europa.eu",
+  "phone": "+3222845296",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256895.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256895",
+  "committees": [
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

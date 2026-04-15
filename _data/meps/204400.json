@@ -1,0 +1,38 @@
+{
+  "id": "204400",
+  "full_name": "Adrián VÁZQUEZ LÁZARA",
+  "given_name": "Adrián",
+  "last_name": "Vázquez Lázara",
+  "country": "Spain",
+  "national_party": "Partido Popular",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "adrian.vazquezlazara@europarl.europa.eu",
+  "phone": "+33388175233",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/204400.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/204400",
+  "committees": [
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

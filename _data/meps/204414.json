@@ -1,0 +1,48 @@
+{
+  "id": "204414",
+  "full_name": "Margarita DE LA PISA CARRIÓN",
+  "given_name": "Margarita",
+  "last_name": "de la Pisa Carrión",
+  "country": "Spain",
+  "national_party": "VOX",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "margarita.delapisa@europarl.europa.eu",
+  "phone": "+33388175359",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/204414.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/204414",
+  "committees": [
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

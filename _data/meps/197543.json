@@ -1,0 +1,33 @@
+{
+  "id": "197543",
+  "full_name": "Bernard GUETTA",
+  "given_name": "Bernard",
+  "last_name": "Guetta",
+  "country": "France",
+  "national_party": "Sans parti",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "bernard.guetta@europarl.europa.eu",
+  "phone": "+33388175540",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197543.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197543",
+  "committees": [
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

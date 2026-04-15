@@ -1,0 +1,38 @@
+{
+  "id": "229839",
+  "full_name": "René REPASI",
+  "given_name": "René",
+  "last_name": "Repasi",
+  "country": "Germany",
+  "national_party": "Sozialdemokratische Partei Deutschlands",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "rene.repasi@europarl.europa.eu",
+  "phone": "+33388175466",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/229839.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/229839",
+  "committees": [
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

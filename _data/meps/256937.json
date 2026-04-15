@@ -1,0 +1,33 @@
+{
+  "id": "256937",
+  "full_name": "Vivien COSTANZO",
+  "given_name": "Vivien",
+  "last_name": "Costanzo",
+  "country": "Germany",
+  "national_party": "Sozialdemokratische Partei Deutschlands",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "vivien.costanzo@europarl.europa.eu",
+  "phone": "+33388175413",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256937.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256937",
+  "committees": [
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

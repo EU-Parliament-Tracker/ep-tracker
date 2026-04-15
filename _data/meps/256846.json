@@ -1,0 +1,43 @@
+{
+  "id": "256846",
+  "full_name": "Ondřej KOLÁŘ",
+  "given_name": "Ondřej",
+  "last_name": "Kolář",
+  "country": "Czechia",
+  "national_party": "TOP 09",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "ondrej.kolar@europarl.europa.eu",
+  "phone": "+33388175596",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256846.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256846",
+  "committees": [
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

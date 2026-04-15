@@ -1,0 +1,33 @@
+{
+  "id": "98219",
+  "full_name": "Aura SALLA",
+  "given_name": "Aura",
+  "last_name": "Salla",
+  "country": "Finland",
+  "national_party": "Kansallinen Kokoomus",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "aura.salla@europarl.europa.eu",
+  "phone": "+33388175736",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/98219.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/98219",
+  "committees": [
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

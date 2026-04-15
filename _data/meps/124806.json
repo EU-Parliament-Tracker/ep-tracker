@@ -1,0 +1,33 @@
+{
+  "id": "124806",
+  "full_name": "David MCALLISTER",
+  "given_name": "David",
+  "last_name": "McAllister",
+  "country": "Germany",
+  "national_party": "Christlich Demokratische Union Deutschlands",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "david.mcallister@europarl.europa.eu",
+  "phone": "+3222845130",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124806.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124806",
+  "committees": [
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "CHAIR"
+    }
+  ]
+}

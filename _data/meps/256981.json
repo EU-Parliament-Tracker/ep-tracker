@@ -1,0 +1,48 @@
+{
+  "id": "256981",
+  "full_name": "Ton DIEPEVEEN",
+  "given_name": "Ton",
+  "last_name": "Diepeveen",
+  "country": "Netherlands",
+  "national_party": "Partij voor de Vrijheid",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "ton.diepeveen@europarl.europa.eu",
+  "phone": "+3222845587",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256981.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256981",
+  "committees": [
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

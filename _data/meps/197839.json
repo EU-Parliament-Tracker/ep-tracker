@@ -1,0 +1,33 @@
+{
+  "id": "197839",
+  "full_name": "Radan KANEV",
+  "given_name": "Radan",
+  "last_name": "Kanev",
+  "country": "Bulgaria",
+  "national_party": "Democrats for Strong Bulgaria",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "radan.kanev@europarl.europa.eu",
+  "phone": "+33388175326",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197839.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197839",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

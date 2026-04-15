@@ -1,0 +1,33 @@
+{
+  "id": "200345",
+  "full_name": "Pierre-Romain THIONNET",
+  "given_name": "Pierre-Romain",
+  "last_name": "Thionnet",
+  "country": "France",
+  "national_party": "Rassemblement national",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "pierre-romain.thionnet@europarl.europa.eu",
+  "phone": "+3222845530",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/200345.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/200345",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

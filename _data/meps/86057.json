@@ -1,0 +1,33 @@
+{
+  "id": "86057",
+  "full_name": "Bartłomiej SIENKIEWICZ",
+  "given_name": "Bartłomiej",
+  "last_name": "Sienkiewicz",
+  "country": "Poland",
+  "national_party": "Platforma Obywatelska",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "bartlomiej.sienkiewicz@europarl.europa.eu",
+  "phone": "+33388175750",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/86057.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/86057",
+  "committees": [
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

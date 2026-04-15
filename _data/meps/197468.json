@@ -1,0 +1,43 @@
+{
+  "id": "197468",
+  "full_name": "Özlem DEMIREL",
+  "given_name": "Özlem",
+  "last_name": "Demirel",
+  "country": "Germany",
+  "national_party": "DIE LINKE.",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "oezlem.demirel@europarl.europa.eu",
+  "phone": "+33388175589",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197468.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197468",
+  "committees": [
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

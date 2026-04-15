@@ -1,0 +1,38 @@
+{
+  "id": "192254",
+  "full_name": "Marieke EHLERS",
+  "given_name": "Marieke",
+  "last_name": "Ehlers",
+  "country": "Netherlands",
+  "national_party": "Partij voor de Vrijheid",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "marieke.ehlers@europarl.europa.eu",
+  "phone": "+33388175741",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/192254.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/192254",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

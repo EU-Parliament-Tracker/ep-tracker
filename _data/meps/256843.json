@@ -1,0 +1,38 @@
+{
+  "id": "256843",
+  "full_name": "Jana NAGYOVÁ",
+  "given_name": "Jana",
+  "last_name": "Nagyová",
+  "country": "Czechia",
+  "national_party": "ANO 2011",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "jana.nagyova@europarl.europa.eu",
+  "phone": "+3222845404",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256843.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256843",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "256804",
+  "full_name": "Pekka TOVERI",
+  "given_name": "Pekka",
+  "last_name": "Toveri",
+  "country": "Finland",
+  "national_party": "Kansallinen Kokoomus",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "pekka.toveri@europarl.europa.eu",
+  "phone": "+33388175837",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256804.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256804",
+  "committees": [
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

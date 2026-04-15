@@ -1,0 +1,38 @@
+{
+  "id": "257078",
+  "full_name": "Paulo CUNHA",
+  "given_name": "Paulo",
+  "last_name": "Cunha",
+  "country": "Portugal",
+  "national_party": "Partido Social Democrata",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "pauloalexandre.matoscunha@europarl.europa.eu",
+  "phone": "+33388175248",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257078.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257078",
+  "committees": [
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

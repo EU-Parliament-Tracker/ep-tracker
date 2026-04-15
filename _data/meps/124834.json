@@ -1,0 +1,28 @@
+{
+  "id": "124834",
+  "full_name": "Martin SONNEBORN",
+  "given_name": "Martin",
+  "last_name": "Sonneborn",
+  "country": "Germany",
+  "national_party": "Die PARTEI",
+  "group_name": "Non-attached Members",
+  "group_abbr": "NI",
+  "email": "martin.sonneborn@europarl.europa.eu",
+  "phone": "+33388175756",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124834.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124834",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "197646",
+  "full_name": "Mircea-Gheorghe HAVA",
+  "given_name": "Mircea-Gheorghe",
+  "last_name": "Hava",
+  "country": "Romania",
+  "national_party": "Partidul Naţional Liberal",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "mircea.hava@europarl.europa.eu",
+  "phone": "+3222845282",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197646.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197646",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6628",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "257088",
+  "full_name": "Sofie ERIKSSON",
+  "given_name": "Sofie",
+  "last_name": "Eriksson",
+  "country": "Sweden",
+  "national_party": "Arbetarepartiet- Socialdemokraterna",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "sofie.eriksson@europarl.europa.eu",
+  "phone": "+33388175467",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257088.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257088",
+  "committees": [
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

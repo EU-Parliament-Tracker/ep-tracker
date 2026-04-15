@@ -1,0 +1,33 @@
+{
+  "id": "256830",
+  "full_name": "Elisabeth GROSSMANN",
+  "given_name": "Elisabeth",
+  "last_name": "Grossmann",
+  "country": "Austria",
+  "national_party": "Sozialdemokratische Partei Österreichs",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "elisabeth.grossmann@europarl.europa.eu",
+  "phone": "+33388175594",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256830.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256830",
+  "committees": [
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6625",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2268",
+  "full_name": "Jonas SJÖSTEDT",
+  "given_name": "Jonas",
+  "last_name": "Sjöstedt",
+  "country": "Sweden",
+  "national_party": "Vänsterpartiet",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "jonas.sjostedt@europarl.europa.eu",
+  "phone": "+33388175913",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/2268.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/2268",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

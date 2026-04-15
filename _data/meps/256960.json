@@ -1,0 +1,28 @@
+{
+  "id": "256960",
+  "full_name": "Sibylle BERG",
+  "given_name": "Sibylle",
+  "last_name": "Berg",
+  "country": "Germany",
+  "national_party": "Die PARTEI",
+  "group_name": "Non-attached Members",
+  "group_abbr": "NI",
+  "email": "sibylle.berg@europarl.europa.eu",
+  "phone": "+33388175407",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256960.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256960",
+  "committees": [
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

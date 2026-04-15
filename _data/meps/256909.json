@@ -1,0 +1,33 @@
+{
+  "id": "256909",
+  "full_name": "Vilis KRIŠTOPANS",
+  "given_name": "Vilis",
+  "last_name": "Krištopans",
+  "country": "Latvia",
+  "national_party": "Latvija pirmajā vietā",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "vilis.kristopans@europarl.europa.eu",
+  "phone": "+33388175853",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256909.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256909",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

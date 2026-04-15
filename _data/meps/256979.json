@@ -1,0 +1,38 @@
+{
+  "id": "256979",
+  "full_name": "Oliver SCHENK",
+  "given_name": "Oliver",
+  "last_name": "Schenk",
+  "country": "Germany",
+  "national_party": "Christlich Demokratische Union Deutschlands",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "oliver.schenk@europarl.europa.eu",
+  "phone": "+33388175746",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256979.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256979",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

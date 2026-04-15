@@ -1,0 +1,38 @@
+{
+  "id": "197577",
+  "full_name": "Gilles BOYER",
+  "given_name": "Gilles",
+  "last_name": "Boyer",
+  "country": "France",
+  "national_party": "Horizons",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "gilles.boyer@europarl.europa.eu",
+  "phone": "+33388175499",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197577.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197577",
+  "committees": [
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

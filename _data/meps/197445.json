@@ -1,0 +1,28 @@
+{
+  "id": "197445",
+  "full_name": "Moritz KÖRNER",
+  "given_name": "Moritz",
+  "last_name": "Körner",
+  "country": "Germany",
+  "national_party": "Freie Demokratische Partei",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "moritz.koerner@europarl.europa.eu",
+  "phone": "+3222845152",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197445.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197445",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

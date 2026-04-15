@@ -1,0 +1,38 @@
+{
+  "id": "251874",
+  "full_name": "Niels GEUKING",
+  "given_name": "Niels",
+  "last_name": "Geuking",
+  "country": "Germany",
+  "national_party": "Familien-Partei Deutschlands",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "niels.geuking@europarl.europa.eu",
+  "phone": "+33388175670",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/251874.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/251874",
+  "committees": [
+    {
+      "id": "6625",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

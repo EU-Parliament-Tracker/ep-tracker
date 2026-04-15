@@ -1,0 +1,28 @@
+{
+  "id": "256944",
+  "full_name": "Hans NEUHOFF",
+  "given_name": "Hans",
+  "last_name": "Neuhoff",
+  "country": "Germany",
+  "national_party": "Alternative für Deutschland",
+  "group_name": "Europe of Sovereign Nations Group",
+  "group_abbr": "ESN",
+  "email": "hans.neuhoff@europarl.europa.eu",
+  "phone": "+33388175968",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256944.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256944",
+  "committees": [
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

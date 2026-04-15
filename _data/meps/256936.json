@@ -1,0 +1,38 @@
+{
+  "id": "256936",
+  "full_name": "Thomas BAJADA",
+  "given_name": "Thomas",
+  "last_name": "Bajada",
+  "country": "Malta",
+  "national_party": "Partit Laburista",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "thomas.bajada@europarl.europa.eu",
+  "phone": "+33388175274",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256936.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256936",
+  "committees": [
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

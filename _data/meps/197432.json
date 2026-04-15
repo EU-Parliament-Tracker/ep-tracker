@@ -1,0 +1,33 @@
+{
+  "id": "197432",
+  "full_name": "Jan-Christoph OETJEN",
+  "given_name": "Jan-Christoph",
+  "last_name": "Oetjen",
+  "country": "Germany",
+  "national_party": "Freie Demokratische Partei",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "jan-christoph.oetjen@europarl.europa.eu",
+  "phone": "+3222845640",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197432.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197432",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

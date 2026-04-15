@@ -1,0 +1,33 @@
+{
+  "id": "107212",
+  "full_name": "Andrey NOVAKOV",
+  "given_name": "Andrey",
+  "last_name": "Novakov",
+  "country": "Bulgaria",
+  "national_party": "Citizens for European Development of Bulgaria",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "andrey.novakov@europarl.europa.eu",
+  "phone": "+33388175710",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/107212.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/107212",
+  "committees": [
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

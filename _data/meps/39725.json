@@ -1,0 +1,33 @@
+{
+  "id": "39725",
+  "full_name": "Iuliu WINKLER",
+  "given_name": "Iuliu",
+  "last_name": "Winkler",
+  "country": "Romania",
+  "national_party": "Uniunea Democrată Maghiară din România",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "iuliu.winkler@europarl.europa.eu",
+  "phone": "+3222845406",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/39725.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/39725",
+  "committees": [
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

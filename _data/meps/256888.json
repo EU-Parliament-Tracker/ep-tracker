@@ -1,0 +1,33 @@
+{
+  "id": "256888",
+  "full_name": "Rody TOLASSY",
+  "given_name": "Rody",
+  "last_name": "Tolassy",
+  "country": "France",
+  "national_party": "Rassemblement national",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "rody.tolassy@europarl.europa.eu",
+  "phone": "+33388175553",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256888.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256888",
+  "committees": [
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6625",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

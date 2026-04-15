@@ -1,0 +1,28 @@
+{
+  "id": "1927",
+  "full_name": "Peter LIESE",
+  "given_name": "Peter",
+  "last_name": "Liese",
+  "country": "Germany",
+  "national_party": "Christlich Demokratische Union Deutschlands",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "peter.liese@europarl.europa.eu",
+  "phone": "+3222845981",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/1927.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/1927",
+  "committees": [
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

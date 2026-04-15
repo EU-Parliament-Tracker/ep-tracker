@@ -1,0 +1,38 @@
+{
+  "id": "257127",
+  "full_name": "Ilaria SALIS",
+  "given_name": "Ilaria",
+  "last_name": "Salis",
+  "country": "Italy",
+  "national_party": "Alleanza Verdi e Sinistra",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "ilaria.salis@europarl.europa.eu",
+  "phone": "+33388175909",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257127.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257127",
+  "committees": [
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "125093",
+  "full_name": "Kostas PAPADAKIS",
+  "given_name": "Kostas",
+  "last_name": "Papadakis",
+  "country": "Greece",
+  "national_party": "Communist Party of Greece",
+  "group_name": "Non-attached Members",
+  "group_abbr": "NI",
+  "email": "kostas.papadakis@europarl.europa.eu",
+  "phone": "+3222845494",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/125093.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/125093",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

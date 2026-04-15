@@ -1,0 +1,33 @@
+{
+  "id": "124850",
+  "full_name": "Emil RADEV",
+  "given_name": "Emil",
+  "last_name": "Radev",
+  "country": "Bulgaria",
+  "national_party": "Citizens for European Development of Bulgaria",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "emil.radev@europarl.europa.eu",
+  "phone": "+33388175189",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124850.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124850",
+  "committees": [
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

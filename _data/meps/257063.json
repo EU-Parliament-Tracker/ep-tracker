@@ -1,0 +1,43 @@
+{
+  "id": "257063",
+  "full_name": "Catarina MARTINS",
+  "given_name": "Catarina",
+  "last_name": "Martins",
+  "country": "Portugal",
+  "national_party": "Bloco de Esquerda",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "catarina.martins@europarl.europa.eu",
+  "phone": "+33388175846",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257063.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257063",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

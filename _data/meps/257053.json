@@ -1,0 +1,38 @@
+{
+  "id": "257053",
+  "full_name": "Ana Catarina MENDES",
+  "given_name": "Ana Catarina",
+  "last_name": "Mendes",
+  "country": "Portugal",
+  "national_party": "Partido Socialista",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "anacatarina.mendes@europarl.europa.eu",
+  "phone": "+33388175657",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257053.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257053",
+  "committees": [
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

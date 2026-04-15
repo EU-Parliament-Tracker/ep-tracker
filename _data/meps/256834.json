@@ -1,0 +1,43 @@
+{
+  "id": "256834",
+  "full_name": "Elisabeth DIERINGER",
+  "given_name": "Elisabeth",
+  "last_name": "Dieringer",
+  "country": "Austria",
+  "national_party": "Freiheitliche Partei Österreichs",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "elisabeth.dieringer@europarl.europa.eu",
+  "phone": "+33388175949",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256834.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256834",
+  "committees": [
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6621",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

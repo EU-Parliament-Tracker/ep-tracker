@@ -1,0 +1,33 @@
+{
+  "id": "96756",
+  "full_name": "Sabine VERHEYEN",
+  "given_name": "Sabine",
+  "last_name": "Verheyen",
+  "country": "Germany",
+  "national_party": "Christlich Demokratische Union Deutschlands",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "sabine.verheyen@europarl.europa.eu",
+  "phone": "+3222845299",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/96756.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/96756",
+  "committees": [
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

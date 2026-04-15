@@ -1,0 +1,38 @@
+{
+  "id": "112744",
+  "full_name": "Tonino PICULA",
+  "given_name": "Tonino",
+  "last_name": "Picula",
+  "country": "Croatia",
+  "national_party": "Socijaldemokratska partija Hrvatske",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "tonino.picula@europarl.europa.eu",
+  "phone": "+3222845948",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/112744.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/112744",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6628",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6626",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

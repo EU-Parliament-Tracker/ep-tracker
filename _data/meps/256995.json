@@ -1,0 +1,43 @@
+{
+  "id": "256995",
+  "full_name": "Gordan BOSANAC",
+  "given_name": "Gordan",
+  "last_name": "Bosanac",
+  "country": "Croatia",
+  "national_party": "Možemo!",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "gordan.bosanac@europarl.europa.eu",
+  "phone": "+3222845228",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256995.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256995",
+  "committees": [
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6621",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

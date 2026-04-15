@@ -1,0 +1,33 @@
+{
+  "id": "220801",
+  "full_name": "Sophie WILMÈS",
+  "given_name": "Sophie",
+  "last_name": "Wilmès",
+  "country": "Belgium",
+  "national_party": "Mouvement Réformateur",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "sophie.wilmes@europarl.europa.eu",
+  "phone": "+33388175789",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/220801.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/220801",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

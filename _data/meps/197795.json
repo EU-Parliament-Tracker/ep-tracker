@@ -1,0 +1,33 @@
+{
+  "id": "197795",
+  "full_name": "Mario FURORE",
+  "given_name": "Mario",
+  "last_name": "Furore",
+  "country": "Italy",
+  "national_party": "Movimento 5 Stelle",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "mario.furore@europarl.europa.eu",
+  "phone": "+33388175782",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197795.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197795",
+  "committees": [
+    {
+      "id": "6624",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

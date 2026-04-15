@@ -1,0 +1,43 @@
+{
+  "id": "197672",
+  "full_name": "Eugen TOMAC",
+  "given_name": "Eugen",
+  "last_name": "Tomac",
+  "country": "Romania",
+  "national_party": "Partidul Mișcarea Populară",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "eugen.tomac@europarl.europa.eu",
+  "phone": "+3222845109",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197672.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197672",
+  "committees": [
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6626",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

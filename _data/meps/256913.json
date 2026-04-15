@@ -1,0 +1,33 @@
+{
+  "id": "256913",
+  "full_name": "Emma FOURREAU",
+  "given_name": "Emma",
+  "last_name": "Fourreau",
+  "country": "France",
+  "national_party": "La France Insoumise",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "emma.fourreau@europarl.europa.eu",
+  "phone": "+33388175692",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256913.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256913",
+  "committees": [
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

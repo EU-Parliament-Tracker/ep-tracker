@@ -1,0 +1,38 @@
+{
+  "id": "257009",
+  "full_name": "Isabel SERRA SÁNCHEZ",
+  "given_name": "Isabel",
+  "last_name": "Serra Sánchez",
+  "country": "Spain",
+  "national_party": "PODEMOS",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "isabel.serrasanchez@europarl.europa.eu",
+  "phone": "+33388175911",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257009.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257009",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

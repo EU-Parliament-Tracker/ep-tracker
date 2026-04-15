@@ -1,0 +1,33 @@
+{
+  "id": "125001",
+  "full_name": "Harald VILIMSKY",
+  "given_name": "Harald",
+  "last_name": "Vilimsky",
+  "country": "Austria",
+  "national_party": "Freiheitliche Partei Österreichs",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "harald.vilimsky@europarl.europa.eu",
+  "phone": "+33388175324",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/125001.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/125001",
+  "committees": [
+    {
+      "id": "6626",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

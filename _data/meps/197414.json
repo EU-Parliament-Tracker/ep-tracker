@@ -1,0 +1,53 @@
+{
+  "id": "197414",
+  "full_name": "Loucas FOURLAS",
+  "given_name": "Loucas",
+  "last_name": "Fourlas",
+  "country": "Cyprus",
+  "national_party": "Democratic Rally",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "loucas.fourlas@europarl.europa.eu",
+  "phone": "+33388175605",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197414.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197414",
+  "committees": [
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6626",
+      "name": "",
+      "role": "CHAIR"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

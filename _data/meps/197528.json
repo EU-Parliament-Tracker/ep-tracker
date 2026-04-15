@@ -1,0 +1,38 @@
+{
+  "id": "197528",
+  "full_name": "Ondřej KNOTEK",
+  "given_name": "Ondřej",
+  "last_name": "Knotek",
+  "country": "Czechia",
+  "national_party": "ANO 2011",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "ondrej.knotek@europarl.europa.eu",
+  "phone": "+33388175132",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197528.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197528",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "257027",
+  "full_name": "Fernando NAVARRETE ROJAS",
+  "given_name": "Fernando",
+  "last_name": "Navarrete Rojas",
+  "country": "Spain",
+  "national_party": "Partido Popular",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "fernando.navarrete@europarl.europa.eu",
+  "phone": "+33388175765",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257027.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257027",
+  "committees": [
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

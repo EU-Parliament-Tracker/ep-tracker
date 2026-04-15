@@ -1,0 +1,38 @@
+{
+  "id": "197448",
+  "full_name": "Rasmus ANDRESEN",
+  "given_name": "Rasmus",
+  "last_name": "Andresen",
+  "country": "Germany",
+  "national_party": "Bündnis 90/Die Grünen",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "rasmus.andresen@europarl.europa.eu",
+  "phone": "+3222845373",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197448.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197448",
+  "committees": [
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

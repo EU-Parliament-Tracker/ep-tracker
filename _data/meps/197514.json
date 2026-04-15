@@ -1,0 +1,33 @@
+{
+  "id": "197514",
+  "full_name": "Andrzej HALICKI",
+  "given_name": "Andrzej",
+  "last_name": "Halicki",
+  "country": "Poland",
+  "national_party": "Platforma Obywatelska",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "andrzej.halicki@europarl.europa.eu",
+  "phone": "+33388175777",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197514.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197514",
+  "committees": [
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

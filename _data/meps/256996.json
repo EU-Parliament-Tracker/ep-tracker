@@ -1,0 +1,43 @@
+{
+  "id": "256996",
+  "full_name": "Sebastian KRUIS",
+  "given_name": "Sebastian",
+  "last_name": "Kruis",
+  "country": "Netherlands",
+  "national_party": "Partij voor de Vrijheid",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "sebastian.kruis@europarl.europa.eu",
+  "phone": "+3222845267",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256996.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256996",
+  "committees": [
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

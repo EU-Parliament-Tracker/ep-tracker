@@ -1,0 +1,38 @@
+{
+  "id": "197503",
+  "full_name": "David CORMAND",
+  "given_name": "David",
+  "last_name": "Cormand",
+  "country": "France",
+  "national_party": "Les Écologistes",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "david.cormand@europarl.europa.eu",
+  "phone": "+33388175368",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197503.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197503",
+  "committees": [
+    {
+      "id": "6625",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

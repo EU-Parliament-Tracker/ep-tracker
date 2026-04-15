@@ -1,0 +1,43 @@
+{
+  "id": "257116",
+  "full_name": "Georgiana TEODORESCU",
+  "given_name": "Georgiana",
+  "last_name": "Teodorescu",
+  "country": "Romania",
+  "national_party": "Alianța pentru Unirea Românilor",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "georgiana.teodorescu@europarl.europa.eu",
+  "phone": "+33388175931",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257116.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257116",
+  "committees": [
+    {
+      "id": "6572",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

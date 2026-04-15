@@ -1,0 +1,48 @@
+{
+  "id": "197845",
+  "full_name": "Tsvetelina PENKOVA",
+  "given_name": "Tsvetelina",
+  "last_name": "Penkova",
+  "country": "Bulgaria",
+  "national_party": "Bulgarian Socialist Party",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "tsvetelina.penkova@europarl.europa.eu",
+  "phone": "+33388175289",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197845.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197845",
+  "committees": [
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6628",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

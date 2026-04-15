@@ -1,0 +1,33 @@
+{
+  "id": "257128",
+  "full_name": "Giusi PRINCI",
+  "given_name": "Giusi",
+  "last_name": "Princi",
+  "country": "Italy",
+  "national_party": "Forza Italia",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "giusi.princi@europarl.europa.eu",
+  "phone": "+33388175998",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257128.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257128",
+  "committees": [
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

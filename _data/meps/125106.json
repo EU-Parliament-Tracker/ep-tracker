@@ -1,0 +1,38 @@
+{
+  "id": "125106",
+  "full_name": "Johan VAN OVERTVELDT",
+  "given_name": "Johan",
+  "last_name": "Van Overtveldt",
+  "country": "Belgium",
+  "national_party": "Nieuw-Vlaamse Alliantie",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "johan.vanovertveldt@europarl.europa.eu",
+  "phone": "+3222845343",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/125106.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/125106",
+  "committees": [
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "CHAIR"
+    }
+  ]
+}

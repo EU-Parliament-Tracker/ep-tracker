@@ -1,0 +1,53 @@
+{
+  "id": "197417",
+  "full_name": "Tomislav SOKOL",
+  "given_name": "Tomislav",
+  "last_name": "Sokol",
+  "country": "Croatia",
+  "national_party": "Hrvatska demokratska zajednica",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "tomislav.sokol@europarl.europa.eu",
+  "phone": "+3222845143",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197417.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197417",
+  "committees": [
+    {
+      "id": "6628",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6626",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

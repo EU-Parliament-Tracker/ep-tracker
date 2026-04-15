@@ -1,0 +1,33 @@
+{
+  "id": "257300",
+  "full_name": "Michael MCNAMARA",
+  "given_name": "Michael",
+  "last_name": "McNamara",
+  "country": "Ireland",
+  "national_party": "Independent",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "michael.mcnamara@europarl.europa.eu",
+  "phone": "+33388175543",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257300.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257300",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

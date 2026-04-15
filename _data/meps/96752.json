@@ -1,0 +1,38 @@
+{
+  "id": "96752",
+  "full_name": "Martin HÄUSLING",
+  "given_name": "Martin",
+  "last_name": "Häusling",
+  "country": "Germany",
+  "national_party": "Bündnis 90/Die Grünen",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "martin.haeusling@europarl.europa.eu",
+  "phone": "+33388175820",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/96752.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/96752",
+  "committees": [
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6624",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

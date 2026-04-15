@@ -1,0 +1,38 @@
+{
+  "id": "256860",
+  "full_name": "András LÁSZLÓ",
+  "given_name": "András",
+  "last_name": "László",
+  "country": "Hungary",
+  "national_party": "Fidesz-Magyar Polgári Szövetség-Kereszténydemokrata Néppárt",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "andras.laszlo@europarl.europa.eu",
+  "phone": "+3222845268",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256860.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256860",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

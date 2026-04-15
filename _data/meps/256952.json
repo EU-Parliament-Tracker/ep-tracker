@@ -1,0 +1,38 @@
+{
+  "id": "256952",
+  "full_name": "Nikos PAPPAS",
+  "given_name": "Nikos",
+  "last_name": "Pappas",
+  "country": "Greece",
+  "national_party": "Independent",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "nikolaos.pappas@europarl.europa.eu",
+  "phone": "+33388175902",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256952.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256952",
+  "committees": [
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "111412",
+  "full_name": "Villy SØVNDAL",
+  "given_name": "Villy",
+  "last_name": "Søvndal",
+  "country": "Denmark",
+  "national_party": "Socialistisk Folkeparti",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "villy.sovndal@europarl.europa.eu",
+  "phone": "+3222845518",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/111412.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/111412",
+  "committees": [
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

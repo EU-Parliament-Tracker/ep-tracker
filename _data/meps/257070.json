@@ -1,0 +1,38 @@
+{
+  "id": "257070",
+  "full_name": "Marcin SYPNIEWSKI",
+  "given_name": "Marcin",
+  "last_name": "Sypniewski",
+  "country": "Poland",
+  "national_party": "Konfederacja Wolność i Niepodległość",
+  "group_name": "Europe of Sovereign Nations Group",
+  "group_abbr": "ESN",
+  "email": "marcin.sypniewski@europarl.europa.eu",
+  "phone": "+33388175882",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257070.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257070",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6625",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "220897",
+  "full_name": "Petra STEGER",
+  "given_name": "Petra",
+  "last_name": "Steger",
+  "country": "Austria",
+  "national_party": "Freiheitliche Partei Österreichs",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "petra.steger@europarl.europa.eu",
+  "phone": "+33388175484",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/220897.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/220897",
+  "committees": [
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

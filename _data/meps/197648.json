@@ -1,0 +1,38 @@
+{
+  "id": "197648",
+  "full_name": "Alexander BERNHUBER",
+  "given_name": "Alexander",
+  "last_name": "Bernhuber",
+  "country": "Austria",
+  "national_party": "Österreichische Volkspartei",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "alexander.bernhuber@europarl.europa.eu",
+  "phone": "+33388175180",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197648.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197648",
+  "committees": [
+    {
+      "id": "6625",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

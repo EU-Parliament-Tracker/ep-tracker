@@ -1,0 +1,33 @@
+{
+  "id": "106936",
+  "full_name": "Daniel FREUND",
+  "given_name": "Daniel",
+  "last_name": "Freund",
+  "country": "Germany",
+  "national_party": "Bündnis 90/Die Grünen",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "daniel.freund@europarl.europa.eu",
+  "phone": "+33388175449",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/106936.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/106936",
+  "committees": [
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

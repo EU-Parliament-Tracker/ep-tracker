@@ -1,0 +1,38 @@
+{
+  "id": "197772",
+  "full_name": "Tineke STRIK",
+  "given_name": "Tineke",
+  "last_name": "Strik",
+  "country": "Netherlands",
+  "national_party": "GroenLinks-PvdA",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "tineke.strik@europarl.europa.eu",
+  "phone": "+33388175212",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197772.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197772",
+  "committees": [
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6627",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

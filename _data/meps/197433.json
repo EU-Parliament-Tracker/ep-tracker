@@ -1,0 +1,33 @@
+{
+  "id": "197433",
+  "full_name": "Katarina BARLEY",
+  "given_name": "Katarina",
+  "last_name": "Barley",
+  "country": "Germany",
+  "national_party": "Sozialdemokratische Partei Deutschlands",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "katarina.barley@europarl.europa.eu",
+  "phone": "+3222845529",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197433.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197433",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

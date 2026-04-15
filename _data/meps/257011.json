@@ -1,0 +1,48 @@
+{
+  "id": "257011",
+  "full_name": "Lucia YAR",
+  "given_name": "Lucia",
+  "last_name": "Yar",
+  "country": "Slovakia",
+  "national_party": "Progresívne Slovensko",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "lucia.yar@europarl.europa.eu",
+  "phone": "+33388175796",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257011.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257011",
+  "committees": [
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

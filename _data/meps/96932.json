@@ -1,0 +1,28 @@
+{
+  "id": "96932",
+  "full_name": "Birgit SIPPEL",
+  "given_name": "Birgit",
+  "last_name": "Sippel",
+  "country": "Germany",
+  "national_party": "Sozialdemokratische Partei Deutschlands",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "birgit.sippel@europarl.europa.eu",
+  "phone": "+3222845559",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/96932.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/96932",
+  "committees": [
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

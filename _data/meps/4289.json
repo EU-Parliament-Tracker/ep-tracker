@@ -1,0 +1,43 @@
+{
+  "id": "4289",
+  "full_name": "Angelika NIEBLER",
+  "given_name": "Angelika",
+  "last_name": "Niebler",
+  "country": "Germany",
+  "national_party": "Christlich-Soziale Union in Bayern e.V.",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "angelika.niebler@europarl.europa.eu",
+  "phone": "+33388175390",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/4289.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/4289",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

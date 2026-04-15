@@ -1,0 +1,33 @@
+{
+  "id": "257109",
+  "full_name": "Marco SQUARTA",
+  "given_name": "Marco",
+  "last_name": "Squarta",
+  "country": "Italy",
+  "national_party": "FRATELLI D' ITALIA",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "marco.squarta@europarl.europa.eu",
+  "phone": "+3222845925",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257109.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257109",
+  "committees": [
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

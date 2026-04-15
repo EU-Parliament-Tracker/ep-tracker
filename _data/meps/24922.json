@@ -1,0 +1,33 @@
+{
+  "id": "24922",
+  "full_name": "Pascal ARIMONT",
+  "given_name": "Pascal",
+  "last_name": "Arimont",
+  "country": "Belgium",
+  "national_party": "Christlich Soziale Partei",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "pascal.arimont@europarl.europa.eu",
+  "phone": "+33388175778",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/24922.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/24922",
+  "committees": [
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

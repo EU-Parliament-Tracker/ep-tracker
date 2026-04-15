@@ -1,0 +1,43 @@
+{
+  "id": "257143",
+  "full_name": "Mariateresa VIVALDINI",
+  "given_name": "Mariateresa",
+  "last_name": "Vivaldini",
+  "country": "Italy",
+  "national_party": "FRATELLI D' ITALIA",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "mariateresa.vivaldini@europarl.europa.eu",
+  "phone": "+3222845944",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257143.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257143",
+  "committees": [
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6623",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

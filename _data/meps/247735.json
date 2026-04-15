@@ -1,0 +1,33 @@
+{
+  "id": "247735",
+  "full_name": "Laura BALLARÍN CEREZA",
+  "given_name": "Laura",
+  "last_name": "Ballarín Cereza",
+  "country": "Spain",
+  "national_party": "Partido Socialista Obrero Español",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "laura.ballarincereza@europarl.europa.eu",
+  "phone": "+33388177563",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/247735.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/247735",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

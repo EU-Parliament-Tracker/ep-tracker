@@ -1,0 +1,38 @@
+{
+  "id": "245770",
+  "full_name": "Irene MONTERO",
+  "given_name": "Irene",
+  "last_name": "Montero",
+  "country": "Spain",
+  "national_party": "PODEMOS",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "irene.montero@europarl.europa.eu",
+  "phone": "+33388175893",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/245770.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/245770",
+  "committees": [
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6624",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

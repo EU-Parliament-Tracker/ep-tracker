@@ -1,0 +1,38 @@
+{
+  "id": "256868",
+  "full_name": "Péter MAGYAR",
+  "given_name": "Péter",
+  "last_name": "Magyar",
+  "country": "Hungary",
+  "national_party": "Tisztelet és Szabadság Párt",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "peter.magyar@europarl.europa.eu",
+  "phone": "+33388175704",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256868.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256868",
+  "committees": [
+    {
+      "id": "6587",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

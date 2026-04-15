@@ -1,0 +1,28 @@
+{
+  "id": "197425",
+  "full_name": "Ralf SEEKATZ",
+  "given_name": "Ralf",
+  "last_name": "Seekatz",
+  "country": "Germany",
+  "national_party": "Christlich Demokratische Union Deutschlands",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "ralf.seekatz@europarl.europa.eu",
+  "phone": "+33388175920",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197425.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197425",
+  "committees": [
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "256911",
+  "full_name": "Arash SAEIDI",
+  "given_name": "Arash",
+  "last_name": "Saeidi",
+  "country": "France",
+  "national_party": "La France Insoumise",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "arash.saeidi@europarl.europa.eu",
+  "phone": "+33388175908",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256911.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256911",
+  "committees": [
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6628",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

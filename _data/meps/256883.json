@@ -1,0 +1,38 @@
+{
+  "id": "256883",
+  "full_name": "Aleksandar NIKOLIC",
+  "given_name": "Aleksandar",
+  "last_name": "Nikolic",
+  "country": "France",
+  "national_party": "Rassemblement national",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "aleksandar.nikolic@europarl.europa.eu",
+  "phone": "+33388175422",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256883.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256883",
+  "committees": [
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6626",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

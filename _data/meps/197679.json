@@ -1,0 +1,33 @@
+{
+  "id": "197679",
+  "full_name": "Isabel BENJUMEA BENJUMEA",
+  "given_name": "Isabel",
+  "last_name": "Benjumea Benjumea",
+  "country": "Spain",
+  "national_party": "Partido Popular",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "isabel.benjumea@europarl.europa.eu",
+  "phone": "+33388175850",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197679.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197679",
+  "committees": [
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

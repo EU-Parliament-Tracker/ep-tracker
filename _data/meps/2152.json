@@ -1,0 +1,38 @@
+{
+  "id": "2152",
+  "full_name": "Leoluca ORLANDO",
+  "given_name": "Leoluca",
+  "last_name": "Orlando",
+  "country": "Italy",
+  "national_party": "Independent",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "leoluca.orlando@europarl.europa.eu",
+  "phone": "+33388175397",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/2152.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/2152",
+  "committees": [
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

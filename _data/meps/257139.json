@@ -1,0 +1,38 @@
+{
+  "id": "257139",
+  "full_name": "Benedetta SCUDERI",
+  "given_name": "Benedetta",
+  "last_name": "Scuderi",
+  "country": "Italy",
+  "national_party": "Europa Verde - Verdi",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "benedetta.scuderi@europarl.europa.eu",
+  "phone": "+3222845490",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257139.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257139",
+  "committees": [
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

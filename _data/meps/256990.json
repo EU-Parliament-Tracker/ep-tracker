@@ -1,0 +1,33 @@
+{
+  "id": "256990",
+  "full_name": "Anna STROLENBERG",
+  "given_name": "Anna",
+  "last_name": "Strolenberg",
+  "country": "Netherlands",
+  "national_party": "Volt",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "anna.strolenberg@europarl.europa.eu",
+  "phone": "+33388175522",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256990.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256990",
+  "committees": [
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

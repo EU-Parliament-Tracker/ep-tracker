@@ -1,0 +1,33 @@
+{
+  "id": "197466",
+  "full_name": "Jutta PAULUS",
+  "given_name": "Jutta",
+  "last_name": "Paulus",
+  "country": "Germany",
+  "national_party": "Bündnis 90/Die Grünen",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "jutta.paulus@europarl.europa.eu",
+  "phone": "+3222845645",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197466.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197466",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "257160",
+  "full_name": "Marco TARQUINIO",
+  "given_name": "Marco",
+  "last_name": "Tarquinio",
+  "country": "Italy",
+  "national_party": "Partito Democratico",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "marco.tarquinio@europarl.europa.eu",
+  "phone": "+33388175193",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257160.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257160",
+  "committees": [
+    {
+      "id": "6624",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6627",
+      "name": "",
+      "role": "CHAIR"
+    }
+  ]
+}

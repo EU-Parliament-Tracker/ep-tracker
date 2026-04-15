@@ -1,0 +1,38 @@
+{
+  "id": "197647",
+  "full_name": "Dan-Ştefan MOTREANU",
+  "given_name": "Dan-Ştefan",
+  "last_name": "Motreanu",
+  "country": "Romania",
+  "national_party": "Partidul Naţional Liberal",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "dan-stefan.motreanu@europarl.europa.eu",
+  "phone": "+33388175457",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197647.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197647",
+  "committees": [
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

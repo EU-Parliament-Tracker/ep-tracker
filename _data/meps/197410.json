@@ -1,0 +1,33 @@
+{
+  "id": "197410",
+  "full_name": "Stefan BERGER",
+  "given_name": "Stefan",
+  "last_name": "Berger",
+  "country": "Germany",
+  "national_party": "Christlich Demokratische Union Deutschlands",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "stefan.berger@europarl.europa.eu",
+  "phone": "+33388175427",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197410.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197410",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

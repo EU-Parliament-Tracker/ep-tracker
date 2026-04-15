@@ -1,0 +1,38 @@
+{
+  "id": "257061",
+  "full_name": "Ana VASCONCELOS",
+  "given_name": "Ana",
+  "last_name": "Vasconcelos",
+  "country": "Portugal",
+  "national_party": "Iniciativa Liberal",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "ana.vasconcelos@europarl.europa.eu",
+  "phone": "+3222845730",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257061.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257061",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6624",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

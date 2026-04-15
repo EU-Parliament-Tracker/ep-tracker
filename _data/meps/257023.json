@@ -1,0 +1,38 @@
+{
+  "id": "257023",
+  "full_name": "Per CLAUSEN",
+  "given_name": "Per",
+  "last_name": "Clausen",
+  "country": "Denmark",
+  "national_party": "Enhedslisten",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "per.clausen@europarl.europa.eu",
+  "phone": "+33388175660",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257023.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257023",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

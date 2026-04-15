@@ -1,0 +1,33 @@
+{
+  "id": "257259",
+  "full_name": "Nikola MINCHEV",
+  "given_name": "Nikola",
+  "last_name": "Minchev",
+  "country": "Bulgaria",
+  "national_party": "We continue the change – Democratic Bulgaria",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "nikola.minchev@europarl.europa.eu",
+  "phone": "+33388175546",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257259.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257259",
+  "committees": [
+    {
+      "id": "6579",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

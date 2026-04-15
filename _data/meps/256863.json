@@ -1,0 +1,28 @@
+{
+  "id": "256863",
+  "full_name": "Zoltán TARR",
+  "given_name": "Zoltán",
+  "last_name": "Tarr",
+  "country": "Hungary",
+  "national_party": "Tisztelet és Szabadság Párt",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "zoltan.tarr@europarl.europa.eu",
+  "phone": "+33388175808",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256863.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256863",
+  "committees": [
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6626",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

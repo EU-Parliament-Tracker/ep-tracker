@@ -1,0 +1,48 @@
+{
+  "id": "257081",
+  "full_name": "Sebastião BUGALHO",
+  "given_name": "Sebastião",
+  "last_name": "Bugalho",
+  "country": "Portugal",
+  "national_party": "Partido Social Democrata",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "sebastiao.bugalho@europarl.europa.eu",
+  "phone": "+3222845213",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257081.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257081",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

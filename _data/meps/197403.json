@@ -1,0 +1,38 @@
+{
+  "id": "197403",
+  "full_name": "Alex AGIUS SALIBA",
+  "given_name": "Alex",
+  "last_name": "Agius Saliba",
+  "country": "Malta",
+  "national_party": "Partit Laburista",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "alex.agiussaliba@europarl.europa.eu",
+  "phone": "+33388175536",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197403.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197403",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

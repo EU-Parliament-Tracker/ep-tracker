@@ -1,0 +1,33 @@
+{
+  "id": "256803",
+  "full_name": "Maria GUZENINA",
+  "given_name": "Maria",
+  "last_name": "Guzenina",
+  "country": "Finland",
+  "national_party": "Suomen Sosialidemokraattinen Puolue/Finlands Socialdemokratiska Parti",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "maria.guzenina@europarl.europa.eu",
+  "phone": "+33388175595",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256803.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256803",
+  "committees": [
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

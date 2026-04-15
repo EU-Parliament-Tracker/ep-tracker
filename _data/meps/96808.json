@@ -1,0 +1,28 @@
+{
+  "id": "96808",
+  "full_name": "Pablo ARIAS ECHEVERRÍA",
+  "given_name": "Pablo",
+  "last_name": "Arias Echeverría",
+  "country": "Spain",
+  "national_party": "Partido Popular",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "pablo.ariasecheverria@europarl.europa.eu",
+  "phone": "+33388175198",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/96808.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/96808",
+  "committees": [
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

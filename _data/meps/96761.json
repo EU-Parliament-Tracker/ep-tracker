@@ -1,0 +1,33 @@
+{
+  "id": "96761",
+  "full_name": "Axel VOSS",
+  "given_name": "Axel",
+  "last_name": "Voss",
+  "country": "Germany",
+  "national_party": "Christlich Demokratische Union Deutschlands",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "axel.voss@europarl.europa.eu",
+  "phone": "+33388175302",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/96761.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/96761",
+  "committees": [
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

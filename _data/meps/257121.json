@@ -1,0 +1,28 @@
+{
+  "id": "257121",
+  "full_name": "Matteo RICCI",
+  "given_name": "Matteo",
+  "last_name": "Ricci",
+  "country": "Italy",
+  "national_party": "Partito Democratico",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "matteo.ricci@europarl.europa.eu",
+  "phone": "+3222845809",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257121.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257121",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

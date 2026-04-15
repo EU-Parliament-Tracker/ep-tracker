@@ -1,0 +1,33 @@
+{
+  "id": "1294",
+  "full_name": "Elio DI RUPO",
+  "given_name": "Elio",
+  "last_name": "Di Rupo",
+  "country": "Belgium",
+  "national_party": "Parti Socialiste",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "elio.dirupo@europarl.europa.eu",
+  "phone": "+3222845453",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/1294.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/1294",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

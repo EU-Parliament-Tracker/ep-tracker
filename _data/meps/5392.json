@@ -1,0 +1,33 @@
+{
+  "id": "5392",
+  "full_name": "Lara WOLTERS",
+  "given_name": "Lara",
+  "last_name": "Wolters",
+  "country": "Netherlands",
+  "national_party": "GroenLinks-PvdA",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "lara.wolters@europarl.europa.eu",
+  "phone": "+3222845265",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/5392.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/5392",
+  "committees": [
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

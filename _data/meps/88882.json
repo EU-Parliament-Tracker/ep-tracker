@@ -1,0 +1,33 @@
+{
+  "id": "88882",
+  "full_name": "Victor NEGRESCU",
+  "given_name": "Victor",
+  "last_name": "Negrescu",
+  "country": "Romania",
+  "national_party": "Partidul Social Democrat",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "victor.negrescu@europarl.europa.eu",
+  "phone": "+33388175711",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/88882.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/88882",
+  "committees": [
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

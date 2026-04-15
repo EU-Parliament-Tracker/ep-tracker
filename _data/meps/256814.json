@@ -1,0 +1,33 @@
+{
+  "id": "256814",
+  "full_name": "Zala TOMAŠIČ",
+  "given_name": "Zala",
+  "last_name": "Tomašič",
+  "country": "Slovenia",
+  "national_party": "Slovenska demokratska stranka",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "zala.tomasic@europarl.europa.eu",
+  "phone": "+33388175828",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256814.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256814",
+  "committees": [
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

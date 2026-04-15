@@ -1,0 +1,33 @@
+{
+  "id": "185619",
+  "full_name": "Tiemo WÖLKEN",
+  "given_name": "Tiemo",
+  "last_name": "Wölken",
+  "country": "Germany",
+  "national_party": "Sozialdemokratische Partei Deutschlands",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "tiemo.woelken@europarl.europa.eu",
+  "phone": "+3222845431",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/185619.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/185619",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

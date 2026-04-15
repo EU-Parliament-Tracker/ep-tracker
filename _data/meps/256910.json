@@ -1,0 +1,33 @@
+{
+  "id": "256910",
+  "full_name": "Anthony SMITH",
+  "given_name": "Anthony",
+  "last_name": "Smith",
+  "country": "France",
+  "national_party": "La France Insoumise",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "anthony.smith@europarl.europa.eu",
+  "phone": "+33388175914",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256910.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256910",
+  "committees": [
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

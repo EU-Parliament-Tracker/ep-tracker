@@ -1,0 +1,33 @@
+{
+  "id": "197398",
+  "full_name": "Pär HOLMGREN",
+  "given_name": "Pär",
+  "last_name": "Holmgren",
+  "country": "Sweden",
+  "national_party": "Miljöpartiet de gröna",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "par.holmgren@europarl.europa.eu",
+  "phone": "+33388175928",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197398.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197398",
+  "committees": [
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

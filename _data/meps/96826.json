@@ -1,0 +1,33 @@
+{
+  "id": "96826",
+  "full_name": "Tamás DEUTSCH",
+  "given_name": "Tamás",
+  "last_name": "Deutsch",
+  "country": "Hungary",
+  "national_party": "Fidesz-Magyar Polgári Szövetség-Kereszténydemokrata Néppárt",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "tamas.deutsch@europarl.europa.eu",
+  "phone": "+3222845156",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/96826.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/96826",
+  "committees": [
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

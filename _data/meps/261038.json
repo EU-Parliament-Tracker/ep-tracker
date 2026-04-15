@@ -1,0 +1,38 @@
+{
+  "id": "261038",
+  "full_name": "Tomáš KUBÍN",
+  "given_name": "Tomáš",
+  "last_name": "Kubín",
+  "country": "Czechia",
+  "national_party": "ANO 2011",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "tomas.kubin@europarl.europa.eu",
+  "phone": "+33388175022",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/261038.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/261038",
+  "committees": [
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

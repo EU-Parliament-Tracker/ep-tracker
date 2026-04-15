@@ -1,0 +1,33 @@
+{
+  "id": "124722",
+  "full_name": "Csaba MOLNÁR",
+  "given_name": "Csaba",
+  "last_name": "Molnár",
+  "country": "Hungary",
+  "national_party": "Demokratikus Koalíció",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "csaba.molnar@europarl.europa.eu",
+  "phone": "+3222845571",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124722.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124722",
+  "committees": [
+    {
+      "id": "7914",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

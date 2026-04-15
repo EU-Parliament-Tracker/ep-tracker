@@ -1,0 +1,33 @@
+{
+  "id": "256973",
+  "full_name": "Stefan KÖHLER",
+  "given_name": "Stefan",
+  "last_name": "Köhler",
+  "country": "Germany",
+  "national_party": "Christlich-Soziale Union in Bayern e.V.",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "stefan.koehler@europarl.europa.eu",
+  "phone": "+33388175586",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256973.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256973",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

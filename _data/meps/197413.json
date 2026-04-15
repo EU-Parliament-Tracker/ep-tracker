@@ -1,0 +1,38 @@
+{
+  "id": "197413",
+  "full_name": "Karlo RESSLER",
+  "given_name": "Karlo",
+  "last_name": "Ressler",
+  "country": "Croatia",
+  "national_party": "Hrvatska demokratska zajednica",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "karlo.ressler@europarl.europa.eu",
+  "phone": "+3222845601",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197413.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197413",
+  "committees": [
+    {
+      "id": "6621",
+      "name": "",
+      "role": "CHAIR"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

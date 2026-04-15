@@ -1,0 +1,38 @@
+{
+  "id": "28399",
+  "full_name": "Antonio LÓPEZ-ISTÚRIZ WHITE",
+  "given_name": "Antonio",
+  "last_name": "López-Istúriz White",
+  "country": "Spain",
+  "national_party": "Partido Popular",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "antonio.lopezisturiz@europarl.europa.eu",
+  "phone": "+3222845713",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/28399.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/28399",
+  "committees": [
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6623",
+      "name": "",
+      "role": "CHAIR"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

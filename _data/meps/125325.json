@@ -1,0 +1,33 @@
+{
+  "id": "125325",
+  "full_name": "Sander SMIT",
+  "given_name": "Sander",
+  "last_name": "Smit",
+  "country": "Netherlands",
+  "national_party": "BoerBurgerBeweging",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "sander.smit@europarl.europa.eu",
+  "phone": "+3222845764",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/125325.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/125325",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

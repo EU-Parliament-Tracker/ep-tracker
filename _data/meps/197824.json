@@ -1,0 +1,33 @@
+{
+  "id": "197824",
+  "full_name": "Giuseppe MILAZZO",
+  "given_name": "Giuseppe",
+  "last_name": "Milazzo",
+  "country": "Italy",
+  "national_party": "FRATELLI D' ITALIA",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "giuseppe.milazzo@europarl.europa.eu",
+  "phone": "+3222845781",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197824.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197824",
+  "committees": [
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6583",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "96934",
+  "full_name": "Sandra KALNIETE",
+  "given_name": "Sandra",
+  "last_name": "Kalniete",
+  "country": "Latvia",
+  "national_party": "Jaunā Vienotība",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "sandra.kalniete@europarl.europa.eu",
+  "phone": "+33388175204",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/96934.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/96934",
+  "committees": [
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

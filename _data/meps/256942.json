@@ -1,0 +1,48 @@
+{
+  "id": "256942",
+  "full_name": "Marc JONGEN",
+  "given_name": "Marc",
+  "last_name": "Jongen",
+  "country": "Germany",
+  "national_party": "Alternative für Deutschland",
+  "group_name": "Europe of Sovereign Nations Group",
+  "group_abbr": "ESN",
+  "email": "marc.jongen@europarl.europa.eu",
+  "phone": "+33388175758",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256942.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256942",
+  "committees": [
+    {
+      "id": "6625",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

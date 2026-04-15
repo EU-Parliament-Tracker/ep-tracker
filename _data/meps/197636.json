@@ -1,0 +1,43 @@
+{
+  "id": "197636",
+  "full_name": "Ioan-Rareş BOGDAN",
+  "given_name": "Ioan-Rareş",
+  "last_name": "Bogdan",
+  "country": "Romania",
+  "national_party": "Partidul Naţional Liberal",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "ioan-rares.bogdan@europarl.europa.eu",
+  "phone": "+3222845370",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197636.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197636",
+  "committees": [
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

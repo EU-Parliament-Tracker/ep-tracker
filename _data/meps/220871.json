@@ -1,0 +1,43 @@
+{
+  "id": "220871",
+  "full_name": "Rihards KOLS",
+  "given_name": "Rihards",
+  "last_name": "Kols",
+  "country": "Latvia",
+  "national_party": "Nacionālā apvienība \"Visu Latvijai!\" - \"Tēvzemei un Brīvībai/LNNK\"",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "rihards.kols@europarl.europa.eu",
+  "phone": "+3222845666",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/220871.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/220871",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6623",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6624",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

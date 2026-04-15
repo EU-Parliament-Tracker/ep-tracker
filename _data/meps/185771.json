@@ -1,0 +1,28 @@
+{
+  "id": "185771",
+  "full_name": "Tom VANDENDRIESSCHE",
+  "given_name": "Tom",
+  "last_name": "Vandendriessche",
+  "country": "Belgium",
+  "national_party": "Vlaams Belang",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "tom.vandendriessche@europarl.europa.eu",
+  "phone": "+33388175261",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/185771.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/185771",
+  "committees": [
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

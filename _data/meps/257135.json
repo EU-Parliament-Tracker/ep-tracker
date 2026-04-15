@@ -1,0 +1,38 @@
+{
+  "id": "257135",
+  "full_name": "Valentina PALMISANO",
+  "given_name": "Valentina",
+  "last_name": "Palmisano",
+  "country": "Italy",
+  "national_party": "Movimento 5 Stelle",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "valentina.palmisano@europarl.europa.eu",
+  "phone": "+3222845900",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257135.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257135",
+  "committees": [
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

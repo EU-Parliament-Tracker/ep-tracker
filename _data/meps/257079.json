@@ -1,0 +1,38 @@
+{
+  "id": "257079",
+  "full_name": "Sérgio GONÇALVES",
+  "given_name": "Sérgio",
+  "last_name": "Gonçalves",
+  "country": "Portugal",
+  "national_party": "Partido Socialista",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "sergio.sousagoncalves@europarl.europa.eu",
+  "phone": "+3222845554",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257079.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257079",
+  "committees": [
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

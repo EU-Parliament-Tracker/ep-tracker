@@ -1,0 +1,33 @@
+{
+  "id": "197606",
+  "full_name": "Javier ZARZALEJOS",
+  "given_name": "Javier",
+  "last_name": "Zarzalejos",
+  "country": "Spain",
+  "national_party": "Partido Popular",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "javier.zarzalejos@europarl.europa.eu",
+  "phone": "+33388175634",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197606.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197606",
+  "committees": [
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "CHAIR"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

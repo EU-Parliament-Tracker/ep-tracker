@@ -1,0 +1,33 @@
+{
+  "id": "4267",
+  "full_name": "Udo BULLMANN",
+  "given_name": "Udo",
+  "last_name": "Bullmann",
+  "country": "Germany",
+  "national_party": "Sozialdemokratische Partei Deutschlands",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "udo.bullmann@europarl.europa.eu",
+  "phone": "+33388175342",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/4267.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/4267",
+  "committees": [
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6625",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

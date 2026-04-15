@@ -1,0 +1,43 @@
+{
+  "id": "96711",
+  "full_name": "Pascal CANFIN",
+  "given_name": "Pascal",
+  "last_name": "Canfin",
+  "country": "France",
+  "national_party": "Renaissance",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "pascal.canfin@europarl.europa.eu",
+  "phone": "+33388175658",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/96711.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/96711",
+  "committees": [
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

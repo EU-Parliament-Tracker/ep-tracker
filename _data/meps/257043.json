@@ -1,0 +1,38 @@
+{
+  "id": "257043",
+  "full_name": "Maravillas ABADÍA JOVER",
+  "given_name": "Maravillas",
+  "last_name": "Abadía Jover",
+  "country": "Spain",
+  "national_party": "Partido Popular",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "maravillas.abadiajover@europarl.europa.eu",
+  "phone": "+3222845176",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257043.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257043",
+  "committees": [
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

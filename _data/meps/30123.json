@@ -1,0 +1,38 @@
+{
+  "id": "30123",
+  "full_name": "Guillaume PELTIER",
+  "given_name": "Guillaume",
+  "last_name": "Peltier",
+  "country": "France",
+  "national_party": "Identité Libertés",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "guillaume.peltier@europarl.europa.eu",
+  "phone": "+33388175866",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/30123.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/30123",
+  "committees": [
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6625",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

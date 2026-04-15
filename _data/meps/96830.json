@@ -1,0 +1,38 @@
+{
+  "id": "96830",
+  "full_name": "Enikő GYŐRI",
+  "given_name": "Enikő",
+  "last_name": "Győri",
+  "country": "Hungary",
+  "national_party": "Fidesz-Magyar Polgári Szövetség-Kereszténydemokrata Néppárt",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "eniko.gyori@europarl.europa.eu",
+  "phone": "+33388175352",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/96830.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/96830",
+  "committees": [
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6624",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

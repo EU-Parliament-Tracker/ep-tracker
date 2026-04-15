@@ -1,0 +1,43 @@
+{
+  "id": "256820",
+  "full_name": "Georgios AFTIAS",
+  "given_name": "Georgios",
+  "last_name": "Aftias",
+  "country": "Greece",
+  "national_party": "Nea Demokratia",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "georgios.aftias@europarl.europa.eu",
+  "phone": "+33388175177",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256820.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256820",
+  "committees": [
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6626",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

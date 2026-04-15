@@ -1,0 +1,33 @@
+{
+  "id": "257032",
+  "full_name": "Kamila GASIUK-PIHOWICZ",
+  "given_name": "Kamila",
+  "last_name": "Gasiuk-Pihowicz",
+  "country": "Poland",
+  "national_party": "Platforma Obywatelska",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "kamila.gasiuk-pihowicz@europarl.europa.eu",
+  "phone": "+33388175412",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257032.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257032",
+  "committees": [
+    {
+      "id": "6579",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

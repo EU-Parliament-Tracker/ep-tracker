@@ -1,0 +1,33 @@
+{
+  "id": "123562",
+  "full_name": "Charlie WEIMERS",
+  "given_name": "Charlie",
+  "last_name": "Weimers",
+  "country": "Sweden",
+  "national_party": "Sverigedemokraterna",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "charlie.weimers@europarl.europa.eu",
+  "phone": "+33388175298",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/123562.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/123562",
+  "committees": [
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

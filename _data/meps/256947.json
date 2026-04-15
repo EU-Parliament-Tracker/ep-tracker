@@ -1,0 +1,53 @@
+{
+  "id": "256947",
+  "full_name": "Fredis BELERIS",
+  "given_name": "Fredis",
+  "last_name": "Beleris",
+  "country": "Greece",
+  "national_party": "Nea Demokratia",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "fredis.beleris@europarl.europa.eu",
+  "phone": "+33388175203",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256947.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256947",
+  "committees": [
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6627",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6628",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

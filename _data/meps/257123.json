@@ -1,0 +1,33 @@
+{
+  "id": "257123",
+  "full_name": "Lucia ANNUNZIATA",
+  "given_name": "Lucia",
+  "last_name": "Annunziata",
+  "country": "Italy",
+  "national_party": "Partito Democratico",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "lucia.annunziata@europarl.europa.eu",
+  "phone": "+3222845231",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257123.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257123",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

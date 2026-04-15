@@ -1,0 +1,33 @@
+{
+  "id": "124813",
+  "full_name": "Dario TAMBURRANO",
+  "given_name": "Dario",
+  "last_name": "Tamburrano",
+  "country": "Italy",
+  "national_party": "Movimento 5 Stelle",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "dario.tamburrano@europarl.europa.eu",
+  "phone": "+33388175915",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124813.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124813",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

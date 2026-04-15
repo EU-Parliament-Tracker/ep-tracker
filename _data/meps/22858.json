@@ -1,0 +1,28 @@
+{
+  "id": "22858",
+  "full_name": "Fabienne KELLER",
+  "given_name": "Fabienne",
+  "last_name": "Keller",
+  "country": "France",
+  "national_party": "Renaissance",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "fabienne.keller@europarl.europa.eu",
+  "phone": "+33388175196",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/22858.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/22858",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

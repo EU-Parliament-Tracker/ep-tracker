@@ -1,0 +1,38 @@
+{
+  "id": "197579",
+  "full_name": "Klára DOBREV",
+  "given_name": "Klára",
+  "last_name": "Dobrev",
+  "country": "Hungary",
+  "national_party": "Demokratikus Koalíció",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "klara.dobrev@europarl.europa.eu",
+  "phone": "+3222845121",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197579.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197579",
+  "committees": [
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "197863",
+  "full_name": "Maria WALSH",
+  "given_name": "Maria",
+  "last_name": "Walsh",
+  "country": "Ireland",
+  "national_party": "Fine Gael Party",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "maria.walsh@europarl.europa.eu",
+  "phone": "+33388175896",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197863.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197863",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

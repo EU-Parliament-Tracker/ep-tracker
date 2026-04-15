@@ -1,0 +1,28 @@
+{
+  "id": "251324",
+  "full_name": "Krzysztof BREJZA",
+  "given_name": "Krzysztof",
+  "last_name": "Brejza",
+  "country": "Poland",
+  "national_party": "Platforma Obywatelska",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "krzysztof.brejza@europarl.europa.eu",
+  "phone": "+33388175451",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/251324.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/251324",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

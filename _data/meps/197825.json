@@ -1,0 +1,33 @@
+{
+  "id": "197825",
+  "full_name": "Raffaele STANCANELLI",
+  "given_name": "Raffaele",
+  "last_name": "Stancanelli",
+  "country": "Italy",
+  "national_party": "Lega",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "raffaele.stancanelli@europarl.europa.eu",
+  "phone": "+33388175617",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197825.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197825",
+  "committees": [
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "124828",
+  "full_name": "Fulvio MARTUSCIELLO",
+  "given_name": "Fulvio",
+  "last_name": "Martusciello",
+  "country": "Italy",
+  "national_party": "Forza Italia",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "fulvio.martusciello@europarl.europa.eu",
+  "phone": "+33388175745",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124828.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124828",
+  "committees": [
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "197701",
+  "full_name": "Konstantinos ARVANITIS",
+  "given_name": "Konstantinos",
+  "last_name": "Arvanitis",
+  "country": "Greece",
+  "national_party": "Coalition of the Radical Left",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "konstantinos.arvanitis@europarl.europa.eu",
+  "phone": "+33388175787",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197701.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197701",
+  "committees": [
+    {
+      "id": "6627",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6621",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

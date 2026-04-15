@@ -1,0 +1,33 @@
+{
+  "id": "124736",
+  "full_name": "Merja KYLLÖNEN",
+  "given_name": "Merja",
+  "last_name": "Kyllönen",
+  "country": "Finland",
+  "national_party": "Vasemmistoliitto",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "merja.kyllonen@europarl.europa.eu",
+  "phone": "+3222845834",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124736.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124736",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

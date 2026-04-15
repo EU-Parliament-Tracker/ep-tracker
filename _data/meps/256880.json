@@ -1,0 +1,33 @@
+{
+  "id": "256880",
+  "full_name": "Estelle CEULEMANS",
+  "given_name": "Estelle",
+  "last_name": "Ceulemans",
+  "country": "Belgium",
+  "national_party": "Parti Socialiste",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "estelle.ceulemans@europarl.europa.eu",
+  "phone": "+33388175294",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256880.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256880",
+  "committees": [
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

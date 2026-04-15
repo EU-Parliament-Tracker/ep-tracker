@@ -1,0 +1,28 @@
+{
+  "id": "257012",
+  "full_name": "Estrella GALÁN",
+  "given_name": "Estrella",
+  "last_name": "Galán",
+  "country": "Spain",
+  "national_party": "Movimiento Sumar",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "estrella.galan@europarl.europa.eu",
+  "phone": "+33388175785",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257012.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257012",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

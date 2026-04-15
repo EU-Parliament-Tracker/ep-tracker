@@ -1,0 +1,33 @@
+{
+  "id": "103246",
+  "full_name": "Auke ZIJLSTRA",
+  "given_name": "Auke",
+  "last_name": "Zijlstra",
+  "country": "Netherlands",
+  "national_party": "Partij voor de Vrijheid",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "auke.zijlstra@europarl.europa.eu",
+  "phone": "+33388175709",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/103246.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/103246",
+  "committees": [
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

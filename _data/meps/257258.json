@@ -1,0 +1,48 @@
+{
+  "id": "257258",
+  "full_name": "Ivaylo VALCHEV",
+  "given_name": "Ivaylo",
+  "last_name": "Valchev",
+  "country": "Bulgaria",
+  "national_party": "There Is Such a People",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "ivaylo.valchev@europarl.europa.eu",
+  "phone": "+3222845940",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257258.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257258",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6621",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6626",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "256925",
+  "full_name": "Laurence TROCHU",
+  "given_name": "Laurence",
+  "last_name": "Trochu",
+  "country": "France",
+  "national_party": "Identité Libertés",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "laurence.trochu@europarl.europa.eu",
+  "phone": "+33388175936",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256925.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256925",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "197395",
+  "full_name": "Alice KUHNKE",
+  "given_name": "Alice",
+  "last_name": "Kuhnke",
+  "country": "Sweden",
+  "national_party": "Miljöpartiet de gröna",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "alice.kuhnke@europarl.europa.eu",
+  "phone": "+33388175411",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197395.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197395",
+  "committees": [
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

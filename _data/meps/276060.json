@@ -1,0 +1,43 @@
+{
+  "id": "276060",
+  "full_name": "Willemien KONING",
+  "given_name": "Willemien",
+  "last_name": "Koning",
+  "country": "Netherlands",
+  "national_party": "Christen Democratisch Appèl",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "willemien.koning@europarl.europa.eu",
+  "phone": "+33388175623",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/276060.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/276060",
+  "committees": [
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

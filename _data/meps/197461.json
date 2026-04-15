@@ -1,0 +1,33 @@
+{
+  "id": "197461",
+  "full_name": "Katrin LANGENSIEPEN",
+  "given_name": "Katrin",
+  "last_name": "Langensiepen",
+  "country": "Germany",
+  "national_party": "Bündnis 90/Die Grünen",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "katrin.langensiepen@europarl.europa.eu",
+  "phone": "+3222845235",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197461.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197461",
+  "committees": [
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

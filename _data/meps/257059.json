@@ -1,0 +1,38 @@
+{
+  "id": "257059",
+  "full_name": "Bruno GONÇALVES",
+  "given_name": "Bruno",
+  "last_name": "Gonçalves",
+  "country": "Portugal",
+  "national_party": "Partido Socialista",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "bruno.goncalves@europarl.europa.eu",
+  "phone": "+33388175551",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257059.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257059",
+  "committees": [
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

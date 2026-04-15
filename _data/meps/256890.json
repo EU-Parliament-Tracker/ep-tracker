@@ -1,0 +1,38 @@
+{
+  "id": "256890",
+  "full_name": "Rudi KENNES",
+  "given_name": "Rudi",
+  "last_name": "Kennes",
+  "country": "Belgium",
+  "national_party": "Independent",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "rudi.kennes@europarl.europa.eu",
+  "phone": "+3222845815",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256890.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256890",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

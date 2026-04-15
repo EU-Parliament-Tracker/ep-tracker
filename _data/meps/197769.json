@@ -1,0 +1,38 @@
+{
+  "id": "197769",
+  "full_name": "Michal WIEZIK",
+  "given_name": "Michal",
+  "last_name": "Wiezik",
+  "country": "Slovakia",
+  "national_party": "Progresívne Slovensko",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "michal.wiezik@europarl.europa.eu",
+  "phone": "+33388175751",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197769.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197769",
+  "committees": [
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

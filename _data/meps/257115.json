@@ -1,0 +1,33 @@
+{
+  "id": "257115",
+  "full_name": "Gheorghe PIPEREA",
+  "given_name": "Gheorghe",
+  "last_name": "Piperea",
+  "country": "Romania",
+  "national_party": "Alianța pentru Unirea Românilor",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "gheorghe.piperea@europarl.europa.eu",
+  "phone": "+33388175916",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257115.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257115",
+  "committees": [
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

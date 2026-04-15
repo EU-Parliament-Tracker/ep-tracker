@@ -1,0 +1,33 @@
+{
+  "id": "256959",
+  "full_name": "Alexander SELL",
+  "given_name": "Alexander",
+  "last_name": "Sell",
+  "country": "Germany",
+  "national_party": "Alternative für Deutschland",
+  "group_name": "Europe of Sovereign Nations Group",
+  "group_abbr": "ESN",
+  "email": "alexander.sell@europarl.europa.eu",
+  "phone": "+3222845877",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256959.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256959",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6624",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

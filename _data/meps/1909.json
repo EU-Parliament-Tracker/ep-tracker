@@ -1,0 +1,23 @@
+{
+  "id": "1909",
+  "full_name": "Bernd LANGE",
+  "given_name": "Bernd",
+  "last_name": "Lange",
+  "country": "Germany",
+  "national_party": "Sozialdemokratische Partei Deutschlands",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "bernd.lange@europarl.europa.eu",
+  "phone": "+3222845555",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/1909.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/1909",
+  "committees": [
+    {
+      "id": "6564",
+      "name": "",
+      "role": "CHAIR"
+    }
+  ]
+}

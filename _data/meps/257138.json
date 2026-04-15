@@ -1,0 +1,38 @@
+{
+  "id": "257138",
+  "full_name": "Giuseppe ANTOCI",
+  "given_name": "Giuseppe",
+  "last_name": "Antoci",
+  "country": "Italy",
+  "national_party": "Movimento 5 Stelle",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "giuseppe.antoci@europarl.europa.eu",
+  "phone": "",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257138.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257138",
+  "committees": [
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

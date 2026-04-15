@@ -1,0 +1,38 @@
+{
+  "id": "197573",
+  "full_name": "Kira Marie PETER-HANSEN",
+  "given_name": "Kira Marie",
+  "last_name": "Peter-Hansen",
+  "country": "Denmark",
+  "national_party": "Socialistisk Folkeparti",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "kira.peter-hansen@europarl.europa.eu",
+  "phone": "+3222845684",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197573.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197573",
+  "committees": [
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

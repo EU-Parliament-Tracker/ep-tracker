@@ -1,0 +1,28 @@
+{
+  "id": "188945",
+  "full_name": "Dennis RADTKE",
+  "given_name": "Dennis",
+  "last_name": "Radtke",
+  "country": "Germany",
+  "national_party": "Christlich Demokratische Union Deutschlands",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "dennis.radtke@europarl.europa.eu",
+  "phone": "+33388175650",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/188945.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/188945",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

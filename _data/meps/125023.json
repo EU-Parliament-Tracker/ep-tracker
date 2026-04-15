@@ -1,0 +1,38 @@
+{
+  "id": "125023",
+  "full_name": "Anja HAZEKAMP",
+  "given_name": "Anja",
+  "last_name": "Hazekamp",
+  "country": "Netherlands",
+  "national_party": "Partij voor de Dieren",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "anja.hazekamp@europarl.europa.eu",
+  "phone": "+33388175629",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/125023.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/125023",
+  "committees": [
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "206158",
+  "full_name": "Manuela RIPA",
+  "given_name": "Manuela",
+  "last_name": "Ripa",
+  "country": "Germany",
+  "national_party": "Ökologisch-Demokratische Partei",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "manuela.ripa@europarl.europa.eu",
+  "phone": "+3222845739",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/206158.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/206158",
+  "committees": [
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6625",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

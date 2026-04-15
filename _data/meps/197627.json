@@ -1,0 +1,38 @@
+{
+  "id": "197627",
+  "full_name": "Virginie JORON",
+  "given_name": "Virginie",
+  "last_name": "Joron",
+  "country": "France",
+  "national_party": "Rassemblement national",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "virginie.joron@europarl.europa.eu",
+  "phone": "+33388175440",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197627.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197627",
+  "committees": [
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

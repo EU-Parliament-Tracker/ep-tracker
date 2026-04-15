@@ -1,0 +1,28 @@
+{
+  "id": "256831",
+  "full_name": "Sophia KIRCHER",
+  "given_name": "Sophia",
+  "last_name": "Kircher",
+  "country": "Austria",
+  "national_party": "Österreichische Volkspartei",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "sophia.kircher@europarl.europa.eu",
+  "phone": "+33388175583",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256831.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256831",
+  "committees": [
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

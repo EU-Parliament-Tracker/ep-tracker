@@ -1,0 +1,38 @@
+{
+  "id": "257099",
+  "full_name": "Francesco VENTOLA",
+  "given_name": "Francesco",
+  "last_name": "Ventola",
+  "country": "Italy",
+  "national_party": "FRATELLI D' ITALIA",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "francesco.ventola@europarl.europa.eu",
+  "phone": "+3222845942",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257099.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257099",
+  "committees": [
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

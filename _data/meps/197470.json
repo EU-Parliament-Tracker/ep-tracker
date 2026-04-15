@@ -1,0 +1,33 @@
+{
+  "id": "197470",
+  "full_name": "Saskia BRICMONT",
+  "given_name": "Saskia",
+  "last_name": "Bricmont",
+  "country": "Belgium",
+  "national_party": "Ecologistes Confédérés pour l'Organisation de Luttes Originales",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "saskia.bricmont@europarl.europa.eu",
+  "phone": "+33388175403",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197470.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197470",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

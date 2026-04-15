@@ -1,0 +1,33 @@
+{
+  "id": "257145",
+  "full_name": "Daniele POLATO",
+  "given_name": "Daniele",
+  "last_name": "Polato",
+  "country": "Italy",
+  "national_party": "FRATELLI D' ITALIA",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "daniele.polato@europarl.europa.eu",
+  "phone": "+3222845917",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257145.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257145",
+  "committees": [
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

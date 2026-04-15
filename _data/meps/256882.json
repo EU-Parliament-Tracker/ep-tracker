@@ -1,0 +1,33 @@
+{
+  "id": "256882",
+  "full_name": "Julie RECHAGNEUX",
+  "given_name": "Julie",
+  "last_name": "Rechagneux",
+  "country": "France",
+  "national_party": "Rassemblement national",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "julie.rechagneux@europarl.europa.eu",
+  "phone": "+3222845459",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256882.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256882",
+  "committees": [
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

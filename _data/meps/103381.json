@@ -1,0 +1,33 @@
+{
+  "id": "103381",
+  "full_name": "Terry REINTKE",
+  "given_name": "Terry",
+  "last_name": "Reintke",
+  "country": "Germany",
+  "national_party": "Bündnis 90/Die Grünen",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "terry.reintke@europarl.europa.eu",
+  "phone": "+33388175760",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/103381.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/103381",
+  "committees": [
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

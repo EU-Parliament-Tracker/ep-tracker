@@ -1,0 +1,38 @@
+{
+  "id": "197802",
+  "full_name": "Ville NIINISTÖ",
+  "given_name": "Ville",
+  "last_name": "Niinistö",
+  "country": "Finland",
+  "national_party": "Vihreä liitto",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "ville.niinisto@europarl.europa.eu",
+  "phone": "+33388175256",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197802.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197802",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

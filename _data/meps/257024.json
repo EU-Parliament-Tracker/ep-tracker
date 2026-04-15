@@ -1,0 +1,48 @@
+{
+  "id": "257024",
+  "full_name": "Mireia BORRÁS PABÓN",
+  "given_name": "Mireia",
+  "last_name": "Borrás Pabón",
+  "country": "Spain",
+  "national_party": "VOX",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "mireia.borras@europarl.europa.eu",
+  "phone": "+33388175959",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257024.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257024",
+  "committees": [
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

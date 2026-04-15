@@ -1,0 +1,43 @@
+{
+  "id": "197831",
+  "full_name": "Hermann TERTSCH",
+  "given_name": "Hermann",
+  "last_name": "Tertsch",
+  "country": "Spain",
+  "national_party": "VOX",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "hermann.tertsch@europarl.europa.eu",
+  "phone": "+33388178655",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197831.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197831",
+  "committees": [
+    {
+      "id": "6624",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

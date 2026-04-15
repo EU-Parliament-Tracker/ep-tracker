@@ -1,0 +1,33 @@
+{
+  "id": "204336",
+  "full_name": "Miriam LEXMANN",
+  "given_name": "Miriam",
+  "last_name": "Lexmann",
+  "country": "Slovakia",
+  "national_party": "Kresťanskodemokratické hnutie",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "miriam.lexmann@europarl.europa.eu",
+  "phone": "+3222845179",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/204336.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/204336",
+  "committees": [
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "210480",
+  "full_name": "Marta TEMIDO",
+  "given_name": "Marta",
+  "last_name": "Temido",
+  "country": "Portugal",
+  "national_party": "Partido Socialista",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "marta.temido@europarl.europa.eu",
+  "phone": "+3222845223",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/210480.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/210480",
+  "committees": [
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

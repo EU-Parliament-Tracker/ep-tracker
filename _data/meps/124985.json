@@ -1,0 +1,38 @@
+{
+  "id": "124985",
+  "full_name": "Luke Ming FLANAGAN",
+  "given_name": "Luke Ming",
+  "last_name": "Flanagan",
+  "country": "Ireland",
+  "national_party": "Independent",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "lukeming.flanagan@europarl.europa.eu",
+  "phone": "+33388175238",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124985.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124985",
+  "committees": [
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

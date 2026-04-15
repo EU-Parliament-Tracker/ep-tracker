@@ -1,0 +1,38 @@
+{
+  "id": "256994",
+  "full_name": "Idoia MENDIA",
+  "given_name": "Idoia",
+  "last_name": "Mendia",
+  "country": "Spain",
+  "national_party": "Partido Socialista Obrero Español",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "idoia.mendia@europarl.europa.eu",
+  "phone": "+3222845674",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256994.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256994",
+  "committees": [
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

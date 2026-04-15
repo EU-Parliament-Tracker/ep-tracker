@@ -1,0 +1,53 @@
+{
+  "id": "257114",
+  "full_name": "Claudiu-Richard TÂRZIU",
+  "given_name": "Claudiu-Richard",
+  "last_name": "Târziu",
+  "country": "Romania",
+  "national_party": "Partidul Acțiunea Conservatoare",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "claudiu-richard.tarziu@europarl.europa.eu",
+  "phone": "+3222845929",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257114.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257114",
+  "committees": [
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

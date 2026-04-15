@@ -1,0 +1,38 @@
+{
+  "id": "257041",
+  "full_name": "Jacek PROTAS",
+  "given_name": "Jacek",
+  "last_name": "Protas",
+  "country": "Poland",
+  "national_party": "Platforma Obywatelska",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "jacek.protas@europarl.europa.eu",
+  "phone": "+33388175720",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257041.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257041",
+  "committees": [
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6628",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

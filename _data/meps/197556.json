@@ -1,0 +1,38 @@
+{
+  "id": "197556",
+  "full_name": "Ivan DAVID",
+  "given_name": "Ivan",
+  "last_name": "David",
+  "country": "Czechia",
+  "national_party": "Svoboda a přímá demokracie",
+  "group_name": "Europe of Sovereign Nations Group",
+  "group_abbr": "ESN",
+  "email": "ivan.david@europarl.europa.eu",
+  "phone": "+33388175712",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197556.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197556",
+  "committees": [
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6626",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

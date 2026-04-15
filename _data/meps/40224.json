@@ -1,0 +1,48 @@
+{
+  "id": "40224",
+  "full_name": "Andi CRISTEA",
+  "given_name": "Andi",
+  "last_name": "Cristea",
+  "country": "Romania",
+  "national_party": "Partidul Social Democrat",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "andi.cristea@europarl.europa.eu",
+  "phone": "+33388175677",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/40224.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/40224",
+  "committees": [
+    {
+      "id": "6628",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

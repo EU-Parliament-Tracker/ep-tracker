@@ -1,0 +1,28 @@
+{
+  "id": "197473",
+  "full_name": "Christian DOLESCHAL",
+  "given_name": "Christian",
+  "last_name": "Doleschal",
+  "country": "Germany",
+  "national_party": "Christlich-Soziale Union in Bayern e.V.",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "christian.doleschal@europarl.europa.eu",
+  "phone": "+3222845288",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197473.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197473",
+  "committees": [
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

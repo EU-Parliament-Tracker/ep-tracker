@@ -1,0 +1,38 @@
+{
+  "id": "98582",
+  "full_name": "Loránt VINCZE",
+  "given_name": "Loránt",
+  "last_name": "Vincze",
+  "country": "Romania",
+  "national_party": "Uniunea Democrată Maghiară din România",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "lorant.vincze@europarl.europa.eu",
+  "phone": "+33388175608",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/98582.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/98582",
+  "committees": [
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

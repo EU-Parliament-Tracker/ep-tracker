@@ -1,0 +1,38 @@
+{
+  "id": "127766",
+  "full_name": "Jussi SARAMO",
+  "given_name": "Jussi",
+  "last_name": "Saramo",
+  "country": "Finland",
+  "national_party": "Vasemmistoliitto",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "jussi.saramo@europarl.europa.eu",
+  "phone": "+3222845910",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/127766.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/127766",
+  "committees": [
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

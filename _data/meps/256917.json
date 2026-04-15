@@ -1,0 +1,33 @@
+{
+  "id": "256917",
+  "full_name": "Majdouline SBAI",
+  "given_name": "Majdouline",
+  "last_name": "Sbai",
+  "country": "France",
+  "national_party": "Les Écologistes",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "majdouline.sbai@europarl.europa.eu",
+  "phone": "+3222845468",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256917.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256917",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

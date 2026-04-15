@@ -1,0 +1,33 @@
+{
+  "id": "256907",
+  "full_name": "Reinis POZŅAKS",
+  "given_name": "Reinis",
+  "last_name": "Pozņaks",
+  "country": "Latvia",
+  "national_party": "Apvienotais saraksts — Latvijas Zaļā partija, Latvijas Reģionu Apvienība, Liepājas partija",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "reinis.poznaks@europarl.europa.eu",
+  "phone": "+33388175919",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256907.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256907",
+  "committees": [
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "124807",
+  "full_name": "Jens GIESEKE",
+  "given_name": "Jens",
+  "last_name": "Gieseke",
+  "country": "Germany",
+  "national_party": "Christlich Demokratische Union Deutschlands",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "jens.gieseke@europarl.europa.eu",
+  "phone": "+33388175556",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124807.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124807",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6624",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

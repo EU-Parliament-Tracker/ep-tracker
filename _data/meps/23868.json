@@ -1,0 +1,33 @@
+{
+  "id": "23868",
+  "full_name": "Monika BEŇOVÁ",
+  "given_name": "Monika",
+  "last_name": "Beňová",
+  "country": "Slovakia",
+  "national_party": "SMER-Sociálna demokracia",
+  "group_name": "Non-attached Members",
+  "group_abbr": "NI",
+  "email": "monika.benova@europarl.europa.eu",
+  "phone": "+33388175160",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/23868.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/23868",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

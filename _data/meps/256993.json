@@ -1,0 +1,38 @@
+{
+  "id": "256993",
+  "full_name": "Leire PAJÍN",
+  "given_name": "Leire",
+  "last_name": "Pajín",
+  "country": "Spain",
+  "national_party": "Partido Socialista Obrero Español",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "leire.pajiniraola@europarl.europa.eu",
+  "phone": "+3222845957",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256993.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256993",
+  "committees": [
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "257040",
+  "full_name": "Nicolás PASCUAL DE LA PARTE",
+  "given_name": "Nicolás",
+  "last_name": "Pascual de la Parte",
+  "country": "Spain",
+  "national_party": "Partido Popular",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "nicolas.pascualdelaparte@europarl.europa.eu",
+  "phone": "+33388175876",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257040.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257040",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

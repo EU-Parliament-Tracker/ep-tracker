@@ -1,0 +1,38 @@
+{
+  "id": "257020",
+  "full_name": "Stine BOSSE",
+  "given_name": "Stine",
+  "last_name": "Bosse",
+  "country": "Denmark",
+  "national_party": "Moderaterne",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "stine.bosse@europarl.europa.eu",
+  "phone": "+33388175221",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257020.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257020",
+  "committees": [
+    {
+      "id": "6621",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

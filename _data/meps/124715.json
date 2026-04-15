@@ -1,0 +1,38 @@
+{
+  "id": "124715",
+  "full_name": "György HÖLVÉNYI",
+  "given_name": "György",
+  "last_name": "Hölvényi",
+  "country": "Hungary",
+  "national_party": "Kereszténydemokrata Néppárt",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "gyorgy.holvenyi@europarl.europa.eu",
+  "phone": "+33388175197",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124715.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124715",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

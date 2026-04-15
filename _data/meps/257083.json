@@ -1,0 +1,38 @@
+{
+  "id": "257083",
+  "full_name": "João OLIVEIRA",
+  "given_name": "João",
+  "last_name": "Oliveira",
+  "country": "Portugal",
+  "national_party": "Partido Comunista Português",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "joao.oliveira@europarl.europa.eu",
+  "phone": "+3222845899",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257083.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257083",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "99878",
+  "full_name": "Waldemar BUDA",
+  "given_name": "Waldemar",
+  "last_name": "Buda",
+  "country": "Poland",
+  "national_party": "Prawo i Sprawiedliwość",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "waldemar.buda@europarl.europa.eu",
+  "phone": "+33388175383",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/99878.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/99878",
+  "committees": [
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

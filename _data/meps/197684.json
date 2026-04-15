@@ -1,0 +1,38 @@
+{
+  "id": "197684",
+  "full_name": "Pernando BARRENA ARZA",
+  "given_name": "Pernando",
+  "last_name": "Barrena Arza",
+  "country": "Spain",
+  "national_party": "EH BILDU",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "pernando.barrena@europarl.europa.eu",
+  "phone": "+33388175580",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197684.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197684",
+  "committees": [
+    {
+      "id": "6623",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

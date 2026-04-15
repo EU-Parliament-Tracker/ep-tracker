@@ -1,0 +1,33 @@
+{
+  "id": "257297",
+  "full_name": "Barry COWEN",
+  "given_name": "Barry",
+  "last_name": "Cowen",
+  "country": "Ireland",
+  "national_party": "Fianna Fáil Party",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "barry.cowen@europarl.europa.eu",
+  "phone": "+33388175291",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257297.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257297",
+  "committees": [
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "185341",
+  "full_name": "Željana ZOVKO",
+  "given_name": "Željana",
+  "last_name": "Zovko",
+  "country": "Croatia",
+  "national_party": "Hrvatska demokratska zajednica",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "zeljana.zovko@europarl.europa.eu",
+  "phone": "+33388175579",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/185341.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/185341",
+  "committees": [
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

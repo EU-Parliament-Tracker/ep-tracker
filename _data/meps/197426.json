@@ -1,0 +1,28 @@
+{
+  "id": "197426",
+  "full_name": "Sven SIMON",
+  "given_name": "Sven",
+  "last_name": "Simon",
+  "country": "Germany",
+  "national_party": "Christlich Demokratische Union Deutschlands",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "sven.simon@europarl.europa.eu",
+  "phone": "+33388175317",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197426.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197426",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "CHAIR"
+    }
+  ]
+}

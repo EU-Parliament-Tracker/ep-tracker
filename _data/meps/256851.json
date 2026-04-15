@@ -1,0 +1,28 @@
+{
+  "id": "256851",
+  "full_name": "Ondřej DOSTÁL",
+  "given_name": "Ondřej",
+  "last_name": "Dostál",
+  "country": "Czechia",
+  "national_party": "Independent",
+  "group_name": "Non-attached Members",
+  "group_abbr": "NI",
+  "email": "ondrej.dostal@europarl.europa.eu",
+  "phone": "+33388175591",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256851.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256851",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

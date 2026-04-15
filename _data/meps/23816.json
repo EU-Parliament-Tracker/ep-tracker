@@ -1,0 +1,33 @@
+{
+  "id": "23816",
+  "full_name": "András GYÜRK",
+  "given_name": "András",
+  "last_name": "Gyürk",
+  "country": "Hungary",
+  "national_party": "Fidesz-Magyar Polgári Szövetség-Kereszténydemokrata Néppárt",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "andras.gyurk@europarl.europa.eu",
+  "phone": "+3222845727",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/23816.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/23816",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6623",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

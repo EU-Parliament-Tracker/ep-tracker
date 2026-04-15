@@ -1,0 +1,38 @@
+{
+  "id": "130881",
+  "full_name": "Mieke ANDRIESE",
+  "given_name": "Mieke",
+  "last_name": "Andriese",
+  "country": "Netherlands",
+  "national_party": "Partij voor de Vrijheid",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "mieke.andriese@europarl.europa.eu",
+  "phone": "+3222845495",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/130881.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/130881",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

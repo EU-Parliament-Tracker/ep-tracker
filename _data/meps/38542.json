@@ -1,0 +1,38 @@
+{
+  "id": "38542",
+  "full_name": "Johan DANIELSSON",
+  "given_name": "Johan",
+  "last_name": "Danielsson",
+  "country": "Sweden",
+  "national_party": "Arbetarepartiet- Socialdemokraterna",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "johan.danielsson@europarl.europa.eu",
+  "phone": "+3222845433",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/38542.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/38542",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

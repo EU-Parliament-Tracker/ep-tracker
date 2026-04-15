@@ -1,0 +1,33 @@
+{
+  "id": "256977",
+  "full_name": "Andrea WECHSLER",
+  "given_name": "Andrea",
+  "last_name": "Wechsler",
+  "country": "Germany",
+  "national_party": "Christlich Demokratische Union Deutschlands",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "andrea.wechsler@europarl.europa.eu",
+  "phone": "+33388175859",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256977.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256977",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

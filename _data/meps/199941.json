@@ -1,0 +1,33 @@
+{
+  "id": "199941",
+  "full_name": "Marianne VIND",
+  "given_name": "Marianne",
+  "last_name": "Vind",
+  "country": "Denmark",
+  "national_party": "Socialdemokratiet",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "marianne.vind@europarl.europa.eu",
+  "phone": "+33388175463",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/199941.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/199941",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

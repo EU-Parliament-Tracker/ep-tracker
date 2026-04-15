@@ -1,0 +1,33 @@
+{
+  "id": "197491",
+  "full_name": "Marina KALJURAND",
+  "given_name": "Marina",
+  "last_name": "Kaljurand",
+  "country": "Estonia",
+  "national_party": "Sotsiaaldemokraatlik Erakond",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "marina.kaljurand@europarl.europa.eu",
+  "phone": "+33388175394",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197491.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197491",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "257119",
+  "full_name": "Şerban Dimitrie STURDZA",
+  "given_name": "Şerban Dimitrie",
+  "last_name": "Sturdza",
+  "country": "Romania",
+  "national_party": "Partidul Acțiunea Conservatoare",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "serban.dimitrie.sturdza@europarl.europa.eu",
+  "phone": "+33388175927",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257119.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257119",
+  "committees": [
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

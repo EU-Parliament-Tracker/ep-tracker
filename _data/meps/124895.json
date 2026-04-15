@@ -1,0 +1,33 @@
+{
+  "id": "124895",
+  "full_name": "Krzysztof HETMAN",
+  "given_name": "Krzysztof",
+  "last_name": "Hetman",
+  "country": "Poland",
+  "national_party": "Polskie Stronnictwo Ludowe",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "krzysztof.hetman@europarl.europa.eu",
+  "phone": "+33388175512",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124895.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124895",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

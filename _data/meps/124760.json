@@ -1,0 +1,33 @@
+{
+  "id": "124760",
+  "full_name": "Nicolas BAY",
+  "given_name": "Nicolas",
+  "last_name": "Bay",
+  "country": "France",
+  "national_party": "Identité Libertés",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "nicolas.bay@europarl.europa.eu",
+  "phone": "+33388175848",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124760.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124760",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6625",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "23781",
+  "full_name": "Janusz LEWANDOWSKI",
+  "given_name": "Janusz",
+  "last_name": "Lewandowski",
+  "country": "Poland",
+  "national_party": "Platforma Obywatelska",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "janusz.lewandowski@europarl.europa.eu",
+  "phone": "+3222845242",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/23781.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/23781",
+  "committees": [
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

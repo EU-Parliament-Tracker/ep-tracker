@@ -1,0 +1,38 @@
+{
+  "id": "197711",
+  "full_name": "Dolors MONTSERRAT",
+  "given_name": "Dolors",
+  "last_name": "Montserrat",
+  "country": "Spain",
+  "national_party": "Partido Popular",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "d.montserrat@europarl.europa.eu",
+  "phone": "+3222845795",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197711.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197711",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

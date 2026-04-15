@@ -1,0 +1,43 @@
+{
+  "id": "197545",
+  "full_name": "Bogdan RZOŃCA",
+  "given_name": "Bogdan",
+  "last_name": "Rzońca",
+  "country": "Poland",
+  "national_party": "Prawo i Sprawiedliwość",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "bogdan.rzonca@europarl.europa.eu",
+  "phone": "+3222845124",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197545.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197545",
+  "committees": [
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "CHAIR"
+    },
+    {
+      "id": "6621",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6626",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "256955",
+  "full_name": "Maria ZACHARIA",
+  "given_name": "Maria",
+  "last_name": "Zacharia",
+  "country": "Greece",
+  "national_party": "Plefsi Eleftherias",
+  "group_name": "Non-attached Members",
+  "group_abbr": "NI",
+  "email": "maria.zacharia@europarl.europa.eu",
+  "phone": "+3222845894",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256955.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256955",
+  "committees": [
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6621",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

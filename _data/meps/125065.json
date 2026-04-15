@@ -1,0 +1,38 @@
+{
+  "id": "125065",
+  "full_name": "Elissavet VOZEMBERG-VRIONIDI",
+  "given_name": "Elissavet",
+  "last_name": "Vozemberg-Vrionidi",
+  "country": "Greece",
+  "national_party": "Nea Demokratia",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "elissavet.vozemberg@europarl.europa.eu",
+  "phone": "+3222845232",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/125065.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/125065",
+  "committees": [
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "CHAIR"
+    }
+  ]
+}

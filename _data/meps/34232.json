@@ -1,0 +1,48 @@
+{
+  "id": "34232",
+  "full_name": "Kristian VIGENIN",
+  "given_name": "Kristian",
+  "last_name": "Vigenin",
+  "country": "Bulgaria",
+  "national_party": "Bulgarian Socialist Party",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "kristian.vigenin@europarl.europa.eu",
+  "phone": "+33388175249",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/34232.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/34232",
+  "committees": [
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6621",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "124799",
+  "full_name": "Alessandra MORETTI",
+  "given_name": "Alessandra",
+  "last_name": "Moretti",
+  "country": "Italy",
+  "national_party": "Partito Democratico",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "alessandra.moretti@europarl.europa.eu",
+  "phone": "+3222845139",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124799.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124799",
+  "committees": [
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6626",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

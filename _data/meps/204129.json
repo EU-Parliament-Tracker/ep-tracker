@@ -1,0 +1,38 @@
+{
+  "id": "204129",
+  "full_name": "Nikolina BRNJAC",
+  "given_name": "Nikolina",
+  "last_name": "Brnjac",
+  "country": "Croatia",
+  "national_party": "Hrvatska demokratska zajednica",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "nikolina.brnjac@europarl.europa.eu",
+  "phone": "+33388175207",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/204129.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/204129",
+  "committees": [
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

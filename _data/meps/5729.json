@@ -1,0 +1,38 @@
+{
+  "id": "5729",
+  "full_name": "Kathleen VAN BREMPT",
+  "given_name": "Kathleen",
+  "last_name": "Van Brempt",
+  "country": "Belgium",
+  "national_party": "Vooruit",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "kathleen.vanbrempt@europarl.europa.eu",
+  "phone": "+33388175447",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/5729.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/5729",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

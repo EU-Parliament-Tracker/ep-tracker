@@ -1,0 +1,33 @@
+{
+  "id": "95074",
+  "full_name": "Jeroen LENAERS",
+  "given_name": "Jeroen",
+  "last_name": "Lenaers",
+  "country": "Netherlands",
+  "national_party": "Christen Democratisch Appèl",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "jeroen.lenaers@europarl.europa.eu",
+  "phone": "+33388175560",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/95074.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/95074",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

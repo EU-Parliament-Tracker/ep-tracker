@@ -1,0 +1,38 @@
+{
+  "id": "257098",
+  "full_name": "Gabriela FIREA",
+  "given_name": "Gabriela",
+  "last_name": "Firea",
+  "country": "Romania",
+  "national_party": "Partidul Social Democrat",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "gabriela.firea@europarl.europa.eu",
+  "phone": "+33388175470",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257098.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257098",
+  "committees": [
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

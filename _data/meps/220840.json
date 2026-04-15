@@ -1,0 +1,38 @@
+{
+  "id": "220840",
+  "full_name": "Jaroslav BŽOCH",
+  "given_name": "Jaroslav",
+  "last_name": "Bžoch",
+  "country": "Czechia",
+  "national_party": "ANO 2011",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "jaroslav.bzoch@europarl.europa.eu",
+  "phone": "+33388175502",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/220840.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/220840",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

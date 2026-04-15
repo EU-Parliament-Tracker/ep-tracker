@@ -1,0 +1,38 @@
+{
+  "id": "124861",
+  "full_name": "Caterina CHINNICI",
+  "given_name": "Caterina",
+  "last_name": "Chinnici",
+  "country": "Italy",
+  "national_party": "Forza Italia",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "caterina.chinnici@europarl.europa.eu",
+  "phone": "+3222845387",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124861.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124861",
+  "committees": [
+    {
+      "id": "6568",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6624",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

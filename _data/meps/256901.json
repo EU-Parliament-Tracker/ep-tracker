@@ -1,0 +1,38 @@
+{
+  "id": "256901",
+  "full_name": "Jean-Marc GERMAIN",
+  "given_name": "Jean-Marc",
+  "last_name": "Germain",
+  "country": "France",
+  "national_party": "Parti socialiste",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "jean-marc.germain@europarl.europa.eu",
+  "phone": "+33388175479",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256901.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256901",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6623",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "4395",
+  "full_name": "Mario MANTOVANI",
+  "given_name": "Mario",
+  "last_name": "Mantovani",
+  "country": "Italy",
+  "national_party": "FRATELLI D' ITALIA",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "mario.mantovani@europarl.europa.eu",
+  "phone": "+33388175697",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/4395.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/4395",
+  "committees": [
+    {
+      "id": "6627",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "197549",
+  "full_name": "Markéta GREGOROVÁ",
+  "given_name": "Markéta",
+  "last_name": "Gregorová",
+  "country": "Czechia",
+  "national_party": "PIRÁTI",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "marketa.gregorova@europarl.europa.eu",
+  "phone": "+3222845334",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197549.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197549",
+  "committees": [
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

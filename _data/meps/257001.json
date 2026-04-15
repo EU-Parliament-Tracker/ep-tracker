@@ -1,0 +1,33 @@
+{
+  "id": "257001",
+  "full_name": "Elena SANCHO MURILLO",
+  "given_name": "Elena",
+  "last_name": "Sancho Murillo",
+  "country": "Spain",
+  "national_party": "Partido Socialista Obrero Español",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "elena.sanchomurillo@europarl.europa.eu",
+  "phone": "+33388175868",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257001.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257001",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

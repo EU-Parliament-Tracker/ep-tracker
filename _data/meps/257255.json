@@ -1,0 +1,33 @@
+{
+  "id": "257255",
+  "full_name": "Stanislav STOYANOV",
+  "given_name": "Stanislav",
+  "last_name": "Stoyanov",
+  "country": "Bulgaria",
+  "national_party": "Revival",
+  "group_name": "Europe of Sovereign Nations Group",
+  "group_abbr": "ESN",
+  "email": "stanislav.stoyanov@europarl.europa.eu",
+  "phone": "+3222845880",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257255.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257255",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

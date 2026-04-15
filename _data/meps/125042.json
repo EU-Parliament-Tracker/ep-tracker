@@ -1,0 +1,38 @@
+{
+  "id": "125042",
+  "full_name": "Javi LÓPEZ",
+  "given_name": "Javi",
+  "last_name": "López",
+  "country": "Spain",
+  "national_party": "Partit dels Socialistes de Catalunya (PSC-PSOE)",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "javi.lopez@europarl.europa.eu",
+  "phone": "+3222845625",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/125042.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/125042",
+  "committees": [
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6623",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

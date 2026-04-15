@@ -1,0 +1,43 @@
+{
+  "id": "257147",
+  "full_name": "Alessandro CIRIANI",
+  "given_name": "Alessandro",
+  "last_name": "Ciriani",
+  "country": "Italy",
+  "national_party": "FRATELLI D' ITALIA",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "alessandro.ciriani@europarl.europa.eu",
+  "phone": "+3222845441",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257147.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257147",
+  "committees": [
+    {
+      "id": "6628",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6626",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "96933",
+  "full_name": "Milan ZVER",
+  "given_name": "Milan",
+  "last_name": "Zver",
+  "country": "Slovenia",
+  "national_party": "Slovenska demokratska stranka",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "milan.zver@europarl.europa.eu",
+  "phone": "+33388175315",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/96933.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/96933",
+  "committees": [
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6626",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

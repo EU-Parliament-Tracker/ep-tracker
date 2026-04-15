@@ -1,0 +1,28 @@
+{
+  "id": "270719",
+  "full_name": "Martin GÜNTHER",
+  "given_name": "Martin",
+  "last_name": "Günther",
+  "country": "Germany",
+  "national_party": "DIE LINKE.",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "martin.guenther@europarl.europa.eu",
+  "phone": "+33388175906",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/270719.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/270719",
+  "committees": [
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

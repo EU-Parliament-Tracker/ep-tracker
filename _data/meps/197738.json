@@ -1,0 +1,38 @@
+{
+  "id": "197738",
+  "full_name": "Lídia PEREIRA",
+  "given_name": "Lídia",
+  "last_name": "Pereira",
+  "country": "Portugal",
+  "national_party": "Partido Social Democrata",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "lidia.pereira@europarl.europa.eu",
+  "phone": "+3222845794",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197738.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197738",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

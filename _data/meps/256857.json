@@ -1,0 +1,38 @@
+{
+  "id": "256857",
+  "full_name": "Viktória FERENC",
+  "given_name": "Viktória",
+  "last_name": "Ferenc",
+  "country": "Hungary",
+  "national_party": "Fidesz-Magyar Polgári Szövetség-Kereszténydemokrata Néppárt",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "viktoria.ferenc@europarl.europa.eu",
+  "phone": "+3222845742",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256857.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256857",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

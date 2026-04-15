@@ -1,0 +1,33 @@
+{
+  "id": "256900",
+  "full_name": "Fernand KARTHEISER",
+  "given_name": "Fernand",
+  "last_name": "Kartheiser",
+  "country": "Luxembourg",
+  "national_party": "Alternativ Demokratesch Reformpartei",
+  "group_name": "Non-attached Members",
+  "group_abbr": "NI",
+  "email": "fernand.kartheiser@europarl.europa.eu",
+  "phone": "+33388175636",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256900.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256900",
+  "committees": [
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

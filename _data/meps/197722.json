@@ -1,0 +1,38 @@
+{
+  "id": "197722",
+  "full_name": "Nacho SÁNCHEZ AMOR",
+  "given_name": "Nacho",
+  "last_name": "Sánchez Amor",
+  "country": "Spain",
+  "national_party": "Partido Socialista Obrero Español",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "nacho.sanchezamor@europarl.europa.eu",
+  "phone": "+33388175862",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197722.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197722",
+  "committees": [
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

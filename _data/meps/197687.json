@@ -1,0 +1,28 @@
+{
+  "id": "197687",
+  "full_name": "Philippe OLIVIER",
+  "given_name": "Philippe",
+  "last_name": "Olivier",
+  "country": "France",
+  "national_party": "Rassemblement national",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "philippe.olivier@europarl.europa.eu",
+  "phone": "+33388175638",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197687.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197687",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

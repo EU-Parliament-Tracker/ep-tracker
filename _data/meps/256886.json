@@ -1,0 +1,33 @@
+{
+  "id": "256886",
+  "full_name": "Valérie DELOGE",
+  "given_name": "Valérie",
+  "last_name": "Deloge",
+  "country": "France",
+  "national_party": "Rassemblement national",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "valerie.deloge@europarl.europa.eu",
+  "phone": "+33388175584",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256886.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256886",
+  "committees": [
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

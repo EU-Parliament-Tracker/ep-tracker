@@ -1,0 +1,38 @@
+{
+  "id": "257140",
+  "full_name": "Carolina MORACE",
+  "given_name": "Carolina",
+  "last_name": "Morace",
+  "country": "Italy",
+  "national_party": "Movimento 5 Stelle",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "carolina.morace@europarl.europa.eu",
+  "phone": "+3222845898",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257140.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257140",
+  "committees": [
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6625",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "257301",
+  "full_name": "Cynthia NÍ MHURCHÚ",
+  "given_name": "Cynthia",
+  "last_name": "Ní Mhurchú",
+  "country": "Ireland",
+  "national_party": "Fianna Fáil Party",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "cynthia.nimhurchu@europarl.europa.eu",
+  "phone": "+33388175561",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257301.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257301",
+  "committees": [
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

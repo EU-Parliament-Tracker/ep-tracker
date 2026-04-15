@@ -1,0 +1,33 @@
+{
+  "id": "99945",
+  "full_name": "Lena DÜPONT",
+  "given_name": "Lena",
+  "last_name": "Düpont",
+  "country": "Germany",
+  "national_party": "Christlich Demokratische Union Deutschlands",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "lena.duepont@europarl.europa.eu",
+  "phone": "+3222845319",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/99945.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/99945",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

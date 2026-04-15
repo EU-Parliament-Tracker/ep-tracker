@@ -1,0 +1,38 @@
+{
+  "id": "257124",
+  "full_name": "Giuseppe LUPO",
+  "given_name": "Giuseppe",
+  "last_name": "Lupo",
+  "country": "Italy",
+  "national_party": "Partito Democratico",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "giuseppe.lupo@europarl.europa.eu",
+  "phone": "+3222845635",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257124.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257124",
+  "committees": [
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "257046",
+  "full_name": "Marta WCISŁO",
+  "given_name": "Marta",
+  "last_name": "Wcisło",
+  "country": "Poland",
+  "national_party": "Platforma Obywatelska",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "marta.wcislo@europarl.europa.eu",
+  "phone": "+33388175855",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257046.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257046",
+  "committees": [
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

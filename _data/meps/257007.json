@@ -1,0 +1,28 @@
+{
+  "id": "257007",
+  "full_name": "Erik KALIŇÁK",
+  "given_name": "Erik",
+  "last_name": "Kaliňák",
+  "country": "Slovakia",
+  "national_party": "SMER-Sociálna demokracia",
+  "group_name": "Non-attached Members",
+  "group_abbr": "NI",
+  "email": "erik.kalinak@europarl.europa.eu",
+  "phone": "+3222845806",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257007.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257007",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

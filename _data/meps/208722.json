@@ -1,0 +1,33 @@
+{
+  "id": "208722",
+  "full_name": "Sara MATTHIEU",
+  "given_name": "Sara",
+  "last_name": "Matthieu",
+  "country": "Belgium",
+  "national_party": "Groen",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "sara.matthieu@europarl.europa.eu",
+  "phone": "+33388175237",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/208722.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/208722",
+  "committees": [
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

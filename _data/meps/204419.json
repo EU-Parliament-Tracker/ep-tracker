@@ -1,0 +1,43 @@
+{
+  "id": "204419",
+  "full_name": "Sandro GOZI",
+  "given_name": "Sandro",
+  "last_name": "Gozi",
+  "country": "France",
+  "national_party": "Mouvement Démocrate",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "sandro.gozi@europarl.europa.eu",
+  "phone": "+33388175173",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/204419.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/204419",
+  "committees": [
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "CHAIR"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "198490",
+  "full_name": "Emmanouil FRAGKOS",
+  "given_name": "Emmanouil",
+  "last_name": "Fragkos",
+  "country": "Greece",
+  "national_party": "Elliniki Lusi-Greek Solution",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "emmanouil.fragkos@europarl.europa.eu",
+  "phone": "+33388175870",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/198490.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/198490",
+  "committees": [
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6625",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6582",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

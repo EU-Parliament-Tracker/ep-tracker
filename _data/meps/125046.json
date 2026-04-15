@@ -1,0 +1,33 @@
+{
+  "id": "125046",
+  "full_name": "Jonás FERNÁNDEZ",
+  "given_name": "Jonás",
+  "last_name": "Fernández",
+  "country": "Spain",
+  "national_party": "Partido Socialista Obrero Español",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "jonas.fernandezalvarez@europarl.europa.eu",
+  "phone": "+3222845174",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/125046.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/125046",
+  "committees": [
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

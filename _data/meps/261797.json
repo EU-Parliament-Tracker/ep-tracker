@@ -1,0 +1,38 @@
+{
+  "id": "261797",
+  "full_name": "Christophe BAY",
+  "given_name": "Christophe",
+  "last_name": "Bay",
+  "country": "France",
+  "national_party": "Rassemblement national",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "christophe.bay@europarl.europa.eu",
+  "phone": "+33388175729",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/261797.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/261797",
+  "committees": [
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

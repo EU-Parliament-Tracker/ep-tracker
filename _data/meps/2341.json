@@ -1,0 +1,33 @@
+{
+  "id": "2341",
+  "full_name": "Michael GAHLER",
+  "given_name": "Michael",
+  "last_name": "Gahler",
+  "country": "Germany",
+  "national_party": "Christlich Demokratische Union Deutschlands",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "michael.gahler@europarl.europa.eu",
+  "phone": "+3222845977",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/2341.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/2341",
+  "committees": [
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

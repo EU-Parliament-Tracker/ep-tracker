@@ -1,0 +1,43 @@
+{
+  "id": "96812",
+  "full_name": "Juan Fernando LÓPEZ AGUILAR",
+  "given_name": "Juan Fernando",
+  "last_name": "López Aguilar",
+  "country": "Spain",
+  "national_party": "Partido Socialista Obrero Español",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "juanfernando.lopezaguilar@europarl.europa.eu",
+  "phone": "+3222845336",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/96812.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/96812",
+  "committees": [
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6625",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

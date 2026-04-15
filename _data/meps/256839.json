@@ -1,0 +1,38 @@
+{
+  "id": "256839",
+  "full_name": "Anna STÜRGKH",
+  "given_name": "Anna",
+  "last_name": "Stürgkh",
+  "country": "Austria",
+  "national_party": "NEOS – Das Neue Österreich",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "anna.sturgkh@europarl.europa.eu",
+  "phone": "+33388175683",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256839.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256839",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

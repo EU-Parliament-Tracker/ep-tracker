@@ -1,0 +1,33 @@
+{
+  "id": "257097",
+  "full_name": "Alberico GAMBINO",
+  "given_name": "Alberico",
+  "last_name": "Gambino",
+  "country": "Italy",
+  "national_party": "FRATELLI D' ITALIA",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "alberico.gambino@europarl.europa.eu",
+  "phone": "+3222845562",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257097.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257097",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "197770",
+  "full_name": "Martin HOJSÍK",
+  "given_name": "Martin",
+  "last_name": "Hojsík",
+  "country": "Slovakia",
+  "national_party": "Progresívne Slovensko",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "martin.hojsik@europarl.europa.eu",
+  "phone": "+33388175891",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197770.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197770",
+  "committees": [
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

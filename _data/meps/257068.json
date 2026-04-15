@@ -1,0 +1,33 @@
+{
+  "id": "257068",
+  "full_name": "Hélder SOUSA SILVA",
+  "given_name": "Hélder",
+  "last_name": "Sousa Silva",
+  "country": "Portugal",
+  "national_party": "Partido Social Democrata",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "helder.sousasilva@europarl.europa.eu",
+  "phone": "+33388175770",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257068.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257068",
+  "committees": [
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "38511",
+  "full_name": "Georg MAYER",
+  "given_name": "Georg",
+  "last_name": "Mayer",
+  "country": "Austria",
+  "national_party": "Freiheitliche Partei Österreichs",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "georg.mayer@europarl.europa.eu",
+  "phone": "+33388175277",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/38511.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/38511",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

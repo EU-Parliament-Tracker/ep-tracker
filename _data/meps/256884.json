@@ -1,0 +1,33 @@
+{
+  "id": "256884",
+  "full_name": "Kris VAN DIJCK",
+  "given_name": "Kris",
+  "last_name": "Van Dijck",
+  "country": "Belgium",
+  "national_party": "Nieuw-Vlaamse Alliantie",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "kris.vandijck@europarl.europa.eu",
+  "phone": "+3222845941",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256884.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256884",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

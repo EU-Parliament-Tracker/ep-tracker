@@ -1,0 +1,33 @@
+{
+  "id": "257015",
+  "full_name": "Jaume ASENS LLODRÀ",
+  "given_name": "Jaume",
+  "last_name": "Asens Llodrà",
+  "country": "Spain",
+  "national_party": "Comuns",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "jaume.asens@europarl.europa.eu",
+  "phone": "+33388175220",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257015.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257015",
+  "committees": [
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

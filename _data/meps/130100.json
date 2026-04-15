@@ -1,0 +1,38 @@
+{
+  "id": "130100",
+  "full_name": "Hilde VAUTMANS",
+  "given_name": "Hilde",
+  "last_name": "Vautmans",
+  "country": "Belgium",
+  "national_party": "Anders",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "hilde.vautmans@europarl.europa.eu",
+  "phone": "+33388175661",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/130100.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/130100",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

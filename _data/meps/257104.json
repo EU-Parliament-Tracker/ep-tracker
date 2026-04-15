@@ -1,0 +1,33 @@
+{
+  "id": "257104",
+  "full_name": "Ruggero RAZZA",
+  "given_name": "Ruggero",
+  "last_name": "Razza",
+  "country": "Italy",
+  "national_party": "FRATELLI D' ITALIA",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "ruggero.razza@europarl.europa.eu",
+  "phone": "+33388175921",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257104.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257104",
+  "committees": [
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6622",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

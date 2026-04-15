@@ -1,0 +1,28 @@
+{
+  "id": "257047",
+  "full_name": "Borys BUDKA",
+  "given_name": "Borys",
+  "last_name": "Budka",
+  "country": "Poland",
+  "national_party": "Platforma Obywatelska",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "borys.budka@europarl.europa.eu",
+  "phone": "+3222845210",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257047.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257047",
+  "committees": [
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "CHAIR"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "257060",
+  "full_name": "Arkadiusz MULARCZYK",
+  "given_name": "Arkadiusz",
+  "last_name": "Mularczyk",
+  "country": "Poland",
+  "national_party": "Prawo i Sprawiedliwość",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "arkadiusz.mularczyk@europarl.europa.eu",
+  "phone": "+33388175963",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257060.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257060",
+  "committees": [
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

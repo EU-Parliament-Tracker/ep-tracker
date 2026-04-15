@@ -1,0 +1,33 @@
+{
+  "id": "256962",
+  "full_name": "Joachim STREIT",
+  "given_name": "Joachim",
+  "last_name": "Streit",
+  "country": "Germany",
+  "national_party": "Freie Wähler",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "joachim.streit@europarl.europa.eu",
+  "phone": "+3222845614",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256962.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256962",
+  "committees": [
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

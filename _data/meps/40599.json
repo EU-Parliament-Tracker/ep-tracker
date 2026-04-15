@@ -1,0 +1,38 @@
+{
+  "id": "40599",
+  "full_name": "Sirpa PIETIKÄINEN",
+  "given_name": "Sirpa",
+  "last_name": "Pietikäinen",
+  "country": "Finland",
+  "national_party": "Kansallinen Kokoomus",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "sirpa.pietikainen@europarl.europa.eu",
+  "phone": "+33388175226",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/40599.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/40599",
+  "committees": [
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "257056",
+  "full_name": "Mariusz KAMIŃSKI",
+  "given_name": "Mariusz",
+  "last_name": "Kamiński",
+  "country": "Poland",
+  "national_party": "Prawo i Sprawiedliwość",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "mariusz.kaminski@europarl.europa.eu",
+  "phone": "+33388175621",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257056.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257056",
+  "committees": [
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

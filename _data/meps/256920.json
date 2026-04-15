@@ -1,0 +1,48 @@
+{
+  "id": "256920",
+  "full_name": "Isabelle LE CALLENNEC",
+  "given_name": "Isabelle",
+  "last_name": "Le Callennec",
+  "country": "France",
+  "national_party": "Les Républicains",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "isabelle.lecallennec@europarl.europa.eu",
+  "phone": "+33388175675",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256920.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256920",
+  "committees": [
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

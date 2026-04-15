@@ -1,0 +1,33 @@
+{
+  "id": "197682",
+  "full_name": "Hannes HEIDE",
+  "given_name": "Hannes",
+  "last_name": "Heide",
+  "country": "Austria",
+  "national_party": "Sozialdemokratische Partei Österreichs",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "hannes.heide@europarl.europa.eu",
+  "phone": "+33388175129",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197682.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197682",
+  "committees": [
+    {
+      "id": "6581",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

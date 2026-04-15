@@ -1,0 +1,33 @@
+{
+  "id": "197652",
+  "full_name": "Angelika WINZIG",
+  "given_name": "Angelika",
+  "last_name": "Winzig",
+  "country": "Austria",
+  "national_party": "Österreichische Volkspartei",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "angelika.winzig@europarl.europa.eu",
+  "phone": "+33388175763",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197652.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197652",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

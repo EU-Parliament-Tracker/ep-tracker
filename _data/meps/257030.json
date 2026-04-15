@@ -1,0 +1,38 @@
+{
+  "id": "257030",
+  "full_name": "Raúl DE LA HOZ QUINTANO",
+  "given_name": "Raúl",
+  "last_name": "de la Hoz Quintano",
+  "country": "Spain",
+  "national_party": "Partido Popular",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "raul.delahoz@europarl.europa.eu",
+  "phone": "+33388175264",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257030.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257030",
+  "committees": [
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

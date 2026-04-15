@@ -1,0 +1,33 @@
+{
+  "id": "37312",
+  "full_name": "Christel SCHALDEMOSE",
+  "given_name": "Christel",
+  "last_name": "Schaldemose",
+  "country": "Denmark",
+  "national_party": "Socialdemokratiet",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "christel.schaldemose@europarl.europa.eu",
+  "phone": "+3222845491",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/37312.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/37312",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

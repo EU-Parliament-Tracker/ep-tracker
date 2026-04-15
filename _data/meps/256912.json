@@ -1,0 +1,33 @@
+{
+  "id": "256912",
+  "full_name": "Rima HASSAN",
+  "given_name": "Rima",
+  "last_name": "Hassan",
+  "country": "France",
+  "national_party": "La France Insoumise",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "rima.hassan@europarl.europa.eu",
+  "phone": "",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256912.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256912",
+  "committees": [
+    {
+      "id": "6567",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

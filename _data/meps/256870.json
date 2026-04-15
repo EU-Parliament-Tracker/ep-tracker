@@ -1,0 +1,38 @@
+{
+  "id": "256870",
+  "full_name": "Valérie DEVAUX",
+  "given_name": "Valérie",
+  "last_name": "Devaux",
+  "country": "France",
+  "national_party": "Union des démocrates et indépendants",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "valerie.devaux@europarl.europa.eu",
+  "phone": "+33388175297",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256870.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256870",
+  "committees": [
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6624",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "197574",
+  "full_name": "Damien CARÊME",
+  "given_name": "Damien",
+  "last_name": "Carême",
+  "country": "France",
+  "national_party": "La France Insoumise",
+  "group_name": "The Left group in the European Parliament - GUE/NGL",
+  "group_abbr": "GUE/NGL",
+  "email": "damien.careme@europarl.europa.eu",
+  "phone": "+33388175539",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197574.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197574",
+  "committees": [
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

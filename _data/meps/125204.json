@@ -1,0 +1,38 @@
+{
+  "id": "125204",
+  "full_name": "Borja GIMÉNEZ LARRAZ",
+  "given_name": "Borja",
+  "last_name": "Giménez Larraz",
+  "country": "Spain",
+  "national_party": "Partido Popular",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "borja.gimenezlarraz@europarl.europa.eu",
+  "phone": "+33388175967",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/125204.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/125204",
+  "committees": [
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "96675",
+  "full_name": "Isabella LÖVIN",
+  "given_name": "Isabella",
+  "last_name": "Lövin",
+  "country": "Sweden",
+  "national_party": "Miljöpartiet de gröna",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "isabella.lovin@europarl.europa.eu",
+  "phone": "+33388175375",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/96675.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/96675",
+  "committees": [
+    {
+      "id": "6583",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6563",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

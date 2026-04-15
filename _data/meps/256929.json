@@ -1,0 +1,33 @@
+{
+  "id": "256929",
+  "full_name": "René AUST",
+  "given_name": "René",
+  "last_name": "Aust",
+  "country": "Germany",
+  "national_party": "Alternative für Deutschland",
+  "group_name": "Europe of Sovereign Nations Group",
+  "group_abbr": "ESN",
+  "email": "rene.aust@europarl.europa.eu",
+  "phone": "+3222845257",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256929.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256929",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

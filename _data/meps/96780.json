@@ -1,0 +1,33 @@
+{
+  "id": "96780",
+  "full_name": "Monika HOHLMEIER",
+  "given_name": "Monika",
+  "last_name": "Hohlmeier",
+  "country": "Germany",
+  "national_party": "Christlich-Soziale Union in Bayern e.V.",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "monika.hohlmeier@europarl.europa.eu",
+  "phone": "+33388175191",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/96780.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/96780",
+  "committees": [
+    {
+      "id": "6568",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6567",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "256992",
+  "full_name": "Hana JALLOUL MURO",
+  "given_name": "Hana",
+  "last_name": "Jalloul Muro",
+  "country": "Spain",
+  "national_party": "Partido Socialista Obrero Español",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "hana.jalloulmuro@europarl.europa.eu",
+  "phone": "+33388175604",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256992.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256992",
+  "committees": [
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7005",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

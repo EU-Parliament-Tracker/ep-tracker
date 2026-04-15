@@ -1,0 +1,43 @@
+{
+  "id": "28617",
+  "full_name": "Inese VAIDERE",
+  "given_name": "Inese",
+  "last_name": "Vaidere",
+  "country": "Latvia",
+  "national_party": "Jaunā Vienotība",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "inese.vaidere@europarl.europa.eu",
+  "phone": "+33388175424",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/28617.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/28617",
+  "committees": [
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6623",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

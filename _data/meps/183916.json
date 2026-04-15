@@ -1,0 +1,38 @@
+{
+  "id": "183916",
+  "full_name": "Alexandra GEESE",
+  "given_name": "Alexandra",
+  "last_name": "Geese",
+  "country": "Germany",
+  "national_party": "Bündnis 90/Die Grünen",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "alexandra.geese@europarl.europa.eu",
+  "phone": "+3222837905",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/183916.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/183916",
+  "committees": [
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

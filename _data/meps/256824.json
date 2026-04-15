@@ -1,0 +1,48 @@
+{
+  "id": "256824",
+  "full_name": "Yannis MANIATIS",
+  "given_name": "Yannis",
+  "last_name": "Maniatis",
+  "country": "Greece",
+  "national_party": "PASOK-KINAL",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "ioannis.maniatis@europarl.europa.eu",
+  "phone": "+33388175649",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256824.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256824",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7911",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

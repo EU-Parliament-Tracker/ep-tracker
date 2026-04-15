@@ -1,0 +1,33 @@
+{
+  "id": "256964",
+  "full_name": "Nela RIEHL",
+  "given_name": "Nela",
+  "last_name": "Riehl",
+  "country": "Germany",
+  "national_party": "Volt",
+  "group_name": "Group of the Greens/European Free Alliance",
+  "group_abbr": "Greens/EFA",
+  "email": "nela.riehl@europarl.europa.eu",
+  "phone": "+33388175462",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256964.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256964",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "CHAIR"
+    }
+  ]
+}

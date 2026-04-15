@@ -1,0 +1,38 @@
+{
+  "id": "124877",
+  "full_name": "Jadwiga WIŚNIEWSKA",
+  "given_name": "Jadwiga",
+  "last_name": "Wiśniewska",
+  "country": "Poland",
+  "national_party": "Prawo i Sprawiedliwość",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
+  "email": "jadwiga.wisniewska@europarl.europa.eu",
+  "phone": "+3222845471",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/124877.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124877",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

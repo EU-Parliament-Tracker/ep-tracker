@@ -1,0 +1,33 @@
+{
+  "id": "272024",
+  "full_name": "Antonín STANĚK",
+  "given_name": "Antonín",
+  "last_name": "Staněk",
+  "country": "Czechia",
+  "national_party": "Přísaha",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "antonin.stanek@europarl.europa.eu",
+  "phone": "+33388175950",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/272024.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/272024",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6629",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

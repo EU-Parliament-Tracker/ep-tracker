@@ -1,0 +1,43 @@
+{
+  "id": "197818",
+  "full_name": "Billy KELLEHER",
+  "given_name": "Billy",
+  "last_name": "Kelleher",
+  "country": "Ireland",
+  "national_party": "Fianna Fáil Party",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "billy.kelleher@europarl.europa.eu",
+  "phone": "+33388175279",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197818.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197818",
+  "committees": [
+    {
+      "id": "7913",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7007",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7912",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6570",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

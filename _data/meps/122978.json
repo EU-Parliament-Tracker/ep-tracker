@@ -1,0 +1,38 @@
+{
+  "id": "122978",
+  "full_name": "Alicia HOMS GINEL",
+  "given_name": "Alicia",
+  "last_name": "Homs Ginel",
+  "country": "Spain",
+  "national_party": "Partido Socialista Obrero Español",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "alicia.homs@europarl.europa.eu",
+  "phone": "+3222845320",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/122978.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/122978",
+  "committees": [
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6580",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6624",
+      "name": "",
+      "role": "CHAIR_VICE"
+    }
+  ]
+}

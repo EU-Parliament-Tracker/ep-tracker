@@ -1,0 +1,38 @@
+{
+  "id": "256872",
+  "full_name": "Fabrice LEGGERI",
+  "given_name": "Fabrice",
+  "last_name": "Leggeri",
+  "country": "France",
+  "national_party": "Rassemblement national",
+  "group_name": "Patriots for Europe Group",
+  "group_abbr": "PfE",
+  "email": "fabrice.leggeri@europarl.europa.eu",
+  "phone": "+33388175273",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256872.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256872",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

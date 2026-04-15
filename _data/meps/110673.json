@@ -1,0 +1,38 @@
+{
+  "id": "110673",
+  "full_name": "Ana Miguel PEDRO",
+  "given_name": "Ana Miguel",
+  "last_name": "Pedro",
+  "country": "Portugal",
+  "national_party": "Partido do Centro Democrático Social-Partido Popular",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "anamiguel.pedro@europarl.europa.eu",
+  "phone": "+3222845881",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/110673.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/110673",
+  "committees": [
+    {
+      "id": "6562",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6587",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

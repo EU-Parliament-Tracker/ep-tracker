@@ -1,0 +1,43 @@
+{
+  "id": "257075",
+  "full_name": "Isilda GOMES",
+  "given_name": "Isilda",
+  "last_name": "Gomes",
+  "country": "Portugal",
+  "national_party": "Partido Socialista",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
+  "email": "isilda.gomes@europarl.europa.eu",
+  "phone": "+3222845542",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257075.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257075",
+  "committees": [
+    {
+      "id": "6623",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7915",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

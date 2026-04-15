@@ -1,0 +1,33 @@
+{
+  "id": "257045",
+  "full_name": "Michał WAWRYKIEWICZ",
+  "given_name": "Michał",
+  "last_name": "Wawrykiewicz",
+  "country": "Poland",
+  "national_party": "Independent",
+  "group_name": "Group of the European People's Party (Christian Democrats)",
+  "group_abbr": "EPP",
+  "email": "michal.wawrykiewicz@europarl.europa.eu",
+  "phone": "+3222845854",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/257045.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257045",
+  "committees": [
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7914",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

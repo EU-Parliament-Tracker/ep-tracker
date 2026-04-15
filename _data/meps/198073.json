@@ -1,0 +1,38 @@
+{
+  "id": "198073",
+  "full_name": "Anna-Maja HENRIKSSON",
+  "given_name": "Anna-Maja",
+  "last_name": "Henriksson",
+  "country": "Finland",
+  "national_party": "Svenska folkpartiet",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "anna-maja.henriksson@europarl.europa.eu",
+  "phone": "+3222845503",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/198073.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/198073",
+  "committees": [
+    {
+      "id": "6563",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6625",
+      "name": "",
+      "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6579",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}

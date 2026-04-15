@@ -1,0 +1,33 @@
+{
+  "id": "197589",
+  "full_name": "Laurence FARRENG",
+  "given_name": "Laurence",
+  "last_name": "Farreng",
+  "country": "France",
+  "national_party": "Mouvement Démocrate",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
+  "email": "laurence.farreng@europarl.europa.eu",
+  "phone": "+33388175456",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/197589.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197589",
+  "committees": [
+    {
+      "id": "6585",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "256808",
+  "full_name": "Petras GRAŽULIS",
+  "given_name": "Petras",
+  "last_name": "Gražulis",
+  "country": "Lithuania",
+  "national_party": "Tautos ir teisingumo sąjunga",
+  "group_name": "Europe of Sovereign Nations Group",
+  "group_abbr": "ESN",
+  "email": "petras.grazulis@europarl.europa.eu",
+  "phone": "+3222845671",
+  "website": "",
+  "social": {},
+  "photo_url": "https://www.europarl.europa.eu/mepphoto/256808.jpg",
+  "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256808",
+  "committees": [
+    {
+      "id": "6576",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6627",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6591",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
+}
