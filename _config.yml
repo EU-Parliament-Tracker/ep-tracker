@@ -9,9 +9,9 @@ name:           "EP Tracker"
 description:    >
   Track MEP voting records, plenary sessions, legislative documents,
   and parliamentary questions from the European Parliament.
-url:            "https://your-org.github.io"   # ← change this
-baseurl:        "/ep-tracker"                   # ← change to "" if using a custom domain
-repository:     "your-org/ep-tracker"           # ← change this
+url:            "https://eu-parliament-tracker.github.io"
+baseurl:        "/ep-tracker"
+repository:     "EU-Parliament-Tracker/ep-tracker"
 
 # Remote theme (no gem install needed on GitHub Pages)
 remote_theme: mmistakes/minimal-mistakes@4.26.2
