@@ -1,1 +1,1 @@
-Sitemap: https://your-org.github.io/ep-tracker/sitemap.xml
+Sitemap: https://eu-parliament-tracker.github.io/ep-tracker/sitemap.xml

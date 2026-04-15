@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://your-org.github.io/ep-tracker/about/</loc>
+<loc>https://eu-parliament-tracker.github.io/ep-tracker/about/</loc>
 </url>
 <url>
-<loc>https://your-org.github.io/ep-tracker/committees/</loc>
+<loc>https://eu-parliament-tracker.github.io/ep-tracker/committees/</loc>
 </url>
 <url>
-<loc>https://your-org.github.io/ep-tracker/documents/</loc>
+<loc>https://eu-parliament-tracker.github.io/ep-tracker/documents/</loc>
 </url>
 <url>
-<loc>https://your-org.github.io/ep-tracker/</loc>
+<loc>https://eu-parliament-tracker.github.io/ep-tracker/</loc>
 </url>
 <url>
-<loc>https://your-org.github.io/ep-tracker/meps/</loc>
+<loc>https://eu-parliament-tracker.github.io/ep-tracker/meps/</loc>
 </url>
 <url>
-<loc>https://your-org.github.io/ep-tracker/questions/</loc>
+<loc>https://eu-parliament-tracker.github.io/ep-tracker/questions/</loc>
 </url>
 <url>
-<loc>https://your-org.github.io/ep-tracker/sessions/</loc>
+<loc>https://eu-parliament-tracker.github.io/ep-tracker/sessions/</loc>
 </url>
 <url>
-<loc>https://your-org.github.io/ep-tracker/votes/</loc>
+<loc>https://eu-parliament-tracker.github.io/ep-tracker/votes/</loc>
 </url>
 </urlset>
