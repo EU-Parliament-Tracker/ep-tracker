@@ -16,6 +16,13 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
+      - name: Check data files exist
+        run: |
+          echo "=== _data folder contents ==="
+          ls -la _data/
+          echo "=== First 5 lines of meps.json ==="
+          head -5 _data/meps.json
+
       - name: Clear Jekyll cache
         run: |
           rm -rf .jekyll-cache
