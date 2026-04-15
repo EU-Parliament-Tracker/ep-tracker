@@ -408,7 +408,8 @@ def main():
     for name, fn in datasets:
         try:
             data = fn()
-            write_json(OUTPUT_DIR / f"{name}.json", data)
+            meps_dict = {m["id"]: m for m in meps}
+write_json(OUTPUT_DIR / "meps.json", meps_dict)
             counts[name] = len(data)
         except Exception as e:
             log.error("%s fetch failed: %s", name, e)
