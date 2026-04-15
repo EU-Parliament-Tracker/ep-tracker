@@ -35,7 +35,7 @@ permalink: /meps/
 <p class="ep-count">
   Showing <span id="visible-count">{{ site.data.meps | size }}</span>
   of {{ site.data.meps | size }} MEPs
-— data updated {{ site.data.meta.last_updated }} — first MEP: {{ site.data.meps[0].full_name }}</p>
+— data updated {{ site.data.meta.last_updated }} — first MEP: {{ site.data.meps.first.full_name }}
 
 <div class="ep-mep-grid" id="mep-grid">
   {% for mep in site.data.meps %}
