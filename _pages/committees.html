@@ -33,7 +33,7 @@ permalink: /committees/
     <ul class="ep-committee-members">
       {% for mep in committee_meps limit: 8 %}
       <li>
-        <a href="/meps/{{ mep.id }}/">{{ mep.full_name }}</a>
+        <a href="{{ '/meps/' | append: mep.id | append: '/' | relative_url }}">{{ mep.full_name }}</a>
         {% assign membership = mep.committees | where: "id", committee.id | first %}
         {% if membership.role != "" %}<span class="ep-role-badge">{{ membership.role }}</span>{% endif %}
       </li>

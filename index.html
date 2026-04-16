@@ -17,27 +17,27 @@ permalink: /
 
 <!-- ── Stats row ────────────────────────────────────────────────── -->
 <div class="ep-stats-row">
-  <a href="/meps/" class="ep-stat-card">
+  <a href="{{ '/meps/' | relative_url }}" class="ep-stat-card">
     <span class="ep-stat-card__number">{{ site.data.meps | size }}</span>
     <span class="ep-stat-card__label">MEPs</span>
   </a>
-  <a href="/votes/" class="ep-stat-card">
+  <a href="{{ '/votes/' | relative_url }}" class="ep-stat-card">
     <span class="ep-stat-card__number">{{ site.data.votes | size }}</span>
     <span class="ep-stat-card__label">Recent votes</span>
   </a>
-  <a href="/sessions/" class="ep-stat-card">
+  <a href="{{ '/sessions/' | relative_url }}" class="ep-stat-card">
     <span class="ep-stat-card__number">{{ site.data.sessions | size }}</span>
     <span class="ep-stat-card__label">Sessions tracked</span>
   </a>
-  <a href="/documents/" class="ep-stat-card">
+  <a href="{{ '/documents/' | relative_url }}" class="ep-stat-card">
     <span class="ep-stat-card__number">{{ site.data.documents | size }}</span>
     <span class="ep-stat-card__label">Documents</span>
   </a>
-  <a href="/questions/" class="ep-stat-card">
+  <a href="{{ '/questions/' | relative_url }}" class="ep-stat-card">
     <span class="ep-stat-card__number">{{ site.data.questions | size }}</span>
     <span class="ep-stat-card__label">Questions</span>
   </a>
-  <a href="/committees/" class="ep-stat-card">
+  <a href="{{ '/committees/' | relative_url }}" class="ep-stat-card">
     <span class="ep-stat-card__number">{{ site.data.committees | size }}</span>
     <span class="ep-stat-card__label">Committees</span>
   </a>
@@ -47,7 +47,7 @@ permalink: /
 <section class="ep-home-section">
   <div class="ep-home-section__header">
     <h2>Latest votes</h2>
-    <a href="/votes/" class="ep-see-all">See all →</a>
+    <a href="{{ '/votes/' | relative_url }}" class="ep-see-all">See all →</a>
   </div>
   <ul class="ep-compact-list">
     {% for vote in site.data.votes limit: 8 %}
@@ -73,7 +73,7 @@ permalink: /
 <section class="ep-home-section">
   <div class="ep-home-section__header">
     <h2>Upcoming plenary sessions</h2>
-    <a href="/sessions/" class="ep-see-all">See all →</a>
+    <a href="{{ '/sessions/' | relative_url }}" class="ep-see-all">See all →</a>
   </div>
   {% if upcoming.size > 0 %}
   <ul class="ep-compact-list">
@@ -102,7 +102,7 @@ permalink: /
 <section class="ep-home-section">
   <div class="ep-home-section__header">
     <h2>Recent documents</h2>
-    <a href="/documents/" class="ep-see-all">See all →</a>
+    <a href="{{ '/documents/' | relative_url }}" class="ep-see-all">See all →</a>
   </div>
   <ul class="ep-compact-list">
     {% for doc in site.data.documents limit: 6 %}
@@ -125,7 +125,7 @@ permalink: /
 <section class="ep-home-section">
   <div class="ep-home-section__header">
     <h2>Recent parliamentary questions</h2>
-    <a href="/questions/" class="ep-see-all">See all →</a>
+    <a href="{{ '/questions/' | relative_url }}" class="ep-see-all">See all →</a>
   </div>
   <ul class="ep-compact-list">
     {% for q in site.data.questions limit: 6 %}

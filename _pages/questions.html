@@ -40,7 +40,7 @@ permalink: /questions/
       {% for author_id in q.authors %}
         {% assign author = site.data.meps[author_id] %}
         {% if author %}
-          <a href="/meps/{{ author.id }}/">{{ author.full_name }}</a>{% unless forloop.last %}, {% endunless %}
+          <a href="{{ '/meps/' | append: author.id | append: '/' | relative_url }}">{{ author.full_name }}</a>{% unless forloop.last %}, {% endunless %}
         {% else %}
           {{ author_id }}
         {% endif %}
