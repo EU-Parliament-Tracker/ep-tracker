@@ -70,7 +70,7 @@ permalink: /meps/
            alt="Photo of {{ mep.full_name }}"
            class="ep-mep-card__photo"
            loading="lazy"
-           onerror="this.src='/assets/images/mep-placeholder.jpg'">
+           onerror="this.src='{{ '/assets/images/mep-placeholder.jpg' | relative_url }}'">
       <div class="ep-mep-card__body">
         <h3 class="ep-mep-card__name">{{ mep.full_name }}</h3>
         <p class="ep-mep-card__meta">

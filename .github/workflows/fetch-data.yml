@@ -36,8 +36,11 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add _data/
-          git commit -m "data: daily EP update $(date -u +%Y-%m-%d)" || echo "No changes to commit"
-          git push origin main || echo "Nothing to push"
+          if git commit -m "data: daily EP update $(date -u +%Y-%m-%d)"; then
+            git push origin main
+          else
+            echo "No changes to commit, skipping push"
+          fi
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
