@@ -19,7 +19,7 @@
     <img src="{{ mep.photo_url }}"
          alt="Photo of {{ mep.full_name }}"
          class="ep-mep-detail__photo"
-         onerror="this.src='/assets/images/mep-placeholder.jpg'">
+         onerror="this.src='{{ '/assets/images/mep-placeholder.jpg' | relative_url }}'">
 
     <div class="ep-mep-detail__title">
       <h1>{{ mep.full_name }}</h1>
@@ -84,21 +84,8 @@
   <!-- ── Recent votes by this MEP ───────────────────────────────── -->
   <section class="ep-mep-detail__section">
     <h2>Recent votes</h2>
-    {% assign mep_votes = site.data.votes | where_exp: "v", "v.ep_url contains mep.id" %}
-    {% if mep_votes.size > 0 %}
-      <ul class="ep-vote-list">
-        {% for vote in mep_votes limit: 20 %}
-          <li>
-            <span class="ep-vote-date">{{ vote.date }}</span>
-            <a href="{{ vote.ep_url }}" target="_blank" rel="noopener">{{ vote.title }}</a>
-            <span class="ep-vote-result ep-vote-result--{{ vote.result | downcase }}">{{ vote.result }}</span>
-          </li>
-        {% endfor %}
-      </ul>
-    {% else %}
-      <p class="ep-empty">No recent votes found for this MEP in the current dataset.</p>
-    {% endif %}
-    <p><a href="/votes/?mep={{ mep.id }}">See all votes →</a></p>
+    <p class="ep-empty">Per-MEP vote positions are not available in the current dataset. The EP Open Data API v2 only provides aggregate vote tallies (for/against/abstentions), not individual MEP voting records.</p>
+    <p><a href="{{ '/votes/' | relative_url }}">Browse all plenary votes →</a></p>
   </section>
 
   <!-- ── Recent questions by this MEP ───────────────────────────── -->

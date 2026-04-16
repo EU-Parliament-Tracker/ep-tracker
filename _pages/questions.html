@@ -38,7 +38,7 @@ permalink: /questions/
     <div class="ep-question-authors">
       By:
       {% for author_id in q.authors %}
-        {% assign author = site.data.meps | where: "id", author_id | first %}
+        {% assign author = site.data.meps[author_id] %}
         {% if author %}
           <a href="/meps/{{ author.id }}/">{{ author.full_name }}</a>{% unless forloop.last %}, {% endunless %}
         {% else %}

@@ -18,7 +18,16 @@ permalink: /committees/
     <h3 class="ep-committee-name">{{ committee.name }}</h3>
 
     <!-- MEPs in this committee -->
-    {% assign committee_meps = site.data.meps | where_exp: "m", "m.committees | map: 'id' | contains: committee.id" %}
+    {% assign committee_meps = "" | split: "" %}
+    {% for item in site.data.meps %}
+      {% assign m = item[1] %}
+      {% for c in m.committees %}
+        {% if c.id == committee.id %}
+          {% assign committee_meps = committee_meps | push: m %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
     {% if committee_meps.size > 0 %}
     <p class="ep-committee-count">{{ committee_meps.size }} members</p>
     <ul class="ep-committee-members">
