@@ -16,11 +16,13 @@
   "committees": [
     {
       "id": "7913",
+      "abbr": "",
       "name": "",
       "role": "MEMBER"
     },
     {
       "id": "6580",
+      "abbr": "",
       "name": "",
       "role": "MEMBER_SUBSTITUTE"
     }

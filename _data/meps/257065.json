@@ -2,16 +2,47 @@
   "id": "257065",
   "full_name": "Sérgio HUMBERTO",
   "given_name": "Sérgio",
-  "last_name": "HUMBERTO",
+  "last_name": "Humberto",
   "country": "Portugal",
   "national_party": "Aliança Democrática",
   "group_name": "Group of the European People's Party (Christian Democrats)",
   "group_abbr": "EPP",
-  "email": "",
-  "phone": "",
+  "email": "sergio.humberto@europarl.europa.eu",
+  "phone": "+33388175531",
   "website": "",
   "social": {},
   "photo_url": "https://www.europarl.europa.eu/mepphoto/257065.jpg",
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257065",
-  "committees": []
+  "committees": [
+    {
+      "id": "6572",
+      "abbr": "",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7913",
+      "abbr": "",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7912",
+      "abbr": "",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6580",
+      "abbr": "",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6623",
+      "abbr": "",
+      "name": "",
+      "role": "MEMBER"
+    }
+  ]
 }

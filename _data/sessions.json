@@ -1,1 +1,858 @@
-[]
+[
+  {
+    "id": "MTG-PL-2026-12-17",
+    "label": "MTG-PL-2026-12-17",
+    "start": "2026-12-17",
+    "end": "2026-12-17",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-12-16",
+    "label": "MTG-PL-2026-12-16",
+    "start": "2026-12-16",
+    "end": "2026-12-16",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-12-15",
+    "label": "MTG-PL-2026-12-15",
+    "start": "2026-12-15",
+    "end": "2026-12-15",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-12-14",
+    "label": "MTG-PL-2026-12-14",
+    "start": "2026-12-14",
+    "end": "2026-12-14",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-11-26",
+    "label": "MTG-PL-2026-11-26",
+    "start": "2026-11-26",
+    "end": "2026-11-26",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-11-25",
+    "label": "MTG-PL-2026-11-25",
+    "start": "2026-11-25",
+    "end": "2026-11-25",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-11-24",
+    "label": "MTG-PL-2026-11-24",
+    "start": "2026-11-24",
+    "end": "2026-11-24",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-11-23",
+    "label": "MTG-PL-2026-11-23",
+    "start": "2026-11-23",
+    "end": "2026-11-23",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-11-12",
+    "label": "MTG-PL-2026-11-12",
+    "start": "2026-11-12",
+    "end": "2026-11-12",
+    "location": "http://publications.europa.eu/resource/authority/place/BEL_BRU",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-11-11",
+    "label": "MTG-PL-2026-11-11",
+    "start": "2026-11-11",
+    "end": "2026-11-11",
+    "location": "http://publications.europa.eu/resource/authority/place/BEL_BRU",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-10-22",
+    "label": "MTG-PL-2026-10-22",
+    "start": "2026-10-22",
+    "end": "2026-10-22",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-10-21",
+    "label": "MTG-PL-2026-10-21",
+    "start": "2026-10-21",
+    "end": "2026-10-21",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-10-20",
+    "label": "MTG-PL-2026-10-20",
+    "start": "2026-10-20",
+    "end": "2026-10-20",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-10-19",
+    "label": "MTG-PL-2026-10-19",
+    "start": "2026-10-19",
+    "end": "2026-10-19",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-10-08",
+    "label": "MTG-PL-2026-10-08",
+    "start": "2026-10-08",
+    "end": "2026-10-08",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-10-07",
+    "label": "MTG-PL-2026-10-07",
+    "start": "2026-10-07",
+    "end": "2026-10-07",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-10-06",
+    "label": "MTG-PL-2026-10-06",
+    "start": "2026-10-06",
+    "end": "2026-10-06",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-10-05",
+    "label": "MTG-PL-2026-10-05",
+    "start": "2026-10-05",
+    "end": "2026-10-05",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-09-17",
+    "label": "MTG-PL-2026-09-17",
+    "start": "2026-09-17",
+    "end": "2026-09-17",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-09-16",
+    "label": "MTG-PL-2026-09-16",
+    "start": "2026-09-16",
+    "end": "2026-09-16",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-09-15",
+    "label": "MTG-PL-2026-09-15",
+    "start": "2026-09-15",
+    "end": "2026-09-15",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-09-14",
+    "label": "MTG-PL-2026-09-14",
+    "start": "2026-09-14",
+    "end": "2026-09-14",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-07-09",
+    "label": "MTG-PL-2026-07-09",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-07-08",
+    "label": "MTG-PL-2026-07-08",
+    "start": "2026-07-08",
+    "end": "2026-07-08",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-07-07",
+    "label": "MTG-PL-2026-07-07",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-07-06",
+    "label": "MTG-PL-2026-07-06",
+    "start": "2026-07-06",
+    "end": "2026-07-06",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-06-18",
+    "label": "MTG-PL-2026-06-18",
+    "start": "2026-06-18",
+    "end": "2026-06-18",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-06-17",
+    "label": "MTG-PL-2026-06-17",
+    "start": "2026-06-17",
+    "end": "2026-06-17",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-06-16",
+    "label": "MTG-PL-2026-06-16",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-06-15",
+    "label": "MTG-PL-2026-06-15",
+    "start": "2026-06-15",
+    "end": "2026-06-15",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-05-21",
+    "label": "MTG-PL-2026-05-21",
+    "start": "2026-05-21",
+    "end": "2026-05-21",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-05-20",
+    "label": "MTG-PL-2026-05-20",
+    "start": "2026-05-20",
+    "end": "2026-05-20",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-05-19",
+    "label": "MTG-PL-2026-05-19",
+    "start": "2026-05-19",
+    "end": "2026-05-19",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-05-18",
+    "label": "MTG-PL-2026-05-18",
+    "start": "2026-05-18",
+    "end": "2026-05-18",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-04-30",
+    "label": "MTG-PL-2026-04-30",
+    "start": "2026-04-30",
+    "end": "2026-04-30",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-04-29",
+    "label": "MTG-PL-2026-04-29",
+    "start": "2026-04-29",
+    "end": "2026-04-29",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-04-28",
+    "label": "MTG-PL-2026-04-28",
+    "start": "2026-04-28",
+    "end": "2026-04-28",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-04-27",
+    "label": "MTG-PL-2026-04-27",
+    "start": "2026-04-27",
+    "end": "2026-04-27",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-03-26",
+    "label": "MTG-PL-2026-03-26",
+    "start": "2026-03-26",
+    "end": "2026-03-26",
+    "location": "http://publications.europa.eu/resource/authority/place/BEL_BRU",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-03-25",
+    "label": "MTG-PL-2026-03-25",
+    "start": "2026-03-25",
+    "end": "2026-03-25",
+    "location": "http://publications.europa.eu/resource/authority/place/BEL_BRU",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-03-12",
+    "label": "MTG-PL-2026-03-12",
+    "start": "2026-03-12",
+    "end": "2026-03-12",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-03-11",
+    "label": "MTG-PL-2026-03-11",
+    "start": "2026-03-11",
+    "end": "2026-03-11",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-03-10",
+    "label": "MTG-PL-2026-03-10",
+    "start": "2026-03-10",
+    "end": "2026-03-10",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-03-09",
+    "label": "MTG-PL-2026-03-09",
+    "start": "2026-03-09",
+    "end": "2026-03-09",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-02-24",
+    "label": "MTG-PL-2026-02-24",
+    "start": "2026-02-24",
+    "end": "2026-02-24",
+    "location": "http://publications.europa.eu/resource/authority/place/BEL_BRU",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-02-12",
+    "label": "MTG-PL-2026-02-12",
+    "start": "2026-02-12",
+    "end": "2026-02-12",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-02-11",
+    "label": "MTG-PL-2026-02-11",
+    "start": "2026-02-11",
+    "end": "2026-02-11",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-02-10",
+    "label": "MTG-PL-2026-02-10",
+    "start": "2026-02-10",
+    "end": "2026-02-10",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-02-09",
+    "label": "MTG-PL-2026-02-09",
+    "start": "2026-02-09",
+    "end": "2026-02-09",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-01-27",
+    "label": "MTG-PL-2026-01-27",
+    "start": "2026-01-27",
+    "end": "2026-01-27",
+    "location": "http://publications.europa.eu/resource/authority/place/BEL_BRU",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-01-22",
+    "label": "MTG-PL-2026-01-22",
+    "start": "2026-01-22",
+    "end": "2026-01-22",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-01-21",
+    "label": "MTG-PL-2026-01-21",
+    "start": "2026-01-21",
+    "end": "2026-01-21",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-01-20",
+    "label": "MTG-PL-2026-01-20",
+    "start": "2026-01-20",
+    "end": "2026-01-20",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-01-19",
+    "label": "MTG-PL-2026-01-19",
+    "start": "2026-01-19",
+    "end": "2026-01-19",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-12-18",
+    "label": "MTG-PL-2025-12-18",
+    "start": "2025-12-18",
+    "end": "2025-12-18",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-12-17",
+    "label": "MTG-PL-2025-12-17",
+    "start": "2025-12-17",
+    "end": "2025-12-17",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-12-16",
+    "label": "MTG-PL-2025-12-16",
+    "start": "2025-12-16",
+    "end": "2025-12-16",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-12-15",
+    "label": "MTG-PL-2025-12-15",
+    "start": "2025-12-15",
+    "end": "2025-12-15",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-11-27",
+    "label": "MTG-PL-2025-11-27",
+    "start": "2025-11-27",
+    "end": "2025-11-27",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-11-26",
+    "label": "MTG-PL-2025-11-26",
+    "start": "2025-11-26",
+    "end": "2025-11-26",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-11-25",
+    "label": "MTG-PL-2025-11-25",
+    "start": "2025-11-25",
+    "end": "2025-11-25",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-11-24",
+    "label": "MTG-PL-2025-11-24",
+    "start": "2025-11-24",
+    "end": "2025-11-24",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-11-13",
+    "label": "MTG-PL-2025-11-13",
+    "start": "2025-11-13",
+    "end": "2025-11-13",
+    "location": "http://publications.europa.eu/resource/authority/place/BEL_BRU",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-11-12",
+    "label": "MTG-PL-2025-11-12",
+    "start": "2025-11-12",
+    "end": "2025-11-12",
+    "location": "http://publications.europa.eu/resource/authority/place/BEL_BRU",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-10-23",
+    "label": "MTG-PL-2025-10-23",
+    "start": "2025-10-23",
+    "end": "2025-10-23",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-10-22",
+    "label": "MTG-PL-2025-10-22",
+    "start": "2025-10-22",
+    "end": "2025-10-22",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-10-21",
+    "label": "MTG-PL-2025-10-21",
+    "start": "2025-10-21",
+    "end": "2025-10-21",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-10-20",
+    "label": "MTG-PL-2025-10-20",
+    "start": "2025-10-20",
+    "end": "2025-10-20",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-10-09",
+    "label": "MTG-PL-2025-10-09",
+    "start": "2025-10-09",
+    "end": "2025-10-09",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-10-08",
+    "label": "MTG-PL-2025-10-08",
+    "start": "2025-10-08",
+    "end": "2025-10-08",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-10-07",
+    "label": "MTG-PL-2025-10-07",
+    "start": "2025-10-07",
+    "end": "2025-10-07",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-10-06",
+    "label": "MTG-PL-2025-10-06",
+    "start": "2025-10-06",
+    "end": "2025-10-06",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-09-11",
+    "label": "MTG-PL-2025-09-11",
+    "start": "2025-09-11",
+    "end": "2025-09-11",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-09-10",
+    "label": "MTG-PL-2025-09-10",
+    "start": "2025-09-10",
+    "end": "2025-09-10",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-09-09",
+    "label": "MTG-PL-2025-09-09",
+    "start": "2025-09-09",
+    "end": "2025-09-09",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-09-08",
+    "label": "MTG-PL-2025-09-08",
+    "start": "2025-09-08",
+    "end": "2025-09-08",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-07-10",
+    "label": "MTG-PL-2025-07-10",
+    "start": "2025-07-10",
+    "end": "2025-07-10",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-07-09",
+    "label": "MTG-PL-2025-07-09",
+    "start": "2025-07-09",
+    "end": "2025-07-09",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-07-08",
+    "label": "MTG-PL-2025-07-08",
+    "start": "2025-07-08",
+    "end": "2025-07-08",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-07-07",
+    "label": "MTG-PL-2025-07-07",
+    "start": "2025-07-07",
+    "end": "2025-07-07",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-06-19",
+    "label": "MTG-PL-2025-06-19",
+    "start": "2025-06-19",
+    "end": "2025-06-19",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-06-18",
+    "label": "MTG-PL-2025-06-18",
+    "start": "2025-06-18",
+    "end": "2025-06-18",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-06-17",
+    "label": "MTG-PL-2025-06-17",
+    "start": "2025-06-17",
+    "end": "2025-06-17",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-06-16",
+    "label": "MTG-PL-2025-06-16",
+    "start": "2025-06-16",
+    "end": "2025-06-16",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-05-22",
+    "label": "MTG-PL-2025-05-22",
+    "start": "2025-05-22",
+    "end": "2025-05-22",
+    "location": "http://publications.europa.eu/resource/authority/place/BEL_BRU",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-05-21",
+    "label": "MTG-PL-2025-05-21",
+    "start": "2025-05-21",
+    "end": "2025-05-21",
+    "location": "http://publications.europa.eu/resource/authority/place/BEL_BRU",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-05-08",
+    "label": "MTG-PL-2025-05-08",
+    "start": "2025-05-08",
+    "end": "2025-05-08",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-05-07",
+    "label": "MTG-PL-2025-05-07",
+    "start": "2025-05-07",
+    "end": "2025-05-07",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-05-06",
+    "label": "MTG-PL-2025-05-06",
+    "start": "2025-05-06",
+    "end": "2025-05-06",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-05-05",
+    "label": "MTG-PL-2025-05-05",
+    "start": "2025-05-05",
+    "end": "2025-05-05",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-04-03",
+    "label": "MTG-PL-2025-04-03",
+    "start": "2025-04-03",
+    "end": "2025-04-03",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-04-02",
+    "label": "MTG-PL-2025-04-02",
+    "start": "2025-04-02",
+    "end": "2025-04-02",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-04-01",
+    "label": "MTG-PL-2025-04-01",
+    "start": "2025-04-01",
+    "end": "2025-04-01",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-03-31",
+    "label": "MTG-PL-2025-03-31",
+    "start": "2025-03-31",
+    "end": "2025-03-31",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-03-13",
+    "label": "MTG-PL-2025-03-13",
+    "start": "2025-03-13",
+    "end": "2025-03-13",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-03-12",
+    "label": "MTG-PL-2025-03-12",
+    "start": "2025-03-12",
+    "end": "2025-03-12",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-03-11",
+    "label": "MTG-PL-2025-03-11",
+    "start": "2025-03-11",
+    "end": "2025-03-11",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-03-10",
+    "label": "MTG-PL-2025-03-10",
+    "start": "2025-03-10",
+    "end": "2025-03-10",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-02-13",
+    "label": "MTG-PL-2025-02-13",
+    "start": "2025-02-13",
+    "end": "2025-02-13",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-02-12",
+    "label": "MTG-PL-2025-02-12",
+    "start": "2025-02-12",
+    "end": "2025-02-12",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-02-11",
+    "label": "MTG-PL-2025-02-11",
+    "start": "2025-02-11",
+    "end": "2025-02-11",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-02-10",
+    "label": "MTG-PL-2025-02-10",
+    "start": "2025-02-10",
+    "end": "2025-02-10",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-01-29",
+    "label": "MTG-PL-2025-01-29",
+    "start": "2025-01-29",
+    "end": "2025-01-29",
+    "location": "http://publications.europa.eu/resource/authority/place/BEL_BRU",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-01-23",
+    "label": "MTG-PL-2025-01-23",
+    "start": "2025-01-23",
+    "end": "2025-01-23",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-01-22",
+    "label": "MTG-PL-2025-01-22",
+    "start": "2025-01-22",
+    "end": "2025-01-22",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-01-21",
+    "label": "MTG-PL-2025-01-21",
+    "start": "2025-01-21",
+    "end": "2025-01-21",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-01-20",
+    "label": "MTG-PL-2025-01-20",
+    "start": "2025-01-20",
+    "end": "2025-01-20",
+    "location": "http://publications.europa.eu/resource/authority/place/FRA_SXB",
+    "ep_url": ""
+  }
+]
