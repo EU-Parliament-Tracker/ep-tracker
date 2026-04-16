@@ -9,8 +9,8 @@
 
 /* ── Design tokens ──────────────────────────────────────────────────────────── */
 :root {
-  --ep-blue:        #003399;  /* EU blue */
-  --ep-gold:        #FFCC00;  /* EU gold */
+  --ep-blue:        #003399;
+  --ep-gold:        #FFCC00;
   --ep-blue-light:  #E8EEF8;
   --ep-green:       #2e7d32;
   --ep-red:         #c62828;
@@ -167,7 +167,7 @@
 /* ── MEP grid ────────────────────────────────────────────────────────────────*/
 .ep-mep-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 1rem;
   margin-top: 1rem;
 }
@@ -187,12 +187,14 @@
   color: inherit;
   display: block;
 }
+.ep-mep-grid img,
 .ep-mep-card__photo {
-  width: 100%;
-  height: 160px;
-  object-fit: cover;
-  object-position: top center;
-  display: block;
+  width: 100% !important;
+  height: 160px !important;
+  max-height: 160px !important;
+  object-fit: cover !important;
+  object-position: top center !important;
+  display: block !important;
   background: var(--ep-gray-light);
 }
 .ep-mep-card__body {
@@ -391,7 +393,7 @@
 }
 .ep-vote-result--adopted,
 .ep-vote-result--approved { background: #e8f5e9; color: var(--ep-green); }
-.ep-vote-result--rejected { background: #ffebee; color: var(--ep-red); }
+.ep-vote-result--rejected  { background: #ffebee; color: var(--ep-red); }
 .ep-vote-result--lapsed,
 .ep-vote-result--withdrawn { background: #fff3e0; color: var(--ep-amber); }
 
@@ -404,19 +406,19 @@
   border-radius: 4px;
   vertical-align: middle;
 }
-.ep-badge--group { color: #fff; }
-.ep-badge--epp   { background: #003399; }
+.ep-badge--group    { color: #fff; }
+.ep-badge--epp      { background: #003399; }
 .ep-badge--s-d,
-.ep-badge--sd    { background: #C8001A; }
-.ep-badge--renew { background: #F7931E; color: #000; }
-.ep-badge--ecr   { background: #0066CC; }
+.ep-badge--sd       { background: #C8001A; }
+.ep-badge--renew    { background: #F7931E; color: #000; }
+.ep-badge--ecr      { background: #0066CC; }
 .ep-badge--greens-efa,
-.ep-badge--greens { background: #50A045; }
+.ep-badge--greens   { background: #50A045; }
 .ep-badge--the-left,
-.ep-badge--gue-ngl { background: #800000; }
-.ep-badge--esn,
-.ep-badge--id    { background: #002B7F; }
-.ep-badge--ni    { background: #888; }
+.ep-badge--gue-ngl  { background: #800000; }
+.ep-badge--pfe      { background: #003399; }
+.ep-badge--esn      { background: #002B7F; }
+.ep-badge--ni       { background: #888; }
 
 /* ── Type badge ─────────────────────────────────────────────────────────────*/
 .ep-type-badge {
@@ -429,8 +431,8 @@
   color: #444;
   white-space: nowrap;
 }
-.ep-type-badge--adopted  { background: #e8f5e9; color: var(--ep-green); }
-.ep-type-badge--tabled   { background: #e3f2fd; color: #0d47a1; }
+.ep-type-badge--adopted { background: #e8f5e9; color: var(--ep-green); }
+.ep-type-badge--tabled  { background: #e3f2fd; color: #0d47a1; }
 
 /* ── Role badge ─────────────────────────────────────────────────────────────*/
 .ep-role-badge {
@@ -473,10 +475,7 @@
 }
 
 /* ── Document list ──────────────────────────────────────────────────────────*/
-.ep-doc-list {
-  list-style: none;
-  padding: 0;
-}
+.ep-doc-list { list-style: none; padding: 0; }
 .ep-doc-item {
   padding: 0.6rem 0;
   border-bottom: 1px solid var(--ep-gray-mid);
@@ -488,15 +487,10 @@
   margin-bottom: 0.2rem;
   flex-wrap: wrap;
 }
-.ep-doc-title {
-  font-size: 0.9rem;
-}
+.ep-doc-title { font-size: 0.9rem; }
 
 /* ── Question list ──────────────────────────────────────────────────────────*/
-.ep-question-list {
-  list-style: none;
-  padding: 0;
-}
+.ep-question-list { list-style: none; padding: 0; }
 .ep-question-item {
   padding: 0.6rem 0;
   border-bottom: 1px solid var(--ep-gray-mid);
@@ -508,16 +502,10 @@
   margin-bottom: 0.2rem;
   flex-wrap: wrap;
 }
-.ep-question-title {
-  font-size: 0.9rem;
-  margin-bottom: 0.2rem;
-}
-.ep-question-authors {
-  font-size: 0.8rem;
-  color: var(--ep-gray-text);
-}
+.ep-question-title { font-size: 0.9rem; margin-bottom: 0.2rem; }
+.ep-question-authors { font-size: 0.8rem; color: var(--ep-gray-text); }
 
-/* ── Vote list (on MEP detail pages) ────────────────────────────────────────*/
+/* ── Vote/question list on MEP detail pages ─────────────────────────────────*/
 .ep-vote-list,
 .ep-question-list {
   list-style: none;
@@ -551,12 +539,12 @@
 
 /* ── Responsive tweaks ──────────────────────────────────────────────────────*/
 @media (max-width: 600px) {
-  .ep-stats-row    { gap: 0.5rem; }
-  .ep-stat-card    { flex: 1 1 calc(33% - 0.5rem); padding: 0.75rem 0.5rem; }
+  .ep-stats-row { gap: 0.5rem; }
+  .ep-stat-card { flex: 1 1 calc(33% - 0.5rem); padding: 0.75rem 0.5rem; }
   .ep-stat-card__number { font-size: 1.4rem; }
-  .ep-mep-grid     { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+  .ep-mep-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
   .ep-mep-detail__header { flex-direction: column; }
-  .ep-mep-detail__photo  { width: 120px; }
+  .ep-mep-detail__photo { width: 120px; }
   .ep-table th:nth-child(4),
   .ep-table th:nth-child(5),
   .ep-table th:nth-child(6),
