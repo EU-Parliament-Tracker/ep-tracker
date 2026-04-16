@@ -2,42 +2,16 @@
   "id": "257170",
   "full_name": "Sandro RUOTOLO",
   "given_name": "Sandro",
-  "last_name": "Ruotolo",
+  "last_name": "RUOTOLO",
   "country": "Italy",
   "national_party": "Partito Democratico",
   "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
   "group_abbr": "S&D",
-  "email": "sandro.ruotolo@europarl.europa.eu",
-  "phone": "+3222845964",
+  "email": "",
+  "phone": "",
   "website": "",
   "social": {},
   "photo_url": "https://www.europarl.europa.eu/mepphoto/257170.jpg",
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257170",
-  "committees": [
-    {
-      "id": "6586",
-      "name": "",
-      "role": "MEMBER_SUBSTITUTE"
-    },
-    {
-      "id": "6623",
-      "name": "",
-      "role": "MEMBER_SUBSTITUTE"
-    },
-    {
-      "id": "7914",
-      "name": "",
-      "role": "MEMBER_SUBSTITUTE"
-    },
-    {
-      "id": "6584",
-      "name": "",
-      "role": "MEMBER"
-    },
-    {
-      "id": "6591",
-      "name": "",
-      "role": "MEMBER"
-    }
-  ]
+  "committees": []
 }
