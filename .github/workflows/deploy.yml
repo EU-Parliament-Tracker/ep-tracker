@@ -31,7 +31,7 @@ jobs:
       - name: Check data and build
         run: |
           echo "First MEP in data:"
-          ruby -e "require 'json'; d=JSON.parse(File.read('_data/meps.json')); puts d[0]['full_name']"
+          ruby -e "require 'json'; d=JSON.parse(File.read('_data/meps.json')); puts d.values.first['full_name']"
           bundle exec jekyll build --trace
         env:
           JEKYLL_ENV: production
