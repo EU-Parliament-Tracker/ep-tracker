@@ -70,9 +70,10 @@
     <h2>Committee memberships</h2>
     <ul class="ep-committee-list">
       {% for c in mep.committees %}
+        {% assign c_label = c.abbr | default: c.id %}
         <li>
-          <a href="/committees/#{{ c.id | downcase }}">
-            <strong>{{ c.id }}</strong> — {{ c.name }}
+          <a href="{{ '/committees/' | relative_url }}#{{ c_label | downcase }}">
+            <strong>{{ c_label }}</strong>{% if c.name != "" %} — {{ c.name }}{% endif %}
           </a>
           {% if c.role != "" %}<span class="ep-role-badge">{{ c.role }}</span>{% endif %}
         </li>

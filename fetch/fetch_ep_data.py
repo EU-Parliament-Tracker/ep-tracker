@@ -174,7 +174,8 @@ def fetch_mep_detail(mep_id):
     return data if isinstance(data, dict) else {}
 
 
-def fetch_meps():
+def fetch_meps(committee_lookup=None):
+    committee_lookup = committee_lookup or {}
     base_list = fetch_mep_list_from_xml()
     if not base_list:
         log.error("Could not get MEP list — aborting MEP fetch")
@@ -255,7 +256,13 @@ def fetch_meps():
             role_raw = mem.get("role", "")
             role = safe_str(role_raw).split("/")[-1] if role_raw else ""
             if org_id:
-                committees.append({"id": org_id, "name": "", "role": role})
+                info  = committee_lookup.get(org_id, {})
+                committees.append({
+                    "id":   org_id,
+                    "abbr": info.get("abbreviation", ""),
+                    "name": info.get("name", ""),
+                    "role": role,
+                })
 
         # Name parts
         full = base["full_name"]
@@ -304,20 +311,38 @@ def fetch_meps():
 # ---------------------------------------------------------------------------
 
 def fetch_committees():
+    """Returns (committees_list, org_id_lookup).
+
+    org_id_lookup maps the numeric URI fragment used in MEP membership records
+    (e.g. "6579") to {"abbreviation": "ECON", "name": "..."} so that
+    fetch_meps() can enrich each MEP's committee entries with human-readable
+    data rather than raw numeric IDs.
+    """
     log.info("Fetching committees...")
     raw = get_all("corporate-bodies", params={
         "corporate-body-classification": "COMMITTEE_PARLIAMENTARY_STANDING"})
     log.info("  -> %d committees", len(raw))
     committees = []
+    org_id_lookup = {}  # numeric org-URI fragment → {abbreviation, name}
     for c in raw:
         body_id = safe_str(c.get("notation", c.get("identifier", "")))
+        name    = safe_str(c.get("label", ""))
         committees.append({
             "id":           body_id,
             "abbreviation": body_id,
-            "name":         safe_str(c.get("label", "")),
+            "name":         name,
             "ep_url":       f"{EP_WEBSITE}/committees/en/{body_id.lower()}/home",
         })
-    return sorted(committees, key=lambda x: x.get("abbreviation", ""))
+        # The EP API uses numeric URI fragments in MEP membership records
+        # (e.g. "org/6579") while the corporate-bodies endpoint uses the
+        # notation abbreviation.  Try to extract the numeric ID from the
+        # JSON-LD @id field so we can cross-reference the two.
+        uri = safe_str(c.get("@id", c.get("id", "")))
+        if "/" in uri:
+            numeric_id = uri.rstrip("/").split("/")[-1]
+            if numeric_id and numeric_id != body_id:
+                org_id_lookup[numeric_id] = {"abbreviation": body_id, "name": name}
+    return sorted(committees, key=lambda x: x.get("abbreviation", "")), org_id_lookup
 
 
 # ---------------------------------------------------------------------------
@@ -451,9 +476,23 @@ def main():
     errors = []
     counts = {}
 
-    # 1. MEPs — written as dict keyed by ID for Jekyll compatibility
+    # 1. Committees — fetched first so MEP entries can be enriched with
+    #    human-readable abbreviations and names via the org_id_lookup.
+    committee_lookup = {}
     try:
-        meps = fetch_meps()
+        committees_data, committee_lookup = fetch_committees()
+        write_json(OUTPUT_DIR / "committees.json", committees_data)
+        counts["committees"] = len(committees_data)
+    except Exception as e:
+        log.error("committees fetch failed: %s", e)
+        errors.append("committees")
+        counts["committees"] = None
+
+    # 2. MEPs — written as dict keyed by ID for Jekyll compatibility.
+    #    Passes committee_lookup so each MEP's committee entries get
+    #    abbreviation + name populated.
+    try:
+        meps = fetch_meps(committee_lookup)
         write_json(OUTPUT_DIR / "meps.json", meps)
         counts["meps"] = len(meps)
     except Exception as e:
@@ -461,9 +500,8 @@ def main():
         errors.append("meps")
         counts["meps"] = None
 
-    # 2. All other datasets — written as arrays
+    # 3. Remaining datasets — written as arrays
     other_datasets = [
-        ("committees", fetch_committees),
         ("sessions",   fetch_sessions),
         ("votes",      fetch_votes),
         ("documents",  fetch_documents),

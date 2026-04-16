@@ -63,7 +63,7 @@ permalink: /meps/
     data-name="{{ mep.full_name | downcase }}"
     data-group="{{ mep.group_abbr }}"
     data-country="{{ mep.country }}"
-    data-committees="{% for c in mep.committees %}{{ c.id }} {% endfor %}">
+    data-committees="{% for c in mep.committees %}{{ c.abbr | default: c.id }} {% endfor %}">
 
     <a href="{{ '/meps/' | append: mep.id | append: '/' | relative_url }}" class="ep-mep-card__link">
       <img src="{{ mep.photo_url }}"
