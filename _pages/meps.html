@@ -8,8 +8,17 @@ permalink: /meps/
   <input type="text" id="mep-search" placeholder="Search by name, country, or group…" class="ep-search-input">
   <select id="mep-group-filter" class="ep-filter-select">
     <option value="">All political groups</option>
-    {% assign groups = site.data.meps | map: "group_abbr" | uniq | sort %}
-    {% for group in groups %}
+    {% assign groups = "" %}
+    {% for item in site.data.meps %}
+      {% assign mep = item[1] %}
+      {% unless groups contains mep.group_abbr %}
+        {% if mep.group_abbr != "" %}
+          {% assign groups = groups | append: mep.group_abbr | append: "," %}
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+    {% assign group_list = groups | split: "," | uniq | sort %}
+    {% for group in group_list %}
       {% if group != "" %}
         <option value="{{ group }}">{{ group }}</option>
       {% endif %}
@@ -17,8 +26,17 @@ permalink: /meps/
   </select>
   <select id="mep-country-filter" class="ep-filter-select">
     <option value="">All countries</option>
-    {% assign countries = site.data.meps | map: "country" | uniq | sort %}
-    {% for country in countries %}
+    {% assign countries = "" %}
+    {% for item in site.data.meps %}
+      {% assign mep = item[1] %}
+      {% unless countries contains mep.country %}
+        {% if mep.country != "" %}
+          {% assign countries = countries | append: mep.country | append: "|" %}
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+    {% assign country_list = countries | split: "|" | uniq | sort %}
+    {% for country in country_list %}
       {% if country != "" %}
         <option value="{{ country }}">{{ country }}</option>
       {% endif %}
@@ -39,8 +57,8 @@ permalink: /meps/
 </p>
 
 <div class="ep-mep-grid" id="mep-grid">
- {% for item in site.data.meps %}
-{% assign mep = item[1] %}
+  {% for item in site.data.meps %}
+  {% assign mep = item[1] %}
   <article class="ep-mep-card"
     data-name="{{ mep.full_name | downcase }}"
     data-group="{{ mep.group_abbr }}"
@@ -54,7 +72,7 @@ permalink: /meps/
            loading="lazy"
            onerror="this.src='/assets/images/mep-placeholder.jpg'">
       <div class="ep-mep-card__body">
-        <h3 class="ep-mep-card__name">{{ mep.id }} - {{ mep.full_name }}</h3>
+        <h3 class="ep-mep-card__name">{{ mep.full_name }}</h3>
         <p class="ep-mep-card__meta">
           <span class="ep-badge ep-badge--group ep-badge--{{ mep.group_abbr | downcase | replace: '/', '-' }}">
             {{ mep.group_abbr }}
