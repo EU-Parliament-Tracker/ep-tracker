@@ -18,6 +18,12 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/3902/home"
   },
   {
+    "id": "3903",
+    "abbreviation": "3903",
+    "name": "",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/3903/home"
+  },
+  {
     "id": "3904",
     "abbreviation": "3904",
     "name": "",
@@ -424,12 +430,6 @@
     "abbreviation": "6589",
     "name": "DEEA",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6589/home"
-  },
-  {
-    "id": "6590",
-    "abbreviation": "6590",
-    "name": "DSEE",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6590/home"
   },
   {
     "id": "6591",
@@ -1084,12 +1084,6 @@
     "abbreviation": "6699",
     "name": "SGP",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6699/home"
-  },
-  {
-    "id": "6700",
-    "abbreviation": "6700",
-    "name": "SPZZ",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6700/home"
   },
   {
     "id": "6701",
@@ -2094,6 +2088,12 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6867/home"
   },
   {
+    "id": "6868",
+    "abbreviation": "6868",
+    "name": "MOM",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6868/home"
+  },
+  {
     "id": "6869",
     "abbreviation": "6869",
     "name": "IFC",
@@ -2592,12 +2592,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6951/home"
   },
   {
-    "id": "6952",
-    "abbreviation": "6952",
-    "name": "KD",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6952/home"
-  },
-  {
     "id": "6953",
     "abbreviation": "6953",
     "name": "Les Écologistes",
@@ -2800,5 +2794,11 @@
     "abbreviation": "6989",
     "name": "CJ34",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6989/home"
+  },
+  {
+    "id": "6990",
+    "abbreviation": "6990",
+    "name": "CJ35",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6990/home"
   }
 ]
