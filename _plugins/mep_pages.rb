@@ -41,11 +41,19 @@ module EPTracker
     priority :normal
 
     def generate(site)
+      # Static stubs in _pages/meps/ are the primary mechanism now.
+      # Only run this generator as a fallback if no stubs exist.
+      stubs_dir = File.join(site.source, "_pages", "meps")
+      if Dir.exist?(stubs_dir) && !Dir.glob(File.join(stubs_dir, "*.md")).empty?
+        Jekyll.logger.info "EP Tracker:", "Skipping plugin — static MEP stubs found in _pages/meps/"
+        return
+      end
+
       meps_data_dir = File.join(site.source, "_data", "meps")
       return unless Dir.exist?(meps_data_dir)
 
       mep_files = Dir.glob(File.join(meps_data_dir, "*.json"))
-      Jekyll.logger.info "EP Tracker:", "Generating #{mep_files.size} MEP pages…"
+      Jekyll.logger.info "EP Tracker:", "Generating #{mep_files.size} MEP pages (no stubs found)…"
 
       mep_files.each do |file|
         mep_id   = File.basename(file, ".json")
