@@ -92,11 +92,11 @@
   <!-- ── Recent plenary votes ───────────────────────────────────── -->
   <section class="ep-mep-detail__section">
     <h2>Recent plenary votes</h2>
-    {% assign recent_votes = site.data.votes | where_exp: "v", "v.title != ''" | first: 10 %}
+    {% assign recent_votes = site.data.votes | where_exp: "v", "v.title != ''" %}
     {% if recent_votes.size > 0 %}
-      <p class="ep-note">Showing the 10 most recent plenary votes. Individual MEP positions are not available from the current API.</p>
+      <p class="ep-note">Showing recent plenary votes. Individual MEP positions are not available from the current API.</p>
       <ul class="ep-vote-list">
-        {% for vote in recent_votes %}
+        {% for vote in recent_votes limit: 10 %}
         <li class="ep-vote-item">
           <span class="ep-col-date">{{ vote.date }}</span>
           {% if vote.ep_url != "" %}
