@@ -10,12 +10,18 @@ permalink: /committees/
 
 <div class="ep-committee-grid">
   {% for committee in site.data.committees %}
-  <div class="ep-committee-card" id="{{ committee.id | downcase }}">
+  {% comment %} Skip entries that only have a numeric ID and no real abbreviation {% endcomment %}
+  {% if committee.abbreviation == committee.id %}{% continue %}{% endif %}
+  <div class="ep-committee-card" id="{{ committee.abbreviation | downcase }}">
     <div class="ep-committee-card__header">
       <span class="ep-committee-abbr">{{ committee.abbreviation }}</span>
       <a href="{{ committee.ep_url }}" target="_blank" rel="noopener" class="ep-committee-ep-link" title="View on europarl.europa.eu">↗</a>
     </div>
+    {% if committee.name != "" and committee.name != committee.abbreviation %}
     <h3 class="ep-committee-name">{{ committee.name }}</h3>
+    {% else %}
+    <h3 class="ep-committee-name ep-committee-name--abbr-only">{{ committee.abbreviation }}</h3>
+    {% endif %}
 
     <!-- MEPs in this committee -->
     {% assign committee_meps = "" | split: "" %}
@@ -35,7 +41,7 @@ permalink: /committees/
       <li>
         <a href="{{ '/meps/' | append: mep.id | append: '/' | relative_url }}">{{ mep.full_name }}</a>
         {% assign membership = mep.committees | where: "id", committee.id | first %}
-        {% if membership.role != "" %}<span class="ep-role-badge">{{ membership.role }}</span>{% endif %}
+        {% if membership.role != "" %}<span class="ep-role-badge">{{ membership.role | replace: "_", " " | downcase | capitalize }}</span>{% endif %}
       </li>
       {% endfor %}
       {% if committee_meps.size > 8 %}
