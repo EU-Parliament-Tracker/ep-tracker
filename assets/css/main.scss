@@ -244,9 +244,20 @@
 }
 .ep-contact-icon:hover { opacity: 1; }
 
+/* ── Page content wrapper (for layout:default pages that have no MM #main) ──*/
+.initial-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
+}
+
 /* ── MEP detail page ────────────────────────────────────────────────────────*/
 .ep-mep-detail {
-  max-width: 820px;
+  max-width: 860px;
+  margin: 1.5rem auto;
+  padding: 0 1.5rem 2rem;
+  box-sizing: border-box;
 }
 .ep-mep-detail__header {
   display: flex;
@@ -586,6 +597,8 @@
 
 /* ── Responsive tweaks ──────────────────────────────────────────────────────*/
 @media (max-width: 600px) {
+  .initial-content { padding: 0 1rem; }
+  .ep-mep-detail { padding: 0 1rem 1.5rem; }
   .ep-stats-row { gap: 0.5rem; }
   .ep-stat-card { flex: 1 1 calc(33% - 0.5rem); padding: 0.75rem 0.5rem; }
   .ep-stat-card__number { font-size: 1.4rem; }
