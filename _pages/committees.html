@@ -5,13 +5,14 @@ permalink: /committees/
 ---
 
 <p class="ep-count">
-  {{ site.data.committees | size }} committees — data updated {{ site.data.meta.last_updated }}
+  Parliamentary committees — data updated {{ site.data.meta.last_updated }}
 </p>
 
 <div class="ep-committee-grid">
   {% for committee in site.data.committees %}
-  {% comment %} Skip entries that only have a numeric ID and no real abbreviation {% endcomment %}
+  {% comment %} Only show real EP committees: must have a proper full name {% endcomment %}
   {% if committee.abbreviation == committee.id %}{% continue %}{% endif %}
+  {% if committee.name == committee.abbreviation or committee.name == "" %}{% continue %}{% endif %}
   <div class="ep-committee-card" id="{{ committee.abbreviation | downcase }}">
     <div class="ep-committee-card__header">
       <span class="ep-committee-abbr">{{ committee.abbreviation }}</span>
