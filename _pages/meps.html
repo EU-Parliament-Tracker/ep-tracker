@@ -45,9 +45,9 @@ permalink: /meps/
   <select id="mep-committee-filter" class="ep-filter-select">
     <option value="">All committees</option>
     {% for committee in site.data.committees %}
-      {% if committee.abbreviation != committee.id %}
-        <option value="{{ committee.abbreviation }}">{{ committee.abbreviation }}{% if committee.name != committee.abbreviation %} — {{ committee.name }}{% endif %}</option>
-      {% endif %}
+      {% if committee.abbreviation == committee.id %}{% continue %}{% endif %}
+      {% if committee.name == committee.abbreviation or committee.name == "" %}{% continue %}{% endif %}
+      <option value="{{ committee.abbreviation }}">{{ committee.abbreviation }} — {{ committee.name }}</option>
     {% endfor %}
   </select>
   <button id="mep-download-btn" class="ep-download-btn" title="Download visible MEPs as CSV">↓ Download CSV</button>
@@ -82,7 +82,7 @@ permalink: /meps/
       <div class="ep-mep-card__body">
         <h3 class="ep-mep-card__name">{{ mep.full_name }}</h3>
         <p class="ep-mep-card__meta">
-          <span class="ep-badge ep-badge--group ep-badge--{{ mep.group_abbr | downcase | replace: '/', '-' }}">
+          <span class="ep-badge ep-badge--group ep-badge--{{ mep.group_abbr | downcase | replace: '/', '-' | replace: '&', '' }}">
             {{ mep.group_abbr }}
           </span>
           {{ mep.country }}

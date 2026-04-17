@@ -24,7 +24,7 @@
     <div class="ep-mep-detail__title">
       <h1>{{ mep.full_name }}</h1>
       <p class="ep-mep-detail__subtitle">
-        <span class="ep-badge ep-badge--group ep-badge--{{ mep.group_abbr | downcase | replace: '/', '-' }}">
+        <span class="ep-badge ep-badge--group ep-badge--{{ mep.group_abbr | downcase | replace: '/', '-' | replace: '&', '' }}">
           {{ mep.group_name }}
         </span>
         · {{ mep.national_party }} · {{ mep.country }}
