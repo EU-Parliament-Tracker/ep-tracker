@@ -22,20 +22,20 @@
     },
     {
       "id": "6576",
-      "abbr": "",
-      "name": "",
+      "abbr": "ITRE",
+      "name": "Industry, Research and Energy",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6585",
-      "abbr": "",
-      "name": "",
+      "abbr": "JURI",
+      "name": "Legal Affairs",
       "role": "MEMBER"
     },
     {
       "id": "6570",
-      "abbr": "",
-      "name": "",
+      "abbr": "ECON",
+      "name": "Economic and Monetary Affairs",
       "role": "MEMBER"
     }
   ]

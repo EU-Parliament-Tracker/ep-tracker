@@ -16,8 +16,8 @@
   "committees": [
     {
       "id": "6623",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-MX",
+      "name": "D-MX",
       "role": "MEMBER"
     },
     {
@@ -28,14 +28,14 @@
     },
     {
       "id": "6579",
-      "abbr": "",
-      "name": "",
+      "abbr": "IMCO",
+      "name": "Internal Market and Consumer Protection",
       "role": "MEMBER"
     },
     {
       "id": "6572",
-      "abbr": "",
-      "name": "",
+      "abbr": "EMPL",
+      "name": "Employment and Social Affairs",
       "role": "MEMBER"
     }
   ]

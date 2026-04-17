@@ -22,14 +22,14 @@
     },
     {
       "id": "6562",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFET",
+      "name": "Foreign Affairs",
       "role": "MEMBER"
     },
     {
       "id": "6563",
-      "abbr": "",
-      "name": "",
+      "abbr": "DEVE",
+      "name": "Development",
       "role": "CHAIR_VICE"
     }
   ]

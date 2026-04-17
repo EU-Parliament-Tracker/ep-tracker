@@ -22,26 +22,26 @@
     },
     {
       "id": "6570",
-      "abbr": "",
-      "name": "",
+      "abbr": "ECON",
+      "name": "Economic and Monetary Affairs",
       "role": "MEMBER"
     },
     {
       "id": "6568",
-      "abbr": "",
-      "name": "",
+      "abbr": "CONT",
+      "name": "Budgetary Control",
       "role": "MEMBER"
     },
     {
       "id": "6626",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-RS",
+      "name": "D-RS",
       "role": "CHAIR_VICE"
     },
     {
       "id": "6567",
-      "abbr": "",
-      "name": "",
+      "abbr": "BUDG",
+      "name": "Budgets",
       "role": "MEMBER"
     }
   ]

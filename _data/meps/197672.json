@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6584",
-      "abbr": "",
-      "name": "",
+      "abbr": "CULT",
+      "name": "Culture and Education",
       "role": "MEMBER"
     },
     {
       "id": "6591",
-      "abbr": "",
-      "name": "",
+      "abbr": "PETI",
+      "name": "Petitions",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
@@ -34,14 +34,14 @@
     },
     {
       "id": "6572",
-      "abbr": "",
-      "name": "",
+      "abbr": "EMPL",
+      "name": "Employment and Social Affairs",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6626",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-RS",
+      "name": "D-RS",
       "role": "MEMBER"
     }
   ]

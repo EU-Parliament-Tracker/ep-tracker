@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6581",
-      "abbr": "",
-      "name": "",
+      "abbr": "REGI",
+      "name": "Regional Development",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6563",
-      "abbr": "",
-      "name": "",
+      "abbr": "DEVE",
+      "name": "Development",
       "role": "MEMBER"
     }
   ]

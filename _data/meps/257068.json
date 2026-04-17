@@ -22,14 +22,14 @@
     },
     {
       "id": "6584",
-      "abbr": "",
-      "name": "",
+      "abbr": "CULT",
+      "name": "Culture and Education",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6567",
-      "abbr": "",
-      "name": "",
+      "abbr": "BUDG",
+      "name": "Budgets",
       "role": "MEMBER"
     }
   ]

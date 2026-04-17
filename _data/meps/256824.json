@@ -16,20 +16,20 @@
   "committees": [
     {
       "id": "6576",
-      "abbr": "",
-      "name": "",
+      "abbr": "ITRE",
+      "name": "Industry, Research and Energy",
       "role": "MEMBER"
     },
     {
       "id": "6562",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFET",
+      "name": "Foreign Affairs",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6580",
-      "abbr": "",
-      "name": "",
+      "abbr": "TRAN",
+      "name": "Transport and Tourism",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
@@ -46,8 +46,8 @@
     },
     {
       "id": "6591",
-      "abbr": "",
-      "name": "",
+      "abbr": "PETI",
+      "name": "Petitions",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

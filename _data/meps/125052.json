@@ -16,32 +16,32 @@
   "committees": [
     {
       "id": "6623",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-MX",
+      "name": "D-MX",
       "role": "MEMBER"
     },
     {
       "id": "6584",
-      "abbr": "",
-      "name": "",
+      "abbr": "CULT",
+      "name": "Culture and Education",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6587",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFCO",
+      "name": "Constitutional Affairs",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6591",
-      "abbr": "",
-      "name": "",
+      "abbr": "PETI",
+      "name": "Petitions",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6585",
-      "abbr": "",
-      "name": "",
+      "abbr": "JURI",
+      "name": "Legal Affairs",
       "role": "MEMBER"
     }
   ]

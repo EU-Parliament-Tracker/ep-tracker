@@ -16,20 +16,20 @@
   "committees": [
     {
       "id": "6563",
-      "abbr": "",
-      "name": "",
+      "abbr": "DEVE",
+      "name": "Development",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6567",
-      "abbr": "",
-      "name": "",
+      "abbr": "BUDG",
+      "name": "Budgets",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6568",
-      "abbr": "",
-      "name": "",
+      "abbr": "CONT",
+      "name": "Budgetary Control",
       "role": "MEMBER"
     }
   ]

@@ -16,26 +16,26 @@
   "committees": [
     {
       "id": "6591",
-      "abbr": "",
-      "name": "",
+      "abbr": "PETI",
+      "name": "Petitions",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6576",
-      "abbr": "",
-      "name": "",
+      "abbr": "ITRE",
+      "name": "Industry, Research and Energy",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6586",
-      "abbr": "",
-      "name": "",
+      "abbr": "LIBE",
+      "name": "Civil Liberties, Justice and Home Affairs",
       "role": "MEMBER"
     },
     {
       "id": "6568",
-      "abbr": "",
-      "name": "",
+      "abbr": "CONT",
+      "name": "Budgetary Control",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

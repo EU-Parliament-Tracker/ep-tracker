@@ -16,8 +16,8 @@
   "committees": [
     {
       "id": "6625",
-      "abbr": "",
-      "name": "",
+      "abbr": "DCAR",
+      "name": "DCAR",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
@@ -28,8 +28,8 @@
     },
     {
       "id": "6563",
-      "abbr": "",
-      "name": "",
+      "abbr": "DEVE",
+      "name": "Development",
       "role": "MEMBER"
     },
     {
@@ -40,14 +40,14 @@
     },
     {
       "id": "6584",
-      "abbr": "",
-      "name": "",
+      "abbr": "CULT",
+      "name": "Culture and Education",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6629",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-UK",
+      "name": "D-UK",
       "role": "MEMBER"
     }
   ]

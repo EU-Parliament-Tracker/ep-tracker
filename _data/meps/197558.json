@@ -16,20 +16,20 @@
   "committees": [
     {
       "id": "6582",
-      "abbr": "",
-      "name": "",
+      "abbr": "AGRI",
+      "name": "Agriculture and Rural Development",
       "role": "MEMBER"
     },
     {
       "id": "6580",
-      "abbr": "",
-      "name": "",
+      "abbr": "TRAN",
+      "name": "Transport and Tourism",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6583",
-      "abbr": "",
-      "name": "",
+      "abbr": "PECH",
+      "name": "Fisheries",
       "role": "MEMBER"
     }
   ]

@@ -22,20 +22,20 @@
     },
     {
       "id": "6562",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFET",
+      "name": "Foreign Affairs",
       "role": "CHAIR_VICE"
     },
     {
       "id": "6623",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-MX",
+      "name": "D-MX",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6580",
-      "abbr": "",
-      "name": "",
+      "abbr": "TRAN",
+      "name": "Transport and Tourism",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
@@ -46,8 +46,8 @@
     },
     {
       "id": "6625",
-      "abbr": "",
-      "name": "",
+      "abbr": "DCAR",
+      "name": "DCAR",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

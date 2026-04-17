@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6572",
-      "abbr": "",
-      "name": "",
+      "abbr": "EMPL",
+      "name": "Employment and Social Affairs",
       "role": "MEMBER"
     },
     {
       "id": "6576",
-      "abbr": "",
-      "name": "",
+      "abbr": "ITRE",
+      "name": "Industry, Research and Energy",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
@@ -34,8 +34,8 @@
     },
     {
       "id": "6584",
-      "abbr": "",
-      "name": "",
+      "abbr": "CULT",
+      "name": "Culture and Education",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

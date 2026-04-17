@@ -16,26 +16,26 @@
   "committees": [
     {
       "id": "6585",
-      "abbr": "",
-      "name": "",
+      "abbr": "JURI",
+      "name": "Legal Affairs",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6579",
-      "abbr": "",
-      "name": "",
+      "abbr": "IMCO",
+      "name": "Internal Market and Consumer Protection",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6564",
-      "abbr": "",
-      "name": "",
+      "abbr": "INTA",
+      "name": "International Trade",
       "role": "MEMBER"
     },
     {
       "id": "6587",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFCO",
+      "name": "Constitutional Affairs",
       "role": "MEMBER"
     }
   ]

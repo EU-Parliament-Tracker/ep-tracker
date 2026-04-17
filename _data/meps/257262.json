@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6570",
-      "abbr": "",
-      "name": "",
+      "abbr": "ECON",
+      "name": "Economic and Monetary Affairs",
       "role": "MEMBER"
     },
     {
       "id": "6579",
-      "abbr": "",
-      "name": "",
+      "abbr": "IMCO",
+      "name": "Internal Market and Consumer Protection",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

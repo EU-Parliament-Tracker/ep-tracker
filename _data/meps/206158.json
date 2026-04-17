@@ -22,14 +22,14 @@
     },
     {
       "id": "6584",
-      "abbr": "",
-      "name": "",
+      "abbr": "CULT",
+      "name": "Culture and Education",
       "role": "MEMBER"
     },
     {
       "id": "6588",
-      "abbr": "",
-      "name": "",
+      "abbr": "FEMM",
+      "name": "Women s Rights and Gender Equality",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
@@ -40,8 +40,8 @@
     },
     {
       "id": "6625",
-      "abbr": "",
-      "name": "",
+      "abbr": "DCAR",
+      "name": "DCAR",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

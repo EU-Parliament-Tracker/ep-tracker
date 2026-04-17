@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6568",
-      "abbr": "",
-      "name": "",
+      "abbr": "CONT",
+      "name": "Budgetary Control",
       "role": "CHAIR_VICE"
     },
     {
       "id": "6562",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFET",
+      "name": "Foreign Affairs",
       "role": "MEMBER"
     }
   ]

@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6628",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-ME",
+      "name": "D-ME",
       "role": "MEMBER"
     },
     {
       "id": "6587",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFCO",
+      "name": "Constitutional Affairs",
       "role": "MEMBER"
     }
   ]

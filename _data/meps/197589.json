@@ -16,20 +16,20 @@
   "committees": [
     {
       "id": "6585",
-      "abbr": "",
-      "name": "",
+      "abbr": "JURI",
+      "name": "Legal Affairs",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6584",
-      "abbr": "",
-      "name": "",
+      "abbr": "CULT",
+      "name": "Culture and Education",
       "role": "MEMBER"
     },
     {
       "id": "6572",
-      "abbr": "",
-      "name": "",
+      "abbr": "EMPL",
+      "name": "Employment and Social Affairs",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

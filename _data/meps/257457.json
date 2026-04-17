@@ -16,20 +16,20 @@
   "committees": [
     {
       "id": "6584",
-      "abbr": "",
-      "name": "",
+      "abbr": "CULT",
+      "name": "Culture and Education",
       "role": "MEMBER"
     },
     {
       "id": "6626",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-RS",
+      "name": "D-RS",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6582",
-      "abbr": "",
-      "name": "",
+      "abbr": "AGRI",
+      "name": "Agriculture and Rural Development",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

@@ -22,20 +22,20 @@
     },
     {
       "id": "6580",
-      "abbr": "",
-      "name": "",
+      "abbr": "TRAN",
+      "name": "Transport and Tourism",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6572",
-      "abbr": "",
-      "name": "",
+      "abbr": "EMPL",
+      "name": "Employment and Social Affairs",
       "role": "MEMBER"
     },
     {
       "id": "6624",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-CL",
+      "name": "D-CL",
       "role": "CHAIR_VICE"
     }
   ]

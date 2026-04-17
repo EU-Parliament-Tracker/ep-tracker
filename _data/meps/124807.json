@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6580",
-      "abbr": "",
-      "name": "",
+      "abbr": "TRAN",
+      "name": "Transport and Tourism",
       "role": "MEMBER"
     },
     {
       "id": "6576",
-      "abbr": "",
-      "name": "",
+      "abbr": "ITRE",
+      "name": "Industry, Research and Energy",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
@@ -34,8 +34,8 @@
     },
     {
       "id": "6624",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-CL",
+      "name": "D-CL",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

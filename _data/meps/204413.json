@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6584",
-      "abbr": "",
-      "name": "",
+      "abbr": "CULT",
+      "name": "Culture and Education",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6581",
-      "abbr": "",
-      "name": "",
+      "abbr": "REGI",
+      "name": "Regional Development",
       "role": "MEMBER"
     }
   ]

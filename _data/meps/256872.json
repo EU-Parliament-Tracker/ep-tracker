@@ -16,8 +16,8 @@
   "committees": [
     {
       "id": "6586",
-      "abbr": "",
-      "name": "",
+      "abbr": "LIBE",
+      "name": "Civil Liberties, Justice and Home Affairs",
       "role": "MEMBER"
     },
     {
@@ -28,14 +28,14 @@
     },
     {
       "id": "6591",
-      "abbr": "",
-      "name": "",
+      "abbr": "PETI",
+      "name": "Petitions",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6587",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFCO",
+      "name": "Constitutional Affairs",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

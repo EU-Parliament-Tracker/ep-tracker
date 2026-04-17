@@ -16,20 +16,20 @@
   "committees": [
     {
       "id": "6562",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFET",
+      "name": "Foreign Affairs",
       "role": "MEMBER"
     },
     {
       "id": "6628",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-ME",
+      "name": "D-ME",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6626",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-RS",
+      "name": "D-RS",
       "role": "MEMBER_SUBSTITUTE"
     },
     {

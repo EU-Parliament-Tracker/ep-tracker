@@ -16,20 +16,20 @@
   "committees": [
     {
       "id": "6587",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFCO",
+      "name": "Constitutional Affairs",
       "role": "CHAIR_VICE"
     },
     {
       "id": "6582",
-      "abbr": "",
-      "name": "",
+      "abbr": "AGRI",
+      "name": "Agriculture and Rural Development",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6563",
-      "abbr": "",
-      "name": "",
+      "abbr": "DEVE",
+      "name": "Development",
       "role": "MEMBER"
     }
   ]

@@ -16,26 +16,26 @@
   "committees": [
     {
       "id": "6629",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-UK",
+      "name": "D-UK",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6584",
-      "abbr": "",
-      "name": "",
+      "abbr": "CULT",
+      "name": "Culture and Education",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6579",
-      "abbr": "",
-      "name": "",
+      "abbr": "IMCO",
+      "name": "Internal Market and Consumer Protection",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6576",
-      "abbr": "",
-      "name": "",
+      "abbr": "ITRE",
+      "name": "Industry, Research and Energy",
       "role": "MEMBER"
     }
   ]

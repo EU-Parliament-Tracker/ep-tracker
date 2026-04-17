@@ -16,8 +16,8 @@
   "committees": [
     {
       "id": "6572",
-      "abbr": "",
-      "name": "",
+      "abbr": "EMPL",
+      "name": "Employment and Social Affairs",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
@@ -34,8 +34,8 @@
     },
     {
       "id": "6625",
-      "abbr": "",
-      "name": "",
+      "abbr": "DCAR",
+      "name": "DCAR",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

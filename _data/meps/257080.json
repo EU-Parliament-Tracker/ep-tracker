@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6579",
-      "abbr": "",
-      "name": "",
+      "abbr": "IMCO",
+      "name": "Internal Market and Consumer Protection",
       "role": "MEMBER"
     },
     {
       "id": "6583",
-      "abbr": "",
-      "name": "",
+      "abbr": "PECH",
+      "name": "Fisheries",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

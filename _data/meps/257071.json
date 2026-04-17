@@ -16,32 +16,32 @@
   "committees": [
     {
       "id": "6588",
-      "abbr": "",
-      "name": "",
+      "abbr": "FEMM",
+      "name": "Women s Rights and Gender Equality",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6570",
-      "abbr": "",
-      "name": "",
+      "abbr": "ECON",
+      "name": "Economic and Monetary Affairs",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6568",
-      "abbr": "",
-      "name": "",
+      "abbr": "CONT",
+      "name": "Budgetary Control",
       "role": "MEMBER"
     },
     {
       "id": "6563",
-      "abbr": "",
-      "name": "",
+      "abbr": "DEVE",
+      "name": "Development",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6567",
-      "abbr": "",
-      "name": "",
+      "abbr": "BUDG",
+      "name": "Budgets",
       "role": "MEMBER"
     }
   ]

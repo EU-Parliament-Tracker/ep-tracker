@@ -16,20 +16,20 @@
   "committees": [
     {
       "id": "6629",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-UK",
+      "name": "D-UK",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6584",
-      "abbr": "",
-      "name": "",
+      "abbr": "CULT",
+      "name": "Culture and Education",
       "role": "MEMBER"
     },
     {
       "id": "6570",
-      "abbr": "",
-      "name": "",
+      "abbr": "ECON",
+      "name": "Economic and Monetary Affairs",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

@@ -16,26 +16,26 @@
   "committees": [
     {
       "id": "6580",
-      "abbr": "",
-      "name": "",
+      "abbr": "TRAN",
+      "name": "Transport and Tourism",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6567",
-      "abbr": "",
-      "name": "",
+      "abbr": "BUDG",
+      "name": "Budgets",
       "role": "MEMBER"
     },
     {
       "id": "6623",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-MX",
+      "name": "D-MX",
       "role": "MEMBER"
     },
     {
       "id": "6564",
-      "abbr": "",
-      "name": "",
+      "abbr": "INTA",
+      "name": "International Trade",
       "role": "MEMBER"
     }
   ]

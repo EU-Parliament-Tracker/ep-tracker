@@ -16,8 +16,8 @@
   "committees": [
     {
       "id": "6591",
-      "abbr": "",
-      "name": "",
+      "abbr": "PETI",
+      "name": "Petitions",
       "role": "MEMBER"
     },
     {
@@ -28,8 +28,8 @@
     },
     {
       "id": "6572",
-      "abbr": "",
-      "name": "",
+      "abbr": "EMPL",
+      "name": "Employment and Social Affairs",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

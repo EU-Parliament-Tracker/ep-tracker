@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6591",
-      "abbr": "",
-      "name": "",
+      "abbr": "PETI",
+      "name": "Petitions",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6568",
-      "abbr": "",
-      "name": "",
+      "abbr": "CONT",
+      "name": "Budgetary Control",
       "role": "MEMBER"
     },
     {
@@ -34,8 +34,8 @@
     },
     {
       "id": "6581",
-      "abbr": "",
-      "name": "",
+      "abbr": "REGI",
+      "name": "Regional Development",
       "role": "MEMBER"
     }
   ]

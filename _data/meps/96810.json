@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6562",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFET",
+      "name": "Foreign Affairs",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6580",
-      "abbr": "",
-      "name": "",
+      "abbr": "TRAN",
+      "name": "Transport and Tourism",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
@@ -34,20 +34,20 @@
     },
     {
       "id": "6568",
-      "abbr": "",
-      "name": "",
+      "abbr": "CONT",
+      "name": "Budgetary Control",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6624",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-CL",
+      "name": "D-CL",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6582",
-      "abbr": "",
-      "name": "",
+      "abbr": "AGRI",
+      "name": "Agriculture and Rural Development",
       "role": "MEMBER"
     }
   ]

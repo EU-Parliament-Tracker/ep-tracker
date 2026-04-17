@@ -16,8 +16,8 @@
   "committees": [
     {
       "id": "6583",
-      "abbr": "",
-      "name": "",
+      "abbr": "PECH",
+      "name": "Fisheries",
       "role": "MEMBER"
     },
     {
@@ -28,14 +28,14 @@
     },
     {
       "id": "6570",
-      "abbr": "",
-      "name": "",
+      "abbr": "ECON",
+      "name": "Economic and Monetary Affairs",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6629",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-UK",
+      "name": "D-UK",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

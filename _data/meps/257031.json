@@ -16,20 +16,20 @@
   "committees": [
     {
       "id": "6580",
-      "abbr": "",
-      "name": "",
+      "abbr": "TRAN",
+      "name": "Transport and Tourism",
       "role": "MEMBER"
     },
     {
       "id": "6591",
-      "abbr": "",
-      "name": "",
+      "abbr": "PETI",
+      "name": "Petitions",
       "role": "MEMBER"
     },
     {
       "id": "6564",
-      "abbr": "",
-      "name": "",
+      "abbr": "INTA",
+      "name": "International Trade",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

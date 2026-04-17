@@ -16,26 +16,26 @@
   "committees": [
     {
       "id": "6587",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFCO",
+      "name": "Constitutional Affairs",
       "role": "CHAIR_VICE"
     },
     {
       "id": "6629",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-UK",
+      "name": "D-UK",
       "role": "MEMBER"
     },
     {
       "id": "6582",
-      "abbr": "",
-      "name": "",
+      "abbr": "AGRI",
+      "name": "Agriculture and Rural Development",
       "role": "MEMBER"
     },
     {
       "id": "6622",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-TR",
+      "name": "D-TR",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

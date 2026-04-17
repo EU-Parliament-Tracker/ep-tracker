@@ -16,26 +16,26 @@
   "committees": [
     {
       "id": "6628",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-ME",
+      "name": "D-ME",
       "role": "CHAIR"
     },
     {
       "id": "6621",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-MK",
+      "name": "D-MK",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6562",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFET",
+      "name": "Foreign Affairs",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6582",
-      "abbr": "",
-      "name": "",
+      "abbr": "AGRI",
+      "name": "Agriculture and Rural Development",
       "role": "MEMBER"
     }
   ]

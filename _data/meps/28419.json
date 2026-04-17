@@ -16,32 +16,32 @@
   "committees": [
     {
       "id": "6562",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFET",
+      "name": "Foreign Affairs",
       "role": "MEMBER"
     },
     {
       "id": "6576",
-      "abbr": "",
-      "name": "",
+      "abbr": "ITRE",
+      "name": "Industry, Research and Energy",
       "role": "MEMBER"
     },
     {
       "id": "6622",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-TR",
+      "name": "D-TR",
       "role": "MEMBER"
     },
     {
       "id": "6626",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-RS",
+      "name": "D-RS",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6584",
-      "abbr": "",
-      "name": "",
+      "abbr": "CULT",
+      "name": "Culture and Education",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

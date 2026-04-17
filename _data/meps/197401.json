@@ -16,8 +16,8 @@
   "committees": [
     {
       "id": "6583",
-      "abbr": "",
-      "name": "",
+      "abbr": "PECH",
+      "name": "Fisheries",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
@@ -28,8 +28,8 @@
     },
     {
       "id": "6564",
-      "abbr": "",
-      "name": "",
+      "abbr": "INTA",
+      "name": "International Trade",
       "role": "CHAIR_VICE"
     }
   ]

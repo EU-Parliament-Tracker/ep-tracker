@@ -16,20 +16,20 @@
   "committees": [
     {
       "id": "6624",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-CL",
+      "name": "D-CL",
       "role": "MEMBER"
     },
     {
       "id": "6576",
-      "abbr": "",
-      "name": "",
+      "abbr": "ITRE",
+      "name": "Industry, Research and Energy",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6562",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFET",
+      "name": "Foreign Affairs",
       "role": "MEMBER"
     },
     {

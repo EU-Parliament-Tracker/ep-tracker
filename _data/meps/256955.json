@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6591",
-      "abbr": "",
-      "name": "",
+      "abbr": "PETI",
+      "name": "Petitions",
       "role": "MEMBER"
     },
     {
       "id": "6621",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-MK",
+      "name": "D-MK",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
@@ -34,14 +34,14 @@
     },
     {
       "id": "6622",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-TR",
+      "name": "D-TR",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6572",
-      "abbr": "",
-      "name": "",
+      "abbr": "EMPL",
+      "name": "Employment and Social Affairs",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

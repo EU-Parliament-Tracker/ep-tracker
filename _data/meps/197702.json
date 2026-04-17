@@ -16,20 +16,20 @@
   "committees": [
     {
       "id": "6588",
-      "abbr": "",
-      "name": "",
+      "abbr": "FEMM",
+      "name": "Women s Rights and Gender Equality",
       "role": "CHAIR"
     },
     {
       "id": "6564",
-      "abbr": "",
-      "name": "",
+      "abbr": "INTA",
+      "name": "International Trade",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6576",
-      "abbr": "",
-      "name": "",
+      "abbr": "ITRE",
+      "name": "Industry, Research and Energy",
       "role": "MEMBER"
     }
   ]

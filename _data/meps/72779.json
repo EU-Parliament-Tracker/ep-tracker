@@ -16,20 +16,20 @@
   "committees": [
     {
       "id": "6591",
-      "abbr": "",
-      "name": "",
+      "abbr": "PETI",
+      "name": "Petitions",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6586",
-      "abbr": "",
-      "name": "",
+      "abbr": "LIBE",
+      "name": "Civil Liberties, Justice and Home Affairs",
       "role": "MEMBER"
     },
     {
       "id": "6563",
-      "abbr": "",
-      "name": "",
+      "abbr": "DEVE",
+      "name": "Development",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

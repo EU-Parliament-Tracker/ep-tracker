@@ -16,8 +16,8 @@
   "committees": [
     {
       "id": "6570",
-      "abbr": "",
-      "name": "",
+      "abbr": "ECON",
+      "name": "Economic and Monetary Affairs",
       "role": "MEMBER"
     },
     {
@@ -28,8 +28,8 @@
     },
     {
       "id": "6567",
-      "abbr": "",
-      "name": "",
+      "abbr": "BUDG",
+      "name": "Budgets",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

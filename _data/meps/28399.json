@@ -22,20 +22,20 @@
     },
     {
       "id": "6570",
-      "abbr": "",
-      "name": "",
+      "abbr": "ECON",
+      "name": "Economic and Monetary Affairs",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6623",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-MX",
+      "name": "D-MX",
       "role": "CHAIR"
     },
     {
       "id": "6562",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFET",
+      "name": "Foreign Affairs",
       "role": "MEMBER"
     }
   ]

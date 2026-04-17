@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6628",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-ME",
+      "name": "D-ME",
       "role": "MEMBER"
     },
     {
       "id": "6584",
-      "abbr": "",
-      "name": "",
+      "abbr": "CULT",
+      "name": "Culture and Education",
       "role": "MEMBER"
     },
     {
@@ -34,8 +34,8 @@
     },
     {
       "id": "6621",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-MK",
+      "name": "D-MK",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]
