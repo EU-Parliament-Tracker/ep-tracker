@@ -31,6 +31,40 @@ MAX_VOTES     = 500
 MAX_DOCUMENTS = 300
 MAX_QUESTIONS = 300
 
+# Full names for EP committees (abbreviation → full name)
+COMMITTEE_FULL_NAMES = {
+    "AFET":  "Foreign Affairs",
+    "DROI":  "Human Rights",
+    "SEDE":  "Security and Defence",
+    "DEVE":  "Development",
+    "INTA":  "International Trade",
+    "BUDG":  "Budgets",
+    "CONT":  "Budgetary Control",
+    "ECON":  "Economic and Monetary Affairs",
+    "EMPL":  "Employment and Social Affairs",
+    "ENVI":  "Environment, Public Health and Food Safety",
+    "ITRE":  "Industry, Research and Energy",
+    "IMCO":  "Internal Market and Consumer Protection",
+    "TRAN":  "Transport and Tourism",
+    "REGI":  "Regional Development",
+    "AGRI":  "Agriculture and Rural Development",
+    "PECH":  "Fisheries",
+    "CULT":  "Culture and Education",
+    "JURI":  "Legal Affairs",
+    "LIBE":  "Civil Liberties, Justice and Home Affairs",
+    "AFCO":  "Constitutional Affairs",
+    "FEMM":  "Women's Rights and Gender Equality",
+    "PETI":  "Petitions",
+    "STOA":  "Science and Technology Options Assessment",
+    "NI":    "Non-Attached Members",
+    "INGE":  "Foreign Interference in Democratic Processes",
+    "DMAS":  "Future of European Defence",
+    "FISC":  "Tax Matters",
+    "BECA":  "Beating Cancer",
+    "SURE":  "Sustainable Urban Mobility",
+    "AIDA":  "Artificial Intelligence in a Digital Age",
+}
+
 OUTPUT_DIR = Path(os.environ.get("EP_DATA_DIR",
     str(Path(__file__).resolve().parent.parent / "_data")))
 MEPS_DIR   = OUTPUT_DIR / "meps"
@@ -256,10 +290,20 @@ def fetch_meps(committee_lookup=None):
             if phone:
                 break
 
-        # Social media
+        # Social media — try several field names used by the EP API
         social = {}
-        for link in (d.get("homePage") or d.get("homepage") or []):
-            u = str(link.get("url", link) if isinstance(link, dict) else link)
+        home_links = (d.get("homePage") or d.get("homepage")
+                      or d.get("sameAs") or d.get("owl:sameAs")
+                      or d.get("foaf:homepage") or d.get("schema:sameAs") or [])
+        if isinstance(home_links, str):
+            home_links = [home_links]
+        for link in home_links:
+            if isinstance(link, dict):
+                u = str(link.get("url", link.get("@id", link.get("id", ""))))
+            else:
+                u = str(link)
+            if not u:
+                continue
             if "twitter.com" in u or "x.com" in u:
                 social["twitter"] = u
             elif "linkedin.com" in u:
@@ -361,31 +405,35 @@ def fetch_committees():
     committees = []
     org_id_lookup = {}
     for c in raw:
-        # notation / skos:notation holds the short abbreviation (ECON, BUDG…)
+        # notation / skos:notation holds the numeric body ID (e.g. "6562")
         body_id = safe_str(
             c.get("notation", c.get("skos:notation",
             c.get("identifier", c.get("id", "")))))
-        # prefLabel / skos:prefLabel / label holds the full name
-        name = safe_label(
+        # prefLabel / skos:prefLabel holds the short abbreviation (AFET, ECON…)
+        abbr = safe_label(
             c.get("prefLabel", c.get("skos:prefLabel",
             c.get("label", ""))))
         if not body_id:
             continue
+        full_name = COMMITTEE_FULL_NAMES.get(abbr, abbr) if abbr else body_id
         committees.append({
             "id":           body_id,
-            "abbreviation": body_id,
-            "name":         name,
+            "abbreviation": abbr or body_id,
+            "name":         full_name,
             "ep_url":       f"{EP_WEBSITE}/committees/en/{body_id.lower()}/home",
         })
-        # The EP API uses numeric URI fragments in MEP membership records
-        # (e.g. "org/6579") while corporate-bodies uses the notation abbreviation.
-        # Extract the numeric tail from @id so we can cross-reference later.
+        # Build lookup keyed by body_id so fetch_meps() can enrich committee entries.
+        # Bug fix: previously the condition "numeric_id != body_id" meant the lookup
+        # was never populated (they're always equal). Now we always add the entry.
+        lookup_val = {"abbreviation": abbr or body_id, "name": full_name}
+        org_id_lookup[body_id] = lookup_val
+        # Also index by the @id URI numeric fragment in case it differs.
         uri = safe_str(c.get("@id", ""))
         if "/" in uri:
             numeric_id = uri.rstrip("/").split("/")[-1]
-            if numeric_id and numeric_id != body_id:
-                org_id_lookup[numeric_id] = {"abbreviation": body_id, "name": name}
-    log.info("  -> %d committees kept", len(committees))
+            if numeric_id and numeric_id not in org_id_lookup:
+                org_id_lookup[numeric_id] = lookup_val
+    log.info("  -> %d committees kept, %d lookup entries", len(committees), len(org_id_lookup))
     return sorted(committees, key=lambda x: x.get("abbreviation", "")), org_id_lookup
 
 
@@ -486,38 +534,54 @@ def fetch_votes():
 
     # Step 2: per-meeting vote results
     votes = []
+    _debug_vote_saved = False
     for mid in meeting_ids:
         if len(votes) >= MAX_VOTES:
             break
         raw = get_all(f"meetings/{mid}/vote-results",
                       max_items=MAX_VOTES - len(votes))
+        if raw and not _debug_vote_saved:
+            write_json(OUTPUT_DIR / "debug_vote_sample.json", raw[:3])
+            log.info("  Saved debug vote sample (%d fields in first item)", len(raw[0]))
+            _debug_vote_saved = True
         for v in raw:
-            outcome = v.get("had_decision_outcome", v.get("decision_method", ""))
-            if isinstance(outcome, dict):
-                outcome = (safe_label(outcome.get("label",
-                           outcome.get("prefLabel", "")))
-                           or safe_str(outcome.get("@id", "")).split("/")[-1])
-            elif isinstance(outcome, str) and "/" in outcome:
-                outcome = outcome.split("/")[-1]
+            # outcome: try many field name variants used across API versions
+            outcome_raw = (v.get("had_decision_outcome")
+                           or v.get("decision_method")
+                           or v.get("eli-dl:had_decision_outcome")
+                           or v.get("outcome")
+                           or v.get("result")
+                           or v.get("decision")
+                           or "")
+            if isinstance(outcome_raw, dict):
+                outcome = (safe_label(outcome_raw.get("label",
+                           outcome_raw.get("prefLabel", "")))
+                           or safe_str(outcome_raw.get("@id", "")).split("/")[-1])
+            elif isinstance(outcome_raw, str) and "/" in outcome_raw:
+                outcome = outcome_raw.split("/")[-1]
             else:
-                outcome = safe_str(outcome)
+                outcome = safe_str(outcome_raw)
 
             votes.append({
                 "id":         safe_str(v.get("activity_id",
                               v.get("identifier", v.get("id", "")))),
                 "date":       safe_str(v.get("activity_date",
-                              v.get("date", ""))),
+                              v.get("date", v.get("eli-dl:activity_date", "")))),
                 "title":      safe_label(v.get("activity_label",
-                              v.get("label", ""))),
+                              v.get("label", v.get("eli-dl:activity_label",
+                              v.get("title", v.get("name", "")))))),
                 "result":     outcome,
                 "for":        _int(v.get("number_of_votes_favor",
-                              v.get("had_voter_favor", 0))),
+                              v.get("had_voter_favor",
+                              v.get("votesFor", v.get("for", 0))))),
                 "against":    _int(v.get("number_of_votes_against",
-                              v.get("had_voter_against", 0))),
+                              v.get("had_voter_against",
+                              v.get("votesAgainst", v.get("against", 0))))),
                 "abstention": _int(v.get("number_of_votes_abstention",
-                              v.get("had_voter_abstention", 0))),
-                "ep_ref":     safe_str(v.get("notation", "")),
-                "ep_url":     safe_str(v.get("seeAlso", "")),
+                              v.get("had_voter_abstention",
+                              v.get("abstentions", v.get("abstention", 0))))),
+                "ep_ref":     safe_str(v.get("notation", v.get("reference", ""))),
+                "ep_url":     safe_str(v.get("seeAlso", v.get("url", ""))),
             })
 
     log.info("  -> %d votes total", len(votes))
@@ -529,22 +593,31 @@ def fetch_votes():
 # ---------------------------------------------------------------------------
 
 def _parse_doc(d, doc_type):
-    # JSON-LD field names vary; try the most common ones in priority order
     work_type = safe_str(d.get("work_type", doc_type))
     if "adopted" in work_type.lower():
         doc_type = "adopted"
+    doc_id = safe_str(d.get("work_id", d.get("identifier", d.get("id", ""))))
+    ref = safe_str(d.get("notation", d.get("reference", d.get("eli:notation", ""))))
+    # title_dcterms is the primary title field; label is often the reference notation
+    raw_title = safe_label(d.get("title_dcterms",
+                d.get("eli:title", d.get("dcterms:title",
+                d.get("title", d.get("label", ""))))))
+    # If title is same as ref/id (i.e. the API returned a reference notation as title),
+    # keep it as the ref and leave title blank so the template can show a proper label.
+    if raw_title and (raw_title == ref or raw_title.replace("-", "").replace("/", "") ==
+                      doc_id.replace("-", "").replace("/", "")):
+        ref = ref or raw_title
+        raw_title = ""
     return {
-        "id":     safe_str(d.get("work_id", d.get("identifier", d.get("id", "")))),
+        "id":     doc_id,
         "type":   doc_type,
         "date":   safe_str(d.get("document_date",
                   d.get("work_date_document",
                   d.get("date_document",
-                  d.get("date", ""))))),
-        "title":  safe_label(d.get("title_dcterms",
-                  d.get("label",
-                  d.get("title", "")))),
-        "ref":    safe_str(d.get("notation", "")),
-        "ep_url": safe_str(d.get("seeAlso", "")),
+                  d.get("eli:date_document", d.get("date", "")))))),
+        "title":  raw_title,
+        "ref":    ref or doc_id,
+        "ep_url": safe_str(d.get("seeAlso", d.get("url", ""))),
     }
 
 
@@ -566,10 +639,15 @@ def fetch_documents():
     years = _lookback_years()
     docs = []
     seen_ids = set()
+    _debug_saved = False
     for year in years:
         batch = get_all("plenary-documents",
                         params={"year": year},
                         max_items=MAX_DOCUMENTS)
+        if batch and not _debug_saved:
+            write_json(OUTPUT_DIR / "debug_document_sample.json", batch[:3])
+            log.info("  Saved debug document sample (%d fields)", len(batch[0]))
+            _debug_saved = True
         for d in batch:
             docs.append(_parse_doc(d, "tabled"))
     log.info("  -> %d documents", len(docs))
@@ -604,10 +682,15 @@ def fetch_questions():
     years = _lookback_years(QUESTIONS_LOOKBACK_DAYS)
     questions = []
     seen_ids = set()
+    _debug_saved = False
     for year in years:
         batch = get_all("parliamentary-questions",
                         params={"year": year},
                         max_items=MAX_QUESTIONS)
+        if batch and not _debug_saved:
+            write_json(OUTPUT_DIR / "debug_question_sample.json", batch[:3])
+            log.info("  Saved debug question sample (%d fields)", len(batch[0]))
+            _debug_saved = True
         for q in batch:
             qid = safe_str(q.get("work_id", q.get("identifier", q.get("id", ""))))
             if qid in seen_ids:
@@ -615,16 +698,22 @@ def fetch_questions():
             seen_ids.add(qid)
 
             # Normalize type: QUESTION_WRITTEN → Written Question, etc.
-            qtype = safe_str(q.get("work_type", q.get("questionType", "")))
+            qtype = safe_str(q.get("work_type", q.get("questionType",
+                    q.get("type", q.get("eli:work_type", "")))))
             if "written" in qtype.lower():
                 qtype = "Written Question"
             elif "oral" in qtype.lower():
                 qtype = "Oral Question"
 
-            # Authors: was_created_by is the JSON-LD predicate for author
-            authors_raw = q.get("was_created_by",
-                          q.get("created_by",
-                          q.get("author", [])))
+            # Authors: try many field name variants
+            authors_raw = (q.get("was_created_by")
+                           or q.get("created_by")
+                           or q.get("author")
+                           or q.get("creator")
+                           or q.get("eli:author")
+                           or q.get("dcterms:creator")
+                           or q.get("hasMember")
+                           or [])
             if isinstance(authors_raw, (str, dict)):
                 authors_raw = [authors_raw]
             author_ids = []
@@ -639,7 +728,7 @@ def fetch_questions():
                     aid = safe_str(a)
                     if "/" in aid:
                         aid = aid.split("/")[-1]
-                if aid:
+                if aid and aid.isdigit():
                     author_ids.append(aid)
 
             questions.append({
@@ -647,13 +736,14 @@ def fetch_questions():
                 "date":    safe_str(q.get("document_date",
                            q.get("work_date_document",
                            q.get("date_document",
-                           q.get("date", ""))))),
+                           q.get("eli:date_document", q.get("date", "")))))),
                 "title":   safe_label(q.get("title_dcterms",
-                           q.get("label", q.get("title", "")))),
+                           q.get("eli:title", q.get("dcterms:title",
+                           q.get("label", q.get("title", q.get("name", ""))))))),
                 "type":    qtype,
-                "ref":     safe_str(q.get("notation", "")),
+                "ref":     safe_str(q.get("notation", q.get("reference", ""))),
                 "authors": author_ids,
-                "ep_url":  safe_str(q.get("seeAlso", "")),
+                "ep_url":  safe_str(q.get("seeAlso", q.get("url", ""))),
             })
     log.info("  -> %d questions", len(questions))
     return sorted(questions, key=lambda x: x.get("date", ""), reverse=True)[:MAX_QUESTIONS]

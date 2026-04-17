@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6586",
-      "abbr": "",
-      "name": "",
+      "abbr": "LIBE",
+      "name": "Civil Liberties, Justice and Home Affairs",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6587",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFCO",
+      "name": "Constitutional Affairs",
       "role": "MEMBER"
     }
   ]

@@ -16,20 +16,20 @@
   "committees": [
     {
       "id": "6586",
-      "abbr": "",
-      "name": "",
+      "abbr": "LIBE",
+      "name": "Civil Liberties, Justice and Home Affairs",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6622",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-TR",
+      "name": "D-TR",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6568",
-      "abbr": "",
-      "name": "",
+      "abbr": "CONT",
+      "name": "Budgetary Control",
       "role": "MEMBER"
     }
   ]

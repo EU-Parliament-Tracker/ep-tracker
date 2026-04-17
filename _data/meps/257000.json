@@ -16,8 +16,8 @@
   "committees": [
     {
       "id": "6570",
-      "abbr": "",
-      "name": "",
+      "abbr": "ECON",
+      "name": "Economic and Monetary Affairs",
       "role": "MEMBER"
     },
     {
@@ -28,14 +28,14 @@
     },
     {
       "id": "6584",
-      "abbr": "",
-      "name": "",
+      "abbr": "CULT",
+      "name": "Culture and Education",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6583",
-      "abbr": "",
-      "name": "",
+      "abbr": "PECH",
+      "name": "Fisheries",
       "role": "MEMBER"
     }
   ]

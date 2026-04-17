@@ -16,8 +16,8 @@
   "committees": [
     {
       "id": "6587",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFCO",
+      "name": "Constitutional Affairs",
       "role": "CHAIR_VICE"
     },
     {
@@ -28,8 +28,8 @@
     },
     {
       "id": "6572",
-      "abbr": "",
-      "name": "",
+      "abbr": "EMPL",
+      "name": "Employment and Social Affairs",
       "role": "MEMBER"
     }
   ]

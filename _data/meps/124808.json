@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6563",
-      "abbr": "",
-      "name": "",
+      "abbr": "DEVE",
+      "name": "Development",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6629",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-UK",
+      "name": "D-UK",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
@@ -34,20 +34,20 @@
     },
     {
       "id": "6582",
-      "abbr": "",
-      "name": "",
+      "abbr": "AGRI",
+      "name": "Agriculture and Rural Development",
       "role": "CHAIR_VICE"
     },
     {
       "id": "6580",
-      "abbr": "",
-      "name": "",
+      "abbr": "TRAN",
+      "name": "Transport and Tourism",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6625",
-      "abbr": "",
-      "name": "",
+      "abbr": "DCAR",
+      "name": "DCAR",
       "role": "CHAIR"
     }
   ]

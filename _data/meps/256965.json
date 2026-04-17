@@ -16,8 +16,8 @@
   "committees": [
     {
       "id": "6580",
-      "abbr": "",
-      "name": "",
+      "abbr": "TRAN",
+      "name": "Transport and Tourism",
       "role": "MEMBER"
     },
     {
@@ -28,8 +28,8 @@
     },
     {
       "id": "6567",
-      "abbr": "",
-      "name": "",
+      "abbr": "BUDG",
+      "name": "Budgets",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

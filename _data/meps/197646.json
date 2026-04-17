@@ -16,8 +16,8 @@
   "committees": [
     {
       "id": "6562",
-      "abbr": "",
-      "name": "",
+      "abbr": "AFET",
+      "name": "Foreign Affairs",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
@@ -28,14 +28,14 @@
     },
     {
       "id": "6580",
-      "abbr": "",
-      "name": "",
+      "abbr": "TRAN",
+      "name": "Transport and Tourism",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6628",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-ME",
+      "name": "D-ME",
       "role": "MEMBER"
     }
   ]

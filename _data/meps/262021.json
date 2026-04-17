@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6570",
-      "abbr": "",
-      "name": "",
+      "abbr": "ECON",
+      "name": "Economic and Monetary Affairs",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6627",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-AL",
+      "name": "D-AL",
       "role": "MEMBER"
     },
     {
@@ -34,8 +34,8 @@
     },
     {
       "id": "6622",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-TR",
+      "name": "D-TR",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

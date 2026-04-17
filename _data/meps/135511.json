@@ -16,8 +16,8 @@
   "committees": [
     {
       "id": "6567",
-      "abbr": "",
-      "name": "",
+      "abbr": "BUDG",
+      "name": "Budgets",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

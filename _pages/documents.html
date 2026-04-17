@@ -23,15 +23,16 @@ permalink: /documents/
     data-search="{{ doc.title | downcase }} {{ doc.ref | downcase }}"
     data-type="{{ doc.type }}">
     <div class="ep-doc-meta">
-      <span class="ep-col-date">{{ doc.date }}</span>
+      {% if doc.date != "" %}<span class="ep-col-date">{{ doc.date }}</span>{% endif %}
       <span class="ep-type-badge ep-type-badge--{{ doc.type }}">{{ doc.type }}</span>
       {% if doc.ref != "" %}<code class="ep-ref">{{ doc.ref }}</code>{% endif %}
     </div>
     <div class="ep-doc-title">
+      {% assign display_title = doc.title | default: doc.ref | default: doc.id %}
       {% if doc.ep_url != "" %}
-        <a href="{{ doc.ep_url }}" target="_blank" rel="noopener">{{ doc.title }}</a>
+        <a href="{{ doc.ep_url }}" target="_blank" rel="noopener">{{ display_title }}</a>
       {% else %}
-        {{ doc.title }}
+        {{ display_title }}
       {% endif %}
     </div>
   </li>

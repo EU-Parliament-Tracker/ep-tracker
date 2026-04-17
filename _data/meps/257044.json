@@ -22,32 +22,32 @@
     },
     {
       "id": "6567",
-      "abbr": "",
-      "name": "",
+      "abbr": "BUDG",
+      "name": "Budgets",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6568",
-      "abbr": "",
-      "name": "",
+      "abbr": "CONT",
+      "name": "Budgetary Control",
       "role": "MEMBER"
     },
     {
       "id": "6626",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-RS",
+      "name": "D-RS",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6621",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-MK",
+      "name": "D-MK",
       "role": "MEMBER"
     },
     {
       "id": "6583",
-      "abbr": "",
-      "name": "",
+      "abbr": "PECH",
+      "name": "Fisheries",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

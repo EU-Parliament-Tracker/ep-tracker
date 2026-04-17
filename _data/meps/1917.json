@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6580",
-      "abbr": "",
-      "name": "",
+      "abbr": "TRAN",
+      "name": "Transport and Tourism",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6570",
-      "abbr": "",
-      "name": "",
+      "abbr": "ECON",
+      "name": "Economic and Monetary Affairs",
       "role": "MEMBER"
     },
     {
@@ -34,8 +34,8 @@
     },
     {
       "id": "6624",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-CL",
+      "name": "D-CL",
       "role": "MEMBER_SUBSTITUTE"
     },
     {

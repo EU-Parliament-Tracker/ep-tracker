@@ -16,14 +16,14 @@
   "committees": [
     {
       "id": "6581",
-      "abbr": "",
-      "name": "",
+      "abbr": "REGI",
+      "name": "Regional Development",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6564",
-      "abbr": "",
-      "name": "",
+      "abbr": "INTA",
+      "name": "International Trade",
       "role": "MEMBER"
     }
   ]

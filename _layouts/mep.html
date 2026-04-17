@@ -45,7 +45,11 @@
       </ul>
 
       <!-- Social media -->
-      {% if mep.social %}
+      {% assign has_social = false %}
+      {% if mep.social.linkedin or mep.social.twitter or mep.social.facebook or mep.social.instagram %}
+        {% assign has_social = true %}
+      {% endif %}
+      {% if has_social %}
       <ul class="ep-mep-detail__social">
         {% if mep.social.linkedin %}
           <li><a href="{{ mep.social.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></li>
@@ -70,41 +74,85 @@
     <h2>Committee memberships</h2>
     <ul class="ep-committee-list">
       {% for c in mep.committees %}
-        {% assign c_label = c.abbr | default: c.id %}
+        {% assign c_abbr = c.abbr | default: c.id %}
+        {% assign c_name = c.name %}
         <li>
-          <a href="{{ '/committees/' | relative_url }}#{{ c_label | downcase }}">
-            <strong>{{ c_label }}</strong>{% if c.name != "" %} — {{ c.name }}{% endif %}
+          <a href="{{ '/committees/' | relative_url }}#{{ c_abbr | downcase }}">
+            <strong>{{ c_abbr }}</strong>{% if c_name != "" and c_name != c_abbr %} — {{ c_name }}{% endif %}
           </a>
-          {% if c.role != "" %}<span class="ep-role-badge">{{ c.role }}</span>{% endif %}
+          {% if c.role != "" %}
+            <span class="ep-role-badge">{{ c.role | replace: "_", " " | downcase | capitalize }}</span>
+          {% endif %}
         </li>
       {% endfor %}
     </ul>
   </section>
   {% endif %}
 
-  <!-- ── Recent votes by this MEP ───────────────────────────────── -->
+  <!-- ── Recent plenary votes ───────────────────────────────────── -->
   <section class="ep-mep-detail__section">
-    <h2>Recent votes</h2>
-    <p class="ep-empty">Per-MEP vote positions are not available in the current dataset. The EP Open Data API v2 only provides aggregate vote tallies (for/against/abstentions), not individual MEP voting records.</p>
-    <p><a href="{{ '/votes/' | relative_url }}">Browse all plenary votes →</a></p>
+    <h2>Recent plenary votes</h2>
+    {% assign recent_votes = site.data.votes | where_exp: "v", "v.title != ''" | first: 10 %}
+    {% if recent_votes.size > 0 %}
+      <p class="ep-note">Showing the 10 most recent plenary votes. Individual MEP positions are not available from the current API.</p>
+      <ul class="ep-vote-list">
+        {% for vote in recent_votes %}
+        <li class="ep-vote-item">
+          <span class="ep-col-date">{{ vote.date }}</span>
+          {% if vote.ep_url != "" %}
+            <a href="{{ vote.ep_url }}" target="_blank" rel="noopener">{{ vote.title }}</a>
+          {% else %}
+            {{ vote.title }}
+          {% endif %}
+          {% if vote.result != "" %}
+            <span class="ep-vote-result ep-vote-result--{{ vote.result | downcase }}">{{ vote.result }}</span>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      <p><a href="{{ '/votes/' | relative_url }}">Browse all plenary votes →</a></p>
+    {% else %}
+      <p class="ep-empty">No recent vote data available.</p>
+      <p><a href="{{ '/votes/' | relative_url }}">Browse all plenary votes →</a></p>
+    {% endif %}
   </section>
 
-  <!-- ── Recent questions by this MEP ───────────────────────────── -->
+  <!-- ── Parliamentary questions / interventions ────────────────── -->
   <section class="ep-mep-detail__section">
-    <h2>Recent parliamentary questions</h2>
+    <h2>Parliamentary questions &amp; interventions</h2>
     {% assign mep_questions = site.data.questions | where_exp: "q", "q.authors contains mep.id" %}
     {% if mep_questions.size > 0 %}
       <ul class="ep-question-list">
         {% for q in mep_questions limit: 10 %}
           <li>
             <span class="ep-question-date">{{ q.date }}</span>
-            <a href="{{ q.ep_url }}" target="_blank" rel="noopener">{{ q.title }}</a>
+            {% if q.ep_url != "" %}
+              <a href="{{ q.ep_url }}" target="_blank" rel="noopener">{{ q.title | default: q.ref | default: q.id }}</a>
+            {% else %}
+              {{ q.title | default: q.ref | default: q.id }}
+            {% endif %}
             <span class="ep-type-badge">{{ q.type }}</span>
+            {% if q.authors.size > 1 %}
+              <span class="ep-co-authors">
+                Co-authored with:
+                {% for author_id in q.authors %}
+                  {% unless author_id == mep.id %}
+                    {% assign co_author = site.data.meps[author_id] %}
+                    {% if co_author %}
+                      <a href="{{ '/meps/' | append: co_author.id | append: '/' | relative_url }}">{{ co_author.full_name }}</a>{% unless forloop.last %}, {% endunless %}
+                    {% endif %}
+                  {% endunless %}
+                {% endfor %}
+              </span>
+            {% endif %}
           </li>
         {% endfor %}
       </ul>
+      {% if mep_questions.size > 10 %}
+        <p class="ep-more-link">Showing 10 of {{ mep_questions.size }} questions.</p>
+      {% endif %}
     {% else %}
-      <p class="ep-empty">No recent questions from this MEP in the current dataset.</p>
+      <p class="ep-empty">No recent parliamentary questions from this MEP in the current dataset.</p>
     {% endif %}
   </section>
 

@@ -45,9 +45,12 @@ permalink: /meps/
   <select id="mep-committee-filter" class="ep-filter-select">
     <option value="">All committees</option>
     {% for committee in site.data.committees %}
-      <option value="{{ committee.abbreviation }}">{{ committee.abbreviation }}</option>
+      {% if committee.abbreviation != committee.id %}
+        <option value="{{ committee.abbreviation }}">{{ committee.abbreviation }}{% if committee.name != committee.abbreviation %} — {{ committee.name }}{% endif %}</option>
+      {% endif %}
     {% endfor %}
   </select>
+  <button id="mep-download-btn" class="ep-download-btn" title="Download visible MEPs as CSV">↓ Download CSV</button>
 </div>
 
 <p class="ep-count">
@@ -63,6 +66,11 @@ permalink: /meps/
     data-name="{{ mep.full_name | downcase }}"
     data-group="{{ mep.group_abbr }}"
     data-country="{{ mep.country }}"
+    data-party="{{ mep.national_party | xml_escape }}"
+    data-email="{{ mep.email }}"
+    data-linkedin="{{ mep.social.linkedin }}"
+    data-twitter="{{ mep.social.twitter }}"
+    data-profile="{{ mep.ep_profile_url }}"
     data-committees="{% for c in mep.committees %}{{ c.abbr | default: c.id }} {% endfor %}">
 
     <a href="{{ '/meps/' | append: mep.id | append: '/' | relative_url }}" class="ep-mep-card__link">
@@ -107,6 +115,11 @@ permalink: /meps/
   const group   = document.getElementById('mep-group-filter');
   const country = document.getElementById('mep-country-filter');
   const comm    = document.getElementById('mep-committee-filter');
+  const dlBtn   = document.getElementById('mep-download-btn');
+
+  function visibleCards() {
+    return cards.filter(c => c.style.display !== 'none');
+  }
 
   function filter() {
     const q  = search.value.toLowerCase().trim();
@@ -125,6 +138,38 @@ permalink: /meps/
     });
     counter.textContent = visible;
   }
+
+  function csvEscape(v) {
+    return '"' + (v || '').replace(/"/g, '""') + '"';
+  }
+
+  dlBtn.addEventListener('click', function () {
+    const headers = ['Name', 'Political Group', 'Country', 'National Party',
+                     'Email', 'LinkedIn', 'Twitter/X', 'EP Profile URL'];
+    const rows = [headers.map(csvEscape).join(',')];
+    visibleCards().forEach(function (card) {
+      const d = card.dataset;
+      rows.push([
+        d.name,
+        d.group,
+        d.country,
+        d.party,
+        d.email,
+        d.linkedin,
+        d.twitter,
+        d.profile,
+      ].map(csvEscape).join(','));
+    });
+    const blob = new Blob([rows.join('\r\n')], { type: 'text/csv;charset=utf-8;' });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href     = url;
+    a.download = 'meps-export.csv';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  });
 
   [search, group, country, comm].forEach(el => el.addEventListener('input', filter));
 })();

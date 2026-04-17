@@ -16,20 +16,20 @@
   "committees": [
     {
       "id": "6579",
-      "abbr": "",
-      "name": "",
+      "abbr": "IMCO",
+      "name": "Internal Market and Consumer Protection",
       "role": "MEMBER"
     },
     {
       "id": "6625",
-      "abbr": "",
-      "name": "",
+      "abbr": "DCAR",
+      "name": "DCAR",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6588",
-      "abbr": "",
-      "name": "",
+      "abbr": "FEMM",
+      "name": "Women s Rights and Gender Equality",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

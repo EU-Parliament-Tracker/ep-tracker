@@ -16,26 +16,26 @@
   "committees": [
     {
       "id": "6622",
-      "abbr": "",
-      "name": "",
+      "abbr": "D-TR",
+      "name": "D-TR",
       "role": "MEMBER"
     },
     {
       "id": "6585",
-      "abbr": "",
-      "name": "",
+      "abbr": "JURI",
+      "name": "Legal Affairs",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6581",
-      "abbr": "",
-      "name": "",
+      "abbr": "REGI",
+      "name": "Regional Development",
       "role": "MEMBER"
     },
     {
       "id": "6582",
-      "abbr": "",
-      "name": "",
+      "abbr": "AGRI",
+      "name": "Agriculture and Rural Development",
       "role": "CHAIR_VICE"
     },
     {

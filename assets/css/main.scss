@@ -150,6 +150,17 @@
 .ep-filter-select {
   min-width: 160px;
 }
+.ep-download-btn {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--ep-blue);
+  border-radius: var(--ep-radius);
+  font-size: 0.9rem;
+  background: var(--ep-blue);
+  color: #fff;
+  cursor: pointer;
+  white-space: nowrap;
+  &:hover { background: darken(#003399, 10%); }
+}
 
 /* ── Count line ─────────────────────────────────────────────────────────────*/
 .ep-count {
@@ -530,6 +541,39 @@
   font-size: 0.78rem;
   color: var(--ep-gray-text);
   white-space: nowrap;
+}
+
+/* ── Vote item on MEP detail page ───────────────────────────────────────────*/
+.ep-vote-item {
+  display: flex;
+  gap: 0.6rem;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--ep-gray-mid);
+  flex-wrap: wrap;
+  align-items: baseline;
+  font-size: 0.9rem;
+}
+
+/* ── Co-authors on MEP page ─────────────────────────────────────────────────*/
+.ep-co-authors {
+  font-size: 0.8rem;
+  color: var(--ep-gray-text);
+  display: block;
+  width: 100%;
+  padding-left: 1rem;
+}
+
+/* ── Informational note ─────────────────────────────────────────────────────*/
+.ep-note {
+  font-size: 0.85rem;
+  color: var(--ep-gray-text);
+  font-style: italic;
+  padding: 0.25rem 0 0.5rem;
+}
+.ep-more-link {
+  font-size: 0.85rem;
+  color: var(--ep-gray-text);
+  margin-top: 0.5rem;
 }
 
 /* ── Empty state ────────────────────────────────────────────────────────────*/
