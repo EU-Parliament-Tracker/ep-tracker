@@ -750,6 +750,48 @@ def fetch_questions():
 
 
 # ---------------------------------------------------------------------------
+# MEP page stub generator
+# ---------------------------------------------------------------------------
+
+def generate_mep_stubs(meps: dict) -> int:
+    """Write one _pages/meps/<id>.md stub per MEP so Jekyll can build
+    individual pages without relying on the Ruby plugin."""
+    stubs_dir = OUTPUT_DIR.parent / "_pages" / "meps"
+    stubs_dir.mkdir(parents=True, exist_ok=True)
+
+    def yaml_escape(s: str) -> str:
+        return str(s).replace("\\", "\\\\").replace('"', '\\"')
+
+    written = 0
+    for mep_id, mep_data in meps.items():
+        name = yaml_escape(mep_data.get("full_name", mep_id))
+        desc = yaml_escape(
+            f"{mep_data.get('full_name', '')} \u00b7 "
+            f"{mep_data.get('group_name', '')} \u00b7 "
+            f"{mep_data.get('country', '')}"
+        )
+        stub = (
+            f'---\n'
+            f'layout: mep\n'
+            f'title: "{name}"\n'
+            f'mep_id: "{mep_id}"\n'
+            f'permalink: /meps/{mep_id}/\n'
+            f'description: "{desc}"\n'
+            f'---\n'
+        )
+        stub_path = stubs_dir / f"{mep_id}.md"
+        stub_path.write_text(stub, encoding="utf-8")
+        written += 1
+
+    # Remove stubs for MEPs no longer in the dataset
+    for existing in stubs_dir.glob("*.md"):
+        if existing.stem not in meps:
+            existing.unlink()
+
+    return written
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -784,6 +826,8 @@ def main():
         meps = fetch_meps(committee_lookup)
         write_json(OUTPUT_DIR / "meps.json", meps)
         counts["meps"] = len(meps)
+        stub_count = generate_mep_stubs(meps)
+        log.info("Generated %d MEP page stubs", stub_count)
     except Exception as e:
         log.error("meps fetch failed: %s", e)
         errors.append("meps")
