@@ -562,14 +562,34 @@ def fetch_votes():
             else:
                 outcome = safe_str(outcome_raw)
 
+            vote_id = safe_str(v.get("activity_id",
+                           v.get("identifier", v.get("id", ""))))
+            # Extract date from the ID if not present as a field
+            # ID format: MTG-PL-2025-05-07-VOT-ITM-965514
+            raw_date = safe_str(v.get("activity_date",
+                        v.get("date", v.get("eli-dl:activity_date",
+                        v.get("startDate", "")))))
+            if not raw_date and vote_id:
+                import re as _re
+                m = _re.search(r'(\d{4}-\d{2}-\d{2})', vote_id)
+                if m:
+                    raw_date = m.group(1)
+
+            # Build EP vote URL from date if not in response
+            ep_url = safe_str(v.get("seeAlso", v.get("url", v.get("@id", ""))))
+            if not ep_url and raw_date:
+                ep_url = (f"https://www.europarl.europa.eu/doceo/document/"
+                          f"PV-10-{raw_date}-RCV_EN.html")
+
             votes.append({
-                "id":         safe_str(v.get("activity_id",
-                              v.get("identifier", v.get("id", "")))),
-                "date":       safe_str(v.get("activity_date",
-                              v.get("date", v.get("eli-dl:activity_date", "")))),
+                "id":         vote_id,
+                "date":       raw_date,
                 "title":      safe_label(v.get("activity_label",
-                              v.get("label", v.get("eli-dl:activity_label",
-                              v.get("title", v.get("name", "")))))),
+                              v.get("label", v.get("prefLabel",
+                              v.get("skos:prefLabel", v.get("rdfs:label",
+                              v.get("eli-dl:activity_label",
+                              v.get("title", v.get("dcterms:title",
+                              v.get("name", "")))))))))),
                 "result":     outcome,
                 "for":        _int(v.get("number_of_votes_favor",
                               v.get("had_voter_favor",
@@ -581,7 +601,7 @@ def fetch_votes():
                               v.get("had_voter_abstention",
                               v.get("abstentions", v.get("abstention", 0))))),
                 "ep_ref":     safe_str(v.get("notation", v.get("reference", ""))),
-                "ep_url":     safe_str(v.get("seeAlso", v.get("url", ""))),
+                "ep_url":     ep_url,
             })
 
     log.info("  -> %d votes total", len(votes))

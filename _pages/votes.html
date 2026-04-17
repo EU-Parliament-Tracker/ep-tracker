@@ -25,24 +25,25 @@ permalink: /votes/
   </thead>
   <tbody>
     {% for vote in site.data.votes %}
-    <tr class="ep-vote-row" data-search="{{ vote.title | downcase }} {{ vote.subject | downcase }}">
+    {% assign display_title = vote.title | default: vote.ep_ref | default: vote.id %}
+    <tr class="ep-vote-row" data-search="{{ vote.title | downcase }} {{ vote.ep_ref | downcase }} {{ vote.date }}">
       <td class="ep-col-date">{{ vote.date }}</td>
       <td>
         {% if vote.ep_url != "" %}
-          <a href="{{ vote.ep_url }}" target="_blank" rel="noopener">{{ vote.title }}</a>
+          <a href="{{ vote.ep_url }}" target="_blank" rel="noopener">{{ display_title }}</a>
         {% else %}
-          {{ vote.title }}
+          {{ display_title }}
         {% endif %}
-        {% if vote.ep_ref != "" %}<small class="ep-ref">{{ vote.ep_ref }}</small>{% endif %}
+        {% if vote.ep_ref != "" and vote.ep_ref != display_title %}<small class="ep-ref">{{ vote.ep_ref }}</small>{% endif %}
       </td>
       <td>
-        <span class="ep-vote-result ep-vote-result--{{ vote.result | downcase }}">
-          {{ vote.result }}
-        </span>
+        {% if vote.result != "" %}
+        <span class="ep-vote-result ep-vote-result--{{ vote.result | downcase }}">{{ vote.result }}</span>
+        {% endif %}
       </td>
-      <td class="ep-col-num ep-for">{{ vote.for }}</td>
-      <td class="ep-col-num ep-against">{{ vote.against }}</td>
-      <td class="ep-col-num ep-abstain">{{ vote.abstention }}</td>
+      <td class="ep-col-num ep-for">{% if vote.for > 0 %}{{ vote.for }}{% endif %}</td>
+      <td class="ep-col-num ep-against">{% if vote.against > 0 %}{{ vote.against }}{% endif %}</td>
+      <td class="ep-col-num ep-abstain">{% if vote.abstention > 0 %}{{ vote.abstention }}{% endif %}</td>
     </tr>
     {% endfor %}
   </tbody>
