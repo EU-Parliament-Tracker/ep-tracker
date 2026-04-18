@@ -1060,6 +1060,101 @@ def write_mep_votes(mep_votes: dict) -> int:
     return len(mep_votes)
 
 
+def _parse_voting_position(raw) -> str:
+    """Normalise an EP API voting position value to 'for'/'against'/'abstain'."""
+    s = safe_str(raw).lower()
+    if not s:
+        return ""
+    # URI form: def/ep-voting-positions/FAVOR  /AGAINST  /ABSTENTION
+    tail = s.split("/")[-1]
+    if tail in ("favor", "for", "yes", "pour", "+"):
+        return "for"
+    if tail in ("against", "no", "contre", "-"):
+        return "against"
+    if tail in ("abstention", "abstain", "abstaining", "0"):
+        return "abstain"
+    return ""
+
+
+def fetch_mep_votes_from_api(mep_ids: list) -> dict:
+    """Fetch individual MEP vote positions via GET meps/{id}/voting-activities.
+
+    Falls back gracefully if the endpoint doesn't exist or returns nothing.
+    Returns mep_votes dict: {mep_id: [vote_record, ...]}.
+    """
+    log.info("Fetching per-MEP voting activities from API (%d MEPs)...", len(mep_ids))
+    mep_votes: dict = {}
+    _debug_saved = False
+
+    for i, mep_id in enumerate(mep_ids):
+        records_raw = get_all(
+            f"meps/{mep_id}/voting-activities",
+            params={"limit": PAGE_SIZE},
+            max_items=500,
+        )
+        if not records_raw:
+            continue
+
+        if not _debug_saved:
+            write_json(OUTPUT_DIR / "debug_mep_voting_activity.json", records_raw[:2])
+            log.info("  Saved debug MEP voting activity sample (%d fields)", len(records_raw[0]))
+            _debug_saved = True
+
+        records = []
+        for v in records_raw:
+            vid = safe_str(v.get("activity_id", v.get("identifier", v.get("id", ""))))
+            date_val = safe_str(v.get("activity_date",
+                       v.get("eli-dl:activity_date", v.get("date", ""))))[:10]
+            title = safe_label(v.get("activity_label",
+                    v.get("label", v.get("eli-dl:activity_label", ""))))
+
+            # Position: look for the MEP's specific vote value
+            pos_raw = (v.get("voting_position")
+                       or v.get("had_voting_position")
+                       or v.get("position")
+                       or v.get("votingPosition")
+                       or "")
+            position = _parse_voting_position(pos_raw)
+            if not position:
+                continue
+
+            # Overall result
+            outcome_raw = (v.get("had_decision_outcome")
+                           or v.get("decision_outcome")
+                           or v.get("result")
+                           or "")
+            outcome_str = safe_str(outcome_raw).lower()
+            if "adopt" in outcome_str:
+                result = "Adopted"
+            elif "reject" in outcome_str:
+                result = "Rejected"
+            else:
+                result = ""
+
+            ep_url = safe_str(v.get("seeAlso", v.get("url", "")))
+            if not ep_url and date_val:
+                ep_url = (f"https://www.europarl.europa.eu/doceo/document/"
+                          f"PV-10-{date_val}-RCV_EN.html")
+
+            records.append({
+                "vote_id":  vid,
+                "date":     date_val,
+                "title":    title,
+                "position": position,
+                "result":   result,
+                "ep_url":   ep_url,
+            })
+
+        if records:
+            mep_votes[mep_id] = records
+
+        if (i + 1) % 50 == 0:
+            log.info("  ... %d / %d MEPs processed", i + 1, len(mep_ids))
+
+    log.info("  -> voting history fetched for %d MEPs", len(mep_votes))
+    return mep_votes
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -1123,6 +1218,7 @@ def main():
         counts["sessions"] = None
 
     # 4. Votes — try XML first for real titles/results/MEP positions
+    mep_votes: dict = {}
     try:
         votes_data, mep_votes = fetch_votes_xml()
         if not votes_data:
@@ -1133,10 +1229,23 @@ def main():
         counts["votes"] = len(votes_data)
         if mep_votes:
             counts["mep_votes"] = write_mep_votes(mep_votes)
+            log.info("Per-MEP votes written from XML (%d MEPs)", len(mep_votes))
     except Exception as e:
         log.error("votes fetch failed: %s", e)
         errors.append("votes")
         counts["votes"] = None
+
+    # 4b. Per-MEP voting history — if XML gave no per-MEP data, try the API
+    #     endpoint meps/{id}/voting-activities as an alternative source.
+    if not mep_votes and meps:
+        try:
+            mep_votes = fetch_mep_votes_from_api(list(meps.keys()))
+            if mep_votes:
+                counts["mep_votes"] = write_mep_votes(mep_votes)
+            else:
+                log.warning("API voting-activities returned no data; MEP vote pages will be empty")
+        except Exception as e:
+            log.error("per-MEP vote API fetch failed: %s", e)
 
     # 5. Documents and questions
     other_datasets = [
