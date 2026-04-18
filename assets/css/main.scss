@@ -638,6 +638,21 @@
   font-family: var(--ep-font-mono);
 }
 
+/* ── Hemicycle hover tooltip ─────────────────────────────────────────────────*/
+.ep-hemicycle-tooltip {
+  position: fixed;
+  pointer-events: none;
+  background: rgba(20, 20, 30, 0.88);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 0.3rem 0.65rem;
+  border-radius: 5px;
+  white-space: nowrap;
+  z-index: 9999;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
 /* ── Vote position badges (on MEP detail page) ───────────────────────────────*/
 .ep-vote-pos {
   font-size: 0.68rem;
