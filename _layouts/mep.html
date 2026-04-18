@@ -81,7 +81,14 @@
             <strong>{{ c_abbr }}</strong>{% if c_name != "" and c_name != c_abbr %} — {{ c_name }}{% endif %}
           </a>
           {% if c.role != "" %}
-            <span class="ep-role-badge">{{ c.role | replace: "_", " " | downcase | capitalize }}</span>
+            {% assign role_label = c.role | replace: "_", " " | downcase %}
+            {% if role_label contains "chair" and role_label contains "vice" %}
+              <span class="ep-role-badge ep-role-badge--vice-chair">{{ role_label | capitalize }}</span>
+            {% elsif role_label contains "chair" %}
+              <span class="ep-role-badge ep-role-badge--chair">{{ role_label | capitalize }}</span>
+            {% else %}
+              <span class="ep-role-badge">{{ role_label | capitalize }}</span>
+            {% endif %}
           {% endif %}
         </li>
       {% endfor %}
@@ -94,17 +101,26 @@
     <h2>Recent plenary votes</h2>
     {% assign mep_vote_records = site.data.mep_votes[page.mep_id] %}
     {% if mep_vote_records.size > 0 %}
+      {% assign for_count     = mep_vote_records | where: "position", "for"     | size %}
+      {% assign against_count = mep_vote_records | where: "position", "against" | size %}
+      {% assign abstain_count = mep_vote_records | where: "position", "abstain" | size %}
+      <div class="ep-vote-summary">
+        <span class="ep-vote-summary__total">{{ mep_vote_records.size }} votes tracked</span>
+        <span class="ep-vote-summary__stat ep-vote-summary__stat--for">FOR {{ for_count }}</span>
+        <span class="ep-vote-summary__stat ep-vote-summary__stat--against">AGAINST {{ against_count }}</span>
+        <span class="ep-vote-summary__stat ep-vote-summary__stat--abstain">ABSTAIN {{ abstain_count }}</span>
+      </div>
       <ul class="ep-vote-list">
-        {% for vr in mep_vote_records limit: 15 %}
+        {% for vr in mep_vote_records limit: 20 %}
         <li class="ep-vote-item">
           <span class="ep-col-date">{{ vr.date }}</span>
           <span class="ep-vote-pos ep-vote-pos--{{ vr.position }}">{{ vr.position }}</span>
           {% if vr.ep_url != "" %}
             <a href="{{ vr.ep_url }}" target="_blank" rel="noopener" class="ep-vote-title">
-              {{ vr.title | default: vr.vote_id | truncate: 100 }}
+              {{ vr.title | default: vr.vote_id | truncate: 110 }}
             </a>
           {% else %}
-            <span class="ep-vote-title">{{ vr.title | default: vr.vote_id | truncate: 100 }}</span>
+            <span class="ep-vote-title">{{ vr.title | default: vr.vote_id | truncate: 110 }}</span>
           {% endif %}
           {% if vr.result != "" %}
             <span class="ep-vote-result ep-vote-result--{{ vr.result | downcase }}">{{ vr.result }}</span>
@@ -112,8 +128,8 @@
         </li>
         {% endfor %}
       </ul>
-      {% if mep_vote_records.size > 15 %}
-        <p class="ep-more-link">Showing 15 of {{ mep_vote_records.size }} votes.</p>
+      {% if mep_vote_records.size > 20 %}
+        <p class="ep-more-link">Showing 20 of {{ mep_vote_records.size }} votes.</p>
       {% endif %}
       <p><a href="{{ '/votes/' | relative_url }}">Browse all plenary votes →</a></p>
     {% else %}

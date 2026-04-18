@@ -17,10 +17,14 @@ permalink: /questions/
   {{ site.data.questions | size }} questions — data updated {{ site.data.meta.last_updated }}
 </p>
 
+{% if site.data.questions.size == 0 %}
+<p class="ep-empty">No parliamentary questions available yet — check back after the next data update.</p>
+{% endif %}
+
 <ul class="ep-question-list" id="q-list">
   {% for q in site.data.questions %}
   <li class="ep-question-item"
-    data-search="{{ q.title | downcase }}"
+    data-search="{{ q.title | downcase }} {{ q.ref | downcase }} {{ q.id | downcase }}"
     data-type="{{ q.type | downcase }}">
     <div class="ep-question-meta">
       <span class="ep-col-date">{{ q.date }}</span>
