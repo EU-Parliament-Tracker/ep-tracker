@@ -667,8 +667,17 @@ def fetch_votes_xml():
 
     votes = []
     mep_votes = {}
-    xml_hdr = {"Accept": "application/xml, text/xml, */*",
-               "User-Agent": "EP-Tracker/1.0"}
+    xml_hdr = {
+        "Accept": "application/xml, text/xml, */*",
+        "User-Agent": (
+            "Mozilla/5.0 (compatible; EP-Tracker/1.0; "
+            "+https://github.com/EU-Parliament-Tracker/ep-tracker)"
+        ),
+        "Referer": "https://www.europarl.europa.eu/plenary/en/minutes.html",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    xml_ok = 0
+    xml_fail_status: dict = {}
 
     for meeting_date in sorted(meeting_dates, reverse=True):
         if len(votes) >= MAX_VOTES:
@@ -681,10 +690,16 @@ def fetch_votes_xml():
         try:
             resp = SESSION.get(xml_url, timeout=TIMEOUT, headers=xml_hdr)
             if resp.status_code == 404:
+                xml_fail_status[404] = xml_fail_status.get(404, 0) + 1
+                continue
+            if not resp.ok:
+                xml_fail_status[resp.status_code] = xml_fail_status.get(resp.status_code, 0) + 1
+                log.warning("  XML %s → HTTP %d for %s", xml_url, resp.status_code, meeting_date)
                 continue
             resp.raise_for_status()
+            xml_ok += 1
         except Exception as e:
-            log.debug("  XML unavailable for %s: %s", meeting_date, e)
+            log.warning("  XML request failed for %s: %s", meeting_date, e)
             continue
 
         try:
@@ -775,8 +790,10 @@ def fetch_votes_xml():
 
         time.sleep(RATE_LIMIT)
 
-    log.info("  -> %d votes from XML, positions for %d MEPs",
-             len(votes), len(mep_votes))
+    log.info("  -> XML results: %d files parsed, %d votes, %d MEPs with positions",
+             xml_ok, len(votes), len(mep_votes))
+    if xml_fail_status:
+        log.warning("  -> XML failures by HTTP status: %s", xml_fail_status)
     return (
         sorted(votes, key=lambda x: x.get("date", ""), reverse=True)[:MAX_VOTES],
         mep_votes,
