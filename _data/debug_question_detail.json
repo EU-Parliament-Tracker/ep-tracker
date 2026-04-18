@@ -1,0 +1,191 @@
+{
+  "id": "eli/dl/doc/E-10-2026-000002",
+  "type": "Work",
+  "parliamentary_term": "org/ep-10",
+  "document_date": "2026-01-02",
+  "is_realized_by": [
+    {
+      "id": "eli/dl/doc/E-10-2026-000002/en",
+      "type": "Expression",
+      "is_embodied_by": [
+        {
+          "id": "eli/dl/doc/E-10-2026-000002/en/docx",
+          "type": "Manifestation",
+          "is_exemplified_by": "distribution/reds_iMaQp/E-10-2026-000002/E-10-2026-000002_en.docx",
+          "media_type": "https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "format": "http://publications.europa.eu/resource/authority/file-type/DOCX",
+          "issued": "2026-01-08T16:08:44+01:00",
+          "byteSize": "11914"
+        },
+        {
+          "id": "eli/dl/doc/E-10-2026-000002/en/pdf",
+          "type": "Manifestation",
+          "is_exemplified_by": "distribution/reds_iMaQp/E-10-2026-000002/E-10-2026-000002_en.pdf",
+          "media_type": "https://www.iana.org/assignments/media-types/application/pdf",
+          "format": "http://publications.europa.eu/resource/authority/file-type/PDF",
+          "issued": "2026-01-08T16:08:44+01:00",
+          "byteSize": "11914"
+        }
+      ],
+      "language": "http://publications.europa.eu/resource/authority/language/ENG",
+      "title": {
+        "en": "Enquiries regarding EU funding for the Digital Freedom Fund and grants to the  Gesellschaft für Freiheitsrechte"
+      },
+      "title_alternative": {
+        "en": "Question for written answer E-000002/2026 - to the Commission - Rule 144 - Alexander Jungbluth (ESN)"
+      }
+    },
+    {
+      "id": "eli/dl/doc/E-10-2026-000002/de",
+      "type": "Expression",
+      "is_embodied_by": [
+        {
+          "id": "eli/dl/doc/E-10-2026-000002/de/docx",
+          "type": "Manifestation",
+          "is_exemplified_by": "distribution/reds_iMaQp/E-10-2026-000002/E-10-2026-000002_de.docx",
+          "media_type": "https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "format": "http://publications.europa.eu/resource/authority/file-type/DOCX",
+          "issued": "2026-01-08T16:08:44+01:00",
+          "byteSize": "12006"
+        },
+        {
+          "id": "eli/dl/doc/E-10-2026-000002/de/pdf",
+          "type": "Manifestation",
+          "is_exemplified_by": "distribution/reds_iMaQp/E-10-2026-000002/E-10-2026-000002_de.pdf",
+          "media_type": "https://www.iana.org/assignments/media-types/application/pdf",
+          "format": "http://publications.europa.eu/resource/authority/file-type/PDF",
+          "issued": "2026-01-08T16:08:44+01:00",
+          "byteSize": "12006"
+        }
+      ],
+      "language": "http://publications.europa.eu/resource/authority/language/DEU",
+      "title": {
+        "de": "Nachfragen zur Förderung des Digital Freedom Funds (DFF) aus EU-Mitteln und den Zuwendungen an die Gesellschaft für Freiheitsrechte e.V. (GFF)"
+      },
+      "title_alternative": {
+        "de": "Anfrage zur schriftlichen Beantwortung E-000002/2026 - an die Kommission - Artikel 144 der Geschäftsordnung - Alexander Jungbluth (ESN)"
+      }
+    }
+  ],
+  "work_type": "def/ep-document-types/QUESTION_WRITTEN",
+  "creator": [
+    "person/256941"
+  ],
+  "identifier": "E-10-2026-000002",
+  "publisher": "org/EU_PARLIAMENT",
+  "title_dcterms": {
+    "de": "Nachfragen zur Förderung des Digital Freedom Funds (DFF) aus EU-Mitteln und den Zuwendungen an die Gesellschaft für Freiheitsrechte e.V. (GFF)",
+    "en": "Enquiries regarding EU funding for the Digital Freedom Fund and grants to the  Gesellschaft für Freiheitsrechte"
+  },
+  "epNumber": "PE782.726",
+  "identifierYear": "2026",
+  "originalLanguage": [
+    "http://publications.europa.eu/resource/authority/language/DEU"
+  ],
+  "workHadParticipation": [
+    {
+      "id": "eli/dl/participation/E-10-2026-000002-256941",
+      "type": "Participation",
+      "had_participant_person": [
+        "person/256941"
+      ],
+      "participation_role": "def/ep-roles/AUTHOR"
+    },
+    {
+      "id": "eli/dl/participation/E-10-2026-000002-COM",
+      "type": "Participation",
+      "had_participant_organization": [
+        "org/COM"
+      ],
+      "participation_role": "def/ep-roles/ADDRESSEE"
+    }
+  ],
+  "inverse_answers_to": [
+    {
+      "id": "eli/dl/doc/E-10-2026-000002-ASW",
+      "type": "Work",
+      "answers_to": "eli/dl/doc/E-10-2026-000002",
+      "parliamentary_term": "org/ep-10",
+      "document_date": "2026-02-20",
+      "is_realized_by": [
+        {
+          "id": "eli/dl/doc/E-10-2026-000002-ASW/en",
+          "type": "Expression",
+          "is_embodied_by": [
+            {
+              "id": "eli/dl/doc/E-10-2026-000002-ASW/en/docx",
+              "type": "Manifestation",
+              "is_exemplified_by": "distribution/reds_iMaQp_Asw/E-10-2026-000002-ASW/E-10-2026-000002-ASW_en.docx",
+              "media_type": "https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "format": "http://publications.europa.eu/resource/authority/file-type/DOCX",
+              "issued": "2026-02-20T17:40:43+01:00",
+              "byteSize": "20316"
+            },
+            {
+              "id": "eli/dl/doc/E-10-2026-000002-ASW/en/pdf",
+              "type": "Manifestation",
+              "is_exemplified_by": "distribution/reds_iMaQp_Asw/E-10-2026-000002-ASW/E-10-2026-000002-ASW_en.pdf",
+              "media_type": "https://www.iana.org/assignments/media-types/application/pdf",
+              "format": "http://publications.europa.eu/resource/authority/file-type/PDF",
+              "issued": "2026-02-20T17:40:43+01:00",
+              "byteSize": "20316"
+            }
+          ],
+          "language": "http://publications.europa.eu/resource/authority/language/ENG",
+          "title": {
+            "en": "Answer for question E-000002/26"
+          }
+        },
+        {
+          "id": "eli/dl/doc/E-10-2026-000002-ASW/de",
+          "type": "Expression",
+          "is_embodied_by": [
+            {
+              "id": "eli/dl/doc/E-10-2026-000002-ASW/de/docx",
+              "type": "Manifestation",
+              "is_exemplified_by": "distribution/reds_iMaQp_Asw/E-10-2026-000002-ASW/E-10-2026-000002-ASW_de.docx",
+              "media_type": "https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "format": "http://publications.europa.eu/resource/authority/file-type/DOCX",
+              "issued": "2026-02-20T17:40:43+01:00",
+              "byteSize": "20434"
+            },
+            {
+              "id": "eli/dl/doc/E-10-2026-000002-ASW/de/pdf",
+              "type": "Manifestation",
+              "is_exemplified_by": "distribution/reds_iMaQp_Asw/E-10-2026-000002-ASW/E-10-2026-000002-ASW_de.pdf",
+              "media_type": "https://www.iana.org/assignments/media-types/application/pdf",
+              "format": "http://publications.europa.eu/resource/authority/file-type/PDF",
+              "issued": "2026-02-20T17:40:43+01:00",
+              "byteSize": "20434"
+            }
+          ],
+          "language": "http://publications.europa.eu/resource/authority/language/DEU",
+          "title": {
+            "de": "Answer for question E-000002/26"
+          }
+        }
+      ],
+      "work_type": "def/ep-document-types/QUESTION_WRITTEN_ANSWER",
+      "creator": [
+        "org/EU_COMMISSION"
+      ],
+      "identifier": "E-10-2026-000002-ASW",
+      "publisher": "org/EU_PARLIAMENT",
+      "title_dcterms": {
+        "en": "Answer for question E-000002/26",
+        "de": "Answer for question E-000002/26"
+      },
+      "identifierYear": "2026",
+      "workHadParticipation": [
+        {
+          "id": "eli/dl/participation/E-10-2026-000002-ASW-COM",
+          "type": "Participation",
+          "had_participant_organization": [
+            "org/EU_COMMISSION"
+          ],
+          "participation_role": "def/ep-roles/AUTHOR"
+        }
+      ]
+    }
+  ]
+}
