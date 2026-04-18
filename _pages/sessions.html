@@ -27,13 +27,22 @@ permalink: /sessions/
 </ul>
 {% endif %}
 
+{% if upcoming.size == 0 and past.size == 0 %}
+<p class="ep-empty">No session data available yet — check back after the next data update.</p>
+{% endif %}
+
 <h2>Past sessions</h2>
+{% if past.size == 0 %}
+<p class="ep-empty">No past sessions in the current dataset.</p>
+{% else %}
 <ul class="ep-session-list">
   {% for session in past limit: 50 %}
   <li class="ep-session-item">
     <span class="ep-session-date">{{ session.start }}{% if session.end != session.start %} – {{ session.end }}{% endif %}</span>
     <span class="ep-session-label">{{ session.label }}</span>
+    {% if session.location != "" %}<span class="ep-session-location">📍 {{ session.location }}</span>{% endif %}
     {% if session.ep_url != "" %}<a href="{{ session.ep_url }}" target="_blank" rel="noopener" class="ep-session-link">Minutes / docs →</a>{% endif %}
   </li>
   {% endfor %}
 </ul>
+{% endif %}

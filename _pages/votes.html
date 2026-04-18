@@ -26,7 +26,12 @@ permalink: /votes/
   <tbody>
     {% for vote in site.data.votes %}
     {% assign display_title = vote.title | default: vote.ep_ref | default: vote.id %}
-    <tr class="ep-vote-row" data-search="{{ vote.title | downcase }} {{ vote.ep_ref | downcase }} {{ vote.date }}">
+    {% assign active = vote.for | plus: vote.against %}
+    {% assign vote_diff = vote.for | minus: vote.against %}
+    {% if vote_diff < 0 %}{% assign vote_diff = 0 | minus: vote_diff %}{% endif %}
+    {% assign margin_pct = 100 %}
+    {% if active > 0 %}{% assign margin_pct = vote_diff | times: 100 | divided_by: active %}{% endif %}
+    <tr class="ep-vote-row{% if margin_pct <= 10 %} ep-vote-row--close{% endif %}" data-search="{{ vote.title | downcase }} {{ vote.ep_ref | downcase }} {{ vote.date }}">
       <td class="ep-col-date">{{ vote.date }}</td>
       <td>
         {% if vote.ep_url != "" %}
@@ -35,6 +40,7 @@ permalink: /votes/
           {{ display_title }}
         {% endif %}
         {% if vote.ep_ref != "" and vote.ep_ref != display_title %}<small class="ep-ref">{{ vote.ep_ref }}</small>{% endif %}
+        {% if margin_pct <= 10 and active > 0 %}<span class="ep-vote-close" title="Close vote — margin: {{ vote_diff }} votes ({{ margin_pct }}%)">Close</span>{% endif %}
       </td>
       <td>
         {% if vote.result != "" %}

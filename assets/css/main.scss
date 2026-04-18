@@ -468,7 +468,57 @@
   background: #fff8e1;
   color: #bf6e00;
   margin-left: 0.3rem;
+  white-space: nowrap;
 }
+.ep-role-badge--chair       { background: #e8eaf6; color: #303f9f; }
+.ep-role-badge--vice-chair  { background: #e8f5e9; color: var(--ep-green); }
+
+/* ── Close vote badge ───────────────────────────────────────────────────────*/
+.ep-vote-close {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  background: #fff3e0;
+  color: var(--ep-amber);
+  white-space: nowrap;
+  margin-left: 0.3rem;
+  vertical-align: middle;
+}
+.ep-vote-row--close td:first-child {
+  border-left: 3px solid var(--ep-amber);
+  padding-left: 0.5rem;
+}
+
+/* ── Vote summary bar (MEP detail page) ─────────────────────────────────────*/
+.ep-vote-summary {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.78rem;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--ep-gray-light);
+  border-radius: var(--ep-radius);
+}
+.ep-vote-summary__total {
+  font-weight: 600;
+  color: var(--ep-gray-text);
+  margin-right: 0.25rem;
+}
+.ep-vote-summary__stat {
+  font-weight: 700;
+  padding: 0.1rem 0.45rem;
+  border-radius: 99px;
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+}
+.ep-vote-summary__stat--for     { background: #e8f5e9; color: var(--ep-green); }
+.ep-vote-summary__stat--against { background: #ffebee; color: var(--ep-red); }
+.ep-vote-summary__stat--abstain { background: #fff3e0; color: var(--ep-amber); }
 
 /* ── Sessions ────────────────────────────────────────────────────────────────*/
 .ep-session-list {
@@ -490,6 +540,9 @@
   border-radius: var(--ep-radius);
   margin-bottom: 0.5rem;
   border-bottom: none;
+}
+.ep-session-label {
+  font-weight: 500;
 }
 .ep-session-location {
   font-size: 0.8rem;
@@ -684,4 +737,8 @@
   .ep-table td:nth-child(4),
   .ep-table td:nth-child(5),
   .ep-table td:nth-child(6) { display: none; }
+  .ep-session-item { flex-direction: column; gap: 0.25rem; }
+  .ep-session-link { margin-left: 0; }
+  .ep-vote-summary { gap: 0.4rem; }
+  .ep-hemicycle-wrap { flex-direction: column; }
 }
