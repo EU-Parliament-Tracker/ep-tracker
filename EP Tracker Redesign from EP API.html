@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EP Tracker — Homepage Redesign</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Newsreader:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { height: 100%; }
+body { font-family: 'DM Sans', sans-serif; overflow: hidden; }
+
+/* Switcher chrome */
+.switcher {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  background: #111; color: #fff;
+  display: flex; align-items: center; gap: 0; height: 40px;
+  padding: 0 1rem; border-bottom: 1px solid #333;
+  font-family: 'DM Mono', monospace; font-size: 0.7rem;
+}
+.switcher__label { color: #888; margin-right: 1rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.switcher__btn {
+  padding: 0 1rem; height: 40px; border: none;
+  background: transparent; color: #888; cursor: pointer;
+  font-family: 'DM Mono', monospace; font-size: 0.7rem;
+  letter-spacing: 0.06em; transition: color 0.15s; white-space: nowrap;
+}
+.switcher__btn:hover { color: #fff; }
+.switcher__btn.active { color: #FFCC00; border-bottom: 2px solid #FFCC00; }
+.switcher__sep { color: #333; padding: 0 0.25rem; }
+
+.preview-frame {
+  position: fixed; top: 40px; left: 0; right: 0; bottom: 0;
+  overflow-y: auto;
+}
+
+/* Tweaks panel */
+.tweaks-panel {
+  position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 999;
+  background: #1a1a1a; color: #fff; border-radius: 10px;
+  padding: 1rem 1.25rem; font-family: 'DM Mono', monospace;
+  font-size: 0.7rem; min-width: 180px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  display: none;
+}
+.tweaks-panel.visible { display: block; }
+.tweaks-panel__title { color: #FFCC00; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem; }
+.tweaks-panel__opt { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem; cursor: pointer; color: #aaa; }
+.tweaks-panel__opt.active { color: #fff; }
+.tweaks-panel__dot { width: 6px; height: 6px; border-radius: 50%; border: 1px solid #555; }
+.tweaks-panel__opt.active .tweaks-panel__dot { background: #FFCC00; border-color: #FFCC00; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+
+const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{"variation": "A"}/*EDITMODE-END*/;
+
+/* ── Mock data ── */
+const GROUPS = [
+  { abbr: 'GUE/NGL', name: 'The Left', seats: 46, color: '#8B1A1A' },
+  { abbr: 'Greens/EFA', name: 'Greens–EFA', seats: 53, color: '#4CAF50' },
+  { abbr: 'S&D', name: 'Socialists & Democrats', seats: 136, color: '#C8001A' },
+  { abbr: 'Renew', name: 'Renew Europe', seats: 77, color: '#F7931E' },
+  { abbr: 'EPP', name: 'European People\'s Party', seats: 188, color: '#3399FF' },
+  { abbr: 'ECR', name: 'European Conservatives', seats: 78, color: '#0066CC' },
+  { abbr: 'PfE', name: 'Patriots for Europe', seats: 84, color: '#1a2fa8' },
+  { abbr: 'ESN', name: 'Europe of Sovereign Nations', seats: 25, color: '#1A237E' },
+  { abbr: 'NI', name: 'Non-Inscrits', seats: 29, color: '#999999' },
+];
+const TOTAL_SEATS = GROUPS.reduce((s, g) => s + g.seats, 0);
+
+const VOTES = [
+  { date: '15 Apr 2025', title: 'AI Liability Regulation', result: 'adopted', for: 412, against: 167, abstain: 34 },
+  { date: '15 Apr 2025', title: 'Critical Raw Materials Supply Chain Resilience', result: 'adopted', for: 389, against: 201, abstain: 25 },
+  { date: '10 Apr 2025', title: 'Revision of the EU Methane Regulation', result: 'rejected', for: 244, against: 387, abstain: 44 },
+  { date: '10 Apr 2025', title: 'Digital Services Act — Annual Review Report', result: 'adopted', for: 451, against: 112, abstain: 52 },
+  { date: '03 Apr 2025', title: 'European Defence Procurement Framework', result: 'adopted', for: 402, against: 188, abstain: 25 },
+  { date: '27 Mar 2025', title: 'Carbon Border Adjustment Mechanism — Update', result: 'adopted', for: 445, against: 143, abstain: 27 },
+];
+
+const SESSIONS = [
+  { start: '22–24 Apr', label: 'Strasbourg Plenary', location: 'Strasbourg', upcoming: true },
+  { start: '7–8 May', label: 'Mini-plenary', location: 'Brussels', upcoming: true },
+  { start: '19–22 May', label: 'Strasbourg Plenary', location: 'Strasbourg', upcoming: true },
+];
+
+const MEPS = [
+  { id: 1, name: 'Ursula Hoffmann', country: 'Germany', group: 'EPP', groupColor: '#3399FF', party: 'CDU/CSU', committees: ['ITRE', 'ECON'], initials: 'UH' },
+  { id: 2, name: 'Sophie Marchand', country: 'France', group: 'Renew', groupColor: '#F7931E', party: 'Renaissance', committees: ['AFET', 'LIBE'], initials: 'SM' },
+  { id: 3, name: 'Marco Ferretti', country: 'Italy', group: 'S&D', groupColor: '#C8001A', party: 'Partito Democratico', committees: ['AGRI', 'ENVI'], initials: 'MF' },
+  { id: 4, name: 'Ewa Kowalska', country: 'Poland', group: 'ECR', groupColor: '#0066CC', party: 'Prawo i Sprawiedliwość', committees: ['BUDG', 'CONT'], initials: 'EK' },
+  { id: 5, name: 'Lars Andersen', country: 'Denmark', group: 'Greens/EFA', groupColor: '#4CAF50', party: 'Socialistisk Folkeparti', committees: ['ENVI', 'ITRE'], initials: 'LA' },
+  { id: 6, name: 'Carmen Rodríguez', country: 'Spain', group: 'EPP', groupColor: '#3399FF', party: 'Partido Popular', committees: ['JURI', 'LIBE'], initials: 'CR' },
+  { id: 7, name: 'Pieter van den Berg', country: 'Netherlands', group: 'Renew', groupColor: '#F7931E', party: 'VVD', committees: ['ECON', 'TAXE'], initials: 'PB' },
+  { id: 8, name: 'Brigitte Dupont', country: 'Belgium', group: 'S&D', groupColor: '#C8001A', party: 'Parti Socialiste', committees: ['CULT', 'FEMM'], initials: 'BD' },
+  { id: 9, name: 'Tomáš Novák', country: 'Czechia', group: 'PfE', groupColor: '#1a2fa8', party: 'ANO', committees: ['TRAN', 'REGI'], initials: 'TN' },
+  { id: 10, name: 'Elina Virtanen', country: 'Finland', group: 'Greens/EFA', groupColor: '#4CAF50', party: 'Vihreät', committees: ['ENVI', 'PETI'], initials: 'EV' },
+  { id: 11, name: 'Nikos Papadopoulos', country: 'Greece', group: 'GUE/NGL', groupColor: '#8B1A1A', party: 'SYRIZA', committees: ['ECON', 'AGRI'], initials: 'NP' },
+  { id: 12, name: 'Amelia Santos', country: 'Portugal', group: 'S&D', groupColor: '#C8001A', party: 'Partido Socialista', committees: ['AFET', 'DEVE'], initials: 'AS' },
+  { id: 13, name: 'Björn Eriksson', country: 'Sweden', group: 'EPP', groupColor: '#3399FF', party: 'Moderaterna', committees: ['ECON', 'BUDG'], initials: 'BE' },
+  { id: 14, name: 'Hanna Müller', country: 'Austria', group: 'PfE', groupColor: '#1a2fa8', party: 'FPÖ', committees: ['LIBE', 'AFCO'], initials: 'HM' },
+  { id: 15, name: 'Giulia Ricci', country: 'Italy', group: 'EPP', groupColor: '#3399FF', party: 'Forza Italia', committees: ['CULT', 'JURI'], initials: 'GR' },
+  { id: 16, name: 'Patrick O\'Brien', country: 'Ireland', group: 'Renew', groupColor: '#F7931E', party: 'Fine Gael', committees: ['AGRI', 'ENVI'], initials: 'PO' },
+];
+
+const MEP_VOTE_POSITIONS = [
+  { date: '15 Apr 2025', title: 'AI Liability Regulation', position: 'for', result: 'adopted' },
+  { date: '15 Apr 2025', title: 'Critical Raw Materials Supply Chain Resilience', position: 'for', result: 'adopted' },
+  { date: '10 Apr 2025', title: 'Revision of the EU Methane Regulation', position: 'against', result: 'rejected' },
+  { date: '10 Apr 2025', title: 'Digital Services Act — Annual Review Report', position: 'for', result: 'adopted' },
+  { date: '03 Apr 2025', title: 'European Defence Procurement Framework', position: 'abstain', result: 'adopted' },
+  { date: '27 Mar 2025', title: 'Carbon Border Adjustment Mechanism — Update', position: 'for', result: 'adopted' },
+];
+
+/* ── Hemicycle SVG ── */
+function Hemicycle({ size = 520 }) {
+  const cx = size / 2, cy = size * 0.535;
+  const rMin = size * 0.155, rMax = size * 0.43, ROWS = 12;
+  const A0 = Math.PI * 0.07, A1 = Math.PI * 0.93;
+  const N = TOTAL_SEATS;
+
+  const radii = Array.from({ length: ROWS }, (_, i) => rMin + (rMax - rMin) * i / (ROWS - 1));
+  const totalR = radii.reduce((s, r) => s + r, 0);
+  let rowSeats = radii.map(r => Math.round(N * r / totalR));
+  const diff = rowSeats.reduce((s, x) => s + x, 0) - N;
+  rowSeats[ROWS - 1] -= diff;
+
+  const colors = [], abbrs = [];
+  GROUPS.forEach(g => { for (let i = 0; i < g.seats; i++) { colors.push(g.color); abbrs.push(g.abbr); } });
+
+  const seats = [];
+  for (let row = 0; row < ROWS; row++) {
+    const n = rowSeats[row], r = radii[row];
+    for (let i = 0; i < n; i++) {
+      const a = A0 + (A1 - A0) * i / Math.max(n - 1, 1);
+      seats.push({ x: cx + r * Math.cos(a), y: cy - r * Math.sin(a), a });
+    }
+  }
+  seats.sort((a, b) => b.a - a.a);
+  const r = 3.2;
+
+  return (
+    <svg viewBox={`0 0 ${size} ${cy + r * 3}`} width="100%" style={{ display: 'block' }}>
+      {seats.map((s, i) => (
+        <circle key={i} cx={s.x.toFixed(1)} cy={s.y.toFixed(1)} r={r} fill={colors[i] || '#999'} opacity="0.92" />
+      ))}
+    </svg>
+  );
+}
+
+/* ── Vote result chip ── */
+function ResultChip({ result, variant = 'default' }) {
+  const cfg = {
+    adopted:  { label: 'Adopted',  bg: '#e8f5e9', color: '#2e7d32' },
+    rejected: { label: 'Rejected', bg: '#ffebee', color: '#c62828' },
+    lapsed:   { label: 'Lapsed',   bg: '#fff3e0', color: '#e65100' },
+  };
+  const c = cfg[result] || cfg.lapsed;
+  return (
+    <span style={{ fontSize: '0.65rem', fontWeight: 700, textTransform: 'uppercase',
+      letterSpacing: '0.06em', padding: '0.15rem 0.45rem', borderRadius: 99,
+      background: c.bg, color: c.color, whiteSpace: 'nowrap' }}>
+      {c.label}
+    </span>
+  );
+}
+
+/* ══════════════════════════════════════════════════
+   VARIATION A — Institutional Refined
+   Playfair + DM Sans · Blue/Gold · Hemicycle as hero
+══════════════════════════════════════════════════ */
+/* ── Shared: Logo mark ── */
+function EPMark({ size = 34 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 34 34" fill="none">
+      <rect width="34" height="34" rx="7" fill="#FFCC00"/>
+      {[{r:7,n:7},{r:10,n:10},{r:13,n:13}].map(({r,n},row) =>
+        Array.from({length:n},(_,i) => {
+          const a = Math.PI*0.1 + Math.PI*0.8*i/Math.max(n-1,1);
+          return <circle key={`${row}-${i}`} cx={(17+r*Math.cos(a)).toFixed(1)} cy={(24-r*Math.sin(a)).toFixed(1)} r="1.15" fill="#003399" opacity="0.85"/>;
+        })
+      )}
+    </svg>
+  );
+}
+
+/* ── Shared: Hemicycle shell nav + context strip ── */
+function HemicycleShell({ page, setPage, children }) {
+  const blue = '#003399', gold = '#FFCC00';
+  const pageMap = { MEPs: 'meps', Votes: 'votes', Sessions: 'home', Documents: 'home', Committees: 'home', Questions: 'home' };
+  return (
+    <div style={{ background: '#fafaf8', minHeight: '100vh', fontFamily: "'DM Sans', sans-serif" }}>
+      <nav style={{ background: blue, borderBottom: `3px solid ${gold}`, position: 'sticky', top: 0, zIndex: 50 }}>
+        <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 2.5rem', height: 60,
+          display: 'flex', alignItems: 'center', gap: '2rem' }}>
+          <button onClick={() => setPage('home')} style={{ background: 'none', border: 'none', cursor: 'pointer',
+            display: 'flex', alignItems: 'center', gap: '0.65rem', flexShrink: 0, padding: 0 }}>
+            <EPMark size={32}/>
+            <span style={{ fontFamily: "'DM Serif Display', serif", fontSize: '1.2rem', color: '#fff', letterSpacing: '-0.01em' }}>Hemicycle</span>
+          </button>
+          <div style={{ width: 1, height: 20, background: 'rgba(255,255,255,0.15)', flexShrink: 0 }}/>
+          {Object.keys(pageMap).map(l => {
+            const target = pageMap[l];
+            const active = (l === 'MEPs' && page === 'meps') || (l === 'MEPs' && page === 'profile') || (l === 'Votes' && page === 'votes');
+            return (
+              <button key={l} onClick={() => setPage(target)}
+                style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '0 0 2px',
+                  fontSize: '0.82rem', fontFamily: "'DM Sans', sans-serif", whiteSpace: 'nowrap',
+                  color: active ? '#fff' : 'rgba(255,255,255,0.6)',
+                  borderBottom: active ? `2px solid ${gold}` : '2px solid transparent' }}>{l}</button>
+            );
+          })}
+          <div style={{ marginLeft: 'auto', background: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.18)',
+            borderRadius: 6, padding: '0.35rem 0.9rem', display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer' }}>
+            <span style={{ color: 'rgba(255,255,255,0.45)', fontSize: '0.85rem' }}>⌕</span>
+            <span style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.8rem' }}>Search…</span>
+            <span style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.65rem', color: 'rgba(255,255,255,0.2)', marginLeft: '0.4rem' }}>⌘K</span>
+          </div>
+        </div>
+      </nav>
+      <div style={{ background: '#fff', borderBottom: '1px solid #ebebeb' }}>
+        <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 2.5rem', display: 'flex' }}>
+          {[{ label: 'Next plenary', value: 'Strasbourg · 22 Apr', hl: true },
+            { label: 'Votes this week', value: '4 votes' },
+            { label: 'Adoption rate (30d)', value: '73%' },
+            { label: 'Data updated', value: '19 Apr · 06:30 UTC' }].map((item, i) => (
+            <div key={i} style={{ padding: '0.6rem 1.5rem', borderRight: i < 3 ? '1px solid #ebebeb' : 'none',
+              paddingLeft: i === 0 ? 0 : '1.5rem', display: 'flex', gap: '0.65rem', alignItems: 'center' }}>
+              <span style={{ fontSize: '0.68rem', color: '#ccc', textTransform: 'uppercase', letterSpacing: '0.08em', whiteSpace: 'nowrap' }}>{item.label}</span>
+              <span style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.8rem', fontWeight: 500,
+                color: item.hl ? blue : '#444', whiteSpace: 'nowrap',
+                background: item.hl ? '#eef2fc' : 'transparent',
+                padding: item.hl ? '0.1rem 0.45rem' : 0, borderRadius: item.hl ? 4 : 0 }}>{item.value}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+      {children}
+    </div>
+  );
+}
+
+/* ── Interactive hemicycle ── */
+function InteractiveHemicycle({ onGroupClick }) {
+  const [hovered, setHovered] = React.useState(null);
+  const [tooltip, setTooltip] = React.useState({ x: 0, y: 0 });
+  const svgRef = React.useRef(null);
+  const size = 520;
+  const cx = size / 2, cy = size * 0.535;
+  const rMin = size * 0.155, rMax = size * 0.43, ROWS = 12;
+  const A0 = Math.PI * 0.07, A1 = Math.PI * 0.93;
+  const N = TOTAL_SEATS;
+  const radii = Array.from({ length: ROWS }, (_, i) => rMin + (rMax - rMin) * i / (ROWS - 1));
+  const totalR = radii.reduce((s, r) => s + r, 0);
+  let rowSeats = radii.map(r => Math.round(N * r / totalR));
+  rowSeats[ROWS - 1] -= rowSeats.reduce((s, x) => s + x, 0) - N;
+  const colorArr = [], groupArr = [];
+  GROUPS.forEach(g => { for (let i = 0; i < g.seats; i++) { colorArr.push(g.color); groupArr.push(g); } });
+  const seats = [];
+  for (let row = 0; row < ROWS; row++) {
+    const n = rowSeats[row], r = radii[row];
+    for (let i = 0; i < n; i++) {
+      const a = A0 + (A1 - A0) * i / Math.max(n - 1, 1);
+      seats.push({ x: cx + r * Math.cos(a), y: cy - r * Math.sin(a), a });
+    }
+  }
+  seats.sort((a, b) => b.a - a.a);
+  const dotR = 3.2;
+  return (
+    <div style={{ position: 'relative' }}>
+      <svg ref={svgRef} viewBox={`0 0 ${size} ${cy + dotR * 3}`} width="100%"
+        style={{ display: 'block', cursor: hovered ? 'pointer' : 'default' }}
+        onMouseLeave={() => setHovered(null)}
+        onClick={() => hovered && onGroupClick(hovered)}>
+        {seats.map((s, i) => {
+          const g = groupArr[i], isHov = hovered && hovered.abbr === g.abbr, dimmed = hovered && !isHov;
+          return <circle key={i} cx={s.x.toFixed(1)} cy={s.y.toFixed(1)} r={isHov ? dotR*1.35 : dotR}
+            fill={colorArr[i]||'#999'} opacity={dimmed ? 0.12 : 0.92}
+            style={{ transition: 'opacity 0.1s' }}
+            onMouseEnter={e => { setHovered(g); const rect=svgRef.current.getBoundingClientRect(); setTooltip({x:e.clientX-rect.left,y:e.clientY-rect.top}); }}
+            onMouseMove={e => { const rect=svgRef.current.getBoundingClientRect(); setTooltip({x:e.clientX-rect.left,y:e.clientY-rect.top}); }}/>;
+        })}
+      </svg>
+      {hovered && (
+        <div style={{ position: 'absolute', left: tooltip.x+12, top: tooltip.y-50, background: '#0d1a3a',
+          color: '#fff', borderRadius: 8, padding: '0.6rem 0.9rem', pointerEvents: 'none',
+          fontSize: '0.82rem', whiteSpace: 'nowrap', boxShadow: '0 4px 20px rgba(0,0,0,0.25)', zIndex: 10 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.2rem' }}>
+            <span style={{ width:8, height:8, borderRadius:'50%', background:hovered.color, display:'inline-block' }}/>
+            <strong>{hovered.abbr}</strong>
+            <span style={{ fontFamily:"'DM Mono',monospace", fontSize:'0.75rem', opacity:0.65 }}>{hovered.seats} seats</span>
+          </div>
+          <div style={{ fontSize:'0.72rem', opacity:0.55, marginBottom:'0.3rem' }}>{hovered.name}</div>
+          <div style={{ fontSize:'0.7rem', color:'#FFCC00', fontFamily:"'DM Mono',monospace" }}>Click → browse {hovered.abbr} MEPs</div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* ── Home page content ── */
+function HomePage({ setPage, handleGroupClick, clickedGroup }) {
+  const blue = '#003399', gold = '#FFCC00';
+  return (
+    <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 2.5rem' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: '380px 1fr', gap: '5rem',
+        padding: '4rem 0 3.5rem', alignItems: 'center' }}>
+        <div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem' }}>
+            <EPMark size={20}/>
+            <span style={{ fontFamily:"'DM Mono',monospace", fontSize:'0.7rem', color:'#bbb', letterSpacing:'0.1em', textTransform:'uppercase' }}>
+              European Parliament · Open data
+            </span>
+          </div>
+          <h1 style={{ fontFamily:"'DM Serif Display',serif", fontSize:'3.2rem', color:blue, lineHeight:1.1, marginBottom:'1.25rem', letterSpacing:'-0.01em' }}>
+            See how your MEPs vote.
+          </h1>
+          <p style={{ fontSize:'1rem', color:'#666', lineHeight:1.75, marginBottom:'2.5rem', maxWidth:360 }}>
+            Voting records, plenary sessions, legislative documents and parliamentary questions — updated daily, free and open.
+          </p>
+          <div style={{ display:'flex', gap:'0.75rem', flexWrap:'wrap' }}>
+            {[['Find an MEP', true, 'meps'], ['Latest votes', false, 'votes'], ['Sessions', false, 'home']].map(([l, primary, target]) => (
+              <button key={l} onClick={() => setPage(target)}
+                style={{ border:`1px solid ${primary ? blue : '#d0d8ef'}`, padding:'0.6rem 1.2rem', borderRadius:6,
+                  fontSize:'0.85rem', fontWeight:500, background: primary ? blue : '#fff',
+                  color: primary ? '#fff' : blue, cursor:'pointer', fontFamily:"'DM Sans',sans-serif",
+                  boxShadow: primary ? '0 2px 10px rgba(0,51,153,0.18)' : 'none' }}>{l}</button>
+            ))}
+          </div>
+        </div>
+        <div style={{ position: 'relative' }}>
+          <p style={{ fontFamily:"'DM Mono',monospace", fontSize:'0.68rem', color:'#ccc',
+            textTransform:'uppercase', letterSpacing:'0.1em', textAlign:'center', marginBottom:'0.5rem' }}>
+            Parliament composition — click a group to browse its MEPs
+          </p>
+          <InteractiveHemicycle onGroupClick={handleGroupClick}/>
+          <div style={{ display:'flex', flexWrap:'wrap', gap:'0.4rem 1rem', marginTop:'0.75rem', justifyContent:'center' }}>
+            {GROUPS.map(g => (
+              <button key={g.abbr} onClick={() => handleGroupClick(g)}
+                style={{ display:'flex', alignItems:'center', gap:'0.3rem', fontSize:'0.72rem',
+                  color:'#555', background:'none', border:'none', cursor:'pointer',
+                  padding:'0.2rem 0.3rem', borderRadius:4, fontFamily:"'DM Sans',sans-serif" }}
+                onMouseEnter={e => e.currentTarget.style.background='#eef2fc'}
+                onMouseLeave={e => e.currentTarget.style.background='none'}>
+                <span style={{ width:7, height:7, borderRadius:'50%', background:g.color, flexShrink:0 }}/>
+                <span style={{ fontWeight:600 }}>{g.abbr}</span>
+                <span style={{ color:'#ccc', fontFamily:"'DM Mono',monospace" }}>{g.seats}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {clickedGroup && (
+        <div style={{ position:'fixed', bottom:'2rem', left:'50%', transform:'translateX(-50%)',
+          background:'#0d1a3a', color:'#fff', borderRadius:10, padding:'0.9rem 1.4rem',
+          boxShadow:'0 8px 32px rgba(0,0,0,0.25)', zIndex:100, display:'flex',
+          alignItems:'center', gap:'0.75rem', fontSize:'0.88rem' }}>
+          <span style={{ width:10, height:10, borderRadius:'50%', background:clickedGroup.color }}/>
+          Browsing <strong style={{ color:gold }}>{clickedGroup.abbr}</strong> — {clickedGroup.seats} members
+        </div>
+      )}
+
+      <div style={{ height:2, background:`linear-gradient(90deg,${blue},${gold},transparent)`, marginBottom:'2.5rem' }}/>
+
+      <div style={{ display:'grid', gridTemplateColumns:'1fr 300px', gap:'3.5rem', paddingBottom:'4rem' }}>
+        <div>
+          <div style={{ display:'flex', justifyContent:'space-between', alignItems:'baseline', marginBottom:'1rem' }}>
+            <h2 style={{ fontFamily:"'DM Serif Display',serif", fontSize:'1.3rem', color:blue }}>Latest votes</h2>
+            <button onClick={() => setPage('votes')} style={{ fontSize:'0.8rem', color:blue, background:'none', border:'none', cursor:'pointer', fontFamily:"'DM Sans',sans-serif" }}>Browse all →</button>
+          </div>
+          <table style={{ width:'100%', borderCollapse:'collapse' }}>
+            <thead>
+              <tr style={{ borderBottom:`2px solid ${blue}` }}>
+                {['Date','Vote','Result','For','Against'].map(h => (
+                  <th key={h} style={{ textAlign:['For','Against'].includes(h)?'right':'left', padding:'0.4rem 0.5rem',
+                    fontSize:'0.68rem', textTransform:'uppercase', letterSpacing:'0.08em', color:blue, fontWeight:600 }}>{h}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {VOTES.map((v,i) => (
+                <tr key={i} style={{ borderBottom:'1px solid #ebebeb' }}>
+                  <td style={{ padding:'0.7rem 0.5rem', fontFamily:"'DM Mono',monospace", fontSize:'0.72rem', color:'#bbb', whiteSpace:'nowrap' }}>{v.date}</td>
+                  <td style={{ padding:'0.7rem 0.5rem' }}><a href="#" style={{ color:'#1a1a1a', textDecoration:'none', fontWeight:500, lineHeight:1.45, display:'block' }}>{v.title}</a></td>
+                  <td style={{ padding:'0.7rem 0.5rem' }}><ResultChip result={v.result}/></td>
+                  <td style={{ padding:'0.7rem 0.5rem', textAlign:'right', fontFamily:"'DM Mono',monospace", fontSize:'0.78rem', color:'#2e7d32' }}>{v.for}</td>
+                  <td style={{ padding:'0.7rem 0.5rem', textAlign:'right', fontFamily:"'DM Mono',monospace", fontSize:'0.78rem', color:'#c62828' }}>{v.against}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h2 style={{ fontFamily:"'DM Serif Display',serif", fontSize:'1.3rem', color:blue, marginBottom:'1rem' }}>Upcoming sessions</h2>
+          {SESSIONS.map((s,i) => (
+            <div key={i} style={{ background:'#fff', border:'1px solid #e0e6f4', borderLeft:`3px solid ${blue}`,
+              borderRadius:'0 8px 8px 0', padding:'0.9rem 1rem', marginBottom:'0.75rem' }}>
+              <div style={{ fontFamily:"'DM Mono',monospace", fontSize:'0.7rem', color:gold, background:blue,
+                display:'inline-block', padding:'0.1rem 0.4rem', borderRadius:3, marginBottom:'0.4rem' }}>{s.start}</div>
+              <div style={{ fontWeight:600, fontSize:'0.9rem', color:'#1a1a1a', marginBottom:'0.1rem' }}>{s.label}</div>
+              <div style={{ fontSize:'0.78rem', color:'#aaa' }}>{s.location}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ── Votes page ── */
+function VotesPage() {
+  const blue = '#003399', gold = '#FFCC00';
+  const [search, setSearch] = React.useState('');
+  const [resultFilter, setResultFilter] = React.useState('');
+  const filtered = VOTES.filter(v =>
+    (!search || v.title.toLowerCase().includes(search.toLowerCase())) &&
+    (!resultFilter || v.result === resultFilter)
+  );
+  function VoteBar({ v }) {
+    const total = v.for + v.against + v.abstain;
+    return (
+      <div style={{ display:'flex', height:5, borderRadius:99, overflow:'hidden', width:100, background:'#f0f0f0', gap:1 }}>
+        <div style={{ width:`${v.for/total*100}%`, background:'#4caf50', borderRadius:'99px 0 0 99px' }}/>
+        <div style={{ width:`${v.against/total*100}%`, background:'#ef5350' }}/>
+        <div style={{ width:`${v.abstain/total*100}%`, background:'#ffa726', borderRadius:'0 99px 99px 0' }}/>
+      </div>
+    );
+  }
+  return (
+    <div style={{ maxWidth:1280, margin:'0 auto', padding:'2.5rem 2.5rem 4rem' }}>
+      <div style={{ marginBottom:'2rem' }}>
+        <h1 style={{ fontFamily:"'DM Serif Display',serif", fontSize:'2.2rem', color:blue, marginBottom:'0.3rem' }}>Roll-call votes</h1>
+        <p style={{ fontSize:'0.88rem', color:'#aaa' }}>All recorded plenary votes, updated daily from the EP Open Data API.</p>
+      </div>
+      <div style={{ display:'flex', gap:'0.75rem', marginBottom:'1.25rem', flexWrap:'wrap', alignItems:'center' }}>
+        <input value={search} onChange={e => setSearch(e.target.value)} placeholder="Search votes…"
+          style={{ flex:1, minWidth:220, padding:'0.55rem 0.85rem', border:'1px solid #dde',
+            borderRadius:6, fontSize:'0.88rem', fontFamily:"'DM Sans',sans-serif", outline:'none' }}/>
+        <select value={resultFilter} onChange={e => setResultFilter(e.target.value)}
+          style={{ padding:'0.55rem 0.85rem', border:'1px solid #dde', borderRadius:6,
+            fontSize:'0.88rem', background:'#fff', fontFamily:"'DM Sans',sans-serif" }}>
+          <option value="">All results</option>
+          <option value="adopted">Adopted</option>
+          <option value="rejected">Rejected</option>
+          <option value="lapsed">Lapsed</option>
+        </select>
+        <span style={{ fontFamily:"'DM Mono',monospace", fontSize:'0.75rem', color:'#bbb' }}>{filtered.length} votes</span>
+      </div>
+
+      {/* Legend for bar */}
+      <div style={{ display:'flex', gap:'1.25rem', marginBottom:'0.75rem' }}>
+        {[['#4caf50','For'],['#ef5350','Against'],['#ffa726','Abstain']].map(([c,l]) => (
+          <div key={l} style={{ display:'flex', alignItems:'center', gap:'0.35rem', fontSize:'0.72rem', color:'#aaa' }}>
+            <span style={{ width:8, height:8, borderRadius:2, background:c, display:'inline-block' }}/>
+            {l}
+          </div>
+        ))}
+      </div>
+
+      <table style={{ width:'100%', borderCollapse:'collapse' }}>
+        <thead>
+          <tr style={{ borderBottom:`2px solid ${blue}` }}>
+            {['Date','Vote','Result','Split','For','Against','Abstain'].map(h => (
+              <th key={h} style={{ textAlign:['For','Against','Abstain'].includes(h)?'right':'left',
+                padding:'0.5rem 0.6rem', fontSize:'0.68rem', textTransform:'uppercase',
+                letterSpacing:'0.08em', color:blue, fontWeight:600 }}>{h}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {filtered.map((v,i) => (
+            <tr key={i} style={{ borderBottom:'1px solid #ebebeb', cursor:'pointer' }}
+              onMouseEnter={e => e.currentTarget.style.background='#f5f7ff'}
+              onMouseLeave={e => e.currentTarget.style.background=''}>
+              <td style={{ padding:'0.8rem 0.6rem', fontFamily:"'DM Mono',monospace", fontSize:'0.72rem', color:'#bbb', whiteSpace:'nowrap' }}>{v.date}</td>
+              <td style={{ padding:'0.8rem 0.6rem', maxWidth:360 }}>
+                <a href="#" style={{ color:'#1a1a1a', textDecoration:'none', fontWeight:500, lineHeight:1.45, display:'block' }}>{v.title}</a>
+              </td>
+              <td style={{ padding:'0.8rem 0.6rem' }}><ResultChip result={v.result}/></td>
+              <td style={{ padding:'0.8rem 0.6rem' }}><VoteBar v={v}/></td>
+              <td style={{ padding:'0.8rem 0.6rem', textAlign:'right', fontFamily:"'DM Mono',monospace", fontSize:'0.78rem', color:'#2e7d32' }}>{v.for}</td>
+              <td style={{ padding:'0.8rem 0.6rem', textAlign:'right', fontFamily:"'DM Mono',monospace", fontSize:'0.78rem', color:'#c62828' }}>{v.against}</td>
+              <td style={{ padding:'0.8rem 0.6rem', textAlign:'right', fontFamily:"'DM Mono',monospace", fontSize:'0.78rem', color:'#888' }}>{v.abstain}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+/* ── MEPs directory page ── */
+function MEPsPage({ setPage, setSelectedMEP }) {
+  const blue = '#003399';
+  const [search, setSearch] = React.useState('');
+  const [groupFilter, setGroupFilter] = React.useState('');
+  const [committeeFilter, setCommitteeFilter] = React.useState('');
+
+  const allCommittees = [...new Set(MEPS.flatMap(m => m.committees))].sort();
+
+  const filtered = MEPS.filter(m =>
+    (!search || m.name.toLowerCase().includes(search.toLowerCase()) || m.country.toLowerCase().includes(search.toLowerCase())) &&
+    (!groupFilter || m.group === groupFilter) &&
+    (!committeeFilter || m.committees.includes(committeeFilter))
+  );
+  return (
+    <div style={{ maxWidth:1280, margin:'0 auto', padding:'2.5rem 2.5rem 4rem' }}>
+      <div style={{ marginBottom:'2rem' }}>
+        <h1 style={{ fontFamily:"'DM Serif Display',serif", fontSize:'2.2rem', color:blue, marginBottom:'0.3rem' }}>Members of the European Parliament</h1>
+        <p style={{ fontSize:'0.88rem', color:'#aaa' }}>720 MEPs across 27 member states and 9 political groups.</p>
+      </div>
+      <div style={{ display:'flex', gap:'0.75rem', marginBottom:'1.5rem', flexWrap:'wrap', alignItems:'center' }}>
+        <input value={search} onChange={e => setSearch(e.target.value)} placeholder="Search by name or country…"
+          style={{ flex:1, minWidth:200, padding:'0.55rem 0.85rem', border:'1px solid #dde',
+            borderRadius:6, fontSize:'0.88rem', fontFamily:"'DM Sans',sans-serif", outline:'none' }}/>
+        <select value={groupFilter} onChange={e => setGroupFilter(e.target.value)}
+          style={{ padding:'0.55rem 0.85rem', border:'1px solid #dde', borderRadius:6,
+            fontSize:'0.88rem', background:'#fff', fontFamily:"'DM Sans',sans-serif" }}>
+          <option value="">All groups</option>
+          {GROUPS.map(g => <option key={g.abbr} value={g.abbr}>{g.abbr} — {g.name}</option>)}
+        </select>
+        <select value={committeeFilter} onChange={e => setCommitteeFilter(e.target.value)}
+          style={{ padding:'0.55rem 0.85rem', border:'1px solid #dde', borderRadius:6,
+            fontSize:'0.88rem', background:'#fff', fontFamily:"'DM Sans',sans-serif" }}>
+          <option value="">All committees</option>
+          {allCommittees.map(c => <option key={c} value={c}>{c}</option>)}
+        </select>
+        {(groupFilter || committeeFilter || search) && (
+          <button onClick={() => { setSearch(''); setGroupFilter(''); setCommitteeFilter(''); }}
+            style={{ padding:'0.55rem 0.85rem', border:'1px solid #dde', borderRadius:6,
+              fontSize:'0.82rem', background:'none', color:'#aaa', cursor:'pointer',
+              fontFamily:"'DM Sans',sans-serif" }}>Clear ×</button>
+        )}
+        <span style={{ fontFamily:"'DM Mono',monospace", fontSize:'0.75rem', color:'#bbb' }}>{filtered.length} shown</span>
+      </div>
+      <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(190px, 1fr))', gap:'1rem' }}>
+        {filtered.map(mep => (
+          <button key={mep.id} onClick={() => { setSelectedMEP(mep); setPage('profile'); }}
+            style={{ textAlign:'left', background:'#fff', border:'1px solid #e8e8e4', borderRadius:12,
+              overflow:'hidden', cursor:'pointer', fontFamily:"'DM Sans',sans-serif", padding:0,
+              transition:'box-shadow 0.15s, transform 0.12s' }}
+            onMouseEnter={e => { e.currentTarget.style.boxShadow='0 4px 18px rgba(0,51,153,0.1)'; e.currentTarget.style.transform='translateY(-2px)'; }}
+            onMouseLeave={e => { e.currentTarget.style.boxShadow='none'; e.currentTarget.style.transform='none'; }}>
+            <div style={{ height:140, background:`linear-gradient(145deg,${mep.groupColor}18,${mep.groupColor}38)`,
+              display:'flex', alignItems:'center', justifyContent:'center' }}>
+              <span style={{ fontFamily:"'DM Serif Display',serif", fontSize:'2.5rem', color:mep.groupColor, opacity:0.75 }}>{mep.initials}</span>
+            </div>
+            <div style={{ padding:'0.75rem' }}>
+              <div style={{ fontWeight:600, fontSize:'0.88rem', color:'#1a1a1a', marginBottom:'0.35rem', lineHeight:1.3 }}>{mep.name}</div>
+              <div style={{ display:'flex', alignItems:'center', gap:'0.4rem', marginBottom:'0.2rem' }}>
+                <span style={{ background:mep.groupColor, color:'#fff', fontSize:'0.62rem', fontWeight:700,
+                  padding:'0.1rem 0.35rem', borderRadius:3 }}>{mep.group}</span>
+                <span style={{ fontSize:'0.75rem', color:'#999' }}>{mep.country}</span>
+              </div>
+              <div style={{ fontSize:'0.72rem', color:'#ccc' }}>{mep.party}</div>
+            </div>
+          </button>
+        ))}
+      </div>
+      {filtered.length === 0 && (
+        <div style={{ textAlign:'center', padding:'3rem', color:'#bbb', fontSize:'0.9rem' }}>
+          No MEPs match your search. <button onClick={() => { setSearch(''); setGroupFilter(''); setCommitteeFilter(''); }} style={{ color:blue, background:'none', border:'none', cursor:'pointer', fontFamily:"'DM Sans',sans-serif", fontSize:'0.9rem' }}>Clear filters</button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* ── MEP profile page ── */
+function MEPProfilePage({ mep, setPage }) {
+  const blue = '#003399', gold = '#FFCC00';
+  if (!mep) return null;
+  const posCfg = {
+    for:     { label:'For',     bg:'#e8f5e9', color:'#2e7d32' },
+    against: { label:'Against', bg:'#ffebee', color:'#c62828' },
+    abstain: { label:'Abstain', bg:'#fff8e1', color:'#f57f17' },
+  };
+  const forCount    = MEP_VOTE_POSITIONS.filter(v => v.position === 'for').length;
+  const againstCount = MEP_VOTE_POSITIONS.filter(v => v.position === 'against').length;
+  const abstainCount = MEP_VOTE_POSITIONS.filter(v => v.position === 'abstain').length;
+  const total = MEP_VOTE_POSITIONS.length;
+
+  return (
+    <div style={{ maxWidth:1280, margin:'0 auto', padding:'2.5rem 2.5rem 4rem' }}>
+      <button onClick={() => setPage('meps')}
+        style={{ background:'none', border:'none', cursor:'pointer', color:blue, fontSize:'0.85rem',
+          fontFamily:"'DM Sans',sans-serif", display:'flex', alignItems:'center', gap:'0.3rem', marginBottom:'1.75rem', padding:0 }}>
+        ← All MEPs
+      </button>
+
+      {/* Header card */}
+      <div style={{ background:'#fff', border:'1px solid #e8e8e4', borderRadius:16,
+        padding:'2rem', marginBottom:'2rem', display:'grid',
+        gridTemplateColumns:'160px 1fr', gap:'2.5rem', alignItems:'center' }}>
+        <div style={{ height:160, width:160, borderRadius:12, flexShrink:0,
+          background:`linear-gradient(145deg,${mep.groupColor}18,${mep.groupColor}48)`,
+          display:'flex', alignItems:'center', justifyContent:'center' }}>
+          <span style={{ fontFamily:"'DM Serif Display',serif", fontSize:'3.5rem', color:mep.groupColor, opacity:0.7 }}>{mep.initials}</span>
+        </div>
+        <div>
+          <div style={{ display:'flex', alignItems:'center', gap:'0.65rem', marginBottom:'0.5rem' }}>
+            <span style={{ background:mep.groupColor, color:'#fff', fontSize:'0.7rem', fontWeight:700,
+              padding:'0.2rem 0.55rem', borderRadius:4 }}>{mep.group}</span>
+            <span style={{ fontSize:'0.85rem', color:'#999' }}>{mep.country}</span>
+            <span style={{ fontSize:'0.85rem', color:'#ccc' }}>·</span>
+            <span style={{ fontSize:'0.85rem', color:'#bbb' }}>{mep.party}</span>
+          </div>
+          <h1 style={{ fontFamily:"'DM Serif Display',serif", fontSize:'2.2rem', color:blue,
+            lineHeight:1.1, marginBottom:'1rem' }}>{mep.name}</h1>
+          {/* Vote summary bar */}
+          <div style={{ marginBottom:'1rem' }}>
+            <div style={{ display:'flex', gap:'1.5rem', marginBottom:'0.4rem' }}>
+              {[['For', forCount, '#2e7d32'],['Against', againstCount, '#c62828'],['Abstain', abstainCount, '#f57f17']].map(([l,n,c]) => (
+                <div key={l} style={{ fontSize:'0.78rem', color:c }}>
+                  <span style={{ fontFamily:"'DM Mono',monospace", fontWeight:500 }}>{n}</span>
+                  <span style={{ color:'#bbb', marginLeft:'0.3rem' }}>{l}</span>
+                </div>
+              ))}
+              <span style={{ fontSize:'0.78rem', color:'#ccc', fontFamily:"'DM Mono',monospace" }}>of {total} recent votes</span>
+            </div>
+            <div style={{ display:'flex', height:6, borderRadius:99, overflow:'hidden', maxWidth:320, background:'#f0f0f0' }}>
+              <div style={{ width:`${forCount/total*100}%`, background:'#4caf50' }}/>
+              <div style={{ width:`${againstCount/total*100}%`, background:'#ef5350' }}/>
+              <div style={{ width:`${abstainCount/total*100}%`, background:'#ffa726' }}/>
+            </div>
+          </div>
+          <div style={{ display:'flex', gap:'0.6rem' }}>
+            <a href="#" style={{ padding:'0.45rem 0.9rem', border:`1px solid ${blue}`,
+              borderRadius:6, fontSize:'0.8rem', color:blue, textDecoration:'none' }}>✉ Email</a>
+            <a href="#" style={{ padding:'0.45rem 0.9rem', border:'1px solid #dde',
+              borderRadius:6, fontSize:'0.8rem', color:'#666', textDecoration:'none' }}>↗ Official EP profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div style={{ display:'grid', gridTemplateColumns:'1fr 280px', gap:'2.5rem' }}>
+        {/* Votes table */}
+        <div>
+          <h2 style={{ fontFamily:"'DM Serif Display',serif", fontSize:'1.3rem', color:blue,
+            borderBottom:`2px solid ${blue}`, paddingBottom:'0.5rem', marginBottom:'1rem' }}>Recent votes</h2>
+          <table style={{ width:'100%', borderCollapse:'collapse' }}>
+            <thead>
+              <tr style={{ borderBottom:'1px solid #e0e0e0' }}>
+                {['Date','Position','Vote','Result'].map(h => (
+                  <th key={h} style={{ padding:'0.4rem 0.5rem', fontSize:'0.68rem', textTransform:'uppercase',
+                    letterSpacing:'0.08em', color:'#bbb', fontWeight:600, textAlign:'left' }}>{h}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {MEP_VOTE_POSITIONS.map((v,i) => {
+                const p = posCfg[v.position];
+                return (
+                  <tr key={i} style={{ borderBottom:'1px solid #f0f0ee' }}
+                    onMouseEnter={e => e.currentTarget.style.background='#f5f7ff'}
+                    onMouseLeave={e => e.currentTarget.style.background=''}>
+                    <td style={{ padding:'0.75rem 0.5rem', fontFamily:"'DM Mono',monospace", fontSize:'0.72rem', color:'#bbb', whiteSpace:'nowrap' }}>{v.date}</td>
+                    <td style={{ padding:'0.75rem 0.5rem' }}>
+                      <span style={{ background:p.bg, color:p.color, fontSize:'0.68rem', fontWeight:700,
+                        padding:'0.15rem 0.45rem', borderRadius:99, textTransform:'uppercase', letterSpacing:'0.05em' }}>{p.label}</span>
+                    </td>
+                    <td style={{ padding:'0.75rem 0.5rem', fontSize:'0.88rem' }}>
+                      <a href="#" style={{ color:'#1a1a1a', textDecoration:'none', fontWeight:500 }}>{v.title}</a>
+                    </td>
+                    <td style={{ padding:'0.75rem 0.5rem' }}><ResultChip result={v.result}/></td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+
+        {/* Sidebar */}
+        <div>
+          <h2 style={{ fontFamily:"'DM Serif Display',serif", fontSize:'1.3rem', color:blue,
+            borderBottom:`2px solid ${blue}`, paddingBottom:'0.5rem', marginBottom:'1rem' }}>Committees</h2>
+          {mep.committees.map((c,i) => (
+            <div key={i} style={{ background:'#fff', border:'1px solid #e0e6f4',
+              borderLeft:`3px solid ${blue}`, borderRadius:'0 8px 8px 0',
+              padding:'0.75rem 1rem', marginBottom:'0.6rem' }}>
+              <div style={{ fontFamily:"'DM Mono',monospace", fontSize:'0.92rem', fontWeight:500, color:blue, marginBottom:'0.15rem' }}>{c}</div>
+              <div style={{ fontSize:'0.75rem', color:'#bbb' }}>Full member</div>
+            </div>
+          ))}
+          <div style={{ marginTop:'1.5rem', background:'#f5f7ff', borderRadius:10, padding:'1rem 1.1rem' }}>
+            <div style={{ fontSize:'0.7rem', textTransform:'uppercase', letterSpacing:'0.08em', color:'#bbb', marginBottom:'0.75rem' }}>Activity</div>
+            {[['Votes recorded','312'],['Questions asked','18'],['Reports authored','4']].map(([l,v]) => (
+              <div key={l} style={{ display:'flex', justifyContent:'space-between', padding:'0.45rem 0',
+                borderBottom:'1px solid #e8eef8', fontSize:'0.85rem' }}>
+                <span style={{ color:'#666' }}>{l}</span>
+                <span style={{ fontFamily:"'DM Mono',monospace", fontWeight:500, color:blue }}>{v}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ══════════════════════════════════════════════════
+   VARIATION A — Institutional Refined (router)
+══════════════════════════════════════════════════ */
+function VariationA() {
+  const saved = localStorage.getItem('ep_page_a');
+  const [page, setPageRaw] = React.useState(saved || 'home');
+  const [selectedMEP, setSelectedMEP] = React.useState(null);
+  const [clickedGroup, setClickedGroup] = React.useState(null);
+
+  function setPage(p) { setPageRaw(p); localStorage.setItem('ep_page_a', p); }
+
+  function handleGroupClick(group) {
+    setClickedGroup(group);
+    setTimeout(() => { setClickedGroup(null); setPage('meps'); }, 700);
+  }
+
+  return (
+    <HemicycleShell page={page} setPage={setPage}>
+      {page === 'home'    && <HomePage setPage={setPage} handleGroupClick={handleGroupClick} clickedGroup={clickedGroup}/>}
+      {page === 'votes'   && <VotesPage/>}
+      {page === 'meps'    && <MEPsPage setPage={setPage} setSelectedMEP={setSelectedMEP}/>}
+      {page === 'profile' && <MEPProfilePage mep={selectedMEP} setPage={setPage}/>}
+    </HemicycleShell>
+  );
+}
+
+/* ══════════════════════════════════════════════════
+   VARIATION B — Dark Authority
+   DM Mono data · Dark navy header · Live-feed feel
+══════════════════════════════════════════════════ */
+function VariationB() {
+  const navy = '#0b1120', accent = '#4d7bef', gold = '#FFCC00', bg = '#f8f8f6';
+  return (
+    <div style={{ background: bg, minHeight: '100vh', fontFamily: "'DM Sans', sans-serif" }}>
+      {/* Nav */}
+      <nav style={{ background: navy }}>
+        <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 2rem', height: 52,
+          display: 'flex', alignItems: 'center', gap: '2rem' }}>
+          <div style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.9rem', fontWeight: 500,
+            color: '#fff', letterSpacing: '0.06em', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <span style={{ color: gold }}>EP</span><span style={{ color: 'rgba(255,255,255,0.3)' }}>/</span>Tracker
+          </div>
+          <div style={{ height: 20, width: 1, background: 'rgba(255,255,255,0.15)' }} />
+          {['MEPs', 'Votes', 'Sessions', 'Documents', 'Committees'].map((l, i) => (
+            <a key={l} href="#" style={{ color: i === 1 ? '#fff' : 'rgba(255,255,255,0.45)',
+              fontSize: '0.8rem', textDecoration: 'none', fontFamily: "'DM Mono', monospace",
+              letterSpacing: '0.04em', paddingBottom: i === 1 ? 2 : 0,
+              borderBottom: i === 1 ? `2px solid ${accent}` : 'none' }}>{l}</a>
+          ))}
+          <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <div style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.65rem', color: '#3a5' }}>
+              ● LIVE · Updated 06:30 UTC
+            </div>
+            <div style={{ background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.12)',
+              borderRadius: 5, padding: '0.3rem 0.75rem', fontSize: '0.78rem',
+              color: 'rgba(255,255,255,0.4)', fontFamily: "'DM Mono', monospace", cursor: 'pointer' }}>
+              Search  ⌘K
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      {/* Dark hero band */}
+      <div style={{ background: navy, borderBottom: `1px solid rgba(255,255,255,0.08)` }}>
+        <div style={{ maxWidth: 1280, margin: '0 auto', padding: '2.5rem 2rem 2.5rem',
+          display: 'grid', gridTemplateColumns: 'repeat(5, 1fr) 2px 260px', gap: '0', alignItems: 'center' }}>
+          {[['720', 'MEPs'], ['1,240', 'Votes'], ['48', 'Sessions'], ['3,800', 'Documents'], ['720', 'Questions']].map(([n, l]) => (
+            <a key={l} href="#" style={{ textDecoration: 'none', padding: '0 1.5rem', borderRight: '1px solid rgba(255,255,255,0.1)' }}>
+              <div style={{ fontFamily: "'DM Mono', monospace", fontSize: '1.8rem', fontWeight: 500,
+                color: '#fff', lineHeight: 1, marginBottom: '0.3rem' }}>{n}</div>
+              <div style={{ fontSize: '0.68rem', color: 'rgba(255,255,255,0.4)', textTransform: 'uppercase',
+                letterSpacing: '0.1em' }}>{l}</div>
+            </a>
+          ))}
+          <div style={{ background: 'rgba(255,255,255,0.1)', alignSelf: 'stretch', margin: '0 1.5rem' }} />
+          <div style={{ paddingLeft: '0.5rem' }}>
+            <div style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.65rem', color: 'rgba(255,255,255,0.35)',
+              textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>Next session</div>
+            <div style={{ fontSize: '0.95rem', color: '#fff', fontWeight: 600, marginBottom: '0.2rem' }}>Strasbourg Plenary</div>
+            <div style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.72rem', color: accent }}>22–24 Apr 2025</div>
+          </div>
+        </div>
+      </div>
+
+      {/* Content */}
+      <div style={{ maxWidth: 1280, margin: '0 auto', padding: '2.5rem 2rem 4rem',
+        display: 'grid', gridTemplateColumns: '1fr 380px', gap: '2.5rem' }}>
+        {/* Votes feed */}
+        <div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1.25rem' }}>
+            <h2 style={{ fontSize: '0.72rem', fontFamily: "'DM Mono', monospace", textTransform: 'uppercase',
+              letterSpacing: '0.12em', color: '#333' }}>Recent votes</h2>
+            <div style={{ flex: 1, height: 1, background: '#e0e0e0' }} />
+            <a href="#" style={{ fontSize: '0.72rem', fontFamily: "'DM Mono', monospace",
+              color: accent, textDecoration: 'none', letterSpacing: '0.04em' }}>All votes →</a>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 1, background: '#e0e0dc', borderRadius: 8, overflow: 'hidden' }}>
+            {VOTES.map((v, i) => (
+              <div key={i} style={{ background: '#fff', padding: '0.9rem 1.1rem',
+                display: 'grid', gridTemplateColumns: '90px 1fr 80px 60px 60px', gap: '0.75rem', alignItems: 'center' }}>
+                <span style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.7rem', color: '#999' }}>{v.date}</span>
+                <a href="#" style={{ fontSize: '0.88rem', color: '#1a1a1a', textDecoration: 'none',
+                  fontWeight: 500, lineHeight: 1.4 }}>{v.title}</a>
+                <div><ResultChip result={v.result} /></div>
+                <div style={{ textAlign: 'right', fontFamily: "'DM Mono', monospace", fontSize: '0.78rem', color: '#2e7d32' }}>+{v.for}</div>
+                <div style={{ textAlign: 'right', fontFamily: "'DM Mono', monospace", fontSize: '0.78rem', color: '#c62828' }}>−{v.against}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Right col */}
+        <div>
+          {/* Hemicycle */}
+          <div style={{ background: '#fff', borderRadius: 8, border: '1px solid #e8e8e4', padding: '1.25rem', marginBottom: '1.5rem' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '0.75rem' }}>
+              <h3 style={{ fontSize: '0.72rem', fontFamily: "'DM Mono', monospace", textTransform: 'uppercase',
+                letterSpacing: '0.1em', color: '#888' }}>Parliament composition</h3>
+              <span style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.65rem', color: '#bbb' }}>{TOTAL_SEATS} MEPs</span>
+            </div>
+            <Hemicycle size={340} />
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.3rem 0.65rem', marginTop: '0.75rem' }}>
+              {GROUPS.map(g => (
+                <span key={g.abbr} style={{ display: 'flex', alignItems: 'center', gap: '0.25rem',
+                  fontSize: '0.65rem', color: '#777', fontFamily: "'DM Mono', monospace" }}>
+                  <span style={{ width: 6, height: 6, borderRadius: '50%', background: g.color, display: 'inline-block' }}/>
+                  {g.abbr} <span style={{ color: '#bbb' }}>{g.seats}</span>
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Sessions */}
+          <div style={{ background: '#fff', borderRadius: 8, border: '1px solid #e8e8e4', padding: '1.25rem' }}>
+            <div style={{ fontSize: '0.72rem', fontFamily: "'DM Mono', monospace", textTransform: 'uppercase',
+              letterSpacing: '0.1em', color: '#888', marginBottom: '0.75rem' }}>Upcoming sessions</div>
+            {SESSIONS.map((s, i) => (
+              <div key={i} style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start',
+                padding: '0.65rem 0', borderBottom: i < SESSIONS.length - 1 ? '1px solid #f0f0f0' : 'none' }}>
+                <div style={{ background: navy, color: gold, fontFamily: "'DM Mono', monospace",
+                  fontSize: '0.65rem', padding: '0.25rem 0.45rem', borderRadius: 4, whiteSpace: 'nowrap', marginTop: 2 }}>{s.start}</div>
+                <div>
+                  <div style={{ fontSize: '0.85rem', fontWeight: 600, color: '#1a1a1a', marginBottom: '0.1rem' }}>{s.label}</div>
+                  <div style={{ fontSize: '0.72rem', color: '#999' }}>{s.location}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ══════════════════════════════════════════════════
+   VARIATION C — Morning Briefing
+   Newsreader serif · Warm cream · Editorial digest
+══════════════════════════════════════════════════ */
+function VariationC() {
+  const ink = '#1c1917', cream = '#faf5eb', slate = '#2d4a6e', warm = '#c8a96e';
+  return (
+    <div style={{ background: cream, minHeight: '100vh', fontFamily: "'DM Sans', sans-serif" }}>
+      {/* Nav */}
+      <nav style={{ background: cream, borderBottom: `1px solid #e8dfc8` }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 2rem', height: 52,
+          display: 'flex', alignItems: 'center', gap: '2rem' }}>
+          <div style={{ fontFamily: "'Newsreader', serif", fontSize: '1.1rem', fontWeight: 600,
+            color: slate, letterSpacing: '-0.01em', display: 'flex', alignItems: 'center', gap: '0.2rem' }}>
+            EP<span style={{ color: warm, fontStyle: 'italic' }}>Tracker</span>
+          </div>
+          <div style={{ height: 16, width: 1, background: '#d8cfb8' }} />
+          {['MEPs', 'Votes', 'Sessions', 'Documents', 'Committees'].map((l, i) => (
+            <a key={l} href="#" style={{ color: i === 1 ? slate : '#9a8f7e',
+              fontSize: '0.82rem', textDecoration: 'none',
+              borderBottom: i === 1 ? `1px solid ${slate}` : 'none', paddingBottom: i === 1 ? 1 : 0 }}>{l}</a>
+          ))}
+          <div style={{ marginLeft: 'auto', fontSize: '0.78rem', color: '#9a8f7e', fontStyle: 'italic',
+            fontFamily: "'Newsreader', serif" }}>
+            19 April 2025 · Brussels
+          </div>
+        </div>
+      </nav>
+
+      <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 2rem' }}>
+        {/* Date header */}
+        <div style={{ padding: '2.5rem 0 1.5rem', borderBottom: `2px solid ${ink}` }}>
+          <p style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.65rem', color: warm,
+            letterSpacing: '0.14em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
+            Parliamentary digest
+          </p>
+          <h1 style={{ fontFamily: "'Newsreader', serif", fontSize: '3rem', fontWeight: 600,
+            color: ink, lineHeight: 1.1, letterSpacing: '-0.02em', marginBottom: '0.75rem' }}>
+            Track the European Parliament
+          </h1>
+          <p style={{ fontFamily: "'Newsreader', serif", fontStyle: 'italic', fontSize: '1.05rem',
+            color: '#6b5e4e', maxWidth: 560 }}>
+            Daily record of MEP voting, plenary activity, legislative documents and parliamentary questions — sourced from the official EP Open Data API.
+          </p>
+        </div>
+
+        {/* Stats strip */}
+        <div style={{ display: 'flex', gap: 0, borderBottom: `1px solid #d8cfb8`, marginBottom: '2.5rem' }}>
+          {[['720', 'MEPs'], ['1,240', 'Votes'], ['48', 'Sessions'], ['3,800', 'Documents'], ['720', 'Questions'], ['24', 'Committees']].map(([n, l], i) => (
+            <a key={l} href="#" style={{ textDecoration: 'none', flex: 1, padding: '1rem 0.75rem',
+              borderRight: i < 5 ? `1px solid #d8cfb8` : 'none', textAlign: 'center' }}>
+              <div style={{ fontFamily: "'Newsreader', serif", fontSize: '1.6rem', fontWeight: 600,
+                color: slate, lineHeight: 1 }}>{n}</div>
+              <div style={{ fontSize: '0.68rem', color: '#9a8f7e', textTransform: 'uppercase',
+                letterSpacing: '0.07em', marginTop: '0.25rem' }}>{l}</div>
+            </a>
+          ))}
+        </div>
+
+        {/* Main grid */}
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 280px', gap: '3.5rem', paddingBottom: '4rem' }}>
+          {/* Left: votes */}
+          <div>
+            <h2 style={{ fontFamily: "'Newsreader', serif", fontSize: '1.3rem', fontWeight: 600,
+              color: ink, borderBottom: `1px solid #d8cfb8`, paddingBottom: '0.5rem', marginBottom: '1.25rem',
+              display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
+              <span>Recent votes</span>
+              <a href="#" style={{ fontFamily: "'DM Sans', sans-serif", fontSize: '0.78rem', color: slate, textDecoration: 'none', fontWeight: 400 }}>All →</a>
+            </h2>
+            {VOTES.map((v, i) => (
+              <div key={i} style={{ display: 'grid', gridTemplateColumns: '90px 1fr auto', gap: '1rem',
+                alignItems: 'start', padding: '0.85rem 0',
+                borderBottom: i < VOTES.length - 1 ? `1px solid #e8dfc8` : 'none' }}>
+                <span style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.68rem', color: '#9a8f7e', paddingTop: 3 }}>{v.date}</span>
+                <div>
+                  <a href="#" style={{ fontFamily: "'Newsreader', serif", fontSize: '0.95rem', color: ink,
+                    textDecoration: 'none', fontWeight: 600, lineHeight: 1.4, display: 'block', marginBottom: '0.25rem' }}>{v.title}</a>
+                  <div style={{ display: 'flex', gap: '1rem', fontSize: '0.72rem', color: '#9a8f7e', fontFamily: "'DM Mono', monospace" }}>
+                    <span style={{ color: '#4a7c59' }}>+{v.for}</span>
+                    <span style={{ color: '#a33' }}>−{v.against}</span>
+                    <span>~{v.abstain} abs</span>
+                  </div>
+                </div>
+                <ResultChip result={v.result} />
+              </div>
+            ))}
+          </div>
+
+          {/* Right: hemicycle + sessions */}
+          <div>
+            <div style={{ marginBottom: '2.5rem' }}>
+              <h3 style={{ fontFamily: "'Newsreader', serif", fontSize: '1rem', fontWeight: 600,
+                color: ink, borderBottom: `1px solid #d8cfb8`, paddingBottom: '0.4rem', marginBottom: '0.75rem' }}>
+                Parliament composition
+              </h3>
+              <Hemicycle size={280} />
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.3rem', marginTop: '0.75rem' }}>
+                {GROUPS.map(g => (
+                  <div key={g.abbr} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.78rem' }}>
+                    <span style={{ width: 8, height: 8, borderRadius: '50%', background: g.color, flexShrink: 0 }}/>
+                    <span style={{ color: '#5a4e40', flex: 1 }}>{g.abbr}</span>
+                    <span style={{ fontFamily: "'DM Mono', monospace", color: '#9a8f7e', fontSize: '0.72rem' }}>{g.seats}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h3 style={{ fontFamily: "'Newsreader', serif", fontSize: '1rem', fontWeight: 600,
+                color: ink, borderBottom: `1px solid #d8cfb8`, paddingBottom: '0.4rem', marginBottom: '0.75rem' }}>
+                Upcoming sessions
+              </h3>
+              {SESSIONS.map((s, i) => (
+                <div key={i} style={{ padding: '0.75rem 0', borderBottom: i < SESSIONS.length - 1 ? `1px solid #e8dfc8` : 'none' }}>
+                  <div style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.68rem', color: warm, marginBottom: '0.2rem' }}>{s.start}</div>
+                  <div style={{ fontFamily: "'Newsreader', serif", fontSize: '0.9rem', fontWeight: 600, color: ink, marginBottom: '0.1rem' }}>{s.label}</div>
+                  <div style={{ fontSize: '0.72rem', color: '#9a8f7e' }}>{s.location}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ── App shell ── */
+function App() {
+  const saved = localStorage.getItem('ep_redesign_variation');
+  const [variation, setVariation] = React.useState(saved || TWEAK_DEFAULTS.variation || 'A');
+  const [tweaksVisible, setTweaksVisible] = React.useState(false);
+
+  React.useEffect(() => {
+    localStorage.setItem('ep_redesign_variation', variation);
+  }, [variation]);
+
+  // Tweaks integration
+  React.useEffect(() => {
+    window.addEventListener('message', e => {
+      if (e.data?.type === '__activate_edit_mode') setTweaksVisible(true);
+      if (e.data?.type === '__deactivate_edit_mode') setTweaksVisible(false);
+    });
+    window.parent.postMessage({ type: '__edit_mode_available' }, '*');
+  }, []);
+
+  const OPTIONS = [
+    { key: 'A', label: 'A — Institutional Refined' },
+    { key: 'B', label: 'B — Dark Authority' },
+    { key: 'C', label: 'C — Morning Briefing' },
+  ];
+
+  return (
+    <>
+      {/* Switcher bar */}
+      <div className="switcher">
+        <span className="switcher__label">Variation</span>
+        {OPTIONS.map((o, i) => (
+          <React.Fragment key={o.key}>
+            {i > 0 && <span className="switcher__sep">·</span>}
+            <button className={`switcher__btn${variation === o.key ? ' active' : ''}`}
+              onClick={() => setVariation(o.key)}>{o.label}</button>
+          </React.Fragment>
+        ))}
+        <span style={{ marginLeft: 'auto', fontFamily: "'DM Mono', monospace", fontSize: '0.65rem',
+          color: '#555', letterSpacing: '0.06em' }}>
+          Audience: EU Policy Professionals · Airy density
+        </span>
+      </div>
+
+      {/* Preview frame */}
+      <div className="preview-frame">
+        {variation === 'A' && <VariationA />}
+        {variation === 'B' && <VariationB />}
+        {variation === 'C' && <VariationC />}
+      </div>
+
+      {/* Tweaks panel */}
+      <div className={`tweaks-panel${tweaksVisible ? ' visible' : ''}`}>
+        <div className="tweaks-panel__title">Tweaks</div>
+        {OPTIONS.map(o => (
+          <div key={o.key} className={`tweaks-panel__opt${variation === o.key ? ' active' : ''}`}
+            onClick={() => { setVariation(o.key); window.parent.postMessage({ type: '__edit_mode_set_keys', edits: { variation: o.key } }, '*'); }}>
+            <div className="tweaks-panel__dot" />
+            {o.label}
+          </div>
+        ))}
+      </div>
+    </>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>
