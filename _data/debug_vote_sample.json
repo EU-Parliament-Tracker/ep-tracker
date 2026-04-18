@@ -1,0 +1,232 @@
+[
+  {
+    "id": "eli/dl/event/MTG-PL-2025-01-20-VOT-ITM-000002",
+    "type": "Activity",
+    "activity_date": "2025-01-20",
+    "activity_id": "MTG-PL-2025-01-20-VOT-ITM-000002",
+    "activity_label": {
+      "cs": "Středeční pořad jednání – žádost skupiny The Left",
+      "es": "Orden del día del miércoles - Solicitud del Grupo The Left",
+      "pl": "Porządek obrad w środę – Wniosek grupy The Left",
+      "sl": "Sredin dnevni red – zahteva skupine The Left",
+      "ro": "Ordinea de zi de miercuri - Solicitarea Grupului The Left",
+      "mt": "Aġenda tal-Erbgħa - Talba tal-Grupp The Left",
+      "lt": "Trečiadienio darbotvarkė - The Left frakcijos prašymas",
+      "sv": "Onsdagens föredragningslista – begäran från The Left-gruppen",
+      "sk": "Program stredajšieho rokovania – žiadosť skupiny The Left",
+      "mul": "Ordre du jour de mercredi - Demande du groupe The Left - Wednesday’s Agenda - Request from The Left Group - Tagesordnung für Mittwoch - Antrag der The Left-Fraktion",
+      "it": "Ordine del giorno di mercoledì – Richiesta del gruppo The Left",
+      "hr": "Dnevni red za srijedu – Zahtjev Kluba zastupnika The Left",
+      "en": "Wednesday’s agenda – Request by The Left Group",
+      "hu": "Szerdai napirend - a The Left képviselőcsoport kérelme",
+      "da": "Dagsorden for onsdag – Anmodning fra The Left-Gruppen",
+      "pt": "Ordem do dia de quarta-feira – Pedido do Grupo The Left",
+      "de": "Tagesordnung für Mittwoch – Antrag der Fraktion The Left",
+      "ga": "Clár Oibre - Dé Céadaoin - Iarraidh ón nGrúpa The Left",
+      "bg": "Дневен ред за сряда – искане на групата The Left",
+      "fi": "Keskiviikon esityslista – The Left -ryhmän pyyntö",
+      "nl": "Agenda van woensdag – Verzoek van de Fractie The Left",
+      "et": "Kolmapäeva päevakord – fraktsiooni The Left taotlus",
+      "lv": "Trešdienas darba kārtība - grupas “The Left” pieprasījums",
+      "el": "Ημερήσια διάταξη Τετάρτης – Αίτημα της Ομάδας The Left",
+      "fr": "Ordre du jour de mercredi - Demande du groupe The Left"
+    },
+    "consists_of": [
+      "eli/dl/event/MTG-PL-2025-01-20-DEC-171427"
+    ],
+    "had_activity_type": "def/ep-activities/PLENARY_VOTE_RESULTS",
+    "recorded_in_a_realization_of": [
+      "eli/dl/doc/PV-10-2025-01-20-VOT-ITM-003"
+    ],
+    "notation_dlvId": "000002",
+    "structuredLabel": {
+      "cs": "<structuredLabel><title>Středeční pořad jednání – žádost skupiny The Left</title><label/></structuredLabel>",
+      "fr": "<structuredLabel><title>Ordre du jour de mercredi - Demande du groupe The Left</title><label/></structuredLabel>",
+      "sk": "<structuredLabel><title>Program stredajšieho rokovania – žiadosť skupiny The Left</title><label/></structuredLabel>",
+      "lv": "<structuredLabel><title>Trešdienas darba kārtība - grupas “The Left” pieprasījums</title><label/></structuredLabel>",
+      "ga": "<structuredLabel><title>Clár Oibre - Dé Céadaoin - Iarraidh ón nGrúpa The Left</title><label/></structuredLabel>",
+      "bg": "<structuredLabel><title>Дневен ред за сряда – искане на групата The Left</title><label/></structuredLabel>",
+      "da": "<structuredLabel><title>Dagsorden for onsdag – Anmodning fra The Left-Gruppen</title><label/></structuredLabel>",
+      "fi": "<structuredLabel><title>Keskiviikon esityslista – The Left -ryhmän pyyntö</title><label/></structuredLabel>",
+      "hr": "<structuredLabel><title>Dnevni red za srijedu – Zahtjev Kluba zastupnika The Left</title><label/></structuredLabel>",
+      "mt": "<structuredLabel><title>Aġenda tal-Erbgħa - Talba tal-Grupp The Left</title><label/></structuredLabel>",
+      "el": "<structuredLabel><title>Ημερήσια διάταξη Τετάρτης – Αίτημα της Ομάδας The Left</title><label/></structuredLabel>",
+      "pt": "<structuredLabel><title>Ordem do dia de quarta-feira – Pedido do Grupo The Left</title><label/></structuredLabel>",
+      "nl": "<structuredLabel><title>Agenda van woensdag – Verzoek van de Fractie The Left</title><label/></structuredLabel>",
+      "pl": "<structuredLabel><title>Porządek obrad w środę – Wniosek grupy The Left</title><label/></structuredLabel>",
+      "de": "<structuredLabel><title>Tagesordnung für Mittwoch – Antrag der Fraktion The Left</title><label/></structuredLabel>",
+      "it": "<structuredLabel><title>Ordine del giorno di mercoledì – Richiesta del gruppo The Left</title><label/></structuredLabel>",
+      "hu": "<structuredLabel><title>Szerdai napirend - a The Left képviselőcsoport kérelme</title><label/></structuredLabel>",
+      "et": "<structuredLabel><title>Kolmapäeva päevakord – fraktsiooni The Left taotlus</title><label/></structuredLabel>",
+      "ro": "<structuredLabel><title>Ordinea de zi de miercuri - Solicitarea Grupului The Left</title><label/></structuredLabel>",
+      "es": "<structuredLabel><title>Orden del día del miércoles - Solicitud del Grupo The Left</title><label/></structuredLabel>",
+      "lt": "<structuredLabel><title>Trečiadienio darbotvarkė - The Left frakcijos prašymas</title><label/></structuredLabel>",
+      "sl": "<structuredLabel><title>Sredin dnevni red – zahteva skupine The Left</title><label/></structuredLabel>",
+      "en": "<structuredLabel><title>Wednesday’s agenda – Request by The Left Group</title><label/></structuredLabel>",
+      "sv": "<structuredLabel><title>Onsdagens föredragningslista – begäran från The Left-gruppen</title><label/></structuredLabel>"
+    },
+    "inverse_consists_of": [
+      {
+        "id": "eli/dl/event/MTG-PL-2025-01-20",
+        "consists_of": [
+          "eli/dl/event/MTG-PL-2025-01-20-VOT-ITM-000002",
+          "eli/dl/event/MTG-PL-2025-01-20-VOT-ITM-191390",
+          "eli/dl/event/MTG-PL-2025-01-20-VOT-ITM-000001"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eli/dl/event/MTG-PL-2025-01-20-VOT-ITM-191390",
+    "type": "Activity",
+    "activity_date": "2025-01-20",
+    "activity_id": "MTG-PL-2025-01-20-VOT-ITM-191390",
+    "activity_label": {
+      "ro": "Ordinea de zi de miercuri - Solicitarea Grupului Verts/ALE",
+      "fi": "Keskiviikon esityslista – Verts/ALE-ryhmän pyyntö",
+      "bg": "Дневен ред за сряда – искане на групата Verts/ALE",
+      "mt": "Aġenda tal-Erbgħa - Talba tal-Grupp Verts/ALE",
+      "el": "Ημερήσια διάταξη Τετάρτης – Αίτημα της Ομάδας Verts/ALE",
+      "sk": "Program stredajšieho rokovania – žiadosť skupiny Verts/ALE",
+      "pl": "Porządek obrad w środę – wniosek grupy Verts/ALE",
+      "hu": "Szerdai napirend – a Verts/ALE képviselőcsoport kérelme",
+      "pt": "Ordem do dia de quarta-feira – Pedido do Grupo Verts/ALE",
+      "lt": "Trečiadienio darbotvarkė - Verts/ALE frakcijos prašymas",
+      "de": "Tagesordnung für Mittwoch – Antrag der Verts/ALE-Fraktion",
+      "et": "Kolmapäeva päevakord – fraktsiooni Verts/ALE taotlus",
+      "sl": "Sredin dnevni red – zahteva skupine Verts/ALE",
+      "cs": "Středeční pořad jednání – žádost skupiny Verts/ALE",
+      "da": "Dagsorden for onsdag – Anmodning fra Verts/ALE-Gruppen",
+      "en": "Wednesday’s agenda – Request by the Verts/ALE Group",
+      "sv": "Onsdagens föredragningslista – begäran från Verts/ALE-gruppen",
+      "lv": "Trešdienas darba kārtība - Verts/ALE grupas pieprasījums",
+      "it": "Ordine del giorno di mercoledì – Richiesta del gruppo Verts/ALE",
+      "ga": "Clár Oibre - Dé Céadaoin - Iarraidh ón nGrúpa Verts/ALE",
+      "nl": "Agenda van woensdag – Verzoek van de Verts/ALE-Fractie",
+      "es": "Orden del día del miércoles - Solicitud del Grupo Verts/ALE",
+      "fr": "Ordre du jour de mercredi - Demande du groupe Verts/ALE",
+      "hr": "Dnevni red za srijedu – Zahtjev Kluba zastupnika Verts/ALE-a"
+    },
+    "consists_of": [
+      "eli/dl/event/MTG-PL-2025-01-20-DEC-171428"
+    ],
+    "had_activity_type": "def/ep-activities/PLENARY_VOTE_RESULTS",
+    "recorded_in_a_realization_of": [
+      "eli/dl/doc/PV-10-2025-01-20-VOT-ITM-002"
+    ],
+    "notation_dlvId": "191390",
+    "structuredLabel": {
+      "ga": "<structuredLabel><title>Clár Oibre - Dé Céadaoin - Iarraidh ón nGrúpa Verts/ALE</title><label/></structuredLabel>",
+      "lv": "<structuredLabel><title>Trešdienas darba kārtība - Verts/ALE grupas pieprasījums</title><label/></structuredLabel>",
+      "de": "<structuredLabel><title>Tagesordnung für Mittwoch – Antrag der Verts/ALE-Fraktion</title><label/></structuredLabel>",
+      "pt": "<structuredLabel><title>Ordem do dia de quarta-feira – Pedido do Grupo Verts/ALE</title><label/></structuredLabel>",
+      "sv": "<structuredLabel><title>Onsdagens föredragningslista – begäran från Verts/ALE-gruppen</title><label/></structuredLabel>",
+      "mt": "<structuredLabel><title>Aġenda tal-Erbgħa - Talba tal-Grupp Verts/ALE</title><label/></structuredLabel>",
+      "nl": "<structuredLabel><title>Agenda van woensdag – Verzoek van de Verts/ALE-Fractie</title><label/></structuredLabel>",
+      "es": "<structuredLabel><title>Orden del día del miércoles - Solicitud del Grupo Verts/ALE</title><label/></structuredLabel>",
+      "hr": "<structuredLabel><title>Dnevni red za srijedu – Zahtjev Kluba zastupnika Verts/ALE-a</title><label/></structuredLabel>",
+      "fr": "<structuredLabel><title>Ordre du jour de mercredi - Demande du groupe Verts/ALE</title><label/></structuredLabel>",
+      "en": "<structuredLabel><title>Wednesday’s agenda – Request by the Verts/ALE Group</title><label/></structuredLabel>",
+      "el": "<structuredLabel><title>Ημερήσια διάταξη Τετάρτης – Αίτημα της Ομάδας Verts/ALE</title><label/></structuredLabel>",
+      "it": "<structuredLabel><title>Ordine del giorno di mercoledì – Richiesta del gruppo Verts/ALE</title><label/></structuredLabel>",
+      "sl": "<structuredLabel><title>Sredin dnevni red – zahteva skupine Verts/ALE</title><label/></structuredLabel>",
+      "hu": "<structuredLabel><title>Szerdai napirend – a Verts/ALE képviselőcsoport kérelme</title><label/></structuredLabel>",
+      "sk": "<structuredLabel><title>Program stredajšieho rokovania – žiadosť skupiny Verts/ALE</title><label/></structuredLabel>",
+      "et": "<structuredLabel><title>Kolmapäeva päevakord – fraktsiooni Verts/ALE taotlus</title><label/></structuredLabel>",
+      "ro": "<structuredLabel><title>Ordinea de zi de miercuri - Solicitarea Grupului Verts/ALE</title><label/></structuredLabel>",
+      "cs": "<structuredLabel><title>Středeční pořad jednání – žádost skupiny Verts/ALE</title><label/></structuredLabel>",
+      "pl": "<structuredLabel><title>Porządek obrad w środę – wniosek grupy Verts/ALE</title><label/></structuredLabel>",
+      "da": "<structuredLabel><title>Dagsorden for onsdag – Anmodning fra Verts/ALE-Gruppen</title><label/></structuredLabel>",
+      "fi": "<structuredLabel><title>Keskiviikon esityslista – Verts/ALE-ryhmän pyyntö</title><label/></structuredLabel>",
+      "lt": "<structuredLabel><title>Trečiadienio darbotvarkė - Verts/ALE frakcijos prašymas</title><label/></structuredLabel>",
+      "bg": "<structuredLabel><title>Дневен ред за сряда – искане на групата Verts/ALE</title><label/></structuredLabel>"
+    },
+    "inverse_consists_of": [
+      {
+        "id": "eli/dl/event/MTG-PL-2025-01-20",
+        "consists_of": [
+          "eli/dl/event/MTG-PL-2025-01-20-VOT-ITM-000002",
+          "eli/dl/event/MTG-PL-2025-01-20-VOT-ITM-191390",
+          "eli/dl/event/MTG-PL-2025-01-20-VOT-ITM-000001"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eli/dl/event/MTG-PL-2025-01-20-VOT-ITM-000001",
+    "type": "Activity",
+    "activity_date": "2025-01-20",
+    "activity_id": "MTG-PL-2025-01-20-VOT-ITM-000001",
+    "activity_label": {
+      "mul": "Ordre du jour de mercredi - Demande du groupe PfE - Wednesday’s Agenda - Request from the PfE Group - Tagesordnung für Mittwoch - Antrag der PfE-Fraktion",
+      "nl": "Agenda van woensdag – Verzoek van de PfE-Fractie",
+      "hu": "Szerdai napirend – a PfE képviselőcsoport kérelme",
+      "it": "Ordine del giorno di mercoledì – Richiesta del gruppo PfE",
+      "fr": "Ordre du jour de mercredi - Demande du groupe PfE",
+      "en": "Wednesday’s agenda – Request by the PfE Group",
+      "lv": "Trešdienas darba kārtība - PfE grupas pieprasījums",
+      "ro": "Ordinea de zi de miercuri - Solicitarea Grupului PfE",
+      "pl": "Porządek obrad w środę – wniosek grupy PfE",
+      "cs": "Středeční pořad jednání – žádost skupiny PfE",
+      "sl": "Sredin dnevni red – zahteva skupine PfE",
+      "da": "Dagsorden for onsdag – Anmodning fra PfE-Gruppen",
+      "et": "Kolmapäeva päevakord – fraktsiooni PfE taotlus",
+      "el": "Ημερήσια διάταξη Τετάρτης – Αίτημα της Ομάδας PfE",
+      "bg": "Дневен ред за сряда – искане на групата PfE",
+      "sk": "Program stredajšieho rokovania – žiadosť skupiny PfE",
+      "mt": "Aġenda tal-Erbgħa - Talba tal-Grupp PfE",
+      "pt": "Ordem do dia de quarta-feira – Pedido do Grupo PfE",
+      "ga": "Clár Oibre - Dé Céadaoin - Iarraidh ón nGrúpa PfE",
+      "hr": "Dnevni red za srijedu – Zahtjev Kluba zastupnika PfE-a",
+      "sv": "Onsdagens föredragningslista – begäran från PfE-gruppen",
+      "es": "Orden del día del miércoles - Solicitud del Grupo PfE",
+      "lt": "Trečiadienio darbotvarkė - PfE frakcijos prašymas",
+      "fi": "Keskiviikon esityslista – PfE-ryhmän pyyntö",
+      "de": "Tagesordnung für Mittwoch – Antrag der PfE-Fraktion"
+    },
+    "consists_of": [
+      "eli/dl/event/MTG-PL-2025-01-20-DEC-171426"
+    ],
+    "had_activity_type": "def/ep-activities/PLENARY_VOTE_RESULTS",
+    "recorded_in_a_realization_of": [
+      "eli/dl/doc/PV-10-2025-01-20-VOT-ITM-001"
+    ],
+    "notation_dlvId": "000001",
+    "structuredLabel": {
+      "de": "<structuredLabel><title>Tagesordnung für Mittwoch – Antrag der PfE-Fraktion</title><label/></structuredLabel>",
+      "fi": "<structuredLabel><title>Keskiviikon esityslista – PfE-ryhmän pyyntö</title><label/></structuredLabel>",
+      "it": "<structuredLabel><title>Ordine del giorno di mercoledì – Richiesta del gruppo PfE</title><label/></structuredLabel>",
+      "mt": "<structuredLabel><title>Aġenda tal-Erbgħa - Talba tal-Grupp PfE</title><label/></structuredLabel>",
+      "cs": "<structuredLabel><title>Středeční pořad jednání – žádost skupiny PfE</title><label/></structuredLabel>",
+      "es": "<structuredLabel><title>Orden del día del miércoles - Solicitud del Grupo PfE</title><label/></structuredLabel>",
+      "ro": "<structuredLabel><title>Ordinea de zi de miercuri - Solicitarea Grupului PfE</title><label/></structuredLabel>",
+      "hu": "<structuredLabel><title>Szerdai napirend – a PfE képviselőcsoport kérelme</title><label/></structuredLabel>",
+      "ga": "<structuredLabel><title>Clár Oibre - Dé Céadaoin - Iarraidh ón nGrúpa PfE</title><label/></structuredLabel>",
+      "sv": "<structuredLabel><title>Onsdagens föredragningslista – begäran från PfE-gruppen</title><label/></structuredLabel>",
+      "nl": "<structuredLabel><title>Agenda van woensdag – Verzoek van de PfE-Fractie</title><label/></structuredLabel>",
+      "en": "<structuredLabel><title>Wednesday’s agenda – Request by the PfE Group</title><label/></structuredLabel>",
+      "et": "<structuredLabel><title>Kolmapäeva päevakord – fraktsiooni PfE taotlus</title><label/></structuredLabel>",
+      "lt": "<structuredLabel><title>Trečiadienio darbotvarkė - PfE frakcijos prašymas</title><label/></structuredLabel>",
+      "pt": "<structuredLabel><title>Ordem do dia de quarta-feira – Pedido do Grupo PfE</title><label/></structuredLabel>",
+      "hr": "<structuredLabel><title>Dnevni red za srijedu – Zahtjev Kluba zastupnika PfE-a</title><label/></structuredLabel>",
+      "bg": "<structuredLabel><title>Дневен ред за сряда – искане на групата PfE</title><label/></structuredLabel>",
+      "el": "<structuredLabel><title>Ημερήσια διάταξη Τετάρτης – Αίτημα της Ομάδας PfE</title><label/></structuredLabel>",
+      "lv": "<structuredLabel><title>Trešdienas darba kārtība - PfE grupas pieprasījums</title><label/></structuredLabel>",
+      "sl": "<structuredLabel><title>Sredin dnevni red – zahteva skupine PfE</title><label/></structuredLabel>",
+      "da": "<structuredLabel><title>Dagsorden for onsdag – Anmodning fra PfE-Gruppen</title><label/></structuredLabel>",
+      "fr": "<structuredLabel><title>Ordre du jour de mercredi - Demande du groupe PfE</title><label/></structuredLabel>",
+      "sk": "<structuredLabel><title>Program stredajšieho rokovania – žiadosť skupiny PfE</title><label/></structuredLabel>",
+      "pl": "<structuredLabel><title>Porządek obrad w środę – wniosek grupy PfE</title><label/></structuredLabel>"
+    },
+    "inverse_consists_of": [
+      {
+        "id": "eli/dl/event/MTG-PL-2025-01-20",
+        "consists_of": [
+          "eli/dl/event/MTG-PL-2025-01-20-VOT-ITM-000002",
+          "eli/dl/event/MTG-PL-2025-01-20-VOT-ITM-191390",
+          "eli/dl/event/MTG-PL-2025-01-20-VOT-ITM-000001"
+        ]
+      }
+    ]
+  }
+]

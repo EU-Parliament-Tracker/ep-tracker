@@ -1116,16 +1116,16 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6596/home"
   },
   {
+    "id": "6590",
+    "abbreviation": "DSEE",
+    "name": "DSEE",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6590/home"
+  },
+  {
     "id": "6656",
     "abbreviation": "DSVL",
     "name": "DSVL",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6656/home"
-  },
-  {
-    "id": "6922",
-    "abbreviation": "DVD",
-    "name": "DVD",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6922/home"
   },
   {
     "id": "6829",
@@ -1186,12 +1186,6 @@
     "abbreviation": "EK",
     "name": "EK",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6938/home"
-  },
-  {
-    "id": "6877",
-    "abbreviation": "EKRE",
-    "name": "EKRE",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6877/home"
   },
   {
     "id": "6781",
@@ -1256,7 +1250,7 @@
   {
     "id": "6588",
     "abbreviation": "FEMM",
-    "name": "Women s Rights and Gender Equality",
+    "name": "Women's Rights and Gender Equality",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6588/home"
   },
   {
@@ -1384,12 +1378,6 @@
     "abbreviation": "GroenLinks",
     "name": "GroenLinks",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6694/home"
-  },
-  {
-    "id": "6734",
-    "abbreviation": "HDZ",
-    "name": "HDZ",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6734/home"
   },
   {
     "id": "6824",
@@ -1654,6 +1642,12 @@
     "abbreviation": "KD",
     "name": "KD",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6714/home"
+  },
+  {
+    "id": "6952",
+    "abbreviation": "KD",
+    "name": "KD",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6952/home"
   },
   {
     "id": "6722",
@@ -2544,6 +2538,12 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6788/home"
   },
   {
+    "id": "6700",
+    "abbreviation": "SPZZ",
+    "name": "SPZZ",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6700/home"
+  },
+  {
     "id": "6746",
     "abbreviation": "SPÖ",
     "name": "SPÖ",
@@ -2566,12 +2566,6 @@
     "abbreviation": "STOA",
     "name": "Science and Technology Options Assessment",
     "ep_url": "https://www.europarl.europa.eu/committees/en/3730/home"
-  },
-  {
-    "id": "6643",
-    "abbreviation": "SUE",
-    "name": "SUE",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6643/home"
   },
   {
     "id": "6676",

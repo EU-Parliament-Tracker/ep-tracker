@@ -1,0 +1,20 @@
+[
+  {
+    "id": "eli/dl/doc/E-10-2026-000002",
+    "type": "Work",
+    "work_type": "def/ep-document-types/QUESTION_WRITTEN",
+    "identifier": "E-10-2026-000002"
+  },
+  {
+    "id": "eli/dl/doc/E-10-2026-000003",
+    "type": "Work",
+    "work_type": "def/ep-document-types/QUESTION_WRITTEN",
+    "identifier": "E-10-2026-000003"
+  },
+  {
+    "id": "eli/dl/doc/E-10-2026-000005",
+    "type": "Work",
+    "work_type": "def/ep-document-types/QUESTION_WRITTEN",
+    "identifier": "E-10-2026-000005"
+  }
+]
