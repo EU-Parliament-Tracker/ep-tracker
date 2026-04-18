@@ -69,6 +69,31 @@ OUTPUT_DIR = Path(os.environ.get("EP_DATA_DIR",
     str(Path(__file__).resolve().parent.parent / "_data")))
 MEPS_DIR   = OUTPUT_DIR / "meps"
 
+# Authority code → human-readable place name
+PLACE_LOOKUP = {
+    "FRA_SXB": "Strasbourg",
+    "BEL_BRU": "Brussels",
+    "LUX_LUX": "Luxembourg",
+}
+
+
+def _decode_location(uri_or_code: str) -> str:
+    """Convert a Publications Office place URI or bare code to a city name."""
+    code = uri_or_code.rstrip("/").split("/")[-1]
+    return PLACE_LOOKUP.get(code, code)
+
+
+def _label_from_meeting_id(sid: str, date_val: str) -> str:
+    """Generate a human-readable session label from the meeting ID and date."""
+    try:
+        from datetime import date as _date
+        y, m, d = int(sid[7:11]), int(sid[12:14]), int(sid[15:17])
+        return _date(y, m, d).strftime("Plenary – %-d %B %Y")
+    except Exception:
+        if date_val:
+            return f"Plenary – {date_val}"
+        return sid
+
 TIMEOUT    = 30
 PAGE_SIZE  = 100
 RATE_LIMIT = 0.3
@@ -478,11 +503,18 @@ def fetch_sessions():
         loc_raw = s.get("hasLocality", "")
         if isinstance(loc_raw, list):
             loc_raw = loc_raw[0] if loc_raw else ""
-        location = safe_label(loc_raw) if isinstance(loc_raw, dict) else safe_str(loc_raw)
+        if isinstance(loc_raw, dict):
+            location = safe_label(loc_raw)
+        else:
+            raw_str = safe_str(loc_raw)
+            location = _decode_location(raw_str) if raw_str else ""
+
+        raw_label = safe_label(s.get("label", ""))
+        label = raw_label if raw_label and raw_label != sid else _label_from_meeting_id(sid, date_val)
 
         sessions.append({
             "id":       sid,
-            "label":    safe_label(s.get("label", "")) or sid,
+            "label":    label,
             "start":    date_val,
             "end":      end_val,
             "location": location,
@@ -827,87 +859,114 @@ def fetch_documents():
 # Questions
 # ---------------------------------------------------------------------------
 
+def _parse_question_record(q: dict) -> dict:
+    """Extract all fields from a question record (bulk or detail response)."""
+    qid = safe_str(q.get("work_id", q.get("identifier", q.get("id", ""))))
+    if "/" in qid:
+        qid = qid.split("/")[-1]
+
+    qtype = safe_str(q.get("work_type", q.get("questionType",
+            q.get("type", q.get("eli:work_type", "")))))
+    if "written" in qtype.lower():
+        qtype = "Written Question"
+    elif "oral" in qtype.lower():
+        qtype = "Oral Question"
+
+    authors_raw = (q.get("was_created_by")
+                   or q.get("created_by")
+                   or q.get("author")
+                   or q.get("creator")
+                   or q.get("eli:author")
+                   or q.get("dcterms:creator")
+                   or q.get("hasMember")
+                   or [])
+    if isinstance(authors_raw, (str, dict)):
+        authors_raw = [authors_raw]
+    author_ids = []
+    for a in (authors_raw or []):
+        if isinstance(a, dict):
+            aid = safe_str(a.get("identifier",
+                           a.get("notation",
+                           a.get("@id", a.get("id", "")))))
+            if "/" in aid:
+                aid = aid.split("/")[-1]
+        else:
+            aid = safe_str(a)
+            if "/" in aid:
+                aid = aid.split("/")[-1]
+        if aid and aid.isdigit():
+            author_ids.append(aid)
+
+    return {
+        "id":      qid,
+        "date":    safe_str(q.get("document_date",
+                   q.get("work_date_document",
+                   q.get("date_document",
+                   q.get("eli:date_document", q.get("date", "")))))),
+        "title":   safe_label(q.get("title_dcterms",
+                   q.get("eli:title", q.get("dcterms:title",
+                   q.get("label", q.get("title", q.get("name", ""))))))),
+        "type":    qtype,
+        "ref":     safe_str(q.get("notation", q.get("reference", ""))),
+        "authors": author_ids,
+        "ep_url":  safe_str(q.get("seeAlso", q.get("url", ""))),
+    }
+
+
 def fetch_questions():
     """Fetch parliamentary questions using year= parameter.
 
-    The API does not support start-date-gte; date filtering is by year only.
-
-    JSON-LD field names:
-      work_id / identifier          → ID
-      work_type                     → QUESTION_WRITTEN / QUESTION_ORAL
-      was_created_by / author       → list of author identifiers
-      document_date / date          → date
-      title_dcterms / label         → title
-      notation                      → reference
-      seeAlso                       → EP URL
+    The bulk endpoint returns minimal data (id, type only), so each question
+    is enriched with a per-record detail call — the same pattern used for MEPs.
     """
     log.info("Fetching parliamentary questions...")
     years = _lookback_years(QUESTIONS_LOOKBACK_DAYS)
-    questions = []
-    seen_ids = set()
-    _debug_saved = False
+    stub_list = []
+    seen_ids: set = set()
     for year in years:
         batch = get_all("parliamentary-questions",
                         params={"year": year},
                         max_items=MAX_QUESTIONS)
-        if batch and not _debug_saved:
-            write_json(OUTPUT_DIR / "debug_question_sample.json", batch[:3])
-            log.info("  Saved debug question sample (%d fields)", len(batch[0]))
-            _debug_saved = True
         for q in batch:
             qid = safe_str(q.get("work_id", q.get("identifier", q.get("id", ""))))
-            if qid in seen_ids:
-                continue
-            seen_ids.add(qid)
+            if "/" in qid:
+                qid = qid.split("/")[-1]
+            if qid and qid not in seen_ids:
+                seen_ids.add(qid)
+                qtype = safe_str(q.get("work_type", q.get("type", "")))
+                stub_list.append({"id": qid, "raw_type": qtype})
+        if len(stub_list) >= MAX_QUESTIONS:
+            break
 
-            # Normalize type: QUESTION_WRITTEN → Written Question, etc.
-            qtype = safe_str(q.get("work_type", q.get("questionType",
-                    q.get("type", q.get("eli:work_type", "")))))
-            if "written" in qtype.lower():
-                qtype = "Written Question"
-            elif "oral" in qtype.lower():
-                qtype = "Oral Question"
+    log.info("  -> %d question stubs; fetching details…", len(stub_list))
+    questions = []
+    _debug_saved = False
+    for stub in stub_list[:MAX_QUESTIONS]:
+        qid = stub["id"]
+        detail_resp = get_json(f"parliamentary-questions/{qid}")
+        if detail_resp:
+            data = detail_resp.get("data", [])
+            record = (data[0] if isinstance(data, list) and data
+                      else data if isinstance(data, dict) else {})
+            if not _debug_saved and record:
+                write_json(OUTPUT_DIR / "debug_question_detail.json", record)
+                log.info("  Saved debug question detail (%d fields)", len(record))
+                _debug_saved = True
+        else:
+            record = {}
 
-            # Authors: try many field name variants
-            authors_raw = (q.get("was_created_by")
-                           or q.get("created_by")
-                           or q.get("author")
-                           or q.get("creator")
-                           or q.get("eli:author")
-                           or q.get("dcterms:creator")
-                           or q.get("hasMember")
-                           or [])
-            if isinstance(authors_raw, (str, dict)):
-                authors_raw = [authors_raw]
-            author_ids = []
-            for a in (authors_raw or []):
-                if isinstance(a, dict):
-                    aid = safe_str(a.get("identifier",
-                                   a.get("notation",
-                                   a.get("@id", a.get("id", "")))))
-                    if "/" in aid:
-                        aid = aid.split("/")[-1]
-                else:
-                    aid = safe_str(a)
-                    if "/" in aid:
-                        aid = aid.split("/")[-1]
-                if aid and aid.isdigit():
-                    author_ids.append(aid)
+        parsed = _parse_question_record(record)
+        # Preserve ID and type from stub if detail was empty
+        if not parsed["id"]:
+            parsed["id"] = qid
+        if not parsed["type"]:
+            raw = stub["raw_type"]
+            if "written" in raw.lower():
+                parsed["type"] = "Written Question"
+            elif "oral" in raw.lower():
+                parsed["type"] = "Oral Question"
+        questions.append(parsed)
 
-            questions.append({
-                "id":      qid,
-                "date":    safe_str(q.get("document_date",
-                           q.get("work_date_document",
-                           q.get("date_document",
-                           q.get("eli:date_document", q.get("date", "")))))),
-                "title":   safe_label(q.get("title_dcterms",
-                           q.get("eli:title", q.get("dcterms:title",
-                           q.get("label", q.get("title", q.get("name", ""))))))),
-                "type":    qtype,
-                "ref":     safe_str(q.get("notation", q.get("reference", ""))),
-                "authors": author_ids,
-                "ep_url":  safe_str(q.get("seeAlso", q.get("url", ""))),
-            })
     log.info("  -> %d questions", len(questions))
     return sorted(questions, key=lambda x: x.get("date", ""), reverse=True)[:MAX_QUESTIONS]
 

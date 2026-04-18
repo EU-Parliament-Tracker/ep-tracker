@@ -71,8 +71,13 @@ permalink: /
       var ia = ORDER.indexOf(a.abbr), ib = ORDER.indexOf(b.abbr);
       return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
     });
-    var colors = [];
-    groups.forEach(function (g) { for (var i = 0; i < g.seats; i++) colors.push(g.color); });
+    var colors = [], groupPerSeat = [];
+    groups.forEach(function (g) {
+      for (var i = 0; i < g.seats; i++) {
+        colors.push(g.color);
+        groupPerSeat.push(g);
+      }
+    });
     var N = colors.length;
 
     var cx = 260, cy = 269, rMin = 80, rMax = 198, ROWS = 12;
@@ -98,13 +103,52 @@ permalink: /
 
     var svg = document.getElementById('ep-hemicycle');
     var ns = 'http://www.w3.org/2000/svg';
+    var circles = [];
     seats.forEach(function (s, i) {
+      var g = groupPerSeat[i] || {};
       var c = document.createElementNS(ns, 'circle');
       c.setAttribute('cx', s.x.toFixed(1));
       c.setAttribute('cy', s.y.toFixed(1));
       c.setAttribute('r', '3.1');
       c.setAttribute('fill', colors[i] || '#999');
+      c.setAttribute('data-group', g.abbr || '');
+      c.setAttribute('data-name', g.name || '');
+      c.setAttribute('data-seats', g.seats || '');
+      c.style.transition = 'opacity 0.12s';
       svg.appendChild(c);
+      circles.push(c);
+    });
+
+    // Tooltip
+    var tip = document.createElement('div');
+    tip.className = 'ep-hemicycle-tooltip';
+    tip.style.display = 'none';
+    document.body.appendChild(tip);
+
+    function highlight(abbr) {
+      circles.forEach(function (c) {
+        c.style.opacity = (!abbr || c.getAttribute('data-group') === abbr) ? '1' : '0.18';
+      });
+    }
+
+    svg.addEventListener('mouseover', function (e) {
+      var c = e.target;
+      if (c.tagName !== 'circle') return;
+      highlight(c.getAttribute('data-group'));
+      tip.textContent = c.getAttribute('data-name') + ' (' + c.getAttribute('data-group') + ') — ' + c.getAttribute('data-seats') + ' seats';
+      tip.style.display = 'block';
+    });
+
+    svg.addEventListener('mousemove', function (e) {
+      tip.style.left = (e.pageX + 14) + 'px';
+      tip.style.top  = (e.pageY - 40) + 'px';
+    });
+
+    svg.addEventListener('mouseout', function (e) {
+      if (!svg.contains(e.relatedTarget)) {
+        highlight(null);
+        tip.style.display = 'none';
+      }
     });
   }());
   </script>
