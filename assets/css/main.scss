@@ -596,6 +596,63 @@
   padding: 0.5rem 0;
 }
 
+/* ── Parliament hemicycle ────────────────────────────────────────────────────*/
+.ep-hemicycle-wrap {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.ep-hemicycle {
+  flex: 1 1 300px;
+  max-width: 520px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.ep-hemicycle-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.82rem;
+  min-width: 130px;
+  padding-top: 0.5rem;
+}
+.ep-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.ep-legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.ep-legend-name {
+  flex: 1;
+  font-weight: 600;
+}
+.ep-legend-seats {
+  color: var(--ep-gray-text);
+  font-family: var(--ep-font-mono);
+}
+
+/* ── Vote position badges (on MEP detail page) ───────────────────────────────*/
+.ep-vote-pos {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.ep-vote-pos--for      { background: #e8f5e9; color: var(--ep-green); }
+.ep-vote-pos--against  { background: #ffebee; color: var(--ep-red); }
+.ep-vote-pos--abstain  { background: #fff3e0; color: var(--ep-amber); }
+.ep-vote-title { flex: 1; font-size: 0.88rem; }
+
 /* ── Responsive tweaks ──────────────────────────────────────────────────────*/
 @media (max-width: 600px) {
   .initial-content { padding: 0 1rem; }

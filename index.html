@@ -43,6 +43,74 @@ permalink: /
   </a>
 </div>
 
+<!-- ── Parliament hemicycle ──────────────────────────────────────── -->
+{% if site.data.groups %}
+<section class="ep-home-section ep-hemicycle-section">
+  <div class="ep-home-section__header">
+    <h2>Parliament composition</h2>
+    <a href="{{ '/meps/' | relative_url }}" class="ep-see-all">Browse MEPs →</a>
+  </div>
+  <div class="ep-hemicycle-wrap">
+    <svg id="ep-hemicycle" class="ep-hemicycle" viewBox="0 0 520 272"
+         role="img" aria-label="EP parliament hemicycle by political group"></svg>
+    <div class="ep-hemicycle-legend">
+      {% for group in site.data.groups %}
+      <div class="ep-legend-item">
+        <span class="ep-legend-dot" style="background:{{ group.color }}"></span>
+        <span class="ep-legend-name">{{ group.abbr }}</span>
+        <span class="ep-legend-seats">{{ group.seats }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <script>
+  (function () {
+    var groups = {{ site.data.groups | jsonify }};
+    var ORDER = ["GUE/NGL","Greens/EFA","S&D","Renew","EPP","ECR","PfE","ESN","NI"];
+    groups.sort(function (a, b) {
+      var ia = ORDER.indexOf(a.abbr), ib = ORDER.indexOf(b.abbr);
+      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+    });
+    var colors = [];
+    groups.forEach(function (g) { for (var i = 0; i < g.seats; i++) colors.push(g.color); });
+    var N = colors.length;
+
+    var cx = 260, cy = 269, rMin = 80, rMax = 198, ROWS = 12;
+    var A0 = Math.PI * 0.1, A1 = Math.PI * 0.9;
+
+    var radii = [];
+    for (var i = 0; i < ROWS; i++) radii.push(rMin + (rMax - rMin) * i / (ROWS - 1));
+
+    var totalR = radii.reduce(function (s, r) { return s + r; }, 0);
+    var rowSeats = radii.map(function (r) { return Math.round(N * r / totalR); });
+    var diff = rowSeats.reduce(function (s, x) { return s + x; }, 0) - N;
+    rowSeats[ROWS - 1] -= diff;
+
+    var seats = [];
+    for (var row = 0; row < ROWS; row++) {
+      var n = rowSeats[row], r = radii[row];
+      for (var i = 0; i < n; i++) {
+        var a = A0 + (A1 - A0) * i / Math.max(n - 1, 1);
+        seats.push({ x: cx + r * Math.cos(a), y: cy - r * Math.sin(a), a: a });
+      }
+    }
+    seats.sort(function (a, b) { return b.a - a.a; });
+
+    var svg = document.getElementById('ep-hemicycle');
+    var ns = 'http://www.w3.org/2000/svg';
+    seats.forEach(function (s, i) {
+      var c = document.createElementNS(ns, 'circle');
+      c.setAttribute('cx', s.x.toFixed(1));
+      c.setAttribute('cy', s.y.toFixed(1));
+      c.setAttribute('r', '3.1');
+      c.setAttribute('fill', colors[i] || '#999');
+      svg.appendChild(c);
+    });
+  }());
+  </script>
+</section>
+{% endif %}
+
 <!-- ── Latest votes ──────────────────────────────────────────────── -->
 <section class="ep-home-section">
   <div class="ep-home-section__header">
