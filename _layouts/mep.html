@@ -92,27 +92,52 @@
   <!-- ── Recent plenary votes ───────────────────────────────────── -->
   <section class="ep-mep-detail__section">
     <h2>Recent plenary votes</h2>
-    {% assign recent_votes = site.data.votes | where_exp: "v", "v.title != ''" %}
-    {% if recent_votes.size > 0 %}
-      <p class="ep-note">Showing recent plenary votes. Individual MEP positions are not available from the current API.</p>
+    {% assign mep_vote_records = site.data.mep_votes[page.mep_id] %}
+    {% if mep_vote_records.size > 0 %}
       <ul class="ep-vote-list">
-        {% for vote in recent_votes limit: 10 %}
+        {% for vr in mep_vote_records limit: 15 %}
         <li class="ep-vote-item">
-          <span class="ep-col-date">{{ vote.date }}</span>
-          {% if vote.ep_url != "" %}
-            <a href="{{ vote.ep_url }}" target="_blank" rel="noopener">{{ vote.title }}</a>
+          <span class="ep-col-date">{{ vr.date }}</span>
+          <span class="ep-vote-pos ep-vote-pos--{{ vr.position }}">{{ vr.position }}</span>
+          {% if vr.ep_url != "" %}
+            <a href="{{ vr.ep_url }}" target="_blank" rel="noopener" class="ep-vote-title">
+              {{ vr.title | default: vr.vote_id | truncate: 100 }}
+            </a>
           {% else %}
-            {{ vote.title }}
+            <span class="ep-vote-title">{{ vr.title | default: vr.vote_id | truncate: 100 }}</span>
           {% endif %}
-          {% if vote.result != "" %}
-            <span class="ep-vote-result ep-vote-result--{{ vote.result | downcase }}">{{ vote.result }}</span>
+          {% if vr.result != "" %}
+            <span class="ep-vote-result ep-vote-result--{{ vr.result | downcase }}">{{ vr.result }}</span>
           {% endif %}
         </li>
         {% endfor %}
       </ul>
+      {% if mep_vote_records.size > 15 %}
+        <p class="ep-more-link">Showing 15 of {{ mep_vote_records.size }} votes.</p>
+      {% endif %}
       <p><a href="{{ '/votes/' | relative_url }}">Browse all plenary votes →</a></p>
     {% else %}
-      <p class="ep-empty">No recent vote data available.</p>
+      {% assign recent_votes = site.data.votes | where_exp: "v", "v.title != ''" %}
+      {% if recent_votes.size > 0 %}
+        <p class="ep-note">Individual vote positions not yet available — showing recent plenary votes.</p>
+        <ul class="ep-vote-list">
+          {% for vote in recent_votes limit: 8 %}
+          <li class="ep-vote-item">
+            <span class="ep-col-date">{{ vote.date }}</span>
+            {% if vote.ep_url != "" %}
+              <a href="{{ vote.ep_url }}" target="_blank" rel="noopener">{{ vote.title }}</a>
+            {% else %}
+              {{ vote.title }}
+            {% endif %}
+            {% if vote.result != "" %}
+              <span class="ep-vote-result ep-vote-result--{{ vote.result | downcase }}">{{ vote.result }}</span>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="ep-empty">No recent vote data available.</p>
+      {% endif %}
       <p><a href="{{ '/votes/' | relative_url }}">Browse all plenary votes →</a></p>
     {% endif %}
   </section>

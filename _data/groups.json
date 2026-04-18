@@ -1,0 +1,65 @@
+[
+  {
+    "abbr": "EPP",
+    "name": "Group of the European People's Party (Christian Democrats)",
+    "seats": 185,
+    "color": "#003399",
+    "css": "epp"
+  },
+  {
+    "abbr": "S&D",
+    "name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+    "seats": 135,
+    "color": "#C8001A",
+    "css": "sd"
+  },
+  {
+    "abbr": "PfE",
+    "name": "Patriots for Europe Group",
+    "seats": 84,
+    "color": "#7C3E99",
+    "css": "pfe"
+  },
+  {
+    "abbr": "ECR",
+    "name": "European Conservatives and Reformists Group",
+    "seats": 81,
+    "color": "#0066CC",
+    "css": "ecr"
+  },
+  {
+    "abbr": "Renew",
+    "name": "Renew Europe Group",
+    "seats": 77,
+    "color": "#F7931E",
+    "css": "renew"
+  },
+  {
+    "abbr": "Greens/EFA",
+    "name": "Group of the Greens/European Free Alliance",
+    "seats": 53,
+    "color": "#50A045",
+    "css": "greens-efa"
+  },
+  {
+    "abbr": "GUE/NGL",
+    "name": "The Left group in the European Parliament - GUE/NGL",
+    "seats": 46,
+    "color": "#800000",
+    "css": "gue-ngl"
+  },
+  {
+    "abbr": "NI",
+    "name": "Non-attached Members",
+    "seats": 30,
+    "color": "#888888",
+    "css": "ni"
+  },
+  {
+    "abbr": "ESN",
+    "name": "Europe of Sovereign Nations Group",
+    "seats": 27,
+    "color": "#002B7F",
+    "css": "esn"
+  }
+]

@@ -608,6 +608,149 @@ def fetch_votes():
     return sorted(votes, key=lambda x: x.get("date", ""), reverse=True)
 
 
+def fetch_votes_xml():
+    """Fetch roll-call votes from EP published XML vote records.
+
+    URL: https://www.europarl.europa.eu/doceo/document/PV-10-{date}-RCV_EN.xml
+
+    These files contain vote titles, ADOPTED/REJECTED results, and per-MEP
+    For/Against/Abstain positions keyed by PersId.
+
+    Returns (votes_list, mep_votes_dict) where mep_votes_dict maps
+    mep_id -> list of {vote_id, date, title, position, result, ep_url}.
+    """
+    import re
+    log.info("Fetching roll-call votes from EP XML files...")
+
+    years = _lookback_years()
+    meeting_dates = set()
+    for year in years:
+        raw = get_all("meetings", params={"year": year})
+        for s in raw:
+            d = safe_str(s.get("activity_date", s.get("startDate", "")))[:10]
+            if re.match(r"\d{4}-\d{2}-\d{2}", d):
+                meeting_dates.add(d)
+
+    log.info("  -> %d candidate dates for XML fetch", len(meeting_dates))
+
+    votes = []
+    mep_votes = {}
+    xml_hdr = {"Accept": "application/xml, text/xml, */*",
+               "User-Agent": "EP-Tracker/1.0"}
+
+    for meeting_date in sorted(meeting_dates, reverse=True):
+        if len(votes) >= MAX_VOTES:
+            break
+
+        xml_url = (
+            f"https://www.europarl.europa.eu/doceo/document/"
+            f"PV-10-{meeting_date}-RCV_EN.xml"
+        )
+        try:
+            resp = SESSION.get(xml_url, timeout=TIMEOUT, headers=xml_hdr)
+            if resp.status_code == 404:
+                continue
+            resp.raise_for_status()
+        except Exception as e:
+            log.debug("  XML unavailable for %s: %s", meeting_date, e)
+            continue
+
+        try:
+            root = ET.fromstring(resp.content)
+        except ET.ParseError as e:
+            log.warning("  XML parse error for %s: %s", meeting_date, e)
+            continue
+
+        log.info("  -> Parsing XML for %s", meeting_date)
+        ep_url = (
+            f"https://www.europarl.europa.eu/doceo/document/"
+            f"PV-10-{meeting_date}-RCV_EN.html"
+        )
+
+        items = (
+            root.findall(".//Vote.Result.Item")
+            or root.findall(".//VoteResult.Item")
+            or root.findall(".//Vote")
+        )
+
+        for item in items:
+            # Title — prefer English language tag
+            title = ""
+            for tag in ("RollCallVote.Result.Description.Text",
+                        "RollCallVote.Description.Text",
+                        "Description.Text", "Description", "Title"):
+                for el in item.findall(tag):
+                    if el.get("language", "EN").upper() == "EN":
+                        title = (el.text or "").strip()
+                        break
+                if title:
+                    break
+
+            # Result
+            result = ""
+            res_el = item.find("Result")
+            if res_el is not None:
+                t = (res_el.text or "").strip().lower()
+                if "adopt" in t:
+                    result = "Adopted"
+                elif "reject" in t:
+                    result = "Rejected"
+                else:
+                    result = (res_el.text or "").strip()
+
+            # Vote identifier
+            ident = item.get("Identifier", item.get("Id", ""))
+            if ident:
+                vote_id = f"{meeting_date}-RCV-{ident}"
+            else:
+                import hashlib
+                vote_id = f"{meeting_date}-RCV-{hashlib.md5(title.encode()).hexdigest()[:8]}"
+
+            # Per-position MEP IDs and counts
+            def _parse_pos(tag):
+                el = item.find(tag)
+                if el is None:
+                    return 0, set()
+                cnt = _int(el.get("Count", 0))
+                ids = {m.get("PersId", "") for m in el.findall(".//Member.Name")
+                       if m.get("PersId", "")}
+                return cnt or len(ids), ids
+
+            for_count, for_ids    = _parse_pos("Votes.Plus")
+            against_count, ag_ids = _parse_pos("Votes.Minus")
+            abstain_count, ab_ids = _parse_pos("Votes.Abstention")
+
+            votes.append({
+                "id":         vote_id,
+                "date":       meeting_date,
+                "title":      title,
+                "result":     result,
+                "for":        for_count,
+                "against":    against_count,
+                "abstention": abstain_count,
+                "ep_ref":     "",
+                "ep_url":     ep_url,
+            })
+
+            summary = {"vote_id": vote_id, "date": meeting_date,
+                       "title": title, "result": result, "ep_url": ep_url}
+            for mid in for_ids:
+                mep_votes.setdefault(mid, []).append(dict(summary, position="for"))
+            for mid in ag_ids:
+                mep_votes.setdefault(mid, []).append(dict(summary, position="against"))
+            for mid in ab_ids:
+                mep_votes.setdefault(mid, []).append(dict(summary, position="abstain"))
+
+        time.sleep(RATE_LIMIT)
+
+    log.info("  -> %d votes from XML, positions for %d MEPs",
+             len(votes), len(mep_votes))
+    return (
+        sorted(votes, key=lambda x: x.get("date", ""), reverse=True)[:MAX_VOTES],
+        mep_votes,
+    )
+
+
 # ---------------------------------------------------------------------------
 # Documents
 # ---------------------------------------------------------------------------
@@ -812,6 +955,53 @@ def generate_mep_stubs(meps: dict) -> int:
 
 
 # ---------------------------------------------------------------------------
+# Groups and MEP vote history helpers
+# ---------------------------------------------------------------------------
+
+def compute_groups(meps: dict) -> list:
+    """Derive political-group seat counts from live MEP data."""
+    GROUP_STYLE = {
+        "EPP":        {"color": "#003399", "css": "epp"},
+        "S&D":        {"color": "#C8001A", "css": "sd"},
+        "PfE":        {"color": "#7C3E99", "css": "pfe"},
+        "ECR":        {"color": "#0066CC", "css": "ecr"},
+        "Renew":      {"color": "#F7931E", "css": "renew"},
+        "Greens/EFA": {"color": "#50A045", "css": "greens-efa"},
+        "GUE/NGL":    {"color": "#800000", "css": "gue-ngl"},
+        "NI":         {"color": "#888888", "css": "ni"},
+        "ESN":        {"color": "#002B7F", "css": "esn"},
+    }
+    counts, names = {}, {}
+    for m in meps.values():
+        abbr = m.get("group_abbr", "")
+        if abbr:
+            counts[abbr] = counts.get(abbr, 0) + 1
+            names.setdefault(abbr, m.get("group_name", ""))
+    groups = []
+    for abbr, seats in sorted(counts.items(), key=lambda x: -x[1]):
+        s = GROUP_STYLE.get(abbr, {
+            "color": "#999999",
+            "css": abbr.lower().replace("/", "-").replace("&", ""),
+        })
+        groups.append({"abbr": abbr, "name": names.get(abbr, abbr),
+                       "seats": seats, "color": s["color"], "css": s["css"]})
+    return groups
+
+
+def write_mep_votes(mep_votes: dict) -> int:
+    """Write _data/mep_votes/<id>.json for each MEP."""
+    out_dir = OUTPUT_DIR / "mep_votes"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for mep_id, records in mep_votes.items():
+        write_json(
+            out_dir / f"{mep_id}.json",
+            sorted(records, key=lambda x: x.get("date", ""), reverse=True),
+        )
+    log.info("  wrote vote history for %d MEPs", len(mep_votes))
+    return len(mep_votes)
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -842,6 +1032,7 @@ def main():
     # 2. MEPs — written as dict keyed by ID for Jekyll compatibility.
     #    Passes committee_lookup so each MEP's committee entries get
     #    abbreviation + name populated.
+    meps = {}
     try:
         meps = fetch_meps(committee_lookup)
         write_json(OUTPUT_DIR / "meps.json", meps)
@@ -853,10 +1044,43 @@ def main():
         errors.append("meps")
         counts["meps"] = None
 
-    # 3. Remaining datasets — written as arrays
+    # 2b. Political group composition (derived from MEP data)
+    if meps:
+        try:
+            groups = compute_groups(meps)
+            write_json(OUTPUT_DIR / "groups.json", groups)
+            counts["groups"] = len(groups)
+        except Exception as e:
+            log.error("groups compute failed: %s", e)
+
+    # 3. Sessions
+    try:
+        sessions_data = fetch_sessions()
+        write_json(OUTPUT_DIR / "sessions.json", sessions_data)
+        counts["sessions"] = len(sessions_data)
+    except Exception as e:
+        log.error("sessions fetch failed: %s", e)
+        errors.append("sessions")
+        counts["sessions"] = None
+
+    # 4. Votes — try XML first for real titles/results/MEP positions
+    try:
+        votes_data, mep_votes = fetch_votes_xml()
+        if not votes_data:
+            log.warning("XML vote fetch empty — falling back to API")
+            votes_data = fetch_votes()
+            mep_votes = {}
+        write_json(OUTPUT_DIR / "votes.json", votes_data)
+        counts["votes"] = len(votes_data)
+        if mep_votes:
+            counts["mep_votes"] = write_mep_votes(mep_votes)
+    except Exception as e:
+        log.error("votes fetch failed: %s", e)
+        errors.append("votes")
+        counts["votes"] = None
+
+    # 5. Documents and questions
     other_datasets = [
-        ("sessions",   fetch_sessions),
-        ("votes",      fetch_votes),
         ("documents",  fetch_documents),
         ("questions",  fetch_questions),
     ]
