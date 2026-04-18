@@ -208,6 +208,122 @@
   </a>
 </div>
 
+<!-- ── Parliament hemicycle ──────────────────────────────────────── -->
+
+<section class="ep-home-section ep-hemicycle-section">
+  <div class="ep-home-section__header">
+    <h2>Parliament composition</h2>
+    <a href="/ep-tracker/meps/" class="ep-see-all">Browse MEPs →</a>
+  </div>
+  <div class="ep-hemicycle-wrap">
+    <svg id="ep-hemicycle" class="ep-hemicycle" viewBox="0 0 520 272"
+         role="img" aria-label="EP parliament hemicycle by political group"></svg>
+    <div class="ep-hemicycle-legend">
+      
+      <div class="ep-legend-item">
+        <span class="ep-legend-dot" style="background:#003399"></span>
+        <span class="ep-legend-name">EPP</span>
+        <span class="ep-legend-seats">185</span>
+      </div>
+      
+      <div class="ep-legend-item">
+        <span class="ep-legend-dot" style="background:#C8001A"></span>
+        <span class="ep-legend-name">S&D</span>
+        <span class="ep-legend-seats">135</span>
+      </div>
+      
+      <div class="ep-legend-item">
+        <span class="ep-legend-dot" style="background:#7C3E99"></span>
+        <span class="ep-legend-name">PfE</span>
+        <span class="ep-legend-seats">84</span>
+      </div>
+      
+      <div class="ep-legend-item">
+        <span class="ep-legend-dot" style="background:#0066CC"></span>
+        <span class="ep-legend-name">ECR</span>
+        <span class="ep-legend-seats">81</span>
+      </div>
+      
+      <div class="ep-legend-item">
+        <span class="ep-legend-dot" style="background:#F7931E"></span>
+        <span class="ep-legend-name">Renew</span>
+        <span class="ep-legend-seats">77</span>
+      </div>
+      
+      <div class="ep-legend-item">
+        <span class="ep-legend-dot" style="background:#50A045"></span>
+        <span class="ep-legend-name">Greens/EFA</span>
+        <span class="ep-legend-seats">53</span>
+      </div>
+      
+      <div class="ep-legend-item">
+        <span class="ep-legend-dot" style="background:#800000"></span>
+        <span class="ep-legend-name">GUE/NGL</span>
+        <span class="ep-legend-seats">46</span>
+      </div>
+      
+      <div class="ep-legend-item">
+        <span class="ep-legend-dot" style="background:#888888"></span>
+        <span class="ep-legend-name">NI</span>
+        <span class="ep-legend-seats">30</span>
+      </div>
+      
+      <div class="ep-legend-item">
+        <span class="ep-legend-dot" style="background:#002B7F"></span>
+        <span class="ep-legend-name">ESN</span>
+        <span class="ep-legend-seats">27</span>
+      </div>
+      
+    </div>
+  </div>
+  <script>
+  (function () {
+    var groups = [{"abbr":"EPP","name":"Group of the European People's Party (Christian Democrats)","seats":185,"color":"#003399","css":"epp"},{"abbr":"S&D","name":"Group of the Progressive Alliance of Socialists and Democrats in the European Parliament","seats":135,"color":"#C8001A","css":"sd"},{"abbr":"PfE","name":"Patriots for Europe Group","seats":84,"color":"#7C3E99","css":"pfe"},{"abbr":"ECR","name":"European Conservatives and Reformists Group","seats":81,"color":"#0066CC","css":"ecr"},{"abbr":"Renew","name":"Renew Europe Group","seats":77,"color":"#F7931E","css":"renew"},{"abbr":"Greens/EFA","name":"Group of the Greens/European Free Alliance","seats":53,"color":"#50A045","css":"greens-efa"},{"abbr":"GUE/NGL","name":"The Left group in the European Parliament - GUE/NGL","seats":46,"color":"#800000","css":"gue-ngl"},{"abbr":"NI","name":"Non-attached Members","seats":30,"color":"#888888","css":"ni"},{"abbr":"ESN","name":"Europe of Sovereign Nations Group","seats":27,"color":"#002B7F","css":"esn"}];
+    var ORDER = ["GUE/NGL","Greens/EFA","S&D","Renew","EPP","ECR","PfE","ESN","NI"];
+    groups.sort(function (a, b) {
+      var ia = ORDER.indexOf(a.abbr), ib = ORDER.indexOf(b.abbr);
+      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+    });
+    var colors = [];
+    groups.forEach(function (g) { for (var i = 0; i < g.seats; i++) colors.push(g.color); });
+    var N = colors.length;
+
+    var cx = 260, cy = 269, rMin = 80, rMax = 198, ROWS = 12;
+    var A0 = Math.PI * 0.1, A1 = Math.PI * 0.9;
+
+    var radii = [];
+    for (var i = 0; i < ROWS; i++) radii.push(rMin + (rMax - rMin) * i / (ROWS - 1));
+
+    var totalR = radii.reduce(function (s, r) { return s + r; }, 0);
+    var rowSeats = radii.map(function (r) { return Math.round(N * r / totalR); });
+    var diff = rowSeats.reduce(function (s, x) { return s + x; }, 0) - N;
+    rowSeats[ROWS - 1] -= diff;
+
+    var seats = [];
+    for (var row = 0; row < ROWS; row++) {
+      var n = rowSeats[row], r = radii[row];
+      for (var i = 0; i < n; i++) {
+        var a = A0 + (A1 - A0) * i / Math.max(n - 1, 1);
+        seats.push({ x: cx + r * Math.cos(a), y: cy - r * Math.sin(a), a: a });
+      }
+    }
+    seats.sort(function (a, b) { return b.a - a.a; });
+
+    var svg = document.getElementById('ep-hemicycle');
+    var ns = 'http://www.w3.org/2000/svg';
+    seats.forEach(function (s, i) {
+      var c = document.createElementNS(ns, 'circle');
+      c.setAttribute('cx', s.x.toFixed(1));
+      c.setAttribute('cy', s.y.toFixed(1));
+      c.setAttribute('r', '3.1');
+      c.setAttribute('fill', colors[i] || '#999');
+      svg.appendChild(c);
+    });
+  }());
+  </script>
+</section>
+
+
 <!-- ── Latest votes ──────────────────────────────────────────────── -->
 <section class="ep-home-section">
   <div class="ep-home-section__header">
