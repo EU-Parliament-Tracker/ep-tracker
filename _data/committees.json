@@ -30,12 +30,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/3903/home"
   },
   {
-    "id": "3904",
-    "abbreviation": "3904",
-    "name": "3904",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/3904/home"
-  },
-  {
     "id": "3905",
     "abbreviation": "3905",
     "name": "3905",
@@ -246,12 +240,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/3939/home"
   },
   {
-    "id": "3940",
-    "abbreviation": "3940",
-    "name": "3940",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/3940/home"
-  },
-  {
     "id": "3941",
     "abbreviation": "3941",
     "name": "3941",
@@ -334,12 +322,6 @@
     "abbreviation": "ANO 2011",
     "name": "ANO 2011",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6794/home"
-  },
-  {
-    "id": "6951",
-    "abbreviation": "ANS",
-    "name": "ANS",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6951/home"
   },
   {
     "id": "6889",
@@ -702,6 +684,12 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6990/home"
   },
   {
+    "id": "6993",
+    "abbreviation": "CJ38",
+    "name": "CJ38",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6993/home"
+  },
+  {
     "id": "6646",
     "abbreviation": "CNR",
     "name": "CNR",
@@ -766,12 +754,6 @@
     "abbreviation": "D-AF",
     "name": "D-AF",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6613/home"
-  },
-  {
-    "id": "6627",
-    "abbreviation": "D-AL",
-    "name": "D-AL",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6627/home"
   },
   {
     "id": "6606",
@@ -1128,6 +1110,12 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6656/home"
   },
   {
+    "id": "6922",
+    "abbreviation": "DVD",
+    "name": "DVD",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6922/home"
+  },
+  {
     "id": "6829",
     "abbreviation": "Darbo partija",
     "name": "Darbo partija",
@@ -1186,6 +1174,12 @@
     "abbreviation": "EK",
     "name": "EK",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6938/home"
+  },
+  {
+    "id": "6877",
+    "abbreviation": "EKRE",
+    "name": "EKRE",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6877/home"
   },
   {
     "id": "6781",
@@ -1378,6 +1372,12 @@
     "abbreviation": "GroenLinks",
     "name": "GroenLinks",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6694/home"
+  },
+  {
+    "id": "6734",
+    "abbreviation": "HDZ",
+    "name": "HDZ",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6734/home"
   },
   {
     "id": "6824",
@@ -1756,12 +1756,6 @@
     "abbreviation": "LFI",
     "name": "LFI",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6878/home"
-  },
-  {
-    "id": "6586",
-    "abbreviation": "LIBE",
-    "name": "Civil Liberties, Justice and Home Affairs",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6586/home"
   },
   {
     "id": "6838",
@@ -2566,6 +2560,12 @@
     "abbreviation": "STOA",
     "name": "Science and Technology Options Assessment",
     "ep_url": "https://www.europarl.europa.eu/committees/en/3730/home"
+  },
+  {
+    "id": "6643",
+    "abbreviation": "SUE",
+    "name": "SUE",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6643/home"
   },
   {
     "id": "6676",

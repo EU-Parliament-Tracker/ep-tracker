@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-18",
-  "last_updated_ts": 1776526358.2660785,
+  "last_updated": "2026-04-19",
+  "last_updated_ts": 1776586383.0843866,
   "failed_datasets": [],
   "counts": {
     "committees": 466,
@@ -8,7 +8,7 @@
     "groups": 9,
     "sessions": 107,
     "votes": 500,
-    "documents": 300,
-    "questions": 300
+    "documents": 0,
+    "questions": 0
   }
 }

@@ -2,16 +2,35 @@
   "id": "257052",
   "full_name": "Maciej WĄSIK",
   "given_name": "Maciej",
-  "last_name": "WĄSIK",
+  "last_name": "Wąsik",
   "country": "Poland",
   "national_party": "Prawo i Sprawiedliwość",
   "group_name": "European Conservatives and Reformists Group",
   "group_abbr": "ECR",
-  "email": "",
-  "phone": "",
+  "email": "maciej.wasik@europarl.europa.eu",
+  "phone": "+33388175945",
   "website": "",
   "social": {},
   "photo_url": "https://www.europarl.europa.eu/mepphoto/257052.jpg",
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257052",
-  "committees": []
+  "committees": [
+    {
+      "id": "6580",
+      "abbr": "TRAN",
+      "name": "Transport and Tourism",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6622",
+      "abbr": "D-TR",
+      "name": "D-TR",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6586",
+      "abbr": "",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
 }
