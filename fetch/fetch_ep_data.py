@@ -26,7 +26,7 @@ EP_WEBSITE   = "https://www.europarl.europa.eu"
 EP_MEP_XML   = "https://www.europarl.europa.eu/meps/en/full-list/xml"
 
 LOOKBACK_DAYS = 180
-QUESTIONS_LOOKBACK_DAYS = 90
+QUESTIONS_LOOKBACK_DAYS = 180
 MAX_VOTES     = 500
 MAX_DOCUMENTS = 300
 MAX_QUESTIONS = 300
