@@ -160,10 +160,23 @@ def get_all(endpoint, params=None, max_items=9999):
     return results[:max_items]
 
 
-def write_json(path, data):
+def write_json(path, data, preserve_if_empty=False):
+    """Write data to JSON. If preserve_if_empty=True and data is empty,
+    keep the existing file rather than overwriting with empty content.
+    Returns the count of items in the file that was written/preserved."""
+    if preserve_if_empty and not data and path.exists() and path.stat().st_size > 4:
+        try:
+            existing = json.loads(path.read_text())
+            n = len(existing)
+        except Exception:
+            n = None
+        log.warning("  kept existing %s (%s items) — new fetch returned empty (API blocked?)",
+                    path.name, n)
+        return n
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     log.info("  wrote %s (%d bytes)", path.name, path.stat().st_size)
+    return len(data) if isinstance(data, (list, dict)) else None
 
 
 def safe_str(v):
@@ -1102,6 +1115,8 @@ def fetch_mep_votes_from_api(mep_ids: list) -> dict:
     log.info("Fetching per-MEP voting activities from API (%d MEPs)...", len(mep_ids))
     mep_votes: dict = {}
     _debug_saved = False
+    _consecutive_failures = 0
+    _FAIL_BAIL_THRESHOLD = 5  # bail if first 5 MEPs all return nothing (API blocked)
 
     for i, mep_id in enumerate(mep_ids):
         records_raw = get_all(
@@ -1110,7 +1125,12 @@ def fetch_mep_votes_from_api(mep_ids: list) -> dict:
             max_items=500,
         )
         if not records_raw:
+            _consecutive_failures += 1
+            if i < _FAIL_BAIL_THRESHOLD and _consecutive_failures >= _FAIL_BAIL_THRESHOLD:
+                log.warning("  voting-activities: first %d requests all failed — API blocked, skipping", _FAIL_BAIL_THRESHOLD)
+                return {}
             continue
+        _consecutive_failures = 0
 
         if not _debug_saved:
             write_json(OUTPUT_DIR / "debug_mep_voting_activity.json", records_raw[:2])
@@ -1186,15 +1206,37 @@ def main():
     MEPS_DIR.mkdir(parents=True, exist_ok=True)
 
     errors = []
+    # Seed counts from previous run so preserved datasets still show correct numbers
     counts = {}
+    _prev_meta = OUTPUT_DIR / "meta.json"
+    if _prev_meta.exists():
+        try:
+            counts = dict(json.loads(_prev_meta.read_text()).get("counts", {}))
+        except Exception:
+            pass
 
     # 1. Committees — fetched first so MEP entries can be enriched with
     #    human-readable abbreviations and names via the org_id_lookup.
     committee_lookup = {}
     try:
         committees_data, committee_lookup = fetch_committees()
-        write_json(OUTPUT_DIR / "committees.json", committees_data)
-        counts["committees"] = len(committees_data)
+        write_json(OUTPUT_DIR / "committees.json", committees_data, preserve_if_empty=True)
+        if committees_data:
+            counts["committees"] = len(committees_data)
+        else:
+            # Load existing for committee_lookup so MEP enrichment still works
+            existing = OUTPUT_DIR / "committees.json"
+            if existing.exists():
+                try:
+                    existing_data = json.loads(existing.read_text())
+                    committee_lookup = {
+                        c["id"]: {"abbr": c.get("abbreviation", ""), "name": c.get("name", "")}
+                        for c in existing_data if isinstance(c, dict) and "id" in c
+                    }
+                    counts["committees"] = len(existing_data)
+                except Exception:
+                    pass
+            errors.append("committees")
     except Exception as e:
         log.error("committees fetch failed: %s", e)
         errors.append("committees")
@@ -1206,10 +1248,21 @@ def main():
     meps = {}
     try:
         meps = fetch_meps(committee_lookup)
-        write_json(OUTPUT_DIR / "meps.json", meps)
-        counts["meps"] = len(meps)
-        stub_count = generate_mep_stubs(meps)
-        log.info("Generated %d MEP page stubs", stub_count)
+        write_json(OUTPUT_DIR / "meps.json", meps, preserve_if_empty=True)
+        if meps:
+            counts["meps"] = len(meps)
+            stub_count = generate_mep_stubs(meps)
+            log.info("Generated %d MEP page stubs", stub_count)
+        else:
+            # Load existing meps for group computation and mep_votes fallback
+            existing = OUTPUT_DIR / "meps.json"
+            if existing.exists():
+                try:
+                    meps = json.loads(existing.read_text())
+                    counts["meps"] = len(meps)
+                except Exception:
+                    pass
+            errors.append("meps")
     except Exception as e:
         log.error("meps fetch failed: %s", e)
         errors.append("meps")
@@ -1219,7 +1272,7 @@ def main():
     if meps:
         try:
             groups = compute_groups(meps)
-            write_json(OUTPUT_DIR / "groups.json", groups)
+            write_json(OUTPUT_DIR / "groups.json", groups, preserve_if_empty=True)
             counts["groups"] = len(groups)
         except Exception as e:
             log.error("groups compute failed: %s", e)
@@ -1227,8 +1280,10 @@ def main():
     # 3. Sessions
     try:
         sessions_data = fetch_sessions()
-        write_json(OUTPUT_DIR / "sessions.json", sessions_data)
-        counts["sessions"] = len(sessions_data)
+        n = write_json(OUTPUT_DIR / "sessions.json", sessions_data, preserve_if_empty=True)
+        counts["sessions"] = len(sessions_data) if sessions_data else n
+        if not sessions_data:
+            errors.append("sessions")
     except Exception as e:
         log.error("sessions fetch failed: %s", e)
         errors.append("sessions")
@@ -1242,8 +1297,10 @@ def main():
             log.warning("XML vote fetch empty — falling back to API")
             votes_data = fetch_votes()
             mep_votes = {}
-        write_json(OUTPUT_DIR / "votes.json", votes_data)
-        counts["votes"] = len(votes_data)
+        n = write_json(OUTPUT_DIR / "votes.json", votes_data, preserve_if_empty=True)
+        counts["votes"] = len(votes_data) if votes_data else n
+        if not votes_data:
+            errors.append("votes")
         if mep_votes:
             counts["mep_votes"] = write_mep_votes(mep_votes)
             log.info("Per-MEP votes written from XML (%d MEPs)", len(mep_votes))
@@ -1273,8 +1330,10 @@ def main():
     for name, fn in other_datasets:
         try:
             data = fn()
-            write_json(OUTPUT_DIR / f"{name}.json", data)
-            counts[name] = len(data)
+            n = write_json(OUTPUT_DIR / f"{name}.json", data, preserve_if_empty=True)
+            counts[name] = len(data) if data else n
+            if not data:
+                errors.append(name)
         except Exception as e:
             log.error("%s fetch failed: %s", name, e)
             errors.append(name)
@@ -1289,10 +1348,11 @@ def main():
     })
 
     if errors:
-        log.warning("Completed with errors in: %s", ", ".join(errors))
+        log.warning("Completed with errors in: %s — existing data preserved where available", ", ".join(errors))
         sys.exit(1)
     else:
         log.info("All datasets fetched successfully.")
+        log.info("  counts: %s", counts)
         for name, count in counts.items():
             log.info("  %-12s  %s items", name, count)
 
