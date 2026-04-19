@@ -190,8 +190,9 @@ def safe_label(v):
 
     JSON-LD labels can arrive as:
       - a plain string: "ECON"
-      - a language-tagged object: {"@value": "Economic Affairs", "@language": "en"}
-      - a list of the above
+      - a language-keyed dict: {"en": "Economic Affairs", "fr": "...", ...}
+      - a JSON-LD language-tagged object: {"@value": "Economic Affairs", "@language": "en"}
+      - a list of any of the above
     """
     if isinstance(v, list):
         # Prefer English, otherwise take first
@@ -200,6 +201,15 @@ def safe_label(v):
                 return str(item.get("@value", "")).strip()
         v = v[0] if v else ""
     if isinstance(v, dict):
+        # Language-keyed dict: {"en": "title", "fr": "...", "mul": "..."}
+        for lang in ("en", "mul"):
+            val = v.get(lang)
+            if val:
+                if isinstance(val, list):
+                    val = val[0] if val else ""
+                if val:
+                    return str(val).strip()
+        # JSON-LD language-tagged object: {"@value": "...", "@language": "en"}
         return str(v.get("@value", v.get("value", ""))).strip()
     return str(v).strip() if v else ""
 
@@ -577,7 +587,7 @@ def fetch_votes():
                 meeting_ids.append(mid)
     log.info("  -> %d meetings to scan", len(meeting_ids))
 
-    # Step 2: per-meeting vote results
+    # Step 2: per-meeting vote results, enriched with decisions (counts + outcomes)
     votes = []
     _debug_vote_saved = False
     for mid in meeting_ids:
@@ -585,12 +595,63 @@ def fetch_votes():
             break
         raw = get_all(f"meetings/{mid}/vote-results",
                       max_items=MAX_VOTES - len(votes))
-        if raw and not _debug_vote_saved:
+        if not raw:
+            continue
+        if not _debug_vote_saved:
             write_json(OUTPUT_DIR / "debug_vote_sample.json", raw[:3])
             log.info("  Saved debug vote sample (%d fields in first item)", len(raw[0]))
             _debug_vote_saved = True
+
+        # Fetch DEC (Decision) records for this meeting — they carry vote
+        # counts (for/against/abstain) and the adopted/rejected outcome.
+        # VOT-ITM records link to DECs via their `consists_of` field.
+        dec_lookup: dict = {}
+        dec_raw = get_all(f"meetings/{mid}/decisions")
+        if dec_raw and not (OUTPUT_DIR / "debug_decision_sample.json").exists():
+            write_json(OUTPUT_DIR / "debug_decision_sample.json", dec_raw[:3])
+            log.info("  Saved debug decision sample (%d fields)", len(dec_raw[0]))
+        for d in dec_raw:
+            dec_id = safe_str(d.get("activity_id", d.get("identifier", "")))
+            if not dec_id:
+                raw_id = safe_str(d.get("id", ""))
+                dec_id = raw_id.rstrip("/").split("/")[-1] if "/" in raw_id else raw_id
+            if not dec_id:
+                continue
+            out_raw = (d.get("had_decision_outcome")
+                       or d.get("eli-dl:had_decision_outcome")
+                       or d.get("decision_method")
+                       or d.get("outcome") or "")
+            if isinstance(out_raw, dict):
+                outcome_str = (safe_label(out_raw.get("label", out_raw.get("prefLabel", "")))
+                               or safe_str(out_raw.get("@id", "")).split("/")[-1])
+            elif isinstance(out_raw, str) and "/" in out_raw:
+                outcome_str = out_raw.rstrip("/").split("/")[-1]
+            else:
+                outcome_str = safe_str(out_raw)
+            dec_lookup[dec_id] = {
+                "result":     outcome_str,
+                "for":        _int(d.get("number_of_votes_favor",
+                              d.get("had_voter_favor", d.get("votesFor", 0)))),
+                "against":    _int(d.get("number_of_votes_against",
+                              d.get("had_voter_against", d.get("votesAgainst", 0)))),
+                "abstention": _int(d.get("number_of_votes_abstention",
+                              d.get("had_voter_abstention", d.get("abstentions", 0)))),
+            }
+
         for v in raw:
-            # outcome: try many field name variants used across API versions
+            # Resolve DEC enrichment via consists_of link
+            consists_of = v.get("consists_of", [])
+            if isinstance(consists_of, str):
+                consists_of = [consists_of]
+            dec_data: dict = {}
+            for dec_uri in consists_of:
+                uri_str = safe_str(dec_uri)
+                dec_id = uri_str.rstrip("/").split("/")[-1] if "/" in uri_str else uri_str
+                if dec_id in dec_lookup:
+                    dec_data = dec_lookup[dec_id]
+                    break
+
+            # Fallback: outcome at VOT-ITM level (some API versions include it)
             outcome_raw = (v.get("had_decision_outcome")
                            or v.get("decision_method")
                            or v.get("eli-dl:had_decision_outcome")
@@ -635,14 +696,14 @@ def fetch_votes():
                               v.get("eli-dl:activity_label",
                               v.get("title", v.get("dcterms:title",
                               v.get("name", "")))))))))),
-                "result":     outcome,
-                "for":        _int(v.get("number_of_votes_favor",
+                "result":     dec_data.get("result") or outcome,
+                "for":        dec_data.get("for") or _int(v.get("number_of_votes_favor",
                               v.get("had_voter_favor",
                               v.get("votesFor", v.get("for", 0))))),
-                "against":    _int(v.get("number_of_votes_against",
+                "against":    dec_data.get("against") or _int(v.get("number_of_votes_against",
                               v.get("had_voter_against",
                               v.get("votesAgainst", v.get("against", 0))))),
-                "abstention": _int(v.get("number_of_votes_abstention",
+                "abstention": dec_data.get("abstention") or _int(v.get("number_of_votes_abstention",
                               v.get("had_voter_abstention",
                               v.get("abstentions", v.get("abstention", 0))))),
                 "ep_ref":     safe_str(v.get("notation", v.get("reference", ""))),
