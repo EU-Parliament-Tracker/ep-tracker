@@ -762,7 +762,7 @@ def fetch_votes_xml():
                 if title:
                     break
 
-            # Result — EP XML uses Result="+" (Adopted) or Result="-" (Rejected) attribute
+            # Result — old format: Result="+"/"−" attribute; new (10th term) format: derive
             result_attr = item.get("Result", "")
             if result_attr == "+":
                 result = "Adopted"
@@ -771,7 +771,7 @@ def fetch_votes_xml():
             elif result_attr:
                 result = result_attr
             else:
-                result = ""
+                result = ""  # derived from counts below after they are computed
                 res_el = item.find("Result")
                 if res_el is not None:
                     t = (res_el.text or "").strip().lower()
@@ -786,23 +786,34 @@ def fetch_votes_xml():
                 vote_id = f"{meeting_date}-RCV-{hashlib.md5(title.encode()).hexdigest()[:8]}"
 
             # Per-position MEP IDs and counts
+            # Supports two XML formats:
+            #   old (9th term): <Votes.Plus Count="N"><Member.Name PersId="...">
+            #   new (10th term): <Result.For Number="N"><Result.PoliticalGroup.List>
             def _parse_pos(tag):
                 el = item.find(tag)
                 if el is None:
                     return 0, set()
-                cnt = _int(el.get("Count", 0))
+                cnt = _int(el.get("Number", el.get("Count", 0)))
                 ids = {m.get("PersId", "") for m in el.findall(".//Member.Name")
                        if m.get("PersId", "")}
                 return cnt or len(ids), ids
 
-            for_count, for_ids    = _parse_pos("Votes.Plus")
-            against_count, ag_ids = _parse_pos("Votes.Minus")
-            abstain_count, ab_ids = _parse_pos("Votes.Abstention")
+            # Try new format first, fall back to old format
+            for_count,     for_ids = _parse_pos("Result.For")
+            against_count, ag_ids  = _parse_pos("Result.Against")
+            abstain_count, ab_ids  = _parse_pos("Result.Abstention")
+            if not for_count:     for_count,     for_ids = _parse_pos("Votes.Plus")
+            if not against_count: against_count, ag_ids  = _parse_pos("Votes.Minus")
+            if not abstain_count: abstain_count, ab_ids  = _parse_pos("Votes.Abstention")
 
-            # fallback to summary attributes when per-MEP position elements are absent
+            # ultimate fallback to summary attributes on the item element
             for_count     = for_count     or _int(item.get("NumberOfVotesFor", 0))
             against_count = against_count or _int(item.get("NumberOfVotesAgainst", 0))
             abstain_count = abstain_count or _int(item.get("NumberOfAbstentions", 0))
+
+            # derive result from counts if not set by attribute
+            if not result and (for_count or against_count):
+                result = "Adopted" if for_count > against_count else "Rejected"
 
             votes.append({
                 "id":         vote_id,
