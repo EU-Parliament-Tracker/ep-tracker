@@ -2,8 +2,14 @@ name: Fetch EP data & deploy
 
 on:
   schedule:
-    - cron: "30 6 * * *"
+    - cron: "30 6 * * *"    # daily: votes + sessions only (quick)
+    - cron: "0 5 * * 0"     # weekly (Sunday): full fetch including MEPs
   workflow_dispatch:
+    inputs:
+      full:
+        description: "Full fetch (MEPs, committees, documents, questions)"
+        type: boolean
+        default: false
 
 jobs:
   fetch-and-deploy:
@@ -27,7 +33,12 @@ jobs:
         run: pip install -r fetch/requirements.txt
 
       - name: Fetch EP data
-        run: python fetch/fetch_ep_data.py
+        run: |
+          if [ "${{ github.event.schedule }}" = "0 5 * * 0" ] || [ "${{ inputs.full }}" = "true" ]; then
+            python fetch/fetch_ep_data.py
+          else
+            python fetch/fetch_ep_data.py --quick
+          fi
         env:
           EP_DATA_DIR: ${{ github.workspace }}/_data
 
