@@ -179,6 +179,7 @@ def safe_label(v):
       - a plain string: "ECON"
       - a language-tagged object: {"@value": "Economic Affairs", "@language": "en"}
       - a list of the above
+      - a language-keyed dict: {"en": "Economic Affairs", "fr": "...", ...}
     """
     if isinstance(v, list):
         # Prefer English, otherwise take first
@@ -187,7 +188,15 @@ def safe_label(v):
                 return str(item.get("@value", "")).strip()
         v = v[0] if v else ""
     if isinstance(v, dict):
-        return str(v.get("@value", v.get("value", ""))).strip()
+        if "@value" in v or "value" in v:
+            return str(v.get("@value", v.get("value", ""))).strip()
+        # Language-keyed dict from EP API: {"en": "...", "fr": "...", ...}
+        if "en" in v:
+            return str(v["en"]).strip()
+        for val in v.values():
+            if isinstance(val, str) and val:
+                return val.strip()
+        return ""
     return str(v).strip() if v else ""
 
 
@@ -715,10 +724,21 @@ def fetch_votes_xml():
         )
 
         items = (
-            root.findall(".//Vote.Result.Item")
+            root.findall(".//RollCallVote.Result.Item")
+            or root.findall(".//Vote.Result.Item")
             or root.findall(".//VoteResult.Item")
             or root.findall(".//Vote")
         )
+
+        if not items:
+            first_child = list(root)
+            log.warning(
+                "  XML %s: downloaded OK but found 0 vote items. "
+                "Root tag: %r, first child tag: %r",
+                meeting_date,
+                root.tag,
+                first_child[0].tag if first_child else "(no children)",
+            )
 
         for item in items:
             # Title — prefer English language tag
@@ -1242,6 +1262,12 @@ def main():
             log.warning("XML vote fetch empty — falling back to API")
             votes_data = fetch_votes()
             mep_votes = {}
+        elif all(not v.get("title") for v in votes_data):
+            log.warning(
+                "XML returned %d votes but ALL have empty titles — "
+                "possible tag/schema mismatch in fetch_votes_xml().",
+                len(votes_data),
+            )
         write_json(OUTPUT_DIR / "votes.json", votes_data)
         counts["votes"] = len(votes_data)
         if mep_votes:
