@@ -1151,6 +1151,18 @@ def fetch_mep_votes_from_api(mep_ids: list) -> dict:
     mep_votes: dict = {}
     _debug_saved = False
 
+    # Probe the first MEP to check whether the endpoint works at all
+    first_id = mep_ids[0] if mep_ids else None
+    if first_id:
+        probe = get_json(f"meps/{first_id}/voting-activities", params={"limit": 2})
+        if probe is None:
+            log.warning("  voting-activities endpoint returned None for MEP %s "
+                        "(likely 404 — endpoint may not exist in API v2)", first_id)
+            write_json(OUTPUT_DIR / "debug_mep_voting_probe.json", {"mep_id": first_id, "response": None})
+            return {}
+        write_json(OUTPUT_DIR / "debug_mep_voting_probe.json", probe)
+        log.info("  Probe OK for MEP %s — top-level keys: %s", first_id, list(probe.keys()))
+
     for i, mep_id in enumerate(mep_ids):
         records_raw = get_all(
             f"meps/{mep_id}/voting-activities",
