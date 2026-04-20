@@ -689,8 +689,6 @@ def fetch_votes_xml():
     xml_fail_status: dict = {}
 
     for meeting_date in sorted(meeting_dates, reverse=True):
-        if len(votes) >= MAX_VOTES:
-            break
 
         xml_url = (
             f"https://www.europarl.europa.eu/doceo/document/"
