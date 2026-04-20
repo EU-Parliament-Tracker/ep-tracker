@@ -717,6 +717,14 @@ def fetch_votes_xml():
             log.warning("  XML parse error for %s: %s", meeting_date, e)
             continue
 
+        # Save the first successfully parsed XML so we can inspect the schema
+        if xml_ok == 1:
+            debug_xml_path = OUTPUT_DIR / "debug_vote_xml_raw.xml"
+            debug_xml_path.write_bytes(resp.content)
+            children = [c.tag for c in root]
+            log.info("  Saved debug XML (%s). Root: %r, children: %s",
+                     meeting_date, root.tag, children)
+
         log.info("  -> Parsing XML for %s", meeting_date)
         ep_url = (
             f"https://www.europarl.europa.eu/doceo/document/"
