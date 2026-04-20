@@ -1197,8 +1197,18 @@ def fetch_mep_votes_from_api(mep_ids: list) -> dict:
 # ---------------------------------------------------------------------------
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Fetch EU Parliament data")
+    parser.add_argument(
+        "--quick", action="store_true",
+        help="Only fetch votes and sessions; skip MEPs, committees, documents, questions",
+    )
+    args = parser.parse_args()
+    quick = args.quick
+
     log.info("=" * 60)
-    log.info("EP Tracker data fetch — %s", date.today().isoformat())
+    log.info("EP Tracker data fetch — %s%s",
+             date.today().isoformat(), "  [QUICK MODE]" if quick else "")
     log.info("=" * 60)
     log.info("Writing data to: %s", OUTPUT_DIR)
 
@@ -1208,35 +1218,56 @@ def main():
     errors = []
     counts = {}
 
-    # 1. Committees — fetched first so MEP entries can be enriched with
-    #    human-readable abbreviations and names via the org_id_lookup.
-    committee_lookup = {}
-    try:
-        committees_data, committee_lookup = fetch_committees()
-        write_json(OUTPUT_DIR / "committees.json", committees_data)
-        counts["committees"] = len(committees_data)
-    except Exception as e:
-        log.error("committees fetch failed: %s", e)
-        errors.append("committees")
-        counts["committees"] = None
+    # In quick mode, carry over existing counts for skipped datasets so that
+    # meta.json stays accurate for the datasets we didn't re-fetch.
+    if quick:
+        meta_path = OUTPUT_DIR / "meta.json"
+        if meta_path.exists():
+            try:
+                existing = json.loads(meta_path.read_text(encoding="utf-8"))
+                counts.update(existing.get("counts", {}))
+            except Exception:
+                pass
 
-    # 2. MEPs — written as dict keyed by ID for Jekyll compatibility.
-    #    Passes committee_lookup so each MEP's committee entries get
-    #    abbreviation + name populated.
+    # 1. Committees
+    committee_lookup = {}
+    if not quick:
+        try:
+            committees_data, committee_lookup = fetch_committees()
+            write_json(OUTPUT_DIR / "committees.json", committees_data)
+            counts["committees"] = len(committees_data)
+        except Exception as e:
+            log.error("committees fetch failed: %s", e)
+            errors.append("committees")
+            counts["committees"] = None
+    else:
+        log.info("Quick mode: skipping committees fetch")
+
+    # 2. MEPs
     meps = {}
-    try:
-        meps = fetch_meps(committee_lookup)
-        write_json(OUTPUT_DIR / "meps.json", meps)
-        counts["meps"] = len(meps)
-        stub_count = generate_mep_stubs(meps)
-        log.info("Generated %d MEP page stubs", stub_count)
-    except Exception as e:
-        log.error("meps fetch failed: %s", e)
-        errors.append("meps")
-        counts["meps"] = None
+    if not quick:
+        try:
+            meps = fetch_meps(committee_lookup)
+            write_json(OUTPUT_DIR / "meps.json", meps)
+            counts["meps"] = len(meps)
+            stub_count = generate_mep_stubs(meps)
+            log.info("Generated %d MEP page stubs", stub_count)
+        except Exception as e:
+            log.error("meps fetch failed: %s", e)
+            errors.append("meps")
+            counts["meps"] = None
+    else:
+        log.info("Quick mode: skipping MEP fetch — loading existing meps.json")
+        meps_path = OUTPUT_DIR / "meps.json"
+        if meps_path.exists():
+            try:
+                meps = json.loads(meps_path.read_text(encoding="utf-8"))
+                log.info("  loaded %d MEPs from existing data", len(meps))
+            except Exception as e:
+                log.warning("  could not load existing meps.json: %s", e)
 
     # 2b. Political group composition (derived from MEP data)
-    if meps:
+    if meps and not quick:
         try:
             groups = compute_groups(meps)
             write_json(OUTPUT_DIR / "groups.json", groups)
@@ -1291,20 +1322,22 @@ def main():
             log.error("per-MEP vote API fetch failed: %s", e)
 
     # 5. Documents and questions
-    other_datasets = [
-        ("documents",  fetch_documents),
-        ("questions",  fetch_questions),
-    ]
-
-    for name, fn in other_datasets:
-        try:
-            data = fn()
-            write_json(OUTPUT_DIR / f"{name}.json", data)
-            counts[name] = len(data)
-        except Exception as e:
-            log.error("%s fetch failed: %s", name, e)
-            errors.append(name)
-            counts[name] = None
+    if not quick:
+        other_datasets = [
+            ("documents",  fetch_documents),
+            ("questions",  fetch_questions),
+        ]
+        for name, fn in other_datasets:
+            try:
+                data = fn()
+                write_json(OUTPUT_DIR / f"{name}.json", data)
+                counts[name] = len(data)
+            except Exception as e:
+                log.error("%s fetch failed: %s", name, e)
+                errors.append(name)
+                counts[name] = None
+    else:
+        log.info("Quick mode: skipping documents and questions fetch")
 
     # Meta
     write_json(OUTPUT_DIR / "meta.json", {
