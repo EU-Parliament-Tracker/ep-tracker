@@ -717,6 +717,14 @@ def fetch_votes_xml():
             log.warning("  XML parse error for %s: %s", meeting_date, e)
             continue
 
+        # Save the first successfully parsed XML so we can inspect the schema
+        if xml_ok == 1:
+            debug_xml_path = OUTPUT_DIR / "debug_vote_xml_raw.xml"
+            debug_xml_path.write_bytes(resp.content)
+            children = [c.tag for c in root]
+            log.info("  Saved debug XML (%s). Root: %r, children: %s",
+                     meeting_date, root.tag, children)
+
         log.info("  -> Parsing XML for %s", meeting_date)
         ep_url = (
             f"https://www.europarl.europa.eu/doceo/document/"
@@ -724,7 +732,8 @@ def fetch_votes_xml():
         )
 
         items = (
-            root.findall(".//RollCallVote.Result.Item")
+            root.findall(".//RollCallVote.Result")
+            or root.findall(".//RollCallVote.Result.Item")
             or root.findall(".//Vote.Result.Item")
             or root.findall(".//VoteResult.Item")
             or root.findall(".//Vote")
@@ -753,17 +762,20 @@ def fetch_votes_xml():
                 if title:
                     break
 
-            # Result
-            result = ""
-            res_el = item.find("Result")
-            if res_el is not None:
-                t = (res_el.text or "").strip().lower()
-                if "adopt" in t:
-                    result = "Adopted"
-                elif "reject" in t:
-                    result = "Rejected"
-                else:
-                    result = (res_el.text or "").strip()
+            # Result — EP XML uses Result="+" (Adopted) or Result="-" (Rejected) attribute
+            result_attr = item.get("Result", "")
+            if result_attr == "+":
+                result = "Adopted"
+            elif result_attr == "-":
+                result = "Rejected"
+            elif result_attr:
+                result = result_attr
+            else:
+                result = ""
+                res_el = item.find("Result")
+                if res_el is not None:
+                    t = (res_el.text or "").strip().lower()
+                    result = "Adopted" if "adopt" in t else "Rejected" if "reject" in t else (res_el.text or "").strip()
 
             # Vote identifier
             ident = item.get("Identifier", item.get("Id", ""))
@@ -786,6 +798,11 @@ def fetch_votes_xml():
             for_count, for_ids    = _parse_pos("Votes.Plus")
             against_count, ag_ids = _parse_pos("Votes.Minus")
             abstain_count, ab_ids = _parse_pos("Votes.Abstention")
+
+            # fallback to summary attributes when per-MEP position elements are absent
+            for_count     = for_count     or _int(item.get("NumberOfVotesFor", 0))
+            against_count = against_count or _int(item.get("NumberOfVotesAgainst", 0))
+            abstain_count = abstain_count or _int(item.get("NumberOfAbstentions", 0))
 
             votes.append({
                 "id":         vote_id,
