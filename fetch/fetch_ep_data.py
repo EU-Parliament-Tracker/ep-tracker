@@ -27,7 +27,7 @@ EP_MEP_XML   = "https://www.europarl.europa.eu/meps/en/full-list/xml"
 
 LOOKBACK_DAYS = 180
 QUESTIONS_LOOKBACK_DAYS = 90
-MAX_VOTES     = 500
+MAX_VOTES     = 2000
 MAX_DOCUMENTS = 300
 MAX_QUESTIONS = 300
 
@@ -538,7 +538,45 @@ def fetch_sessions():
 # Votes
 # ---------------------------------------------------------------------------
 
-def fetch_votes():
+def classify_vote_type(title: str) -> str:
+    """Classify a vote by type based on its title.
+
+    Returns one of: 'amendment', 'final', 'procedural', 'other'.
+    """
+    import re as _re
+    t = title.lower()
+
+    # Procedural motions
+    if any(x in t for x in (
+            "agenda", "adjournment", "proposal for rejection",
+            "request for", "interinstitutional negotiations",
+            "proposal to vote on amendments", "motion for adjournment",
+            "quorum", "referral")):
+        return "procedural"
+
+    # Final votes on whole texts
+    if ("as a whole" in t
+            or "legislative resolution" in t
+            or "draft council decision" in t
+            or "proposal for a decision" in t
+            or _re.match(r"^(b10|rc-b|b9)-", t)
+            or (_re.search(r"– motion for a resolution\s*$", t)
+                and "am " not in t)):
+        return "final"
+
+    # Individual amendment or split-paragraph votes
+    if (_re.search(r"– am \d", t)
+            or "§" in title
+            or _re.search(r"article \d", t)
+            or "recital" in t
+            or "commission proposal" in t
+            or "provisional agreement" in t):
+        return "amendment"
+
+    return "other"
+
+
+def fetch_votes(exclude_dates=None):
     """Fetch roll-call votes via meetings/{id}/vote-results.
 
     The EP Open Data API v2 does not support a standalone /vote-results
@@ -546,6 +584,9 @@ def fetch_votes():
     plenary meeting.  We:
       1. Collect meeting IDs for the lookback window (via year= param).
       2. For each meeting, fetch its vote results.
+
+    exclude_dates: optional set of date strings (YYYY-MM-DD) already covered
+    by XML fetch; meetings on those dates are skipped to avoid duplication.
 
     JSON-LD field names for vote results:
       activity_id / id                  → vote ID
@@ -561,22 +602,27 @@ def fetch_votes():
     log.info("Fetching roll-call votes via plenary meetings...")
     years = _lookback_years()
 
-    # Step 1: collect meeting IDs
-    meeting_ids = []
+    # Step 1: collect (meeting_id, date) pairs
+    meetings = []
     seen_m = set()
     for year in years:
         raw = get_all("meetings", params={"year": year})
         for s in raw:
             mid = safe_str(s.get("activity_id", s.get("identifier", s.get("id", ""))))
+            mdate = safe_str(s.get("activity_date", s.get("startDate", "")))[:10]
             if mid and mid not in seen_m:
                 seen_m.add(mid)
-                meeting_ids.append(mid)
-    log.info("  -> %d meetings to scan", len(meeting_ids))
+                meetings.append((mid, mdate))
+
+    skipped = sum(1 for _, d in meetings if exclude_dates and d in exclude_dates)
+    log.info("  -> %d meetings to scan (%d skipped — already in XML)", len(meetings), skipped)
 
     # Step 2: per-meeting vote results
     votes = []
     _debug_vote_saved = False
-    for mid in meeting_ids:
+    for mid, mdate in meetings:
+        if exclude_dates and mdate in exclude_dates:
+            continue
         if len(votes) >= MAX_VOTES:
             break
         raw = get_all(f"meetings/{mid}/vote-results",
@@ -643,6 +689,14 @@ def fetch_votes():
                               v.get("abstentions", v.get("abstention", 0))))),
                 "ep_ref":     safe_str(v.get("notation", v.get("reference", ""))),
                 "ep_url":     ep_url,
+                "type":       classify_vote_type(
+                                  safe_label(v.get("activity_label",
+                                  v.get("label", v.get("prefLabel",
+                                  v.get("skos:prefLabel", v.get("rdfs:label",
+                                  v.get("eli-dl:activity_label",
+                                  v.get("title", v.get("dcterms:title",
+                                  v.get("name", ""))))))))))
+                              ),
             })
 
     log.info("  -> %d votes total", len(votes))
@@ -825,6 +879,7 @@ def fetch_votes_xml():
                 "abstention": abstain_count,
                 "ep_ref":     "",
                 "ep_url":     ep_url,
+                "type":       classify_vote_type(title),
             })
 
             summary = {"vote_id": vote_id, "date": meeting_date,
@@ -838,13 +893,15 @@ def fetch_votes_xml():
 
         time.sleep(RATE_LIMIT)
 
-    log.info("  -> XML results: %d files parsed, %d votes, %d MEPs with positions",
-             xml_ok, len(votes), len(mep_votes))
+    covered_dates = {v["date"] for v in votes}
+    log.info("  -> XML results: %d files parsed, %d votes, %d MEPs with positions, %d dates covered",
+             xml_ok, len(votes), len(mep_votes), len(covered_dates))
     if xml_fail_status:
         log.warning("  -> XML failures by HTTP status: %s", xml_fail_status)
     return (
         sorted(votes, key=lambda x: x.get("date", ""), reverse=True)[:MAX_VOTES],
         mep_votes,
+        covered_dates,
     )
 
 
@@ -1325,20 +1382,34 @@ def main():
         errors.append("sessions")
         counts["sessions"] = None
 
-    # 4. Votes — try XML first for real titles/results/MEP positions
+    # 4. Votes — XML gives rich data (titles, counts, per-MEP positions) for
+    #    recent sessions; supplement with API for older sessions not in XML.
     mep_votes: dict = {}
     try:
-        votes_data, mep_votes = fetch_votes_xml()
+        votes_data, mep_votes, xml_covered_dates = fetch_votes_xml()
         if not votes_data:
-            log.warning("XML vote fetch empty — falling back to API")
+            log.warning("XML vote fetch empty — falling back to API for all dates")
             votes_data = fetch_votes()
             mep_votes = {}
+            xml_covered_dates = set()
         elif all(not v.get("title") for v in votes_data):
             log.warning(
                 "XML returned %d votes but ALL have empty titles — "
                 "possible tag/schema mismatch in fetch_votes_xml().",
                 len(votes_data),
             )
+
+        # Supplement with API votes for session dates not covered by XML
+        api_votes = fetch_votes(exclude_dates=xml_covered_dates)
+        if api_votes:
+            log.info("  API supplement: %d votes from %d dates not in XML",
+                     len(api_votes),
+                     len({v["date"] for v in api_votes}))
+            # Merge: XML votes take priority (better data); API fills gaps
+            combined = votes_data + api_votes
+            combined.sort(key=lambda x: x.get("date", ""), reverse=True)
+            votes_data = combined[:MAX_VOTES]
+
         write_json(OUTPUT_DIR / "votes.json", votes_data)
         counts["votes"] = len(votes_data)
         if mep_votes:

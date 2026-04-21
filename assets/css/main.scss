@@ -163,6 +163,32 @@
   &:hover { background: darken(#003399, 10%); }
 }
 
+/* ── Vote type filter buttons ───────────────────────────────────────────────*/
+.ep-type-filters {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.ep-type-btn {
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--ep-gray-mid);
+  border-radius: var(--ep-radius);
+  font-size: 0.85rem;
+  background: #fff;
+  color: var(--ep-gray-text);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  &:hover { background: #f0f4ff; border-color: var(--ep-blue); color: var(--ep-blue); }
+}
+.ep-type-btn--active {
+  background: var(--ep-blue);
+  border-color: var(--ep-blue);
+  color: #fff;
+  &:hover { background: darken(#003399, 8%); }
+}
+
 /* ── Count line ─────────────────────────────────────────────────────────────*/
 .ep-count {
   font-size: 0.85rem;
