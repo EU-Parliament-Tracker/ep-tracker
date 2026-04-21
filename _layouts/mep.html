@@ -105,14 +105,21 @@
       {% assign against_count = mep_vote_records | where: "position", "against" | size %}
       {% assign abstain_count = mep_vote_records | where: "position", "abstain" | size %}
       <div class="ep-vote-summary">
-        <span class="ep-vote-summary__total">{{ mep_vote_records.size }} votes tracked</span>
+        <span class="ep-vote-summary__total" id="mep-vote-count">{{ mep_vote_records.size }} votes tracked</span>
         <span class="ep-vote-summary__stat ep-vote-summary__stat--for">FOR {{ for_count }}</span>
         <span class="ep-vote-summary__stat ep-vote-summary__stat--against">AGAINST {{ against_count }}</span>
         <span class="ep-vote-summary__stat ep-vote-summary__stat--abstain">ABSTAIN {{ abstain_count }}</span>
       </div>
-      <ul class="ep-vote-list">
-        {% for vr in mep_vote_records limit: 20 %}
-        <li class="ep-vote-item">
+      <div class="ep-type-filters" role="group" aria-label="Filter by vote type" style="margin-bottom:0.75rem">
+        <button class="ep-type-btn ep-type-btn--active" data-type="all">All</button>
+        <button class="ep-type-btn" data-type="final">Final votes</button>
+        <button class="ep-type-btn" data-type="amendment">Amendments</button>
+        <button class="ep-type-btn" data-type="procedural">Procedural</button>
+        <button class="ep-type-btn" data-type="other">Other</button>
+      </div>
+      <ul class="ep-vote-list" id="mep-vote-list">
+        {% for vr in mep_vote_records %}
+        <li class="ep-vote-item" data-title="{{ vr.title | default: vr.vote_id | downcase | escape }}">
           <span class="ep-col-date">{{ vr.date }}</span>
           <span class="ep-vote-pos ep-vote-pos--{{ vr.position }}">{{ vr.position }}</span>
           {% if vr.ep_url != "" %}
@@ -128,10 +135,51 @@
         </li>
         {% endfor %}
       </ul>
-      {% if mep_vote_records.size > 20 %}
-        <p class="ep-more-link">Showing 20 of {{ mep_vote_records.size }} votes.</p>
-      {% endif %}
       <p><a href="{{ '/votes/' | relative_url }}">Browse all plenary votes →</a></p>
+      <script>
+      (function () {
+        function classifyType(t) {
+          if (!t) return 'other';
+          if (/agenda|adjournment|request for|interinstitutional|proposal to vote|proposal for rejection|motion for adjournment/.test(t))
+            return 'procedural';
+          if (/as a whole|legislative resolution|draft council decision|proposal for a decision/.test(t)
+              || /^(b10|rc-b|b9)-/.test(t)
+              || (/– motion for a resolution\s*$/.test(t) && !t.includes('am ')))
+            return 'final';
+          if (/– am \d|§|article \d|recital|commission proposal|provisional agreement/.test(t))
+            return 'amendment';
+          return 'other';
+        }
+
+        const totalVotes = {{ mep_vote_records.size }};
+        const countEl = document.getElementById('mep-vote-count');
+        const items = Array.from(document.querySelectorAll('#mep-vote-list .ep-vote-item'));
+        items.forEach(li => li.dataset.type = classifyType(li.dataset.title));
+
+        let activeType = 'all';
+        function applyFilter() {
+          let visible = 0;
+          items.forEach(li => {
+            const show = activeType === 'all' || li.dataset.type === activeType;
+            li.style.display = show ? '' : 'none';
+            if (show) visible++;
+          });
+          countEl.textContent = activeType === 'all'
+            ? totalVotes + ' votes tracked'
+            : visible + ' of ' + totalVotes + ' votes shown';
+        }
+
+        document.querySelectorAll('.ep-mep-detail__section .ep-type-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            document.querySelectorAll('.ep-mep-detail__section .ep-type-btn')
+              .forEach(b => b.classList.remove('ep-type-btn--active'));
+            btn.classList.add('ep-type-btn--active');
+            activeType = btn.dataset.type;
+            applyFilter();
+          });
+        });
+      })();
+      </script>
     {% else %}
       {% assign recent_votes = site.data.votes | where_exp: "v", "v.title != ''" %}
       {% if recent_votes.size > 0 %}
