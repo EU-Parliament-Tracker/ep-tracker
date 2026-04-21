@@ -6,9 +6,16 @@ permalink: /votes/
 
 <div class="ep-toolbar">
   <input type="text" id="vote-search" placeholder="Search votes…" class="ep-search-input">
+  <div class="ep-type-filters" role="group" aria-label="Filter by vote type">
+    <button class="ep-type-btn ep-type-btn--active" data-type="all">All</button>
+    <button class="ep-type-btn" data-type="final">Final votes</button>
+    <button class="ep-type-btn" data-type="amendment">Amendments</button>
+    <button class="ep-type-btn" data-type="procedural">Procedural</button>
+    <button class="ep-type-btn" data-type="other">Other</button>
+  </div>
 </div>
 
-<p class="ep-count">
+<p class="ep-count" id="ep-vote-count">
   {{ site.data.votes | size }} votes — data updated {{ site.data.meta.last_updated }}
 </p>
 
@@ -31,7 +38,10 @@ permalink: /votes/
     {% if vote_diff < 0 %}{% assign vote_diff = 0 | minus: vote_diff %}{% endif %}
     {% assign margin_pct = 100 %}
     {% if active > 0 %}{% assign margin_pct = vote_diff | times: 100 | divided_by: active %}{% endif %}
-    <tr class="ep-vote-row{% if margin_pct <= 10 %} ep-vote-row--close{% endif %}" data-search="{{ vote.title | downcase }} {{ vote.ep_ref | downcase }} {{ vote.date }}">
+    {% assign vote_type = vote.type | default: "other" %}
+    <tr class="ep-vote-row{% if margin_pct <= 10 %} ep-vote-row--close{% endif %}"
+        data-search="{{ vote.title | downcase }} {{ vote.ep_ref | downcase }} {{ vote.date }}"
+        data-type="{{ vote_type }}">
       <td class="ep-col-date">{{ vote.date }}</td>
       <td>
         {% if vote.ep_url != "" %}
@@ -57,10 +67,35 @@ permalink: /votes/
 
 <script>
 const searchInput = document.getElementById('vote-search');
-searchInput.addEventListener('input', () => {
+const countEl = document.getElementById('ep-vote-count');
+const totalVotes = {{ site.data.votes | size }};
+let activeType = 'all';
+
+function applyFilters() {
   const q = searchInput.value.toLowerCase();
+  let visible = 0;
   document.querySelectorAll('.ep-vote-row').forEach(row => {
-    row.style.display = row.dataset.search.includes(q) ? '' : 'none';
+    const matchesSearch = !q || row.dataset.search.includes(q);
+    const matchesType = activeType === 'all' || row.dataset.type === activeType;
+    const show = matchesSearch && matchesType;
+    row.style.display = show ? '' : 'none';
+    if (show) visible++;
+  });
+  if (q || activeType !== 'all') {
+    countEl.textContent = visible + ' of ' + totalVotes + ' votes shown';
+  } else {
+    countEl.textContent = totalVotes + ' votes — data updated {{ site.data.meta.last_updated }}';
+  }
+}
+
+searchInput.addEventListener('input', applyFilters);
+
+document.querySelectorAll('.ep-type-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.ep-type-btn').forEach(b => b.classList.remove('ep-type-btn--active'));
+    btn.classList.add('ep-type-btn--active');
+    activeType = btn.dataset.type;
+    applyFilters();
   });
 });
 </script>
