@@ -1,13 +1,13 @@
 {
   "last_updated": "2026-04-21",
-  "last_updated_ts": 1776759793.036372,
+  "last_updated_ts": 1776762693.6602428,
   "failed_datasets": [],
   "counts": {
     "committees": 466,
     "meps": 718,
     "groups": 9,
     "sessions": 107,
-    "votes": 500,
+    "votes": 2000,
     "documents": 0,
     "questions": 0,
     "mep_votes": 726
