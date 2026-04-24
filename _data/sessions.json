@@ -1,1 +1,858 @@
-[]
+[
+  {
+    "id": "MTG-PL-2026-12-17",
+    "label": "Plenary – 17 December 2026",
+    "start": "2026-12-17",
+    "end": "2026-12-17",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-12-16",
+    "label": "Plenary – 16 December 2026",
+    "start": "2026-12-16",
+    "end": "2026-12-16",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-12-15",
+    "label": "Plenary – 15 December 2026",
+    "start": "2026-12-15",
+    "end": "2026-12-15",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-12-14",
+    "label": "Plenary – 14 December 2026",
+    "start": "2026-12-14",
+    "end": "2026-12-14",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-11-26",
+    "label": "Plenary – 26 November 2026",
+    "start": "2026-11-26",
+    "end": "2026-11-26",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-11-25",
+    "label": "Plenary – 25 November 2026",
+    "start": "2026-11-25",
+    "end": "2026-11-25",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-11-24",
+    "label": "Plenary – 24 November 2026",
+    "start": "2026-11-24",
+    "end": "2026-11-24",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-11-23",
+    "label": "Plenary – 23 November 2026",
+    "start": "2026-11-23",
+    "end": "2026-11-23",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-11-12",
+    "label": "Plenary – 12 November 2026",
+    "start": "2026-11-12",
+    "end": "2026-11-12",
+    "location": "Brussels",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-11-11",
+    "label": "Plenary – 11 November 2026",
+    "start": "2026-11-11",
+    "end": "2026-11-11",
+    "location": "Brussels",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-10-22",
+    "label": "Plenary – 22 October 2026",
+    "start": "2026-10-22",
+    "end": "2026-10-22",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-10-21",
+    "label": "Plenary – 21 October 2026",
+    "start": "2026-10-21",
+    "end": "2026-10-21",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-10-20",
+    "label": "Plenary – 20 October 2026",
+    "start": "2026-10-20",
+    "end": "2026-10-20",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-10-19",
+    "label": "Plenary – 19 October 2026",
+    "start": "2026-10-19",
+    "end": "2026-10-19",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-10-08",
+    "label": "Plenary – 8 October 2026",
+    "start": "2026-10-08",
+    "end": "2026-10-08",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-10-07",
+    "label": "Plenary – 7 October 2026",
+    "start": "2026-10-07",
+    "end": "2026-10-07",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-10-06",
+    "label": "Plenary – 6 October 2026",
+    "start": "2026-10-06",
+    "end": "2026-10-06",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-10-05",
+    "label": "Plenary – 5 October 2026",
+    "start": "2026-10-05",
+    "end": "2026-10-05",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-09-17",
+    "label": "Plenary – 17 September 2026",
+    "start": "2026-09-17",
+    "end": "2026-09-17",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-09-16",
+    "label": "Plenary – 16 September 2026",
+    "start": "2026-09-16",
+    "end": "2026-09-16",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-09-15",
+    "label": "Plenary – 15 September 2026",
+    "start": "2026-09-15",
+    "end": "2026-09-15",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-09-14",
+    "label": "Plenary – 14 September 2026",
+    "start": "2026-09-14",
+    "end": "2026-09-14",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-07-09",
+    "label": "Plenary – 9 July 2026",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-07-08",
+    "label": "Plenary – 8 July 2026",
+    "start": "2026-07-08",
+    "end": "2026-07-08",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-07-07",
+    "label": "Plenary – 7 July 2026",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-07-06",
+    "label": "Plenary – 6 July 2026",
+    "start": "2026-07-06",
+    "end": "2026-07-06",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-06-18",
+    "label": "Plenary – 18 June 2026",
+    "start": "2026-06-18",
+    "end": "2026-06-18",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-06-17",
+    "label": "Plenary – 17 June 2026",
+    "start": "2026-06-17",
+    "end": "2026-06-17",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-06-16",
+    "label": "Plenary – 16 June 2026",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-06-15",
+    "label": "Plenary – 15 June 2026",
+    "start": "2026-06-15",
+    "end": "2026-06-15",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-05-21",
+    "label": "Plenary – 21 May 2026",
+    "start": "2026-05-21",
+    "end": "2026-05-21",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-05-20",
+    "label": "Plenary – 20 May 2026",
+    "start": "2026-05-20",
+    "end": "2026-05-20",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-05-19",
+    "label": "Plenary – 19 May 2026",
+    "start": "2026-05-19",
+    "end": "2026-05-19",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-05-18",
+    "label": "Plenary – 18 May 2026",
+    "start": "2026-05-18",
+    "end": "2026-05-18",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-04-30",
+    "label": "Plenary – 30 April 2026",
+    "start": "2026-04-30",
+    "end": "2026-04-30",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-04-29",
+    "label": "Plenary – 29 April 2026",
+    "start": "2026-04-29",
+    "end": "2026-04-29",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-04-28",
+    "label": "Plenary – 28 April 2026",
+    "start": "2026-04-28",
+    "end": "2026-04-28",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-04-27",
+    "label": "Plenary – 27 April 2026",
+    "start": "2026-04-27",
+    "end": "2026-04-27",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-03-26",
+    "label": "Plenary – 26 March 2026",
+    "start": "2026-03-26",
+    "end": "2026-03-26",
+    "location": "Brussels",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-03-25",
+    "label": "Plenary – 25 March 2026",
+    "start": "2026-03-25",
+    "end": "2026-03-25",
+    "location": "Brussels",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-03-12",
+    "label": "Plenary – 12 March 2026",
+    "start": "2026-03-12",
+    "end": "2026-03-12",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-03-11",
+    "label": "Plenary – 11 March 2026",
+    "start": "2026-03-11",
+    "end": "2026-03-11",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-03-10",
+    "label": "Plenary – 10 March 2026",
+    "start": "2026-03-10",
+    "end": "2026-03-10",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-03-09",
+    "label": "Plenary – 9 March 2026",
+    "start": "2026-03-09",
+    "end": "2026-03-09",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-02-24",
+    "label": "Plenary – 24 February 2026",
+    "start": "2026-02-24",
+    "end": "2026-02-24",
+    "location": "Brussels",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-02-12",
+    "label": "Plenary – 12 February 2026",
+    "start": "2026-02-12",
+    "end": "2026-02-12",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-02-11",
+    "label": "Plenary – 11 February 2026",
+    "start": "2026-02-11",
+    "end": "2026-02-11",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-02-10",
+    "label": "Plenary – 10 February 2026",
+    "start": "2026-02-10",
+    "end": "2026-02-10",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-02-09",
+    "label": "Plenary – 9 February 2026",
+    "start": "2026-02-09",
+    "end": "2026-02-09",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-01-27",
+    "label": "Plenary – 27 January 2026",
+    "start": "2026-01-27",
+    "end": "2026-01-27",
+    "location": "Brussels",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-01-22",
+    "label": "Plenary – 22 January 2026",
+    "start": "2026-01-22",
+    "end": "2026-01-22",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-01-21",
+    "label": "Plenary – 21 January 2026",
+    "start": "2026-01-21",
+    "end": "2026-01-21",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-01-20",
+    "label": "Plenary – 20 January 2026",
+    "start": "2026-01-20",
+    "end": "2026-01-20",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2026-01-19",
+    "label": "Plenary – 19 January 2026",
+    "start": "2026-01-19",
+    "end": "2026-01-19",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-12-18",
+    "label": "Plenary – 18 December 2025",
+    "start": "2025-12-18",
+    "end": "2025-12-18",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-12-17",
+    "label": "Plenary – 17 December 2025",
+    "start": "2025-12-17",
+    "end": "2025-12-17",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-12-16",
+    "label": "Plenary – 16 December 2025",
+    "start": "2025-12-16",
+    "end": "2025-12-16",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-12-15",
+    "label": "Plenary – 15 December 2025",
+    "start": "2025-12-15",
+    "end": "2025-12-15",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-11-27",
+    "label": "Plenary – 27 November 2025",
+    "start": "2025-11-27",
+    "end": "2025-11-27",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-11-26",
+    "label": "Plenary – 26 November 2025",
+    "start": "2025-11-26",
+    "end": "2025-11-26",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-11-25",
+    "label": "Plenary – 25 November 2025",
+    "start": "2025-11-25",
+    "end": "2025-11-25",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-11-24",
+    "label": "Plenary – 24 November 2025",
+    "start": "2025-11-24",
+    "end": "2025-11-24",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-11-13",
+    "label": "Plenary – 13 November 2025",
+    "start": "2025-11-13",
+    "end": "2025-11-13",
+    "location": "Brussels",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-11-12",
+    "label": "Plenary – 12 November 2025",
+    "start": "2025-11-12",
+    "end": "2025-11-12",
+    "location": "Brussels",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-10-23",
+    "label": "Plenary – 23 October 2025",
+    "start": "2025-10-23",
+    "end": "2025-10-23",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-10-22",
+    "label": "Plenary – 22 October 2025",
+    "start": "2025-10-22",
+    "end": "2025-10-22",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-10-21",
+    "label": "Plenary – 21 October 2025",
+    "start": "2025-10-21",
+    "end": "2025-10-21",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-10-20",
+    "label": "Plenary – 20 October 2025",
+    "start": "2025-10-20",
+    "end": "2025-10-20",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-10-09",
+    "label": "Plenary – 9 October 2025",
+    "start": "2025-10-09",
+    "end": "2025-10-09",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-10-08",
+    "label": "Plenary – 8 October 2025",
+    "start": "2025-10-08",
+    "end": "2025-10-08",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-10-07",
+    "label": "Plenary – 7 October 2025",
+    "start": "2025-10-07",
+    "end": "2025-10-07",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-10-06",
+    "label": "Plenary – 6 October 2025",
+    "start": "2025-10-06",
+    "end": "2025-10-06",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-09-11",
+    "label": "Plenary – 11 September 2025",
+    "start": "2025-09-11",
+    "end": "2025-09-11",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-09-10",
+    "label": "Plenary – 10 September 2025",
+    "start": "2025-09-10",
+    "end": "2025-09-10",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-09-09",
+    "label": "Plenary – 9 September 2025",
+    "start": "2025-09-09",
+    "end": "2025-09-09",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-09-08",
+    "label": "Plenary – 8 September 2025",
+    "start": "2025-09-08",
+    "end": "2025-09-08",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-07-10",
+    "label": "Plenary – 10 July 2025",
+    "start": "2025-07-10",
+    "end": "2025-07-10",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-07-09",
+    "label": "Plenary – 9 July 2025",
+    "start": "2025-07-09",
+    "end": "2025-07-09",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-07-08",
+    "label": "Plenary – 8 July 2025",
+    "start": "2025-07-08",
+    "end": "2025-07-08",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-07-07",
+    "label": "Plenary – 7 July 2025",
+    "start": "2025-07-07",
+    "end": "2025-07-07",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-06-19",
+    "label": "Plenary – 19 June 2025",
+    "start": "2025-06-19",
+    "end": "2025-06-19",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-06-18",
+    "label": "Plenary – 18 June 2025",
+    "start": "2025-06-18",
+    "end": "2025-06-18",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-06-17",
+    "label": "Plenary – 17 June 2025",
+    "start": "2025-06-17",
+    "end": "2025-06-17",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-06-16",
+    "label": "Plenary – 16 June 2025",
+    "start": "2025-06-16",
+    "end": "2025-06-16",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-05-22",
+    "label": "Plenary – 22 May 2025",
+    "start": "2025-05-22",
+    "end": "2025-05-22",
+    "location": "Brussels",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-05-21",
+    "label": "Plenary – 21 May 2025",
+    "start": "2025-05-21",
+    "end": "2025-05-21",
+    "location": "Brussels",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-05-08",
+    "label": "Plenary – 8 May 2025",
+    "start": "2025-05-08",
+    "end": "2025-05-08",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-05-07",
+    "label": "Plenary – 7 May 2025",
+    "start": "2025-05-07",
+    "end": "2025-05-07",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-05-06",
+    "label": "Plenary – 6 May 2025",
+    "start": "2025-05-06",
+    "end": "2025-05-06",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-05-05",
+    "label": "Plenary – 5 May 2025",
+    "start": "2025-05-05",
+    "end": "2025-05-05",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-04-03",
+    "label": "Plenary – 3 April 2025",
+    "start": "2025-04-03",
+    "end": "2025-04-03",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-04-02",
+    "label": "Plenary – 2 April 2025",
+    "start": "2025-04-02",
+    "end": "2025-04-02",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-04-01",
+    "label": "Plenary – 1 April 2025",
+    "start": "2025-04-01",
+    "end": "2025-04-01",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-03-31",
+    "label": "Plenary – 31 March 2025",
+    "start": "2025-03-31",
+    "end": "2025-03-31",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-03-13",
+    "label": "Plenary – 13 March 2025",
+    "start": "2025-03-13",
+    "end": "2025-03-13",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-03-12",
+    "label": "Plenary – 12 March 2025",
+    "start": "2025-03-12",
+    "end": "2025-03-12",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-03-11",
+    "label": "Plenary – 11 March 2025",
+    "start": "2025-03-11",
+    "end": "2025-03-11",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-03-10",
+    "label": "Plenary – 10 March 2025",
+    "start": "2025-03-10",
+    "end": "2025-03-10",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-02-13",
+    "label": "Plenary – 13 February 2025",
+    "start": "2025-02-13",
+    "end": "2025-02-13",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-02-12",
+    "label": "Plenary – 12 February 2025",
+    "start": "2025-02-12",
+    "end": "2025-02-12",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-02-11",
+    "label": "Plenary – 11 February 2025",
+    "start": "2025-02-11",
+    "end": "2025-02-11",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-02-10",
+    "label": "Plenary – 10 February 2025",
+    "start": "2025-02-10",
+    "end": "2025-02-10",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-01-29",
+    "label": "Plenary – 29 January 2025",
+    "start": "2025-01-29",
+    "end": "2025-01-29",
+    "location": "Brussels",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-01-23",
+    "label": "Plenary – 23 January 2025",
+    "start": "2025-01-23",
+    "end": "2025-01-23",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-01-22",
+    "label": "Plenary – 22 January 2025",
+    "start": "2025-01-22",
+    "end": "2025-01-22",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-01-21",
+    "label": "Plenary – 21 January 2025",
+    "start": "2025-01-21",
+    "end": "2025-01-21",
+    "location": "Strasbourg",
+    "ep_url": ""
+  },
+  {
+    "id": "MTG-PL-2025-01-20",
+    "label": "Plenary – 20 January 2025",
+    "start": "2025-01-20",
+    "end": "2025-01-20",
+    "location": "Strasbourg",
+    "ep_url": ""
+  }
+]
