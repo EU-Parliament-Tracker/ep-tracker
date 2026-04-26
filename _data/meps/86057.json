@@ -4,7 +4,7 @@
   "given_name": "Bartłomiej",
   "last_name": "Sienkiewicz",
   "country": "Poland",
-  "national_party": "Platforma Obywatelska",
+  "national_party": "Koalicja Obywatelska",
   "group_name": "Group of the European People's Party (Christian Democrats)",
   "group_abbr": "EPP",
   "email": "bartlomiej.sienkiewicz@europarl.europa.eu",
@@ -22,8 +22,8 @@
     },
     {
       "id": "6586",
-      "abbr": "",
-      "name": "",
+      "abbr": "LIBE",
+      "name": "Civil Liberties, Justice and Home Affairs",
       "role": "MEMBER_SUBSTITUTE"
     },
     {

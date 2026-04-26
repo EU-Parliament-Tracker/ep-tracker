@@ -37,6 +37,12 @@
       "abbr": "D-UK",
       "name": "D-UK",
       "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6580",
+      "abbr": "TRAN",
+      "name": "Transport and Tourism",
+      "role": "MEMBER_SUBSTITUTE"
     }
   ]
 }

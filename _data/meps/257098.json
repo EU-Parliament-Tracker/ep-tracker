@@ -27,15 +27,15 @@
       "role": "MEMBER"
     },
     {
-      "id": "6622",
-      "abbr": "D-TR",
-      "name": "D-TR",
-      "role": "MEMBER"
-    },
-    {
       "id": "6584",
       "abbr": "CULT",
       "name": "Culture and Education",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6622",
+      "abbr": "D-TR",
+      "name": "D-TR",
       "role": "MEMBER"
     }
   ]

@@ -13,5 +13,12 @@
   "social": {},
   "photo_url": "https://www.europarl.europa.eu/mepphoto/257069.jpg",
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257069",
-  "committees": []
+  "committees": [
+    {
+      "id": "6586",
+      "abbr": "LIBE",
+      "name": "Civil Liberties, Justice and Home Affairs",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
 }

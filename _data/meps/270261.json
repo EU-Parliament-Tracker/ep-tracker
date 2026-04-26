@@ -15,12 +15,6 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/270261",
   "committees": [
     {
-      "id": "6580",
-      "abbr": "TRAN",
-      "name": "Transport and Tourism",
-      "role": "MEMBER_SUBSTITUTE"
-    },
-    {
       "id": "6570",
       "abbr": "ECON",
       "name": "Economic and Monetary Affairs",
@@ -30,6 +24,12 @@
       "id": "6572",
       "abbr": "EMPL",
       "name": "Employment and Social Affairs",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6585",
+      "abbr": "JURI",
+      "name": "Legal Affairs",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]

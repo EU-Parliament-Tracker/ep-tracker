@@ -15,12 +15,6 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257029",
   "committees": [
     {
-      "id": "7005",
-      "abbr": "",
-      "name": "",
-      "role": "MEMBER"
-    },
-    {
       "id": "6576",
       "abbr": "ITRE",
       "name": "Industry, Research and Energy",
@@ -36,6 +30,12 @@
       "id": "6579",
       "abbr": "IMCO",
       "name": "Internal Market and Consumer Protection",
+      "role": "MEMBER"
+    },
+    {
+      "id": "7005",
+      "abbr": "",
+      "name": "",
       "role": "MEMBER"
     }
   ]

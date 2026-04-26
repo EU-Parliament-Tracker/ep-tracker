@@ -31,6 +31,12 @@
       "abbr": "",
       "name": "",
       "role": "MEMBER"
+    },
+    {
+      "id": "6583",
+      "abbr": "PECH",
+      "name": "Fisheries",
+      "role": "MEMBER_SUBSTITUTE"
     }
   ]
 }

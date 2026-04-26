@@ -21,16 +21,16 @@
       "role": "MEMBER_SUBSTITUTE"
     },
     {
-      "id": "7007",
-      "abbr": "",
-      "name": "",
-      "role": "MEMBER"
-    },
-    {
       "id": "6570",
       "abbr": "ECON",
       "name": "Economic and Monetary Affairs",
       "role": "CHAIR_VICE"
+    },
+    {
+      "id": "7007",
+      "abbr": "",
+      "name": "",
+      "role": "MEMBER"
     }
   ]
 }

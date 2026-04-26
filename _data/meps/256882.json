@@ -15,16 +15,16 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256882",
   "committees": [
     {
-      "id": "6585",
-      "abbr": "JURI",
-      "name": "Legal Affairs",
-      "role": "MEMBER_SUBSTITUTE"
-    },
-    {
       "id": "7915",
       "abbr": "",
       "name": "",
       "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "abbr": "AFET",
+      "name": "Foreign Affairs",
+      "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6576",
