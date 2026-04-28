@@ -261,9 +261,9 @@
       
       
       <div class="ep-vote-summary">
-        <span class="ep-vote-summary__total" id="mep-vote-count">1837 votes tracked</span>
+        <span class="ep-vote-summary__total" id="mep-vote-count">1838 votes tracked</span>
         <span class="ep-vote-summary__stat ep-vote-summary__stat--for">FOR 760</span>
-        <span class="ep-vote-summary__stat ep-vote-summary__stat--against">AGAINST 952</span>
+        <span class="ep-vote-summary__stat ep-vote-summary__stat--against">AGAINST 953</span>
         <span class="ep-vote-summary__stat ep-vote-summary__stat--abstain">ABSTAIN 125</span>
       </div>
       <div class="ep-type-filters" role="group" aria-label="Filter by vote type" style="margin-bottom:0.75rem">
@@ -274,6 +274,19 @@
         <button class="ep-type-btn" data-type="other">Other</button>
       </div>
       <ul class="ep-vote-list" id="mep-vote-list">
+        
+        <li class="ep-vote-item" data-title="ordre du jour de mercredi - demande du groupe esn - limiter la législation de l&#39;ue">
+          <span class="ep-col-date">2026-04-27</span>
+          <span class="ep-vote-pos ep-vote-pos--against">against</span>
+          
+            <a href="https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-27-RCV_EN.html" target="_blank" rel="noopener" class="ep-vote-title">
+              Ordre du jour de mercredi - Demande du groupe ESN - Limiter la législation de l'UE
+            </a>
+          
+          
+            <span class="ep-vote-result ep-vote-result--rejected">Rejected</span>
+          
+        </li>
         
         <li class="ep-vote-item" data-title="a10-0048/2026 – malik azmani – decision to enter into interinstitutional negotiations">
           <span class="ep-col-date">2026-03-26</span>
@@ -24173,7 +24186,7 @@
           return 'other';
         }
 
-        const totalVotes = 1837;
+        const totalVotes = 1838;
         const countEl = document.getElementById('mep-vote-count');
         const items = Array.from(document.querySelectorAll('#mep-vote-list .ep-vote-item'));
         items.forEach(li => li.dataset.type = classifyType(li.dataset.title));
