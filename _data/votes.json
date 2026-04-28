@@ -1,5 +1,29 @@
 [
   {
+    "id": "2026-04-27-RCV-191134",
+    "date": "2026-04-27",
+    "title": "Ordre du jour de mardi - Demande du groupe PfE - \"Une Europe, un marché\"",
+    "result": "Rejected",
+    "for": 132,
+    "against": 327,
+    "abstention": 3,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-27-RCV_EN.html",
+    "type": "other"
+  },
+  {
+    "id": "2026-04-27-RCV-191135",
+    "date": "2026-04-27",
+    "title": "Ordre du jour de mercredi - Demande du groupe ESN - Limiter la législation de l'UE",
+    "result": "Rejected",
+    "for": 127,
+    "against": 338,
+    "abstention": 5,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-27-RCV_EN.html",
+    "type": "other"
+  },
+  {
     "id": "2026-03-26-RCV-189597",
     "date": "2026-03-26",
     "title": "A10-0048/2026 – Malik Azmani – Decision to enter into interinstitutional negotiations",
@@ -23970,30 +23994,6 @@
     "result": "Rejected",
     "for": 178,
     "against": 445,
-    "abstention": 32,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-09-10-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-09-10-RCV-178500",
-    "date": "2025-09-10",
-    "title": "A10-0143/2025 – Carmen Crespo Díaz – Motion for a resolution (as a whole)",
-    "result": "Adopted",
-    "for": 393,
-    "against": 145,
-    "abstention": 123,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-09-10-RCV_EN.html",
-    "type": "final"
-  },
-  {
-    "id": "2025-09-10-RCV-178781",
-    "date": "2025-09-10",
-    "title": "RC-B10-0355/2025 – § 12/1",
-    "result": "Adopted",
-    "for": 520,
-    "against": 102,
     "abstention": 32,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-09-10-RCV_EN.html",
