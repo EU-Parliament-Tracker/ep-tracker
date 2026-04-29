@@ -1,5 +1,1797 @@
 [
   {
+    "vote_id": "2026-04-28-RCV-191728",
+    "date": "2026-04-28",
+    "title": "Prolongation du mandat de la commission spéciale sur le bouclier européen de la démocratie",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190423",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 2 - Am 50",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190427",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 2 - Am 3",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190428",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 2 - Am 4",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190429",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 4 - Am 5",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190431",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 4/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190432",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 4/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190433",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 4/3",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190434",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 5 - Am 6",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190436",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 5/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190437",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 5/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190439",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 10 - Am 8",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190440",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 11 - Am 85",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190441",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 12 - Am 10",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190443",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 12 - Am 86",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190444",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 13",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190445",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 13 - Am 51",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190448",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 21 - Am 87",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190449",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 21 - Am 88",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190456",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 26 - Am 12",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190457",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 26 - Am 13",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190459",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 26/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190460",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 26/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190461",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 26 - Am 15",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190462",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 26 - Am 67",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190463",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 28",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190464",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 29",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190466",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 36",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190467",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 36 - Am 17",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190468",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 36 - Am 70",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190469",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 37 - Am 18",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190470",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 38 - Am 19",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190471",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 38 - Am 20",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190472",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 38 - Am 89",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190473",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 39 - Am 21",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190475",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 39/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190476",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 39/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190477",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 39/3",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190478",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 39/4",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190479",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 39/5",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190480",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 39 - Am 71",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190481",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 39 - Am 72",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190482",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 39 - Am 90",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190483",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 40 - Am 91",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190484",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 40 - Am 92",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190485",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 40 - Am 93",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190486",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 45 - Am 25",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190487",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 46 - Am 26S",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190488",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 47 - Am 28",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190489",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 47 - Am 29",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190490",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 48 - Am 30",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190491",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 48 - Am 31",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190492",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 50 - Am 32",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190493",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 51",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "abstain"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190494",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 54",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190495",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 55 - Am 33",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190498",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 65 - Am 75",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190499",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 71 - Am 34",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190501",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 80 - Am 52",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190503",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 89/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190504",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 89/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190506",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 91 - Am 37",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190507",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 100 - Am 38",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190508",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 105",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190509",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 106",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190510",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 107",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190511",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 107 - Am 79",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190512",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 108",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190514",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 109/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190515",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 109/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190516",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 115",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "abstain"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190517",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 116",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190518",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 117",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190519",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 120",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190520",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 120 - Am 39",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190521",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 121 - Am 40",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190522",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 121 - Am 41",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190523",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 121 - Am 42",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190524",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 121 - Am 43",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190525",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 121 - Am 44",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190526",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le § 121 - Am 45",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190527",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 122",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190528",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 123",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190529",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 124",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "abstain"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190530",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 125",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190531",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - § 126",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190532",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Considérant A - Am 48",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190533",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Considérant C - Am 49",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190536",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le considérant O - Am 1",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190538",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Après le considérant P - Am 2",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190026",
+    "date": "2026-04-28",
+    "title": "A10-0105/2026 - Siegfried Mureşan, Carla Tavares - Proposition de résolution (ensemble du texte)",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191150",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - § 1 - Am 58",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191152",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 1 - Am 45",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191153",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 1 - Am 46",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191156",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 4 - Am 8",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191157",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 4 - Am 60",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191158",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - § 7 - Am 55",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191159",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 7 - Am 9",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191161",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 10 - Am 10",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191162",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 10 - Am 47",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191163",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 10 - Am 67",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191165",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - § 16 - Am 57",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191185",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 24 - Am 13",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191186",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 24 - Am 14",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191188",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - § 26 - Am 61",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191189",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - § 26 - Am 70",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191190",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - § 26 - Am 1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191191",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 26 - Am 16",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191192",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 26 - Am 44",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191193",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - § 27 - Am 71",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191194",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 27 - Am 17",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191202",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 29 - Am 22",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191205",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - § 30 - Am 74",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191206",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 30 - Am 23",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191207",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 30 - Am 41",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191209",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - § 34 - Am 3",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191211",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 34 - Am 25",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191214",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 37 - Am 27",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191218",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - § 40 - Am 4",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191219",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - § 40 - Am 5",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191222",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 43 - Am 51",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191224",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - § 46 - Am 63",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191226",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 48 - Am 52",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191227",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 50 - Am 53",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191228",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 50 - Am 54",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191230",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - § 56 - Am 76S",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191231",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - § 56 - Am 64",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191232",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 56 - Am 33",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191233",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 56 - Am 65",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191234",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Après le § 57 - Am 34",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191236",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - § 58 - Am 77S",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191237",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - § 60 - Am 6",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191239",
+    "date": "2026-04-28",
+    "title": "A10-0044/2026 - Nils Ušakovs - Proposition de résolution (ensemble du texte)",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190403",
+    "date": "2026-04-28",
+    "title": "A9-0147/2022 - Bernd Lange - Proposition de rejet - Am 131",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190404",
+    "date": "2026-04-28",
+    "title": "A9-0147/2022 - Bernd Lange - Demande de procéder au vote sur les amendements",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190406",
+    "date": "2026-04-28",
+    "title": "A9-0147/2022 - Bernd Lange - Article 19, après le § 1 (correspond à l'article 22 dans l'amendement 120) - Am 124",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191138",
+    "date": "2026-04-28",
+    "title": "A9-0147/2022 - Bernd Lange - Article 19, après le § 1 (correspond à l'article 22 dans l'amendement 120) - Am 120PC3",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190408",
+    "date": "2026-04-28",
+    "title": "A9-0147/2022 - Bernd Lange - Après l'article 29 (correspond à l'article 34 dans l'amendement 120) - Am 130",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190409",
+    "date": "2026-04-28",
+    "title": "A9-0147/2022 - Bernd Lange - Après l'article 29 (correspond à l'article 34 dans l'amendement 120) - Am 127",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190410",
+    "date": "2026-04-28",
+    "title": "A9-0147/2022 - Bernd Lange - Après l'article 29 (correspond à l'article 34 dans l'amendement 120) - Am 125= 129=",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190418",
+    "date": "2026-04-28",
+    "title": "A9-0147/2022 - Bernd Lange - Après le considérant 27 - Am 139",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190095",
+    "date": "2026-04-28",
+    "title": "A9-0147/2022 - Bernd Lange - Proposition de la Commission",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-189922",
+    "date": "2026-04-28",
+    "title": "A10-0104/2025 - Veronika Vrecionová - Accord provisoire - Am 317",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "abstain"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-189916",
+    "date": "2026-04-28",
+    "title": "A10-0251/2025 - Liesbet Sommen - Accord provisoire - Am 46",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190096",
+    "date": "2026-04-28",
+    "title": "A10-0094/2026 - Pierfrancesco Maran - Proposition de la Commission",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-189909",
+    "date": "2026-04-28",
+    "title": "A10-0064/2026 - Sven Simon - Proposition de décision",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-191137",
+    "date": "2026-04-28",
+    "title": "A10-0086/2026 - Dick Erixon - Après le § 37 - Am 24",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190051",
+    "date": "2026-04-28",
+    "title": "A10-0086/2026 - Dick Erixon - Proposition de résolution (ensemble du texte)",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190293",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - Proposition de résolution de remplacement - Am 1",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190294",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - Proposition de résolution de remplacement - Am 2",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190296",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - § 4/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190297",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - § 4/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190298",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - Après le § 7 - Am 3",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190300",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - § 12/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190301",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - § 12/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190302",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - § 12/3",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190303",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - § 16 - Am 5",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "abstain"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190305",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - § 19/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "abstain"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190306",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - § 19/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190308",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - § 20/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "abstain"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190309",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - § 20/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190310",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - § 21 - Am 6",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190312",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - § 21/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190313",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - § 21/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190315",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - § 25/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190316",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - § 25/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190318",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - § 28/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190319",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - § 28/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190320",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - Visa 16",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190322",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - Considérant AC/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "abstain"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190323",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - Considérant AC/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190325",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - Considérant AJ/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "abstain"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190326",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - Considérant AJ/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190328",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - Considérant AL/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190329",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - Considérant AL/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190330",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - Après le considérant AL - Am 4",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190332",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - Considérant AP/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190333",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - Considérant AP/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "abstain"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-189914",
+    "date": "2026-04-28",
+    "title": "A10-0047/2026 - Evin Incir, Joanna Scheuring-Wielgus - Proposition de résolution (ensemble du texte)",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190209",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 1 - Am 15",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190211",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 2 - Am 4/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190212",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 2 - Am 4/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190213",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - § 3 - Am 16",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190217",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 3 - Am 54",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190221",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - § 25 - Am 5",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190222",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - § 25 - Am 17",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190223",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 25 - Am 6",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190224",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 25 - Am 7",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190226",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 25 - Am 8/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190227",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 25 - Am 8/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190229",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 25 - Am 9/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190230",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 25 - Am 9/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190232",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 25 - Am 10/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190233",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 25 - Am 10/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190235",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 25 - Am 55/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190236",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 25 - Am 55/2",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190237",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 31 - Am 11",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190238",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 32 - Am 12",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190239",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 32 - Am 13",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190241",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 32 - Am 14",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190242",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 32 - Am 60",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190243",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le § 40 - Am 64",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190247",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - § 53 - Am 18",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190256",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - § 71 - Am 21/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190257",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - § 71 - Am 21/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190258",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - § 73 - Am 22",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190259",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - § 74 - Am 28",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190260",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - § 74 - Am 23",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190261",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - § 76 - Am 29",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190262",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - § 77 - Am 24",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190263",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le visa 21 - Am 1= 25=",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190265",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le considérant B - Am 2/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190266",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le considérant B - Am 2/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190268",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le considérant B - Am 3/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190269",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Après le considérant B - Am 3/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190161",
+    "date": "2026-04-28",
+    "title": "A10-0080/2026 - Julien Sanchez - Proposition de résolution (ensemble du texte)",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190204",
+    "date": "2026-04-28",
+    "title": "A10-0043/2026 - Željana Zovko - § 5",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190205",
+    "date": "2026-04-28",
+    "title": "A10-0043/2026 - Željana Zovko - § 9",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190206",
+    "date": "2026-04-28",
+    "title": "A10-0043/2026 - Željana Zovko - § 17",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190207",
+    "date": "2026-04-28",
+    "title": "A10-0043/2026 - Željana Zovko - Après le § 35 - Am 1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190208",
+    "date": "2026-04-28",
+    "title": "A10-0043/2026 - Željana Zovko - Après le § 35 - Am 2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "abstain"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-189928",
+    "date": "2026-04-28",
+    "title": "A10-0043/2026 - Željana Zovko - Proposition de résolution (ensemble du texte)",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190186",
+    "date": "2026-04-28",
+    "title": "A10-0022/2026 - Monika Hohlmeier - Proposition de résolution",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-28-RCV-190052",
+    "date": "2026-04-28",
+    "title": "A10-0078/2026 - Daniel Attard - Proposition de résolution",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-28-RCV_EN.html",
+    "position": "for"
+  },
+  {
     "vote_id": "2026-03-26-RCV-189597",
     "date": "2026-03-26",
     "title": "A10-0048/2026 – Malik Azmani – Decision to enter into interinstitutional negotiations",
