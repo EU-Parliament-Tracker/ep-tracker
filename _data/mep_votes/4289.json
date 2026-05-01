@@ -1,5 +1,541 @@
 [
   {
+    "vote_id": "2026-04-30-RCV-192354",
+    "date": "2026-04-30",
+    "title": "RC-B10-0209/2026 – After § 5 – Am 8",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192355",
+    "date": "2026-04-30",
+    "title": "RC-B10-0209/2026 – § 6 – Am 3",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192359",
+    "date": "2026-04-30",
+    "title": "RC-B10-0209/2026 – § 6/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192360",
+    "date": "2026-04-30",
+    "title": "RC-B10-0209/2026 – After recital B – Am 4",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192361",
+    "date": "2026-04-30",
+    "title": "RC-B10-0209/2026 – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192363",
+    "date": "2026-04-30",
+    "title": "RC-B10-0216/2026 – § 4 – Am 1",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192365",
+    "date": "2026-04-30",
+    "title": "RC-B10-0216/2026 – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192366",
+    "date": "2026-04-30",
+    "title": "RC-B10-0217/2026 – § 2 – Am 6",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192368",
+    "date": "2026-04-30",
+    "title": "RC-B10-0217/2026 – § 4 – Am 8",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192369",
+    "date": "2026-04-30",
+    "title": "RC-B10-0217/2026 – § 5 – Am 2",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192373",
+    "date": "2026-04-30",
+    "title": "RC-B10-0217/2026 – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-191857",
+    "date": "2026-04-30",
+    "title": "Proposal for a Council decision",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192212",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – After § 3 – Am 3",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192213",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – After § 3 – Am 4",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192218",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – After § 8 – Am 9",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192375",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – After § 10 – Am 14/rev",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192222",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – § 16 – Am 10",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192230",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – § 25 – Am 13",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192233",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – After § 27 - Am 15/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192234",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – After § 27 - Am 15/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192236",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – § 28 – Am 1/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192237",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – § 28 – Am 1/2",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192241",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – After § 28 – Am 2",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192242",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – After § 32 – Am 7",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-191944",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-189917",
+    "date": "2026-04-30",
+    "title": "A10-0082/2026 – Lídia Pereira – Motion for a resolution",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-191952",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – After § 11 – Am 1",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-191956",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – After § 15 – Am 2",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-191957",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – After § 18 – Am 3",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-191958",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – After § 27 – Am 4",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-191959",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – After § 37 – Am 5",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-191960",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – After § 37 – Am 6",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-191961",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – After § 39 – Am 7",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-191965",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – After § 46 – Am 8",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-190668",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-190658",
+    "date": "2026-04-30",
+    "title": "A10-0058/2026 – Elżbieta Katarzyna Łukacijewska – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-191859",
+    "date": "2026-04-30",
+    "title": "A10-0079/2026 – Evelyn Regner – § 4/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-191861",
+    "date": "2026-04-30",
+    "title": "A10-0079/2026 – Evelyn Regner – § 4/3",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-191863",
+    "date": "2026-04-30",
+    "title": "A10-0079/2026 – Evelyn Regner – § 17/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-191864",
+    "date": "2026-04-30",
+    "title": "A10-0079/2026 – Evelyn Regner – § 17/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-191865",
+    "date": "2026-04-30",
+    "title": "A10-0079/2026 – Evelyn Regner – § 20 – Am 1",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-190185",
+    "date": "2026-04-30",
+    "title": "A10-0079/2026 – Evelyn Regner – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192342",
+    "date": "2026-04-30",
+    "title": "B10-0190/2026 – § 2 – Am 9",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192343",
+    "date": "2026-04-30",
+    "title": "B10-0190/2026 – After § 3 – Am 3",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192344",
+    "date": "2026-04-30",
+    "title": "B10-0190/2026 – After § 10 – Am 7",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192348",
+    "date": "2026-04-30",
+    "title": "B10-0190/2026 – After § 14 – Am 6",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192352",
+    "date": "2026-04-30",
+    "title": "B10-0190/2026 – After § 30 – Am 13",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192353",
+    "date": "2026-04-30",
+    "title": "B10-0190/2026 – After § 30 – Am 14",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192322",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – After § 4 – Am 5",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192323",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – After § 5 – Am 1",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192325",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – After § 5 – Am 3",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192329",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – § 11/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192330",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – After § 11 – Am 4",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192332",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – § 12/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192335",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – § 15/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192337",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – § 15/3",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192340",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – § 22/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192341",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192312",
+    "date": "2026-04-30",
+    "title": "RC-B10-0195/2026 – § 6/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192316",
+    "date": "2026-04-30",
+    "title": "RC-B10-0195/2026 – § 8",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192318",
+    "date": "2026-04-30",
+    "title": "RC-B10-0195/2026 – § 14/1",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192319",
+    "date": "2026-04-30",
+    "title": "RC-B10-0195/2026 – § 14/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192320",
+    "date": "2026-04-30",
+    "title": "RC-B10-0195/2026 – After § 15 – Am 5",
+    "result": "Rejected",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "against"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192321",
+    "date": "2026-04-30",
+    "title": "RC-B10-0195/2026 – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192298",
+    "date": "2026-04-30",
+    "title": "RC-B10-0206/2026 – § 7/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192302",
+    "date": "2026-04-30",
+    "title": "RC-B10-0206/2026 – § 16",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
+    "vote_id": "2026-04-30-RCV-192305",
+    "date": "2026-04-30",
+    "title": "RC-B10-0206/2026 – Recital I/2",
+    "result": "Adopted",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "position": "for"
+  },
+  {
     "vote_id": "2026-04-28-RCV-191728",
     "date": "2026-04-28",
     "title": "Extension of the term of office of the Special Committee on the European Democracy Shield",

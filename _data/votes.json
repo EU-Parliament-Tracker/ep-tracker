@@ -1,20 +1,836 @@
 [
   {
+    "id": "2026-04-30-RCV-192354",
+    "date": "2026-04-30",
+    "title": "RC-B10-0209/2026 – After § 5 – Am 8",
+    "result": "Rejected",
+    "for": 84,
+    "against": 464,
+    "abstention": 11,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192355",
+    "date": "2026-04-30",
+    "title": "RC-B10-0209/2026 – § 6 – Am 3",
+    "result": "Rejected",
+    "for": 99,
+    "against": 427,
+    "abstention": 40,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192359",
+    "date": "2026-04-30",
+    "title": "RC-B10-0209/2026 – § 6/2",
+    "result": "Adopted",
+    "for": 370,
+    "against": 180,
+    "abstention": 19,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192360",
+    "date": "2026-04-30",
+    "title": "RC-B10-0209/2026 – After recital B – Am 4",
+    "result": "Rejected",
+    "for": 86,
+    "against": 415,
+    "abstention": 66,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192361",
+    "date": "2026-04-30",
+    "title": "RC-B10-0209/2026 – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "for": 511,
+    "against": 21,
+    "abstention": 42,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "final"
+  },
+  {
+    "id": "2026-04-30-RCV-192363",
+    "date": "2026-04-30",
+    "title": "RC-B10-0216/2026 – § 4 – Am 1",
+    "result": "Rejected",
+    "for": 104,
+    "against": 377,
+    "abstention": 86,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192365",
+    "date": "2026-04-30",
+    "title": "RC-B10-0216/2026 – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "for": 439,
+    "against": 52,
+    "abstention": 71,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "final"
+  },
+  {
+    "id": "2026-04-30-RCV-192366",
+    "date": "2026-04-30",
+    "title": "RC-B10-0217/2026 – § 2 – Am 6",
+    "result": "Rejected",
+    "for": 49,
+    "against": 504,
+    "abstention": 20,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192368",
+    "date": "2026-04-30",
+    "title": "RC-B10-0217/2026 – § 4 – Am 8",
+    "result": "Rejected",
+    "for": 83,
+    "against": 465,
+    "abstention": 24,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192369",
+    "date": "2026-04-30",
+    "title": "RC-B10-0217/2026 – § 5 – Am 2",
+    "result": "Rejected",
+    "for": 157,
+    "against": 329,
+    "abstention": 69,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192373",
+    "date": "2026-04-30",
+    "title": "RC-B10-0217/2026 – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "for": 507,
+    "against": 31,
+    "abstention": 35,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "final"
+  },
+  {
+    "id": "2026-04-30-RCV-191857",
+    "date": "2026-04-30",
+    "title": "Proposal for a Council decision",
+    "result": "Adopted",
+    "for": 465,
+    "against": 57,
+    "abstention": 47,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "other"
+  },
+  {
+    "id": "2026-04-30-RCV-192212",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – After § 3 – Am 3",
+    "result": "Rejected",
+    "for": 162,
+    "against": 407,
+    "abstention": 18,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192213",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – After § 3 – Am 4",
+    "result": "Rejected",
+    "for": 73,
+    "against": 443,
+    "abstention": 63,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192218",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – After § 8 – Am 9",
+    "result": "Rejected",
+    "for": 185,
+    "against": 378,
+    "abstention": 17,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192375",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – After § 10 – Am 14/rev",
+    "result": "Adopted",
+    "for": 402,
+    "against": 135,
+    "abstention": 46,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192222",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – § 16 – Am 10",
+    "result": "Rejected",
+    "for": 168,
+    "against": 378,
+    "abstention": 33,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192230",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – § 25 – Am 13",
+    "result": "Rejected",
+    "for": 148,
+    "against": 388,
+    "abstention": 37,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192233",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – After § 27 - Am 15/1",
+    "result": "Adopted",
+    "for": 410,
+    "against": 146,
+    "abstention": 28,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192234",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – After § 27 - Am 15/2",
+    "result": "Adopted",
+    "for": 308,
+    "against": 256,
+    "abstention": 13,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192236",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – § 28 – Am 1/1",
+    "result": "Adopted",
+    "for": 267,
+    "against": 197,
+    "abstention": 116,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192237",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – § 28 – Am 1/2",
+    "result": "Rejected",
+    "for": 141,
+    "against": 361,
+    "abstention": 69,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192241",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – After § 28 – Am 2",
+    "result": "Rejected",
+    "for": 218,
+    "against": 262,
+    "abstention": 108,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192242",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – After § 32 – Am 7",
+    "result": "Rejected",
+    "for": 100,
+    "against": 430,
+    "abstention": 49,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-191944",
+    "date": "2026-04-30",
+    "title": "A10-0124/2026 – Michalis Hadjipantela – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "for": 401,
+    "against": 116,
+    "abstention": 68,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "final"
+  },
+  {
+    "id": "2026-04-30-RCV-189917",
+    "date": "2026-04-30",
+    "title": "A10-0082/2026 – Lídia Pereira – Motion for a resolution",
+    "result": "Adopted",
+    "for": 502,
+    "against": 46,
+    "abstention": 42,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "final"
+  },
+  {
+    "id": "2026-04-30-RCV-191952",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – After § 11 – Am 1",
+    "result": "Rejected",
+    "for": 193,
+    "against": 376,
+    "abstention": 12,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-191956",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – After § 15 – Am 2",
+    "result": "Rejected",
+    "for": 149,
+    "against": 406,
+    "abstention": 30,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-191957",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – After § 18 – Am 3",
+    "result": "Rejected",
+    "for": 226,
+    "against": 325,
+    "abstention": 28,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-191958",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – After § 27 – Am 4",
+    "result": "Adopted",
+    "for": 330,
+    "against": 218,
+    "abstention": 35,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-191959",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – After § 37 – Am 5",
+    "result": "Rejected",
+    "for": 175,
+    "against": 375,
+    "abstention": 33,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-191960",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – After § 37 – Am 6",
+    "result": "Rejected",
+    "for": 131,
+    "against": 418,
+    "abstention": 34,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-191961",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – After § 39 – Am 7",
+    "result": "Rejected",
+    "for": 195,
+    "against": 334,
+    "abstention": 52,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-191965",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – After § 46 – Am 8",
+    "result": "Rejected",
+    "for": 244,
+    "against": 297,
+    "abstention": 41,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-190668",
+    "date": "2026-04-30",
+    "title": "A10-0088/2026 – Carlo Fidanza – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "for": 426,
+    "against": 119,
+    "abstention": 40,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "final"
+  },
+  {
+    "id": "2026-04-30-RCV-190658",
+    "date": "2026-04-30",
+    "title": "A10-0058/2026 – Elżbieta Katarzyna Łukacijewska – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "for": 404,
+    "against": 102,
+    "abstention": 67,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "final"
+  },
+  {
+    "id": "2026-04-30-RCV-191859",
+    "date": "2026-04-30",
+    "title": "A10-0079/2026 – Evelyn Regner – § 4/1",
+    "result": "Adopted",
+    "for": 380,
+    "against": 154,
+    "abstention": 40,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-191860",
+    "date": "2026-04-30",
+    "title": "A10-0079/2026 – Evelyn Regner – § 4/2",
+    "result": "Adopted",
+    "for": 309,
+    "against": 242,
+    "abstention": 14,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-191861",
+    "date": "2026-04-30",
+    "title": "A10-0079/2026 – Evelyn Regner – § 4/3",
+    "result": "Rejected",
+    "for": 263,
+    "against": 310,
+    "abstention": 8,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-191863",
+    "date": "2026-04-30",
+    "title": "A10-0079/2026 – Evelyn Regner – § 17/1",
+    "result": "Adopted",
+    "for": 492,
+    "against": 50,
+    "abstention": 33,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-191864",
+    "date": "2026-04-30",
+    "title": "A10-0079/2026 – Evelyn Regner – § 17/2",
+    "result": "Adopted",
+    "for": 297,
+    "against": 248,
+    "abstention": 22,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-191865",
+    "date": "2026-04-30",
+    "title": "A10-0079/2026 – Evelyn Regner – § 20 – Am 1",
+    "result": "Rejected",
+    "for": 127,
+    "against": 309,
+    "abstention": 143,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-190185",
+    "date": "2026-04-30",
+    "title": "A10-0079/2026 – Evelyn Regner – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "for": 376,
+    "against": 187,
+    "abstention": 17,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "final"
+  },
+  {
+    "id": "2026-04-30-RCV-192342",
+    "date": "2026-04-30",
+    "title": "B10-0190/2026 – § 2 – Am 9",
+    "result": "Rejected",
+    "for": 136,
+    "against": 401,
+    "abstention": 42,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "final"
+  },
+  {
+    "id": "2026-04-30-RCV-192343",
+    "date": "2026-04-30",
+    "title": "B10-0190/2026 – After § 3 – Am 3",
+    "result": "Rejected",
+    "for": 186,
+    "against": 326,
+    "abstention": 56,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "final"
+  },
+  {
+    "id": "2026-04-30-RCV-192344",
+    "date": "2026-04-30",
+    "title": "B10-0190/2026 – After § 10 – Am 7",
+    "result": "Rejected",
+    "for": 186,
+    "against": 383,
+    "abstention": 6,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "final"
+  },
+  {
+    "id": "2026-04-30-RCV-192348",
+    "date": "2026-04-30",
+    "title": "B10-0190/2026 – After § 14 – Am 6",
+    "result": "Adopted",
+    "for": 399,
+    "against": 104,
+    "abstention": 75,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "final"
+  },
+  {
+    "id": "2026-04-30-RCV-192352",
+    "date": "2026-04-30",
+    "title": "B10-0190/2026 – After § 30 – Am 13",
+    "result": "Rejected",
+    "for": 188,
+    "against": 394,
+    "abstention": 3,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "final"
+  },
+  {
+    "id": "2026-04-30-RCV-192353",
+    "date": "2026-04-30",
+    "title": "B10-0190/2026 – After § 30 – Am 14",
+    "result": "Rejected",
+    "for": 167,
+    "against": 375,
+    "abstention": 28,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "final"
+  },
+  {
+    "id": "2026-04-30-RCV-192322",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – After § 4 – Am 5",
+    "result": "Adopted",
+    "for": 262,
+    "against": 216,
+    "abstention": 91,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192323",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – After § 5 – Am 1",
+    "result": "Rejected",
+    "for": 116,
+    "against": 419,
+    "abstention": 38,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192325",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – After § 5 – Am 3",
+    "result": "Rejected",
+    "for": 74,
+    "against": 489,
+    "abstention": 15,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192329",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – § 11/2",
+    "result": "Adopted",
+    "for": 397,
+    "against": 117,
+    "abstention": 54,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192330",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – After § 11 – Am 4",
+    "result": "Adopted",
+    "for": 458,
+    "against": 22,
+    "abstention": 86,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192332",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – § 12/1",
+    "result": "Adopted",
+    "for": 439,
+    "against": 95,
+    "abstention": 36,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192335",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – § 15/1",
+    "result": "Adopted",
+    "for": 418,
+    "against": 129,
+    "abstention": 20,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192337",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – § 15/3",
+    "result": "Adopted",
+    "for": 394,
+    "against": 124,
+    "abstention": 48,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192340",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – § 22/2",
+    "result": "Adopted",
+    "for": 402,
+    "against": 112,
+    "abstention": 47,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192341",
+    "date": "2026-04-30",
+    "title": "RC-B10-0201/2026 – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "for": 446,
+    "against": 63,
+    "abstention": 52,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "final"
+  },
+  {
+    "id": "2026-04-30-RCV-192312",
+    "date": "2026-04-30",
+    "title": "RC-B10-0195/2026 – § 6/2",
+    "result": "Adopted",
+    "for": 458,
+    "against": 88,
+    "abstention": 22,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192316",
+    "date": "2026-04-30",
+    "title": "RC-B10-0195/2026 – § 8",
+    "result": "Adopted",
+    "for": 454,
+    "against": 90,
+    "abstention": 27,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192318",
+    "date": "2026-04-30",
+    "title": "RC-B10-0195/2026 – § 14/1",
+    "result": "Adopted",
+    "for": 522,
+    "against": 18,
+    "abstention": 29,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192319",
+    "date": "2026-04-30",
+    "title": "RC-B10-0195/2026 – § 14/2",
+    "result": "Adopted",
+    "for": 445,
+    "against": 98,
+    "abstention": 19,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192320",
+    "date": "2026-04-30",
+    "title": "RC-B10-0195/2026 – After § 15 – Am 5",
+    "result": "Rejected",
+    "for": 109,
+    "against": 446,
+    "abstention": 11,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192321",
+    "date": "2026-04-30",
+    "title": "RC-B10-0195/2026 – Motion for a resolution (as a whole)",
+    "result": "Adopted",
+    "for": 476,
+    "against": 47,
+    "abstention": 48,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "final"
+  },
+  {
+    "id": "2026-04-30-RCV-192298",
+    "date": "2026-04-30",
+    "title": "RC-B10-0206/2026 – § 7/2",
+    "result": "Adopted",
+    "for": 380,
+    "against": 173,
+    "abstention": 7,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192302",
+    "date": "2026-04-30",
+    "title": "RC-B10-0206/2026 – § 16",
+    "result": "Adopted",
+    "for": 330,
+    "against": 111,
+    "abstention": 117,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "2026-04-30-RCV-192305",
+    "date": "2026-04-30",
+    "title": "RC-B10-0206/2026 – Recital I/2",
+    "result": "Adopted",
+    "for": 378,
+    "against": 161,
+    "abstention": 12,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
     "id": "2026-04-29-RCV-191581",
     "date": "2026-04-29",
-    "title": "A10-0123/2026 - Juan Fernando López Aguilar - Projet de décision du Conseil",
+    "title": "A10-0123/2026 – Juan Fernando López Aguilar – Draft Council decision",
     "result": "Adopted",
     "for": 616,
     "against": 24,
     "abstention": 8,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-191450",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Après le § 3 - Am 9",
+    "title": "A10-0085/2026 – Daniel Freund – After § 3 – Am 9",
     "result": "Rejected",
     "for": 194,
     "against": 444,
@@ -26,7 +842,7 @@
   {
     "id": "2026-04-29-RCV-191451",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 6 - Am 31",
+    "title": "A10-0085/2026 – Daniel Freund – § 6 – Am 31",
     "result": "Rejected",
     "for": 212,
     "against": 437,
@@ -38,7 +854,7 @@
   {
     "id": "2026-04-29-RCV-191452",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Après le § 7 - Am 10",
+    "title": "A10-0085/2026 – Daniel Freund – After § 7 – Am 10",
     "result": "Rejected",
     "for": 200,
     "against": 433,
@@ -50,7 +866,7 @@
   {
     "id": "2026-04-29-RCV-191453",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Après le § 7 - Am 30",
+    "title": "A10-0085/2026 – Daniel Freund – After § 7 – Am 30",
     "result": "Rejected",
     "for": 225,
     "against": 420,
@@ -62,7 +878,7 @@
   {
     "id": "2026-04-29-RCV-191454",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 9 - Am 11",
+    "title": "A10-0085/2026 – Daniel Freund – § 9 – Am 11",
     "result": "Rejected",
     "for": 204,
     "against": 423,
@@ -74,7 +890,7 @@
   {
     "id": "2026-04-29-RCV-191455",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 9 - Am 36",
+    "title": "A10-0085/2026 – Daniel Freund – § 9 – Am 36",
     "result": "Rejected",
     "for": 214,
     "against": 378,
@@ -86,7 +902,7 @@
   {
     "id": "2026-04-29-RCV-191456",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Après le § 11 - Am 12",
+    "title": "A10-0085/2026 – Daniel Freund – After § 11 – Am 12",
     "result": "Rejected",
     "for": 175,
     "against": 446,
@@ -98,7 +914,7 @@
   {
     "id": "2026-04-29-RCV-191457",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 13 - Am 32",
+    "title": "A10-0085/2026 – Daniel Freund – § 13 – Am 32",
     "result": "Rejected",
     "for": 204,
     "against": 444,
@@ -110,7 +926,7 @@
   {
     "id": "2026-04-29-RCV-191458",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Après le § 13 - Am 13",
+    "title": "A10-0085/2026 – Daniel Freund – After § 13 – Am 13",
     "result": "Rejected",
     "for": 211,
     "against": 437,
@@ -122,7 +938,7 @@
   {
     "id": "2026-04-29-RCV-191459",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 14 - Am 3",
+    "title": "A10-0085/2026 – Daniel Freund – § 14 – Am 3",
     "result": "Rejected",
     "for": 179,
     "against": 464,
@@ -134,7 +950,7 @@
   {
     "id": "2026-04-29-RCV-191463",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Après le § 14 - Am 14",
+    "title": "A10-0085/2026 – Daniel Freund – After § 14 – Am 14",
     "result": "Rejected",
     "for": 200,
     "against": 439,
@@ -146,7 +962,7 @@
   {
     "id": "2026-04-29-RCV-191464",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Après le § 14 - Am 15",
+    "title": "A10-0085/2026 – Daniel Freund – After § 14 – Am 15",
     "result": "Rejected",
     "for": 203,
     "against": 442,
@@ -158,7 +974,7 @@
   {
     "id": "2026-04-29-RCV-191468",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Après le § 15 - Am 7",
+    "title": "A10-0085/2026 – Daniel Freund – After § 15 – Am 7",
     "result": "Rejected",
     "for": 217,
     "against": 433,
@@ -170,7 +986,7 @@
   {
     "id": "2026-04-29-RCV-191469",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Après le § 15 - Am 16",
+    "title": "A10-0085/2026 – Daniel Freund – After § 15 – Am 16",
     "result": "Rejected",
     "for": 194,
     "against": 451,
@@ -182,7 +998,7 @@
   {
     "id": "2026-04-29-RCV-191472",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 20, point vi - Am 47",
+    "title": "A10-0085/2026 – Daniel Freund – § 20, point vi – Am 47",
     "result": "Rejected",
     "for": 199,
     "against": 448,
@@ -194,7 +1010,7 @@
   {
     "id": "2026-04-29-RCV-191473",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 20, point vii - Am 48",
+    "title": "A10-0085/2026 – Daniel Freund – § 20, point vii – Am 48",
     "result": "Rejected",
     "for": 238,
     "against": 409,
@@ -206,7 +1022,7 @@
   {
     "id": "2026-04-29-RCV-191474",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 20, point x - Am 49",
+    "title": "A10-0085/2026 – Daniel Freund – § 20, point x – Am 49",
     "result": "Rejected",
     "for": 209,
     "against": 430,
@@ -218,7 +1034,7 @@
   {
     "id": "2026-04-29-RCV-191477",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 46/2",
+    "title": "A10-0085/2026 – Daniel Freund – § 46/2",
     "result": "Adopted",
     "for": 364,
     "against": 262,
@@ -230,7 +1046,7 @@
   {
     "id": "2026-04-29-RCV-191478",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Après le § 47 - Am 25",
+    "title": "A10-0085/2026 – Daniel Freund – After § 47 – Am 25",
     "result": "Rejected",
     "for": 142,
     "against": 494,
@@ -242,7 +1058,7 @@
   {
     "id": "2026-04-29-RCV-191479",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 56",
+    "title": "A10-0085/2026 – Daniel Freund – § 56",
     "result": "Adopted",
     "for": 367,
     "against": 265,
@@ -254,7 +1070,7 @@
   {
     "id": "2026-04-29-RCV-191480",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 68 - Am 35",
+    "title": "A10-0085/2026 – Daniel Freund – § 68 – Am 35",
     "result": "Rejected",
     "for": 154,
     "against": 455,
@@ -266,7 +1082,7 @@
   {
     "id": "2026-04-29-RCV-191481",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Après le § 81 - Am 17",
+    "title": "A10-0085/2026 – Daniel Freund – After § 81 – Am 17",
     "result": "Rejected",
     "for": 190,
     "against": 443,
@@ -278,7 +1094,7 @@
   {
     "id": "2026-04-29-RCV-191482",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Après le § 86 - Am 18",
+    "title": "A10-0085/2026 – Daniel Freund – After § 86 – Am 18",
     "result": "Rejected",
     "for": 205,
     "against": 441,
@@ -290,7 +1106,7 @@
   {
     "id": "2026-04-29-RCV-191501",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Après le § 108 - Am 37",
+    "title": "A10-0085/2026 – Daniel Freund – After § 108 – Am 37",
     "result": "Rejected",
     "for": 198,
     "against": 440,
@@ -302,7 +1118,7 @@
   {
     "id": "2026-04-29-RCV-191507",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 117 - Am 50",
+    "title": "A10-0085/2026 – Daniel Freund – § 117 – Am 50",
     "result": "Rejected",
     "for": 198,
     "against": 445,
@@ -314,7 +1130,7 @@
   {
     "id": "2026-04-29-RCV-191511",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 120, après le point vii - Am 39",
+    "title": "A10-0085/2026 – Daniel Freund – § 120, after point vii – Am 39",
     "result": "Rejected",
     "for": 198,
     "against": 441,
@@ -326,7 +1142,7 @@
   {
     "id": "2026-04-29-RCV-191513",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 160, après le point vii - Am 40",
+    "title": "A10-0085/2026 – Daniel Freund – § 160, after point vii – Am 40",
     "result": "Adopted",
     "for": 362,
     "against": 269,
@@ -338,7 +1154,7 @@
   {
     "id": "2026-04-29-RCV-191514",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 171 - Am 51",
+    "title": "A10-0085/2026 – Daniel Freund – § 171 – Am 51",
     "result": "Rejected",
     "for": 268,
     "against": 373,
@@ -350,7 +1166,7 @@
   {
     "id": "2026-04-29-RCV-191515",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Après le § 172 - Am 52",
+    "title": "A10-0085/2026 – Daniel Freund – After § 172 – Am 52",
     "result": "Adopted",
     "for": 355,
     "against": 263,
@@ -362,7 +1178,7 @@
   {
     "id": "2026-04-29-RCV-191516",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 173 - Am 53",
+    "title": "A10-0085/2026 – Daniel Freund – § 173 – Am 53",
     "result": "Rejected",
     "for": 237,
     "against": 405,
@@ -374,7 +1190,7 @@
   {
     "id": "2026-04-29-RCV-191519",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 177, point vii/2",
+    "title": "A10-0085/2026 – Daniel Freund – § 177, point vii/2",
     "result": "Adopted",
     "for": 446,
     "against": 193,
@@ -386,7 +1202,7 @@
   {
     "id": "2026-04-29-RCV-191522",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 202 - Am 56",
+    "title": "A10-0085/2026 – Daniel Freund – § 202 – Am 56",
     "result": "Rejected",
     "for": 164,
     "against": 409,
@@ -398,7 +1214,7 @@
   {
     "id": "2026-04-29-RCV-191530",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Après le § 226 - Am 20",
+    "title": "A10-0085/2026 – Daniel Freund – After § 226 – Am 20",
     "result": "Rejected",
     "for": 199,
     "against": 402,
@@ -410,7 +1226,7 @@
   {
     "id": "2026-04-29-RCV-191531",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Après le § 237 - Am 21",
+    "title": "A10-0085/2026 – Daniel Freund – After § 237 – Am 21",
     "result": "Rejected",
     "for": 200,
     "against": 440,
@@ -422,7 +1238,7 @@
   {
     "id": "2026-04-29-RCV-191532",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 247, après le point iv - Am 28",
+    "title": "A10-0085/2026 – Daniel Freund – § 247, after point iv – Am 28",
     "result": "Rejected",
     "for": 179,
     "against": 384,
@@ -434,7 +1250,7 @@
   {
     "id": "2026-04-29-RCV-191533",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - § 253 - Am 45S",
+    "title": "A10-0085/2026 – Daniel Freund – § 253 – Am 45D",
     "result": "Rejected",
     "for": 187,
     "against": 453,
@@ -446,7 +1262,7 @@
   {
     "id": "2026-04-29-RCV-191534",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Après le § 253 - Am 46",
+    "title": "A10-0085/2026 – Daniel Freund – After § 253 – Am 46",
     "result": "Rejected",
     "for": 196,
     "against": 441,
@@ -458,19 +1274,19 @@
   {
     "id": "2026-04-29-RCV-190729",
     "date": "2026-04-29",
-    "title": "A10-0085/2026 - Daniel Freund - Proposition de résolution (ensemble du texte)",
+    "title": "A10-0085/2026 – Daniel Freund – Motion for a resolution (as a whole)",
     "result": "Adopted",
     "for": 418,
     "against": 207,
     "abstention": 14,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-191322",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - Après le § 1 - Am 27",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – After § 1 – Am 27",
     "result": "Rejected",
     "for": 138,
     "against": 443,
@@ -482,7 +1298,7 @@
   {
     "id": "2026-04-29-RCV-191323",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - Après le § 7 - Am 29",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – After § 7 – Am 29",
     "result": "Rejected",
     "for": 199,
     "against": 451,
@@ -494,7 +1310,7 @@
   {
     "id": "2026-04-29-RCV-191324",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - § 11 - Am 31",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – § 11 – Am 31",
     "result": "Rejected",
     "for": 130,
     "against": 447,
@@ -506,7 +1322,7 @@
   {
     "id": "2026-04-29-RCV-191325",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - § 12 - Am 32",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – § 12 – Am 32",
     "result": "Rejected",
     "for": 133,
     "against": 445,
@@ -518,7 +1334,7 @@
   {
     "id": "2026-04-29-RCV-191330",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - § 21/1",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – § 21/1",
     "result": "Adopted",
     "for": 513,
     "against": 135,
@@ -530,7 +1346,7 @@
   {
     "id": "2026-04-29-RCV-191331",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - § 21/2",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – § 21/2",
     "result": "Adopted",
     "for": 527,
     "against": 115,
@@ -542,7 +1358,7 @@
   {
     "id": "2026-04-29-RCV-191333",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - § 29 - Am 35",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – § 29 – Am 35",
     "result": "Rejected",
     "for": 206,
     "against": 438,
@@ -554,7 +1370,7 @@
   {
     "id": "2026-04-29-RCV-191337",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - Après le § 31 - Am 38",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – After § 31 – Am 38",
     "result": "Rejected",
     "for": 212,
     "against": 442,
@@ -566,7 +1382,7 @@
   {
     "id": "2026-04-29-RCV-191343",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - § 43 - Am 39",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – § 43 – Am 39",
     "result": "Rejected",
     "for": 196,
     "against": 440,
@@ -578,7 +1394,7 @@
   {
     "id": "2026-04-29-RCV-191344",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - § 44 - Am 15",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – § 44 – Am 15",
     "result": "Rejected",
     "for": 306,
     "against": 323,
@@ -590,7 +1406,7 @@
   {
     "id": "2026-04-29-RCV-191345",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - Après le § 46 - Am 40",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – After § 46 – Am 40",
     "result": "Rejected",
     "for": 205,
     "against": 439,
@@ -602,7 +1418,7 @@
   {
     "id": "2026-04-29-RCV-191349",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - § 53 - Am 41",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – § 53 – Am 41",
     "result": "Rejected",
     "for": 201,
     "against": 444,
@@ -614,7 +1430,7 @@
   {
     "id": "2026-04-29-RCV-191353",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - Après le § 58 - Am 43",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – After § 58 – Am 43",
     "result": "Rejected",
     "for": 201,
     "against": 419,
@@ -626,7 +1442,7 @@
   {
     "id": "2026-04-29-RCV-191365",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - § 75 - Am 14",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – § 75 – Am 14",
     "result": "Rejected",
     "for": 251,
     "against": 304,
@@ -638,7 +1454,7 @@
   {
     "id": "2026-04-29-RCV-191366",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - § 80 - Am 46",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – § 80 – Am 46",
     "result": "Rejected",
     "for": 147,
     "against": 494,
@@ -650,7 +1466,7 @@
   {
     "id": "2026-04-29-RCV-191368",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - Après le § 81 - Am 47",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – After § 81 – Am 47",
     "result": "Rejected",
     "for": 158,
     "against": 438,
@@ -662,7 +1478,7 @@
   {
     "id": "2026-04-29-RCV-191369",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - § 82 - Am 48",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – § 82 – Am 48",
     "result": "Rejected",
     "for": 202,
     "against": 438,
@@ -674,7 +1490,7 @@
   {
     "id": "2026-04-29-RCV-191370",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - Après le § 94 - Am 53",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – After § 94 – Am 53",
     "result": "Rejected",
     "for": 202,
     "against": 430,
@@ -686,7 +1502,7 @@
   {
     "id": "2026-04-29-RCV-191375",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - § 122 - Am 26",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – § 122 – Am 26",
     "result": "Rejected",
     "for": 215,
     "against": 426,
@@ -698,7 +1514,7 @@
   {
     "id": "2026-04-29-RCV-191379",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - § 123 - Am 13S",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – § 123 – Am 13D",
     "result": "Rejected",
     "for": 275,
     "against": 374,
@@ -710,7 +1526,7 @@
   {
     "id": "2026-04-29-RCV-191384",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - § 138 - Am 22",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – § 138 – Am 22",
     "result": "Rejected",
     "for": 289,
     "against": 349,
@@ -722,7 +1538,7 @@
   {
     "id": "2026-04-29-RCV-191386",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - § 138/1",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – § 138/1",
     "result": "Adopted",
     "for": 462,
     "against": 159,
@@ -734,7 +1550,7 @@
   {
     "id": "2026-04-29-RCV-191387",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - § 138/2",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – § 138/2",
     "result": "Adopted",
     "for": 444,
     "against": 131,
@@ -746,7 +1562,7 @@
   {
     "id": "2026-04-29-RCV-191391",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - § 146 - Am 57",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – § 146 – Am 57",
     "result": "Rejected",
     "for": 177,
     "against": 435,
@@ -758,7 +1574,7 @@
   {
     "id": "2026-04-29-RCV-191392",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - Après le § 149 - Am 58",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – After § 149 – Am 58",
     "result": "Rejected",
     "for": 203,
     "against": 442,
@@ -770,19 +1586,19 @@
   {
     "id": "2026-04-29-RCV-190656",
     "date": "2026-04-29",
-    "title": "A10-0081/2026 - Gerben-Jan Gerbrandy - Proposition de résolution (ensemble du texte)",
+    "title": "A10-0081/2026 – Gerben-Jan Gerbrandy – Motion for a resolution (as a whole)",
     "result": "Adopted",
     "for": 441,
     "against": 131,
     "abstention": 81,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-191274",
     "date": "2026-04-29",
-    "title": "A10-0051/2026 - Pasquale Tridico - § 30 - Am 2",
+    "title": "A10-0051/2026 – Pasquale Tridico – § 30 – Am 2",
     "result": "Rejected",
     "for": 219,
     "against": 417,
@@ -794,7 +1610,7 @@
   {
     "id": "2026-04-29-RCV-191275",
     "date": "2026-04-29",
-    "title": "A10-0051/2026 - Pasquale Tridico - § 30 - Am 6",
+    "title": "A10-0051/2026 – Pasquale Tridico – § 30 – Am 6",
     "result": "Rejected",
     "for": 274,
     "against": 365,
@@ -806,7 +1622,7 @@
   {
     "id": "2026-04-29-RCV-191276",
     "date": "2026-04-29",
-    "title": "A10-0051/2026 - Pasquale Tridico - § 30",
+    "title": "A10-0051/2026 – Pasquale Tridico – § 30",
     "result": "Adopted",
     "for": 329,
     "against": 286,
@@ -818,19 +1634,19 @@
   {
     "id": "2026-04-29-RCV-190183",
     "date": "2026-04-29",
-    "title": "A10-0051/2026 - Pasquale Tridico - Proposition de résolution (ensemble du texte)",
+    "title": "A10-0051/2026 – Pasquale Tridico – Motion for a resolution (as a whole)",
     "result": "Adopted",
     "for": 432,
     "against": 160,
     "abstention": 65,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-191287",
     "date": "2026-04-29",
-    "title": "A10-0055/2026 - Pasquale Tridico - § 5 - Am 2",
+    "title": "A10-0055/2026 – Pasquale Tridico – § 5 – Am 2",
     "result": "Rejected",
     "for": 205,
     "against": 443,
@@ -842,7 +1658,7 @@
   {
     "id": "2026-04-29-RCV-191288",
     "date": "2026-04-29",
-    "title": "A10-0055/2026 - Pasquale Tridico - § 41 - Am 3",
+    "title": "A10-0055/2026 – Pasquale Tridico – § 41 – Am 3",
     "result": "Rejected",
     "for": 193,
     "against": 450,
@@ -854,43 +1670,43 @@
   {
     "id": "2026-04-29-RCV-191289",
     "date": "2026-04-29",
-    "title": "A10-0055/2026 - Pasquale Tridico - Considérant C - Am 1",
+    "title": "A10-0055/2026 – Pasquale Tridico – Recital C – Am 1",
     "result": "Rejected",
     "for": 210,
     "against": 432,
     "abstention": 11,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191290",
     "date": "2026-04-29",
-    "title": "A10-0055/2026 - Pasquale Tridico - Considérant C - Am 4",
+    "title": "A10-0055/2026 – Pasquale Tridico – Recital C – Am 4",
     "result": "Rejected",
     "for": 210,
     "against": 432,
     "abstention": 3,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-190196",
     "date": "2026-04-29",
-    "title": "A10-0055/2026 - Pasquale Tridico - Proposition de résolution (ensemble du texte)",
+    "title": "A10-0055/2026 – Pasquale Tridico – Motion for a resolution (as a whole)",
     "result": "Adopted",
     "for": 526,
     "against": 79,
     "abstention": 47,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-191436",
     "date": "2026-04-29",
-    "title": "A10-0052/2026 - Pasquale Tridico - Après le § 15 - Am 7/1",
+    "title": "A10-0052/2026 – Pasquale Tridico – After § 15 – Am 7/1",
     "result": "Adopted",
     "for": 529,
     "against": 105,
@@ -902,7 +1718,7 @@
   {
     "id": "2026-04-29-RCV-191437",
     "date": "2026-04-29",
-    "title": "A10-0052/2026 - Pasquale Tridico - Après le § 15 - Am 7/2",
+    "title": "A10-0052/2026 – Pasquale Tridico – After § 15 – Am 7/2",
     "result": "Adopted",
     "for": 350,
     "against": 269,
@@ -914,19 +1730,19 @@
   {
     "id": "2026-04-29-RCV-190380",
     "date": "2026-04-29",
-    "title": "A10-0052/2026 - Pasquale Tridico - Proposition de résolution (ensemble du texte)",
+    "title": "A10-0052/2026 – Pasquale Tridico – Motion for a resolution (as a whole)",
     "result": "Adopted",
     "for": 343,
     "against": 160,
     "abstention": 150,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-191295",
     "date": "2026-04-29",
-    "title": "A10-0053/2026 - Pasquale Tridico - Après le § 26 - Am 8",
+    "title": "A10-0053/2026 – Pasquale Tridico – After § 26 – Am 8",
     "result": "Rejected",
     "for": 164,
     "against": 389,
@@ -938,7 +1754,7 @@
   {
     "id": "2026-04-29-RCV-191299",
     "date": "2026-04-29",
-    "title": "A10-0053/2026 - Pasquale Tridico - Après le § 27 - Am 9",
+    "title": "A10-0053/2026 – Pasquale Tridico – After § 27 – Am 9",
     "result": "Rejected",
     "for": 228,
     "against": 264,
@@ -950,7 +1766,7 @@
   {
     "id": "2026-04-29-RCV-191300",
     "date": "2026-04-29",
-    "title": "A10-0053/2026 - Pasquale Tridico - Après le § 27 - Am 10",
+    "title": "A10-0053/2026 – Pasquale Tridico – After § 27 – Am 10",
     "result": "Rejected",
     "for": 211,
     "against": 431,
@@ -962,7 +1778,7 @@
   {
     "id": "2026-04-29-RCV-191307",
     "date": "2026-04-29",
-    "title": "A10-0053/2026 - Pasquale Tridico - § 33 - Am 1",
+    "title": "A10-0053/2026 – Pasquale Tridico – § 33 – Am 1",
     "result": "Rejected",
     "for": 219,
     "against": 418,
@@ -974,7 +1790,7 @@
   {
     "id": "2026-04-29-RCV-191310",
     "date": "2026-04-29",
-    "title": "A10-0053/2026 - Pasquale Tridico - § 71",
+    "title": "A10-0053/2026 – Pasquale Tridico – § 71",
     "result": "Adopted",
     "for": 458,
     "against": 178,
@@ -986,55 +1802,55 @@
   {
     "id": "2026-04-29-RCV-190396",
     "date": "2026-04-29",
-    "title": "A10-0053/2026 - Pasquale Tridico - Proposition de résolution (ensemble du texte)",
+    "title": "A10-0053/2026 – Pasquale Tridico – Motion for a resolution (as a whole)",
     "result": "Adopted",
     "for": 429,
     "against": 145,
     "abstention": 76,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-190203",
     "date": "2026-04-29",
-    "title": "A10-0059/2026 - Pasquale Tridico - Proposition de résolution (ensemble du texte)",
+    "title": "A10-0059/2026 – Pasquale Tridico – Motion for a resolution (as a whole)",
     "result": "Adopted",
     "for": 478,
     "against": 146,
     "abstention": 27,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-190292",
     "date": "2026-04-29",
-    "title": "A10-0056/2026 - Pasquale Tridico - Proposition de résolution (ensemble du texte)",
+    "title": "A10-0056/2026 – Pasquale Tridico – Motion for a resolution (as a whole)",
     "result": "Adopted",
     "for": 567,
     "against": 70,
     "abstention": 13,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-190343",
     "date": "2026-04-29",
-    "title": "A10-0054/2026 - Pasquale Tridico - Proposition de résolution (ensemble du texte)",
+    "title": "A10-0054/2026 – Pasquale Tridico – Motion for a resolution (as a whole)",
     "result": "Adopted",
     "for": 593,
     "against": 14,
     "abstention": 45,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-191398",
     "date": "2026-04-29",
-    "title": "A10-0057/2026 - Pasquale Tridico - Après le § 20 - Am 2",
+    "title": "A10-0057/2026 – Pasquale Tridico – After § 20 – Am 2",
     "result": "Rejected",
     "for": 217,
     "against": 425,
@@ -1046,19 +1862,19 @@
   {
     "id": "2026-04-29-RCV-190402",
     "date": "2026-04-29",
-    "title": "A10-0057/2026 - Pasquale Tridico - Proposition de résolution (ensemble du texte)",
+    "title": "A10-0057/2026 – Pasquale Tridico – Motion for a resolution (as a whole)",
     "result": "Adopted",
     "for": 528,
     "against": 59,
     "abstention": 62,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-191313",
     "date": "2026-04-29",
-    "title": "A10-0050/2026 - Pasquale Tridico - Après le § 63 - Am 2",
+    "title": "A10-0050/2026 – Pasquale Tridico – After § 63 – Am 2",
     "result": "Rejected",
     "for": 206,
     "against": 272,
@@ -1070,19 +1886,19 @@
   {
     "id": "2026-04-29-RCV-190339",
     "date": "2026-04-29",
-    "title": "A10-0050/2026 - Pasquale Tridico - Proposition de résolution (ensemble du texte)",
+    "title": "A10-0050/2026 – Pasquale Tridico – Motion for a resolution (as a whole)",
     "result": "Adopted",
     "for": 454,
     "against": 161,
     "abstention": 29,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-191550",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - Après le § 1 - Am 43",
+    "title": "A10-0087/2026 – Monika Hohlmeier – After § 1 – Am 43",
     "result": "Rejected",
     "for": 219,
     "against": 412,
@@ -1094,7 +1910,7 @@
   {
     "id": "2026-04-29-RCV-191553",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - § 2/2",
+    "title": "A10-0087/2026 – Monika Hohlmeier – § 2/2",
     "result": "Adopted",
     "for": 591,
     "against": 8,
@@ -1106,7 +1922,7 @@
   {
     "id": "2026-04-29-RCV-191554",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - Après le § 2 - Am 25",
+    "title": "A10-0087/2026 – Monika Hohlmeier – After § 2 – Am 25",
     "result": "Rejected",
     "for": 186,
     "against": 434,
@@ -1118,7 +1934,7 @@
   {
     "id": "2026-04-29-RCV-191555",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - § 11 - Am 9",
+    "title": "A10-0087/2026 – Monika Hohlmeier – § 11 – Am 9",
     "result": "Rejected",
     "for": 159,
     "against": 426,
@@ -1130,7 +1946,7 @@
   {
     "id": "2026-04-29-RCV-191559",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - § 12 - Am 10",
+    "title": "A10-0087/2026 – Monika Hohlmeier – § 12 – Am 10",
     "result": "Rejected",
     "for": 209,
     "against": 432,
@@ -1142,7 +1958,7 @@
   {
     "id": "2026-04-29-RCV-191560",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - Après le § 13 - Am 26",
+    "title": "A10-0087/2026 – Monika Hohlmeier – After § 13 – Am 26",
     "result": "Rejected",
     "for": 205,
     "against": 436,
@@ -1154,7 +1970,7 @@
   {
     "id": "2026-04-29-RCV-191561",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - § 19 - Am 12",
+    "title": "A10-0087/2026 – Monika Hohlmeier – § 19 – Am 12",
     "result": "Rejected",
     "for": 199,
     "against": 429,
@@ -1166,7 +1982,7 @@
   {
     "id": "2026-04-29-RCV-191562",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - Après le § 19 - Am 27",
+    "title": "A10-0087/2026 – Monika Hohlmeier – After § 19 – Am 27",
     "result": "Rejected",
     "for": 200,
     "against": 432,
@@ -1178,7 +1994,7 @@
   {
     "id": "2026-04-29-RCV-191563",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - Après le § 19 - Am 28",
+    "title": "A10-0087/2026 – Monika Hohlmeier – After § 19 – Am 28",
     "result": "Rejected",
     "for": 203,
     "against": 434,
@@ -1190,7 +2006,7 @@
   {
     "id": "2026-04-29-RCV-191564",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - § 22 - Am 13",
+    "title": "A10-0087/2026 – Monika Hohlmeier – § 22 – Am 13",
     "result": "Rejected",
     "for": 209,
     "against": 433,
@@ -1202,7 +2018,7 @@
   {
     "id": "2026-04-29-RCV-191565",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - § 24 - Am 44",
+    "title": "A10-0087/2026 – Monika Hohlmeier – § 24 – Am 44",
     "result": "Adopted",
     "for": 368,
     "against": 233,
@@ -1214,7 +2030,7 @@
   {
     "id": "2026-04-29-RCV-191566",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - § 33 - Am 45",
+    "title": "A10-0087/2026 – Monika Hohlmeier – § 33 – Am 45",
     "result": "Rejected",
     "for": 238,
     "against": 398,
@@ -1226,7 +2042,7 @@
   {
     "id": "2026-04-29-RCV-191567",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - Après le § 33 - Am 46",
+    "title": "A10-0087/2026 – Monika Hohlmeier – After § 33 – Am 46",
     "result": "Rejected",
     "for": 238,
     "against": 400,
@@ -1238,7 +2054,7 @@
   {
     "id": "2026-04-29-RCV-191568",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - Après le § 33 - Am 47",
+    "title": "A10-0087/2026 – Monika Hohlmeier – After § 33 – Am 47",
     "result": "Rejected",
     "for": 203,
     "against": 425,
@@ -1250,7 +2066,7 @@
   {
     "id": "2026-04-29-RCV-191569",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - Après le § 43 - Am 15",
+    "title": "A10-0087/2026 – Monika Hohlmeier – After § 43 – Am 15",
     "result": "Rejected",
     "for": 198,
     "against": 438,
@@ -1262,7 +2078,7 @@
   {
     "id": "2026-04-29-RCV-191570",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - § 48 - Am 16",
+    "title": "A10-0087/2026 – Monika Hohlmeier – § 48 – Am 16",
     "result": "Rejected",
     "for": 198,
     "against": 417,
@@ -1274,7 +2090,7 @@
   {
     "id": "2026-04-29-RCV-191577",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - Après le § 110 - Am 20",
+    "title": "A10-0087/2026 – Monika Hohlmeier – After § 110 – Am 20",
     "result": "Rejected",
     "for": 107,
     "against": 482,
@@ -1286,43 +2102,43 @@
   {
     "id": "2026-04-29-RCV-190847",
     "date": "2026-04-29",
-    "title": "A10-0087/2026 - Monika Hohlmeier - Proposition de résolution (ensemble du texte)",
+    "title": "A10-0087/2026 – Monika Hohlmeier – Motion for a resolution (as a whole)",
     "result": "Adopted",
     "for": 475,
     "against": 107,
     "abstention": 71,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-190369",
     "date": "2026-04-29",
-    "title": "A10-0046/2026 - Csaba Molnár - Proposition de résolution",
+    "title": "A10-0046/2026 – Csaba Molnár – Motion for a resolution",
     "result": "Adopted",
     "for": 525,
     "against": 104,
     "abstention": 16,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-191240",
     "date": "2026-04-29",
-    "title": "A10-0104/2026 - Dimitris Tsiodras, Piotr Müller - Proposition de rejet - Am 90",
+    "title": "A10-0104/2026 – Dimitris Tsiodras, Piotr Müller – Proposal for rejection – Am 90",
     "result": "Rejected",
     "for": 99,
     "against": 539,
     "abstention": 6,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "procedural"
   },
   {
     "id": "2026-04-29-RCV-191854",
     "date": "2026-04-29",
-    "title": "A10-0104/2026 - Dimitris Tsiodras, Piotr Müller - Article 2, avant le § 1 - Am 116",
+    "title": "A10-0104/2026 – Dimitris Tsiodras, Piotr Müller – Article 2, before § 1 – Am 116",
     "result": "Rejected",
     "for": 251,
     "against": 269,
@@ -1334,7 +2150,7 @@
   {
     "id": "2026-04-29-RCV-191243",
     "date": "2026-04-29",
-    "title": "A10-0104/2026 - Dimitris Tsiodras, Piotr Müller - Article 2, alinéa 1, point 2, sous-point a, après le sous-point i - Am 117",
+    "title": "A10-0104/2026 – Dimitris Tsiodras, Piotr Müller – Article 2, § 1, point 2, point a, point i – Am 117",
     "result": "Rejected",
     "for": 250,
     "against": 253,
@@ -1346,7 +2162,7 @@
   {
     "id": "2026-04-29-RCV-191244",
     "date": "2026-04-29",
-    "title": "A10-0104/2026 - Dimitris Tsiodras, Piotr Müller - Article 2, alinéa 1, point 2, sous-point a, après le sous-point i - Am 104",
+    "title": "A10-0104/2026 – Dimitris Tsiodras, Piotr Müller – Article 2, § 1, point 2, point a, point i – Am 104",
     "result": "Rejected",
     "for": 219,
     "against": 276,
@@ -1358,7 +2174,7 @@
   {
     "id": "2026-04-29-RCV-191245",
     "date": "2026-04-29",
-    "title": "A10-0104/2026 - Dimitris Tsiodras, Piotr Müller - Article 2, alinéa 1, point 2, sous-point a - Am 95",
+    "title": "A10-0104/2026 – Dimitris Tsiodras, Piotr Müller – Article 2, § 1, point 2, point a – Am 95",
     "result": "Rejected",
     "for": 209,
     "against": 282,
@@ -1370,7 +2186,7 @@
   {
     "id": "2026-04-29-RCV-191247",
     "date": "2026-04-29",
-    "title": "A10-0104/2026 - Dimitris Tsiodras, Piotr Müller - Article 2, alinéa 1, point 2, sous-point b - Am 96",
+    "title": "A10-0104/2026 – Dimitris Tsiodras, Piotr Müller – Article 2, § 1, point 2, point b – Am 96",
     "result": "Rejected",
     "for": 166,
     "against": 302,
@@ -1382,7 +2198,7 @@
   {
     "id": "2026-04-29-RCV-191248",
     "date": "2026-04-29",
-    "title": "A10-0104/2026 - Dimitris Tsiodras, Piotr Müller - Article 2, alinéa 1, point 2, sous-point b - Am 105",
+    "title": "A10-0104/2026 – Dimitris Tsiodras, Piotr Müller – Article 2, § 1, point 2, point b – Am 105",
     "result": "Rejected",
     "for": 144,
     "against": 384,
@@ -1394,7 +2210,7 @@
   {
     "id": "2026-04-29-RCV-191249",
     "date": "2026-04-29",
-    "title": "A10-0104/2026 - Dimitris Tsiodras, Piotr Müller - Article 2, alinéa 1, point 2, sous-point b - Am 97",
+    "title": "A10-0104/2026 – Dimitris Tsiodras, Piotr Müller – Article 2, § 1, point 2, point b – Am 97",
     "result": "Rejected",
     "for": 123,
     "against": 506,
@@ -1406,7 +2222,7 @@
   {
     "id": "2026-04-29-RCV-191250",
     "date": "2026-04-29",
-    "title": "A10-0104/2026 - Dimitris Tsiodras, Piotr Müller - Article 2, alinéa 1, après le point 2 - Am 101",
+    "title": "A10-0104/2026 – Dimitris Tsiodras, Piotr Müller – Article 2, § 1, after point 2 – Am 101",
     "result": "Rejected",
     "for": 208,
     "against": 323,
@@ -1418,115 +2234,115 @@
   {
     "id": "2026-04-29-RCV-191251",
     "date": "2026-04-29",
-    "title": "A10-0104/2026 - Dimitris Tsiodras, Piotr Müller - Après le considérant 2 - Am 98",
+    "title": "A10-0104/2026 – Dimitris Tsiodras, Piotr Müller – After recital 2 – Am 98",
     "result": "Rejected",
     "for": 211,
     "against": 422,
     "abstention": 17,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191252",
     "date": "2026-04-29",
-    "title": "A10-0104/2026 - Dimitris Tsiodras, Piotr Müller - Après le considérant 15 - Am 91",
+    "title": "A10-0104/2026 – Dimitris Tsiodras, Piotr Müller – After recital 15 – Am 91",
     "result": "Rejected",
     "for": 151,
     "against": 415,
     "abstention": 69,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191253",
     "date": "2026-04-29",
-    "title": "A10-0104/2026 - Dimitris Tsiodras, Piotr Müller - Après le considérant 15 - Am 92",
+    "title": "A10-0104/2026 – Dimitris Tsiodras, Piotr Müller – After recital 15 – Am 92",
     "result": "Rejected",
     "for": 202,
     "against": 279,
     "abstention": 160,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191254",
     "date": "2026-04-29",
-    "title": "A10-0104/2026 - Dimitris Tsiodras, Piotr Müller - Considérant 22 - Am 93",
+    "title": "A10-0104/2026 – Dimitris Tsiodras, Piotr Müller – Recital 22 – Am 93",
     "result": "Rejected",
     "for": 124,
     "against": 398,
     "abstention": 118,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191255",
     "date": "2026-04-29",
-    "title": "A10-0104/2026 - Dimitris Tsiodras, Piotr Müller - Après le considérant 22 - Am 114= 100=",
+    "title": "A10-0104/2026 – Dimitris Tsiodras, Piotr Müller – After recital 22 – Am 114= 100=",
     "result": "Rejected",
     "for": 230,
     "against": 304,
     "abstention": 113,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-190979",
     "date": "2026-04-29",
-    "title": "A10-0104/2026 - Dimitris Tsiodras, Piotr Müller - Proposition de la Commission",
+    "title": "A10-0104/2026 – Dimitris Tsiodras, Piotr Müller – Commission proposal",
     "result": "Adopted",
     "for": 540,
     "against": 60,
     "abstention": 45,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191536",
     "date": "2026-04-29",
-    "title": "A10-0098/2026 - Danuše Nerudová - Amendements de la commission compétente - votes séparés - Am 1",
+    "title": "A10-0098/2026 – Danuše Nerudová – Amendments by the committee responsible – separate votes – Am 1",
     "result": "Adopted",
     "for": 428,
     "against": 186,
     "abstention": 29,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191537",
     "date": "2026-04-29",
-    "title": "A10-0098/2026 - Danuše Nerudová - Amendements de la commission compétente - votes séparés - Am 4",
+    "title": "A10-0098/2026 – Danuše Nerudová – Amendments by the committee responsible – separate votes – Am 4",
     "result": "Adopted",
     "for": 404,
     "against": 202,
     "abstention": 31,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191538",
     "date": "2026-04-29",
-    "title": "A10-0098/2026 - Danuše Nerudová - Amendements de la commission compétente - votes séparés - Am 8",
+    "title": "A10-0098/2026 – Danuše Nerudová – Amendments by the committee responsible – separate votes – Am 8",
     "result": "Adopted",
     "for": 361,
     "against": 242,
     "abstention": 36,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191542",
     "date": "2026-04-29",
-    "title": "A10-0098/2026 - Danuše Nerudová - Article 1, § 1, point 4 - Am 25",
+    "title": "A10-0098/2026 – Danuše Nerudová – Article 1, § 1, point 4 – Am 25",
     "result": "Rejected",
     "for": 236,
     "against": 400,
@@ -1538,7 +2354,7 @@
   {
     "id": "2026-04-29-RCV-191543",
     "date": "2026-04-29",
-    "title": "A10-0098/2026 - Danuše Nerudová - Après l'article 1 - Am 20",
+    "title": "A10-0098/2026 – Danuše Nerudová – After Article 1 – Am 20",
     "result": "Rejected",
     "for": 212,
     "against": 418,
@@ -1550,7 +2366,7 @@
   {
     "id": "2026-04-29-RCV-191544",
     "date": "2026-04-29",
-    "title": "A10-0098/2026 - Danuše Nerudová - Après l'article 1 - Am 26",
+    "title": "A10-0098/2026 – Danuše Nerudová – After Article 1 – Am 26",
     "result": "Rejected",
     "for": 242,
     "against": 382,
@@ -1562,7 +2378,7 @@
   {
     "id": "2026-04-29-RCV-191926",
     "date": "2026-04-29",
-    "title": "A10-0098/2026 - Danuše Nerudová - Après l'article 1 - Am 27",
+    "title": "A10-0098/2026 – Danuše Nerudová – After Article 1 – Am 27",
     "result": "Rejected",
     "for": 261,
     "against": 379,
@@ -1574,139 +2390,139 @@
   {
     "id": "2026-04-29-RCV-191546",
     "date": "2026-04-29",
-    "title": "A10-0098/2026 - Danuše Nerudová - Après le considérant 6 - Am 17",
+    "title": "A10-0098/2026 – Danuše Nerudová – After recital 6 – Am 17",
     "result": "Rejected",
     "for": 218,
     "against": 419,
     "abstention": 9,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191547",
     "date": "2026-04-29",
-    "title": "A10-0098/2026 - Danuše Nerudová - Après le considérant 6 - Am 23",
+    "title": "A10-0098/2026 – Danuše Nerudová – After recital 6 – Am 23",
     "result": "Rejected",
     "for": 236,
     "against": 397,
     "abstention": 14,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191548",
     "date": "2026-04-29",
-    "title": "A10-0098/2026 - Danuše Nerudová - Après le considérant 6 - Am 24",
+    "title": "A10-0098/2026 – Danuše Nerudová – After recital 6 – Am 24",
     "result": "Rejected",
     "for": 236,
     "against": 392,
     "abstention": 14,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-190938",
     "date": "2026-04-29",
-    "title": "A10-0098/2026 - Danuše Nerudová - Proposition de la Commission",
+    "title": "A10-0098/2026 – Danuše Nerudová – Commission proposal",
     "result": "Adopted",
     "for": 433,
     "against": 120,
     "abstention": 91,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191549",
     "date": "2026-04-29",
-    "title": "A10-0098/2026 - Danuše Nerudová - Demande de renvoi en commission",
+    "title": "A10-0098/2026 – Danuše Nerudová – request for referral back to committee",
     "result": "Adopted",
     "for": 568,
     "against": 24,
     "abstention": 42,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "procedural"
   },
   {
     "id": "2026-04-29-RCV-190027",
     "date": "2026-04-29",
-    "title": "A10-0093/2026 - Christophe Clergeau - Proposition de la Commission et amendements",
+    "title": "A10-0093/2026 – Christophe Clergeau – Commission proposal and amendments",
     "result": "Adopted",
     "for": 526,
     "against": 56,
     "abstention": 69,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-190097",
     "date": "2026-04-29",
-    "title": "A10-0074/2026 - Bernd Lange - Projet de décision du Conseil",
+    "title": "A10-0074/2026 – Bernd Lange – Draft Council decision",
     "result": "Adopted",
     "for": 601,
     "against": 13,
     "abstention": 34,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-189930",
     "date": "2026-04-29",
-    "title": "A10-0072/2026 - Jaroslav Bžoch - Projet de décision du Conseil",
+    "title": "A10-0072/2026 – Jaroslav Bžoch – Draft Council decision",
     "result": "Adopted",
     "for": 532,
     "against": 75,
     "abstention": 28,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-190098",
     "date": "2026-04-29",
-    "title": "A10-0071/2026 - Jaroslav Bžoch - Projet de décision du Conseil",
+    "title": "A10-0071/2026 – Jaroslav Bžoch – Draft Council decision",
     "result": "Adopted",
     "for": 532,
     "against": 72,
     "abstention": 26,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-189929",
     "date": "2026-04-29",
-    "title": "A10-0068/2026 - Johan Danielsson - Projet de décision du Conseil",
+    "title": "A10-0068/2026 – Johan Danielsson – Draft Council decision",
     "result": "Adopted",
     "for": 631,
     "against": 6,
     "abstention": 10,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-189919",
     "date": "2026-04-29",
-    "title": "A10-0084/2026 - Matthias Ecke - Proposition de résolution (ensemble du texte)",
+    "title": "A10-0084/2026 – Matthias Ecke – Motion for a resolution (as a whole)",
     "result": "Adopted",
     "for": 586,
     "against": 48,
     "abstention": 16,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-191582",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 1 - Am 22",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 1 – Am 22",
     "result": "Rejected",
     "for": 213,
     "against": 415,
@@ -1718,7 +2534,7 @@
   {
     "id": "2026-04-29-RCV-191583",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 2 - Am 23",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 2 – Am 23",
     "result": "Rejected",
     "for": 195,
     "against": 422,
@@ -1730,7 +2546,7 @@
   {
     "id": "2026-04-29-RCV-191584",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 3 - Am 39",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 3 – Am 39",
     "result": "Rejected",
     "for": 196,
     "against": 417,
@@ -1742,7 +2558,7 @@
   {
     "id": "2026-04-29-RCV-191585",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 4 - Am 40",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 4 – Am 40",
     "result": "Rejected",
     "for": 250,
     "against": 363,
@@ -1754,7 +2570,7 @@
   {
     "id": "2026-04-29-RCV-191587",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 5 - Am 50",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 5 – Am 50",
     "result": "Rejected",
     "for": 207,
     "against": 410,
@@ -1766,7 +2582,7 @@
   {
     "id": "2026-04-29-RCV-191588",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 5 - Am 68",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 5 – Am 68",
     "result": "Rejected",
     "for": 178,
     "against": 412,
@@ -1778,7 +2594,7 @@
   {
     "id": "2026-04-29-RCV-191589",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 6 - Am 51",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 6 – Am 51",
     "result": "Rejected",
     "for": 192,
     "against": 441,
@@ -1790,7 +2606,7 @@
   {
     "id": "2026-04-29-RCV-191591",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 9",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 9",
     "result": "Adopted",
     "for": 425,
     "against": 182,
@@ -1802,7 +2618,7 @@
   {
     "id": "2026-04-29-RCV-191592",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 10 - Am 52",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 10 – Am 52",
     "result": "Rejected",
     "for": 129,
     "against": 441,
@@ -1814,7 +2630,7 @@
   {
     "id": "2026-04-29-RCV-191593",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 10 - Am 61",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 10 – Am 61",
     "result": "Rejected",
     "for": 270,
     "against": 360,
@@ -1826,7 +2642,7 @@
   {
     "id": "2026-04-29-RCV-191594",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 11 - Am 25",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 11 – Am 25",
     "result": "Rejected",
     "for": 206,
     "against": 407,
@@ -1838,7 +2654,7 @@
   {
     "id": "2026-04-29-RCV-191595",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 12 - Am 62",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 12 – Am 62",
     "result": "Rejected",
     "for": 199,
     "against": 413,
@@ -1850,7 +2666,7 @@
   {
     "id": "2026-04-29-RCV-191596",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 15 - Am 26",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 15 – § 26",
     "result": "Rejected",
     "for": 210,
     "against": 417,
@@ -1862,7 +2678,7 @@
   {
     "id": "2026-04-29-RCV-191599",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 15 - Am 16/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 15 – Am 16/1",
     "result": "Rejected",
     "for": 173,
     "against": 375,
@@ -1874,7 +2690,7 @@
   {
     "id": "2026-04-29-RCV-191600",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 15 - Am 16/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 15 – Am 16/2",
     "result": "Rejected",
     "for": 69,
     "against": 552,
@@ -1886,7 +2702,7 @@
   {
     "id": "2026-04-29-RCV-191601",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 20 - Am 27",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 20 – Am 27",
     "result": "Rejected",
     "for": 202,
     "against": 438,
@@ -1898,7 +2714,7 @@
   {
     "id": "2026-04-29-RCV-191602",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 21 - Am 17",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 21 – Am 17",
     "result": "Rejected",
     "for": 91,
     "against": 505,
@@ -1910,7 +2726,7 @@
   {
     "id": "2026-04-29-RCV-191604",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 26 - Am 3",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 26 – Am 3",
     "result": "Adopted",
     "for": 350,
     "against": 264,
@@ -1922,7 +2738,7 @@
   {
     "id": "2026-04-29-RCV-191606",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 30 - Am 28",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 30 – § 28",
     "result": "Rejected",
     "for": 194,
     "against": 435,
@@ -1934,7 +2750,7 @@
   {
     "id": "2026-04-29-RCV-191608",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 31 - Am 30",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 31 – Am 30",
     "result": "Rejected",
     "for": 206,
     "against": 428,
@@ -1946,7 +2762,7 @@
   {
     "id": "2026-04-29-RCV-191611",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 33 - Am 20",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 33 – Am 20",
     "result": "Rejected",
     "for": 190,
     "against": 439,
@@ -1958,7 +2774,7 @@
   {
     "id": "2026-04-29-RCV-191612",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 33 - Am 53",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 33 – Am 53",
     "result": "Rejected",
     "for": 194,
     "against": 430,
@@ -1970,7 +2786,7 @@
   {
     "id": "2026-04-29-RCV-191613",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 40 - Am 63",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 40 – Am 63",
     "result": "Rejected",
     "for": 207,
     "against": 418,
@@ -1982,7 +2798,7 @@
   {
     "id": "2026-04-29-RCV-191614",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 40 - Am 64",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 40 – Am 64",
     "result": "Rejected",
     "for": 203,
     "against": 422,
@@ -1994,7 +2810,7 @@
   {
     "id": "2026-04-29-RCV-191615",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 40 - Am 65",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 40 – Am 65",
     "result": "Rejected",
     "for": 230,
     "against": 380,
@@ -2006,7 +2822,7 @@
   {
     "id": "2026-04-29-RCV-191617",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 43/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 43/1",
     "result": "Adopted",
     "for": 481,
     "against": 86,
@@ -2018,7 +2834,7 @@
   {
     "id": "2026-04-29-RCV-191618",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 43/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 43/2",
     "result": "Adopted",
     "for": 344,
     "against": 281,
@@ -2030,7 +2846,7 @@
   {
     "id": "2026-04-29-RCV-191619",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 45 - Am 32",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 45 – § 32",
     "result": "Rejected",
     "for": 204,
     "against": 421,
@@ -2042,7 +2858,7 @@
   {
     "id": "2026-04-29-RCV-191620",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 45 - Am 54",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 45 – Am 54",
     "result": "Rejected",
     "for": 218,
     "against": 398,
@@ -2054,7 +2870,7 @@
   {
     "id": "2026-04-29-RCV-191621",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 46 - Am 4",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 46 – § 4",
     "result": "Rejected",
     "for": 182,
     "against": 432,
@@ -2066,7 +2882,7 @@
   {
     "id": "2026-04-29-RCV-191623",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 47/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 47/1",
     "result": "Adopted",
     "for": 424,
     "against": 205,
@@ -2078,7 +2894,7 @@
   {
     "id": "2026-04-29-RCV-191624",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 47/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 47/2",
     "result": "Adopted",
     "for": 349,
     "against": 244,
@@ -2090,7 +2906,7 @@
   {
     "id": "2026-04-29-RCV-191625",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 46 - Am 55",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 46 – Am 55",
     "result": "Rejected",
     "for": 210,
     "against": 420,
@@ -2102,7 +2918,7 @@
   {
     "id": "2026-04-29-RCV-191626",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 49 - Am 69",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 49 – Am 69",
     "result": "Rejected",
     "for": 220,
     "against": 412,
@@ -2114,7 +2930,7 @@
   {
     "id": "2026-04-29-RCV-191628",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 48/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 48/1",
     "result": "Adopted",
     "for": 426,
     "against": 202,
@@ -2126,7 +2942,7 @@
   {
     "id": "2026-04-29-RCV-191629",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 48/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 48/2",
     "result": "Rejected",
     "for": 281,
     "against": 350,
@@ -2138,7 +2954,7 @@
   {
     "id": "2026-04-29-RCV-191630",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 50 - Am 33",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 50 – § 33",
     "result": "Rejected",
     "for": 190,
     "against": 417,
@@ -2150,7 +2966,7 @@
   {
     "id": "2026-04-29-RCV-191631",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 50",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 50",
     "result": "Rejected",
     "for": 272,
     "against": 348,
@@ -2162,7 +2978,7 @@
   {
     "id": "2026-04-29-RCV-191632",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 51 - Am 66",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 51 – Am 66",
     "result": "Rejected",
     "for": 245,
     "against": 386,
@@ -2174,7 +2990,7 @@
   {
     "id": "2026-04-29-RCV-191633",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 53 - Am 43",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 53 – Am 43",
     "result": "Rejected",
     "for": 180,
     "against": 410,
@@ -2186,7 +3002,7 @@
   {
     "id": "2026-04-29-RCV-191634",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 54",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 54",
     "result": "Adopted",
     "for": 414,
     "against": 195,
@@ -2198,7 +3014,7 @@
   {
     "id": "2026-04-29-RCV-191636",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 56/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 56/1",
     "result": "Adopted",
     "for": 419,
     "against": 173,
@@ -2210,7 +3026,7 @@
   {
     "id": "2026-04-29-RCV-191637",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 56/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 56/2",
     "result": "Rejected",
     "for": 271,
     "against": 331,
@@ -2222,7 +3038,7 @@
   {
     "id": "2026-04-29-RCV-191638",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 57",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 57",
     "result": "Adopted",
     "for": 405,
     "against": 176,
@@ -2234,7 +3050,7 @@
   {
     "id": "2026-04-29-RCV-191639",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 59 - Am 56",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 59 – Am 56",
     "result": "Rejected",
     "for": 213,
     "against": 384,
@@ -2246,7 +3062,7 @@
   {
     "id": "2026-04-29-RCV-191640",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 60",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 60",
     "result": "Adopted",
     "for": 366,
     "against": 190,
@@ -2258,7 +3074,7 @@
   {
     "id": "2026-04-29-RCV-191641",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 61",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 61",
     "result": "Adopted",
     "for": 416,
     "against": 187,
@@ -2270,7 +3086,7 @@
   {
     "id": "2026-04-29-RCV-191643",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 64/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 64/1",
     "result": "Adopted",
     "for": 445,
     "against": 102,
@@ -2282,7 +3098,7 @@
   {
     "id": "2026-04-29-RCV-191644",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 64/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 64/2",
     "result": "Rejected",
     "for": 287,
     "against": 331,
@@ -2294,7 +3110,7 @@
   {
     "id": "2026-04-29-RCV-191645",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 66 - Am 34",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 66 – Am 34",
     "result": "Rejected",
     "for": 209,
     "against": 423,
@@ -2306,7 +3122,7 @@
   {
     "id": "2026-04-29-RCV-191647",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 67/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 67/1",
     "result": "Adopted",
     "for": 429,
     "against": 192,
@@ -2318,7 +3134,7 @@
   {
     "id": "2026-04-29-RCV-191648",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 67/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 67/2",
     "result": "Adopted",
     "for": 418,
     "against": 197,
@@ -2330,7 +3146,7 @@
   {
     "id": "2026-04-29-RCV-191649",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 67 - Am 57",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 67 – Am 57",
     "result": "Rejected",
     "for": 199,
     "against": 426,
@@ -2342,7 +3158,7 @@
   {
     "id": "2026-04-29-RCV-191650",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 69 - Am 58",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 69 – § 58",
     "result": "Rejected",
     "for": 207,
     "against": 407,
@@ -2354,7 +3170,7 @@
   {
     "id": "2026-04-29-RCV-191651",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 69",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 69",
     "result": "Rejected",
     "for": 303,
     "against": 328,
@@ -2366,7 +3182,7 @@
   {
     "id": "2026-04-29-RCV-191653",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 70/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 70/1",
     "result": "Adopted",
     "for": 401,
     "against": 185,
@@ -2378,7 +3194,7 @@
   {
     "id": "2026-04-29-RCV-191654",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 70/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 70/2",
     "result": "Adopted",
     "for": 336,
     "against": 280,
@@ -2390,7 +3206,7 @@
   {
     "id": "2026-04-29-RCV-191655",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 71",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 71",
     "result": "Adopted",
     "for": 355,
     "against": 237,
@@ -2402,7 +3218,7 @@
   {
     "id": "2026-04-29-RCV-191656",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 71 - Am 44",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 71 – Am 44",
     "result": "Rejected",
     "for": 221,
     "against": 402,
@@ -2414,7 +3230,7 @@
   {
     "id": "2026-04-29-RCV-191657",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 72 - Am 5",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 72 – Am 5",
     "result": "Adopted",
     "for": 354,
     "against": 188,
@@ -2426,7 +3242,7 @@
   {
     "id": "2026-04-29-RCV-191659",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 74/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 74/1",
     "result": "Adopted",
     "for": 622,
     "against": 6,
@@ -2438,7 +3254,7 @@
   {
     "id": "2026-04-29-RCV-191660",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 74/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 74/2",
     "result": "Adopted",
     "for": 502,
     "against": 57,
@@ -2450,7 +3266,7 @@
   {
     "id": "2026-04-29-RCV-191661",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 86 - Am 6",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 86 – Am 6",
     "result": "Rejected",
     "for": 167,
     "against": 449,
@@ -2462,7 +3278,7 @@
   {
     "id": "2026-04-29-RCV-191662",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 87 - Am 7",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 87 – Am 7",
     "result": "Rejected",
     "for": 218,
     "against": 389,
@@ -2474,7 +3290,7 @@
   {
     "id": "2026-04-29-RCV-191663",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 87 - Am 8",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 87 – Am 8",
     "result": "Rejected",
     "for": 179,
     "against": 433,
@@ -2486,7 +3302,7 @@
   {
     "id": "2026-04-29-RCV-191664",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 92",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 92",
     "result": "Adopted",
     "for": 427,
     "against": 195,
@@ -2498,7 +3314,7 @@
   {
     "id": "2026-04-29-RCV-191665",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 96",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 96",
     "result": "Adopted",
     "for": 413,
     "against": 197,
@@ -2510,7 +3326,7 @@
   {
     "id": "2026-04-29-RCV-191667",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 101/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 101/1",
     "result": "Adopted",
     "for": 449,
     "against": 141,
@@ -2522,7 +3338,7 @@
   {
     "id": "2026-04-29-RCV-191668",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 101/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 101/2",
     "result": "Rejected",
     "for": 293,
     "against": 343,
@@ -2534,7 +3350,7 @@
   {
     "id": "2026-04-29-RCV-191669",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 105 - Am 46",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 105 – Am 46",
     "result": "Rejected",
     "for": 236,
     "against": 382,
@@ -2546,7 +3362,7 @@
   {
     "id": "2026-04-29-RCV-191676",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 108/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 108/1",
     "result": "Adopted",
     "for": 613,
     "against": 6,
@@ -2558,7 +3374,7 @@
   {
     "id": "2026-04-29-RCV-191677",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 108/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 108/2",
     "result": "Adopted",
     "for": 419,
     "against": 198,
@@ -2570,7 +3386,7 @@
   {
     "id": "2026-04-29-RCV-191678",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - § 122 - Am 59",
+    "title": "A10-0042/2026 – Anna Strolenberg – § 122 – § 59",
     "result": "Rejected",
     "for": 149,
     "against": 430,
@@ -2582,7 +3398,7 @@
   {
     "id": "2026-04-29-RCV-191679",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le § 122 - Am 60",
+    "title": "A10-0042/2026 – Anna Strolenberg – After § 122 – Am 60",
     "result": "Rejected",
     "for": 73,
     "against": 443,
@@ -2594,7 +3410,7 @@
   {
     "id": "2026-04-29-RCV-191680",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Visa 17",
+    "title": "A10-0042/2026 – Anna Strolenberg – Citation 17",
     "result": "Adopted",
     "for": 417,
     "against": 189,
@@ -2606,7 +3422,7 @@
   {
     "id": "2026-04-29-RCV-191681",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Visa 27",
+    "title": "A10-0042/2026 – Anna Strolenberg – Citation 27",
     "result": "Adopted",
     "for": 458,
     "against": 144,
@@ -2618,7 +3434,7 @@
   {
     "id": "2026-04-29-RCV-191682",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Visa 28",
+    "title": "A10-0042/2026 – Anna Strolenberg – Citation 28",
     "result": "Rejected",
     "for": 289,
     "against": 309,
@@ -2630,7 +3446,7 @@
   {
     "id": "2026-04-29-RCV-191684",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Visa 44/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – Citation 44/1",
     "result": "Adopted",
     "for": 433,
     "against": 161,
@@ -2642,7 +3458,7 @@
   {
     "id": "2026-04-29-RCV-191685",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Visa 44/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – Citation 44/2",
     "result": "Rejected",
     "for": 277,
     "against": 342,
@@ -2654,7 +3470,7 @@
   {
     "id": "2026-04-29-RCV-191686",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Visa 45",
+    "title": "A10-0042/2026 – Anna Strolenberg – Citation 45",
     "result": "Adopted",
     "for": 421,
     "against": 181,
@@ -2666,331 +3482,331 @@
   {
     "id": "2026-04-29-RCV-191689",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le considérant G - Am 10",
+    "title": "A10-0042/2026 – Anna Strolenberg – After recital G – Am 10",
     "result": "Adopted",
     "for": 320,
     "against": 258,
     "abstention": 63,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191690",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant H - Am 67",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital H – Am 67",
     "result": "Rejected",
     "for": 160,
     "against": 432,
     "abstention": 37,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191691",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le considérant L - Am 11",
+    "title": "A10-0042/2026 – Anna Strolenberg – After recital L – Am 11",
     "result": "Rejected",
     "for": 76,
     "against": 509,
     "abstention": 50,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191693",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant M - Am 13",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital M – Am 13",
     "result": "Rejected",
     "for": 96,
     "against": 524,
     "abstention": 19,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191695",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le considérant P - Am 47",
+    "title": "A10-0042/2026 – Anna Strolenberg – After recital P – Am 47",
     "result": "Rejected",
     "for": 202,
     "against": 431,
     "abstention": 2,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191696",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant S - Am 48",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital S – Am 48",
     "result": "Rejected",
     "for": 171,
     "against": 449,
     "abstention": 12,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191698",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant W/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital W/1",
     "result": "Adopted",
     "for": 511,
     "against": 77,
     "abstention": 45,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191699",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant W/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital W/2",
     "result": "Adopted",
     "for": 290,
     "against": 286,
     "abstention": 51,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191700",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant AC",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital AC",
     "result": "Adopted",
     "for": 412,
     "against": 199,
     "abstention": 16,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191701",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant AG - Am 49",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital AG – Am 49",
     "result": "Rejected",
     "for": 196,
     "against": 430,
     "abstention": 6,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191703",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant AJ/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital AJ/1",
     "result": "Adopted",
     "for": 437,
     "against": 180,
     "abstention": 13,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191704",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant AJ/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital AJ/2",
     "result": "Rejected",
     "for": 281,
     "against": 324,
     "abstention": 13,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191705",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant AL",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital AL",
     "result": "Adopted",
     "for": 378,
     "against": 197,
     "abstention": 52,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191706",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant AO",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital AO",
     "result": "Adopted",
     "for": 393,
     "against": 197,
     "abstention": 37,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191708",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant AP/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital AP/1",
     "result": "Adopted",
     "for": 424,
     "against": 188,
     "abstention": 15,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191709",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant AP/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital AP/2",
     "result": "Rejected",
     "for": 273,
     "against": 337,
     "abstention": 12,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191710",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant AQ",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital AQ",
     "result": "Adopted",
     "for": 423,
     "against": 185,
     "abstention": 18,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191712",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant AZ/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital AZ/1",
     "result": "Adopted",
     "for": 351,
     "against": 204,
     "abstention": 59,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191713",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant AZ/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital AZ/2",
     "result": "Adopted",
     "for": 344,
     "against": 216,
     "abstention": 49,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191715",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant BB/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital BB/1",
     "result": "Adopted",
     "for": 439,
     "against": 168,
     "abstention": 16,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191716",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant BB/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital BB/2",
     "result": "Adopted",
     "for": 308,
     "against": 279,
     "abstention": 41,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191718",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant BC/1",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital BC/1",
     "result": "Adopted",
     "for": 427,
     "against": 195,
     "abstention": 7,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191719",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant BC/2",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital BC/2",
     "result": "Adopted",
     "for": 593,
     "against": 22,
     "abstention": 8,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191721",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Après le considérant BE - Am 2",
+    "title": "A10-0042/2026 – Anna Strolenberg – After recital BE – Am 2",
     "result": "Rejected",
     "for": 163,
     "against": 402,
     "abstention": 45,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191722",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant BM",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital BM",
     "result": "Adopted",
     "for": 391,
     "against": 202,
     "abstention": 31,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-191723",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Considérant BV",
+    "title": "A10-0042/2026 – Anna Strolenberg – Recital BV",
     "result": "Adopted",
     "for": 327,
     "against": 272,
     "abstention": 18,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-190917",
     "date": "2026-04-29",
-    "title": "A10-0042/2026 - Anna Strolenberg - Proposition de résolution (ensemble du texte)",
+    "title": "A10-0042/2026 – Anna Strolenberg – Motion for a resolution (as a whole)",
     "result": "Adopted",
     "for": 328,
     "against": 199,
     "abstention": 98,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-191401",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 5/1",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 5/1",
     "result": "Adopted",
     "for": 522,
     "against": 62,
@@ -3002,7 +3818,7 @@
   {
     "id": "2026-04-29-RCV-191402",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 5/2",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 5/2",
     "result": "Adopted",
     "for": 373,
     "against": 123,
@@ -3014,7 +3830,7 @@
   {
     "id": "2026-04-29-RCV-191403",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - Après le § 10 - Am 18",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – After § 10 – Am 18",
     "result": "Rejected",
     "for": 193,
     "against": 409,
@@ -3026,7 +3842,7 @@
   {
     "id": "2026-04-29-RCV-191404",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 13 - Am 1",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 13 – Am 1",
     "result": "Adopted",
     "for": 317,
     "against": 275,
@@ -3038,7 +3854,7 @@
   {
     "id": "2026-04-29-RCV-191406",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 15/1",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 15/1",
     "result": "Adopted",
     "for": 484,
     "against": 78,
@@ -3050,7 +3866,7 @@
   {
     "id": "2026-04-29-RCV-191407",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 15/2",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 15/2",
     "result": "Adopted",
     "for": 375,
     "against": 130,
@@ -3062,7 +3878,7 @@
   {
     "id": "2026-04-29-RCV-191408",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - Après le § 34 - Am 19",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – After § 34 – Am 19",
     "result": "Rejected",
     "for": 201,
     "against": 420,
@@ -3074,7 +3890,7 @@
   {
     "id": "2026-04-29-RCV-191409",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 38 - Am 15",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 38 – Am 15",
     "result": "Rejected",
     "for": 206,
     "against": 408,
@@ -3086,7 +3902,7 @@
   {
     "id": "2026-04-29-RCV-191410",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 44 - Am 16",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 44 – Am 16",
     "result": "Rejected",
     "for": 181,
     "against": 419,
@@ -3098,7 +3914,7 @@
   {
     "id": "2026-04-29-RCV-191411",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 55 - Am 17",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 55 – Am 17",
     "result": "Rejected",
     "for": 200,
     "against": 419,
@@ -3110,7 +3926,7 @@
   {
     "id": "2026-04-29-RCV-191412",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - Après le § 65 - Am 2",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – After § 65 – Am 2",
     "result": "Rejected",
     "for": 194,
     "against": 417,
@@ -3122,7 +3938,7 @@
   {
     "id": "2026-04-29-RCV-191413",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 77 - Am 3",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 77 – Am 3",
     "result": "Rejected",
     "for": 196,
     "against": 422,
@@ -3134,7 +3950,7 @@
   {
     "id": "2026-04-29-RCV-191414",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - Après le § 86 - Am 4",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – After § 86 – Am 4",
     "result": "Rejected",
     "for": 200,
     "against": 411,
@@ -3146,7 +3962,7 @@
   {
     "id": "2026-04-29-RCV-191415",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 91 - Am 5",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 91 – Am 5",
     "result": "Rejected",
     "for": 207,
     "against": 406,
@@ -3158,7 +3974,7 @@
   {
     "id": "2026-04-29-RCV-191416",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 100",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 100",
     "result": "Adopted",
     "for": 357,
     "against": 203,
@@ -3170,7 +3986,7 @@
   {
     "id": "2026-04-29-RCV-191417",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 101",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 101",
     "result": "Adopted",
     "for": 365,
     "against": 168,
@@ -3182,7 +3998,7 @@
   {
     "id": "2026-04-29-RCV-191418",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 102",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 102",
     "result": "Adopted",
     "for": 291,
     "against": 240,
@@ -3194,7 +4010,7 @@
   {
     "id": "2026-04-29-RCV-191419",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 103 - Am 6",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 103 – Am 6",
     "result": "Rejected",
     "for": 205,
     "against": 419,
@@ -3206,7 +4022,7 @@
   {
     "id": "2026-04-29-RCV-191420",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 112 - Am 7",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 112 – Am 7",
     "result": "Rejected",
     "for": 207,
     "against": 410,
@@ -3218,7 +4034,7 @@
   {
     "id": "2026-04-29-RCV-191422",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 112/1",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 112/1",
     "result": "Adopted",
     "for": 498,
     "against": 80,
@@ -3230,7 +4046,7 @@
   {
     "id": "2026-04-29-RCV-191423",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 112/2",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 112/2",
     "result": "Adopted",
     "for": 408,
     "against": 192,
@@ -3242,7 +4058,7 @@
   {
     "id": "2026-04-29-RCV-191424",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 112/3",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 112/3",
     "result": "Rejected",
     "for": 284,
     "against": 335,
@@ -3254,7 +4070,7 @@
   {
     "id": "2026-04-29-RCV-191425",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - Après le § 113 - Am 8",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – After § 113 – Am 8",
     "result": "Rejected",
     "for": 218,
     "against": 401,
@@ -3266,7 +4082,7 @@
   {
     "id": "2026-04-29-RCV-191426",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 116 - Am 9",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 116 – Am 9",
     "result": "Rejected",
     "for": 188,
     "against": 422,
@@ -3278,7 +4094,7 @@
   {
     "id": "2026-04-29-RCV-191427",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 117",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 117",
     "result": "Adopted",
     "for": 336,
     "against": 261,
@@ -3290,7 +4106,7 @@
   {
     "id": "2026-04-29-RCV-191428",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - Après le § 118 - Am 20",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – After § 118 – Am 20",
     "result": "Rejected",
     "for": 197,
     "against": 416,
@@ -3302,7 +4118,7 @@
   {
     "id": "2026-04-29-RCV-191429",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 126 - Am 10",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 126 – Am 10",
     "result": "Rejected",
     "for": 192,
     "against": 418,
@@ -3314,7 +4130,7 @@
   {
     "id": "2026-04-29-RCV-191430",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - Après le § 155 - Am 13",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – After § 155 – Am 13",
     "result": "Rejected",
     "for": 282,
     "against": 334,
@@ -3326,7 +4142,7 @@
   {
     "id": "2026-04-29-RCV-191431",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 168 - Am 11",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 168 – Am 11",
     "result": "Rejected",
     "for": 201,
     "against": 419,
@@ -3338,7 +4154,7 @@
   {
     "id": "2026-04-29-RCV-191432",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - § 185 - Am 12",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – § 185 – Am 12",
     "result": "Rejected",
     "for": 185,
     "against": 426,
@@ -3350,31 +4166,31 @@
   {
     "id": "2026-04-29-RCV-191433",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - Considérant R - Am 14",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – Recital R – Am 14",
     "result": "Rejected",
     "for": 220,
     "against": 399,
     "abstention": 5,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-190564",
     "date": "2026-04-29",
-    "title": "A10-0091/2026 - Konstantinos Arvanitis - Proposition de résolution (ensemble du texte)",
+    "title": "A10-0091/2026 – Konstantinos Arvanitis – Motion for a resolution (as a whole)",
     "result": "Adopted",
     "for": 387,
     "against": 191,
     "abstention": 46,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-191258",
     "date": "2026-04-29",
-    "title": "A10-0037/2026 - Dainius Žalimas - § 2/2",
+    "title": "A10-0037/2026 – Dainius Žalimas – § 2/2",
     "result": "Adopted",
     "for": 407,
     "against": 190,
@@ -3386,7 +4202,7 @@
   {
     "id": "2026-04-29-RCV-191259",
     "date": "2026-04-29",
-    "title": "A10-0037/2026 - Dainius Žalimas - Après le § 6 - Am 7",
+    "title": "A10-0037/2026 – Dainius Žalimas – After § 6 – Am 7",
     "result": "Rejected",
     "for": 212,
     "against": 406,
@@ -3398,7 +4214,7 @@
   {
     "id": "2026-04-29-RCV-191260",
     "date": "2026-04-29",
-    "title": "A10-0037/2026 - Dainius Žalimas - Après le § 12 - Am 12",
+    "title": "A10-0037/2026 – Dainius Žalimas – After § 12 – Am 12",
     "result": "Rejected",
     "for": 193,
     "against": 428,
@@ -3410,7 +4226,7 @@
   {
     "id": "2026-04-29-RCV-191261",
     "date": "2026-04-29",
-    "title": "A10-0037/2026 - Dainius Žalimas - § 17 - Am 22S",
+    "title": "A10-0037/2026 – Dainius Žalimas – § 17 – Am 22D",
     "result": "Rejected",
     "for": 198,
     "against": 417,
@@ -3422,7 +4238,7 @@
   {
     "id": "2026-04-29-RCV-191262",
     "date": "2026-04-29",
-    "title": "A10-0037/2026 - Dainius Žalimas - Après le § 17 - Am 8",
+    "title": "A10-0037/2026 – Dainius Žalimas – After § 17 – Am 8",
     "result": "Rejected",
     "for": 197,
     "against": 421,
@@ -3434,7 +4250,7 @@
   {
     "id": "2026-04-29-RCV-191263",
     "date": "2026-04-29",
-    "title": "A10-0037/2026 - Dainius Žalimas - § 19 - Am 24S",
+    "title": "A10-0037/2026 – Dainius Žalimas – § 19 – Am 24D",
     "result": "Rejected",
     "for": 189,
     "against": 425,
@@ -3446,7 +4262,7 @@
   {
     "id": "2026-04-29-RCV-191264",
     "date": "2026-04-29",
-    "title": "A10-0037/2026 - Dainius Žalimas - Après le § 22 - Am 25",
+    "title": "A10-0037/2026 – Dainius Žalimas – After § 22 – Am 25",
     "result": "Rejected",
     "for": 195,
     "against": 420,
@@ -3458,7 +4274,7 @@
   {
     "id": "2026-04-29-RCV-191265",
     "date": "2026-04-29",
-    "title": "A10-0037/2026 - Dainius Žalimas - Après le § 31 - Am 13",
+    "title": "A10-0037/2026 – Dainius Žalimas – After § 31 – Am 13",
     "result": "Rejected",
     "for": 193,
     "against": 421,
@@ -3470,7 +4286,7 @@
   {
     "id": "2026-04-29-RCV-191266",
     "date": "2026-04-29",
-    "title": "A10-0037/2026 - Dainius Žalimas - § 36 - Am 14",
+    "title": "A10-0037/2026 – Dainius Žalimas – § 36 – Am 14",
     "result": "Rejected",
     "for": 202,
     "against": 424,
@@ -3482,7 +4298,7 @@
   {
     "id": "2026-04-29-RCV-191267",
     "date": "2026-04-29",
-    "title": "A10-0037/2026 - Dainius Žalimas - Après le § 36 - Am 28",
+    "title": "A10-0037/2026 – Dainius Žalimas – After § 36 – Am 28",
     "result": "Rejected",
     "for": 205,
     "against": 403,
@@ -3494,7 +4310,7 @@
   {
     "id": "2026-04-29-RCV-191268",
     "date": "2026-04-29",
-    "title": "A10-0037/2026 - Dainius Žalimas - Après le § 36 - Am 29",
+    "title": "A10-0037/2026 – Dainius Žalimas – After § 36 – Am 29",
     "result": "Rejected",
     "for": 202,
     "against": 423,
@@ -3506,7 +4322,7 @@
   {
     "id": "2026-04-29-RCV-191270",
     "date": "2026-04-29",
-    "title": "A10-0037/2026 - Dainius Žalimas - Après le § 48 - Am 11",
+    "title": "A10-0037/2026 – Dainius Žalimas – After § 48 – Am 11",
     "result": "Rejected",
     "for": 195,
     "against": 419,
@@ -3518,31 +4334,31 @@
   {
     "id": "2026-04-29-RCV-191271",
     "date": "2026-04-29",
-    "title": "A10-0037/2026 - Dainius Žalimas - Après le considérant D - Am 6",
+    "title": "A10-0037/2026 – Dainius Žalimas – After recital D – Am 6",
     "result": "Rejected",
     "for": 187,
     "against": 419,
     "abstention": 16,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "2026-04-29-RCV-190594",
     "date": "2026-04-29",
-    "title": "A10-0037/2026 - Dainius Žalimas - Proposition de résolution (ensemble du texte)",
+    "title": "A10-0037/2026 – Dainius Žalimas – Motion for a resolution (as a whole)",
     "result": "Adopted",
     "for": 416,
     "against": 190,
     "abstention": 15,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_EN.html",
-    "type": "other"
+    "type": "final"
   },
   {
     "id": "2026-04-29-RCV-191320",
     "date": "2026-04-29",
-    "title": "B10-0186/2026 - Proposition de résolution",
+    "title": "B10-0186/2026 – Motion for a resolution",
     "result": "Adopted",
     "for": 412,
     "against": 145,
@@ -23179,822 +23995,6 @@
     "for": 193,
     "against": 451,
     "abstention": 2,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181117",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 5; Article 10 – paragraph 6 – Am 176S",
-    "result": "Rejected",
-    "for": 94,
-    "against": 545,
-    "abstention": 4,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181118",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 5; Article 10 – paragraph 6 – § 1 – introductory part – Am 177S",
-    "result": "Rejected",
-    "for": 95,
-    "against": 543,
-    "abstention": 3,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181119",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 5; Article 10 – paragraph 6 – § 1 – introductory part – Am 246= 306=",
-    "result": "Adopted",
-    "for": 361,
-    "against": 282,
-    "abstention": 4,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181120",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 5; Article 10 – paragraph 6 – § 1 – point a – Am 178S= 384S=",
-    "result": "Rejected",
-    "for": 225,
-    "against": 412,
-    "abstention": 7,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181121",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 5; Article 10 – paragraph 6 – § 1 – point c – Am 179S= 385S=",
-    "result": "Rejected",
-    "for": 222,
-    "against": 415,
-    "abstention": 6,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181122",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 5; Article 10 – paragraph 6 – § 1 – point c – Am 94",
-    "result": "Adopted",
-    "for": 536,
-    "against": 100,
-    "abstention": 8,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181123",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 5; Article 10 – paragraph 6 – § 2 – Am 180S",
-    "result": "Rejected",
-    "for": 48,
-    "against": 593,
-    "abstention": 5,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181124",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 5; Article 10 – paragraph 6 – § 3 – Am 181S",
-    "result": "Rejected",
-    "for": 50,
-    "against": 589,
-    "abstention": 3,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181125",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 5; Article 10 – paragraph 6 – § 3 – Am 96",
-    "result": "Adopted",
-    "for": 464,
-    "against": 172,
-    "abstention": 6,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181126",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 5; Article 10 – paragraph 6 – § 4 – Am 182S",
-    "result": "Rejected",
-    "for": 43,
-    "against": 591,
-    "abstention": 10,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181127",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 5; Article 10 – paragraph 6 – § 4 – Am 97",
-    "result": "Adopted",
-    "for": 413,
-    "against": 220,
-    "abstention": 5,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181128",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 5; Article 10 – paragraph 6 – § 5 – Am 183S",
-    "result": "Rejected",
-    "for": 99,
-    "against": 535,
-    "abstention": 9,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181129",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 5; Article 10 – paragraph 6 – § 6 – Am 184S",
-    "result": "Rejected",
-    "for": 99,
-    "against": 533,
-    "abstention": 9,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181130",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 6; Article 11 – paragraph 7 – § 1 – introductory part – Am 185S",
-    "result": "Rejected",
-    "for": 96,
-    "against": 541,
-    "abstention": 5,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181131",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 6; Article 11 – paragraph 7 – § 1 – introductory part – Am 247= 307=",
-    "result": "Adopted",
-    "for": 360,
-    "against": 279,
-    "abstention": 3,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181132",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 6; Article 11 – paragraph 7 – § 1 – point a – Am 186S 387S",
-    "result": "Rejected",
-    "for": 223,
-    "against": 416,
-    "abstention": 4,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181133",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 6; Article 11 – paragraph 7 – § 1 – point b – Am 187S",
-    "result": "Rejected",
-    "for": 51,
-    "against": 582,
-    "abstention": 6,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181134",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 6; Article 11 – paragraph 7 – § 1 – point b – Am 99",
-    "result": "Adopted",
-    "for": 581,
-    "against": 49,
-    "abstention": 13,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181135",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 6; Article 11 – paragraph 7 – § 1 – point c – Am 188S= 388S=",
-    "result": "Rejected",
-    "for": 229,
-    "against": 407,
-    "abstention": 5,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181136",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 6; Article 11 – paragraph 7 – § 2 – Am 189S",
-    "result": "Rejected",
-    "for": 50,
-    "against": 583,
-    "abstention": 9,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181137",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 6; Article 11 – paragraph 7 – § 3 – Am 190S",
-    "result": "Rejected",
-    "for": 46,
-    "against": 585,
-    "abstention": 8,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181138",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 6; Article 11 – paragraph 7 – § 3 – Am 102",
-    "result": "Adopted",
-    "for": 414,
-    "against": 215,
-    "abstention": 8,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181139",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 6; Article 11 – paragraph 7 – § 4 – Am 191S",
-    "result": "Rejected",
-    "for": 47,
-    "against": 585,
-    "abstention": 9,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181140",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 6; Article 11 – paragraph 7 – § 5 – Am 192S",
-    "result": "Rejected",
-    "for": 54,
-    "against": 585,
-    "abstention": 5,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181141",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 6; Article 11 – paragraph 7 – § 6 – Am 193S",
-    "result": "Rejected",
-    "for": 48,
-    "against": 578,
-    "abstention": 4,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181142",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 6; Article 11 – paragraph 7 – § 6 – Am 104",
-    "result": "Adopted",
-    "for": 591,
-    "against": 46,
-    "abstention": 11,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181143",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 7 – point a; Article 13 – paragraph 3 – introductory part and point a – Am 194S= 273S=",
-    "result": "Rejected",
-    "for": 210,
-    "against": 421,
-    "abstention": 17,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181144",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 7 – point b; Article 13 – paragraph 3 – points c and e – Am 196S",
-    "result": "Rejected",
-    "for": 202,
-    "against": 428,
-    "abstention": 13,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181145",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 7 – point b; Article 13 – paragraph 3 – points c and e – Am 274S",
-    "result": "Rejected",
-    "for": 198,
-    "against": 430,
-    "abstention": 14,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181146",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 8; Article 15 – second sentence – Am 199S",
-    "result": "Rejected",
-    "for": 92,
-    "against": 542,
-    "abstention": 7,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181147",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 8; Article 15 – second sentence – Am 390",
-    "result": "Rejected",
-    "for": 184,
-    "against": 460,
-    "abstention": 3,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181148",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – after point 8; Article 19 – paragraph 2 – point b – Am 248= 310=",
-    "result": "Adopted",
-    "for": 361,
-    "against": 273,
-    "abstention": 9,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181149",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 9; Article 19 – paragraph 3 – Am 201S",
-    "result": "Rejected",
-    "for": 92,
-    "against": 545,
-    "abstention": 6,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181150",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 9; Article 19 – paragraph 3 – Am 308",
-    "result": "Rejected",
-    "for": 114,
-    "against": 522,
-    "abstention": 10,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181152",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 10 – introductory part; Article 22 – Am 311S= 398S=",
-    "result": "Adopted",
-    "for": 365,
-    "against": 276,
-    "abstention": 4,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181162",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – after point 10; Article 24 – paragraph 1 – Am 251= 313=",
-    "result": "Adopted",
-    "for": 364,
-    "against": 270,
-    "abstention": 8,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181163",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – after point 10; Article 25 – paragraph 1 – Am 252= 314=",
-    "result": "Adopted",
-    "for": 364,
-    "against": 270,
-    "abstention": 8,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181166",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 11; Article 27 – paragraph 4 – Am 205S",
-    "result": "Rejected",
-    "for": 94,
-    "against": 532,
-    "abstention": 12,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181167",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 11; Article 27 – paragraph 4 – Am 115",
-    "result": "Rejected",
-    "for": 238,
-    "against": 395,
-    "abstention": 9,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181168",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 11; Article 27 – paragraph 4 – Am 253= 315=",
-    "result": "Adopted",
-    "for": 361,
-    "against": 280,
-    "abstention": 6,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181169",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 12; Article 29 – Am 207S= 266S= 348S=",
-    "result": "Rejected",
-    "for": 251,
-    "against": 378,
-    "abstention": 13,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181170",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 12 – point a; Article 29 – paragraph 1 – Am 208S",
-    "result": "Rejected",
-    "for": 207,
-    "against": 430,
-    "abstention": 6,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181171",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 12 – point b; Article 29 – paragraph 2 – Am 210S",
-    "result": "Rejected",
-    "for": 209,
-    "against": 425,
-    "abstention": 4,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181172",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 12 – point c; Article 29 – paragraph 3 – point d – Am 212S",
-    "result": "Rejected",
-    "for": 209,
-    "against": 422,
-    "abstention": 6,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181173",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 12 – point e; Article 29 – paragraph 5 – Am 215S",
-    "result": "Rejected",
-    "for": 211,
-    "against": 423,
-    "abstention": 4,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181174",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 12 – point f; Article 29 – paragraph 7 – Am 217S",
-    "result": "Rejected",
-    "for": 210,
-    "against": 423,
-    "abstention": 4,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181175",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 13; Article 36 – paragraph 1 – Am 219S",
-    "result": "Rejected",
-    "for": 201,
-    "against": 426,
-    "abstention": 11,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181176",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 13; Article 36 – paragraph 1 – Am 116, 117= 316PC1=",
-    "result": "Adopted",
-    "for": 536,
-    "against": 100,
-    "abstention": 9,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181177",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Article 4 – § 1 – point 13; Article 36 – paragraph 2 – point b – Am 254= 316PC2=",
-    "result": "Adopted",
-    "for": 368,
-    "against": 271,
-    "abstention": 7,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181178",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Recital 2 – Am 393",
-    "result": "Rejected",
-    "for": 183,
-    "against": 445,
-    "abstention": 11,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181179",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – After recital 2 – Am 394",
-    "result": "Rejected",
-    "for": 182,
-    "against": 446,
-    "abstention": 7,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181180",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Recital 5 – Am 349",
-    "result": "Rejected",
-    "for": 179,
-    "against": 450,
-    "abstention": 3,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181181",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Recital 5 – Am 221= 279=",
-    "result": "Adopted",
-    "for": 366,
-    "against": 273,
-    "abstention": 7,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181182",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Recital 7 – Am 350",
-    "result": "Rejected",
-    "for": 181,
-    "against": 444,
-    "abstention": 2,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181183",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Recital 7 – Am 222= 280=",
-    "result": "Adopted",
-    "for": 361,
-    "against": 274,
-    "abstention": 8,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181184",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Recital 9 – Am 351",
-    "result": "Rejected",
-    "for": 186,
-    "against": 441,
-    "abstention": 3,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181185",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Recital 9 – Am 223= 281=",
-    "result": "Adopted",
-    "for": 367,
-    "against": 270,
-    "abstention": 6,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181186",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Recital 12 – Am 224= 282=",
-    "result": "Adopted",
-    "for": 364,
-    "against": 266,
-    "abstention": 7,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181187",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Recital 14 – Am 352",
-    "result": "Rejected",
-    "for": 181,
-    "against": 453,
-    "abstention": 2,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181188",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Recital 14 – Am 225= 283=",
-    "result": "Adopted",
-    "for": 365,
-    "against": 271,
-    "abstention": 7,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181189",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Recital 18 – Am 259",
-    "result": "Rejected",
-    "for": 179,
-    "against": 457,
-    "abstention": 3,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181190",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Recital 18 – Am 226= 284=",
-    "result": "Adopted",
-    "for": 363,
-    "against": 276,
-    "abstention": 6,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181191",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Recital 19 – Am 260",
-    "result": "Rejected",
-    "for": 183,
-    "against": 457,
-    "abstention": 3,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181192",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Recital 19 – Am 227= 285=",
-    "result": "Adopted",
-    "for": 364,
-    "against": 269,
-    "abstention": 7,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181196",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Recital 24 – Am 286",
-    "result": "Rejected",
-    "for": 294,
-    "against": 337,
-    "abstention": 9,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181197",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Recital 26 – Am 228= 287=",
-    "result": "Adopted",
-    "for": 360,
-    "against": 277,
-    "abstention": 4,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-181199",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Recital 28 – Am 265",
-    "result": "Rejected",
-    "for": 203,
-    "against": 423,
-    "abstention": 10,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
-    "id": "2025-11-13-RCV-180948",
-    "date": "2025-11-13",
-    "title": "A10-0197/2025 – Jörgen Warborn – Commission proposal",
-    "result": "Adopted",
-    "for": 382,
-    "against": 249,
-    "abstention": 13,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-11-13-RCV_EN.html",
     "type": "amendment"
