@@ -43,6 +43,12 @@
       "abbr": "FEMM",
       "name": "Women's Rights and Gender Equality",
       "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "abbr": "INTA",
+      "name": "International Trade",
+      "role": "MEMBER_SUBSTITUTE"
     }
   ]
 }

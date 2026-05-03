@@ -708,6 +708,12 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6568/home"
   },
   {
+    "id": "6813",
+    "abbreviation": "CS",
+    "name": "CS",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6813/home"
+  },
+  {
     "id": "6760",
     "abbreviation": "CSP",
     "name": "CSP",
@@ -1590,6 +1596,12 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6841/home"
   },
   {
+    "id": "6885",
+    "abbreviation": "Italia Viva",
+    "name": "Italia Viva",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6885/home"
+  },
+  {
     "id": "6897",
     "abbreviation": "JA21",
     "name": "JA21",
@@ -2212,12 +2224,6 @@
     "abbreviation": "PS",
     "name": "PS",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6706/home"
-  },
-  {
-    "id": "6728",
-    "abbreviation": "PS",
-    "name": "PS",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6728/home"
   },
   {
     "id": "6758",

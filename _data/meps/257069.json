@@ -15,6 +15,12 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257069",
   "committees": [
     {
+      "id": "6576",
+      "abbr": "ITRE",
+      "name": "Industry, Research and Energy",
+      "role": "MEMBER"
+    },
+    {
       "id": "6586",
       "abbr": "LIBE",
       "name": "Civil Liberties, Justice and Home Affairs",

@@ -43,6 +43,12 @@
       "abbr": "CULT",
       "name": "Culture and Education",
       "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "7913",
+      "abbr": "",
+      "name": "",
+      "role": "MEMBER"
     }
   ]
 }

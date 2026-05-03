@@ -483,7 +483,7 @@
     "group_name": "The Left group in the European Parliament - GUE/NGL",
     "group_abbr": "GUE/NGL",
     "email": "li.andersson@europarl.europa.eu",
-    "phone": "+3222845956",
+    "phone": "+33388175956",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/256805.jpg",
@@ -1713,7 +1713,7 @@
     "group_name": "Non-attached Members",
     "group_abbr": "NI",
     "email": "nikola.bartusek@europarl.europa.eu",
-    "phone": "+33388175252",
+    "phone": "+3222845252",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/256852.jpg",
@@ -2395,6 +2395,12 @@
         "abbr": "LIBE",
         "name": "Civil Liberties, Justice and Home Affairs",
         "role": "MEMBER_SUBSTITUTE"
+      },
+      {
+        "id": "6576",
+        "abbr": "ITRE",
+        "name": "Industry, Research and Energy",
+        "role": "MEMBER"
       }
     ]
   },
@@ -2695,6 +2701,12 @@
         "abbr": "CULT",
         "name": "Culture and Education",
         "role": "MEMBER_SUBSTITUTE"
+      },
+      {
+        "id": "7913",
+        "abbr": "",
+        "name": "",
+        "role": "MEMBER"
       }
     ]
   },
@@ -3969,15 +3981,15 @@
         "role": "MEMBER"
       },
       {
-        "id": "6579",
-        "abbr": "IMCO",
-        "name": "Internal Market and Consumer Protection",
-        "role": "MEMBER_SUBSTITUTE"
-      },
-      {
         "id": "6562",
         "abbr": "AFET",
         "name": "Foreign Affairs",
+        "role": "MEMBER"
+      },
+      {
+        "id": "6579",
+        "abbr": "IMCO",
+        "name": "Internal Market and Consumer Protection",
         "role": "MEMBER_SUBSTITUTE"
       }
     ]
@@ -4111,6 +4123,12 @@
         "abbr": "TRAN",
         "name": "Transport and Tourism",
         "role": "MEMBER"
+      },
+      {
+        "id": "6584",
+        "abbr": "CULT",
+        "name": "Culture and Education",
+        "role": "MEMBER_SUBSTITUTE"
       },
       {
         "id": "6567",
@@ -5270,7 +5288,7 @@
     "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
     "group_abbr": "S&D",
     "email": "andi.cristea@europarl.europa.eu",
-    "phone": "+3222845677",
+    "phone": "+33388175677",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/40224.jpg",
@@ -6079,6 +6097,12 @@
         "abbr": "FEMM",
         "name": "Women's Rights and Gender Equality",
         "role": "MEMBER"
+      },
+      {
+        "id": "6564",
+        "abbr": "INTA",
+        "name": "International Trade",
+        "role": "MEMBER_SUBSTITUTE"
       }
     ]
   },
@@ -6522,12 +6546,6 @@
         "id": "7915",
         "abbr": "",
         "name": "",
-        "role": "MEMBER"
-      },
-      {
-        "id": "6586",
-        "abbr": "LIBE",
-        "name": "Civil Liberties, Justice and Home Affairs",
         "role": "MEMBER"
       },
       {
@@ -7052,7 +7070,7 @@
     "group_name": "Group of the European People's Party (Christian Democrats)",
     "group_abbr": "EPP",
     "email": "alma.ezcurra@europarl.europa.eu",
-    "phone": "+3222845398",
+    "phone": "+33388175398",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/257035.jpg",
@@ -9338,7 +9356,7 @@
     "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
     "group_abbr": "S&D",
     "email": "bruno.goncalves@europarl.europa.eu",
-    "phone": "+3222845551",
+    "phone": "+33388175551",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/257059.jpg",
@@ -10010,7 +10028,7 @@
     "group_name": "Renew Europe Group",
     "group_abbr": "Renew",
     "email": "elisabetta.gualmini@europarl.europa.eu",
-    "phone": "+33388175616",
+    "phone": "+3222845616",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/197618.jpg",
@@ -10537,6 +10555,12 @@
         "abbr": "BUDG",
         "name": "Budgets",
         "role": "MEMBER_SUBSTITUTE"
+      },
+      {
+        "id": "6572",
+        "abbr": "EMPL",
+        "name": "Employment and Social Affairs",
+        "role": "MEMBER"
       },
       {
         "id": "7913",
@@ -11318,7 +11342,7 @@
     "group_name": "European Conservatives and Reformists Group",
     "group_abbr": "ECR",
     "email": "paolo.inselvini@europarl.europa.eu",
-    "phone": "+33388175606",
+    "phone": "+3222845606",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/257144.jpg",
@@ -11786,7 +11810,7 @@
     "group_name": "Group of the European People's Party (Christian Democrats)",
     "group_abbr": "EPP",
     "email": "rasa.jukneviciene@europarl.europa.eu",
-    "phone": "+3222845592",
+    "phone": "+33388175592",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/197840.jpg",
@@ -11828,7 +11852,7 @@
     "group_name": "European Conservatives and Reformists Group",
     "group_abbr": "ECR",
     "email": "nora.juncogarcia@europarl.europa.eu",
-    "phone": "+3222845772",
+    "phone": "+33388175772",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/257022.jpg",
@@ -12506,7 +12530,7 @@
     "group_name": "Group of the European People's Party (Christian Democrats)",
     "group_abbr": "EPP",
     "email": "martine.kemp@europarl.europa.eu",
-    "phone": "+3222845496",
+    "phone": "+33388175496",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/249603.jpg",
@@ -13323,16 +13347,16 @@
         "role": "MEMBER_SUBSTITUTE"
       },
       {
+        "id": "6562",
+        "abbr": "AFET",
+        "name": "Foreign Affairs",
+        "role": "MEMBER_SUBSTITUTE"
+      },
+      {
         "id": "6582",
         "abbr": "AGRI",
         "name": "Agriculture and Rural Development",
         "role": "MEMBER_SUBSTITUTE"
-      },
-      {
-        "id": "6562",
-        "abbr": "AFET",
-        "name": "Foreign Affairs",
-        "role": "MEMBER"
       }
     ]
   },
@@ -13458,7 +13482,7 @@
         "id": "6576",
         "abbr": "ITRE",
         "name": "Industry, Research and Energy",
-        "role": "MEMBER"
+        "role": "MEMBER_SUBSTITUTE"
       }
     ]
   },
@@ -15936,6 +15960,12 @@
         "abbr": "PETI",
         "name": "Petitions",
         "role": "MEMBER"
+      },
+      {
+        "id": "6562",
+        "abbr": "AFET",
+        "name": "Foreign Affairs",
+        "role": "MEMBER_SUBSTITUTE"
       }
     ]
   },
@@ -16410,7 +16440,7 @@
     "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
     "group_abbr": "S&D",
     "email": "sven.mikser@europarl.europa.eu",
-    "phone": "+3222845716",
+    "phone": "+33388175716",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/197497.jpg",
@@ -16967,12 +16997,6 @@
         "abbr": "REGI",
         "name": "Regional Development",
         "role": "MEMBER"
-      },
-      {
-        "id": "7913",
-        "abbr": "",
-        "name": "",
-        "role": "MEMBER"
       }
     ]
   },
@@ -17376,7 +17400,7 @@
     "group_name": "Group of the European People's Party (Christian Democrats)",
     "group_abbr": "EPP",
     "email": "danuse.nerudova@europarl.europa.eu",
-    "phone": "+33388175767",
+    "phone": "+3222845767",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/256847.jpg",
@@ -18307,16 +18331,16 @@
         "role": "MEMBER_SUBSTITUTE"
       },
       {
+        "id": "6564",
+        "abbr": "INTA",
+        "name": "International Trade",
+        "role": "MEMBER"
+      },
+      {
         "id": "6572",
         "abbr": "EMPL",
         "name": "Employment and Social Affairs",
         "role": "MEMBER"
-      },
-      {
-        "id": "6564",
-        "abbr": "INTA",
-        "name": "International Trade",
-        "role": "MEMBER_SUBSTITUTE"
       },
       {
         "id": "6621",
@@ -19195,12 +19219,6 @@
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257019",
     "committees": [
       {
-        "id": "6582",
-        "abbr": "AGRI",
-        "name": "Agriculture and Rural Development",
-        "role": "MEMBER"
-      },
-      {
         "id": "6591",
         "abbr": "PETI",
         "name": "Petitions",
@@ -19432,12 +19450,6 @@
         "id": "6585",
         "abbr": "JURI",
         "name": "Legal Affairs",
-        "role": "MEMBER"
-      },
-      {
-        "id": "6576",
-        "abbr": "ITRE",
-        "name": "Industry, Research and Energy",
         "role": "MEMBER"
       }
     ]
@@ -21253,10 +21265,10 @@
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197578",
     "committees": [
       {
-        "id": "6576",
-        "abbr": "ITRE",
-        "name": "Industry, Research and Energy",
-        "role": "MEMBER_SUBSTITUTE"
+        "id": "6562",
+        "abbr": "AFET",
+        "name": "Foreign Affairs",
+        "role": "MEMBER"
       },
       {
         "id": "7005",
@@ -21486,7 +21498,7 @@
     "group_name": "European Conservatives and Reformists Group",
     "group_abbr": "ECR",
     "email": "antonella.sberna@europarl.europa.eu",
-    "phone": "+3222845922",
+    "phone": "+33388175922",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/257113.jpg",
@@ -21606,7 +21618,7 @@
     "group_name": "Group of the European People's Party (Christian Democrats)",
     "group_abbr": "EPP",
     "email": "oliver.schenk@europarl.europa.eu",
-    "phone": "+33388175746",
+    "phone": "+3222845746",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/256979.jpg",
@@ -22182,7 +22194,7 @@
     "group_name": "Renew Europe Group",
     "group_abbr": "Renew",
     "email": "lukas.sieper@europarl.europa.eu",
-    "phone": "+3222845878",
+    "phone": "+33388175878",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/256971.jpg",
@@ -22692,7 +22704,7 @@
     "group_name": "Non-attached Members",
     "group_abbr": "NI",
     "email": "malika.sorel@europarl.europa.eu",
-    "phone": "+3222845480",
+    "phone": "+33388175480",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/256871.jpg",
@@ -22978,7 +22990,7 @@
         "id": "7911",
         "abbr": "",
         "name": "",
-        "role": "MEMBER_SUBSTITUTE"
+        "role": "MEMBER"
       },
       {
         "id": "6586",
@@ -23154,7 +23166,7 @@
     "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
     "group_abbr": "S&D",
     "email": "cecilia.strada@europarl.europa.eu",
-    "phone": "+33388175188",
+    "phone": "+3222845188",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/257101.jpg",
@@ -24900,7 +24912,7 @@
     "group_name": "Group of the European People's Party (Christian Democrats)",
     "group_abbr": "EPP",
     "email": "pekka.toveri@europarl.europa.eu",
-    "phone": "+33388175837",
+    "phone": "+3222845837",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/256804.jpg",
@@ -25399,6 +25411,12 @@
         "role": "MEMBER"
       },
       {
+        "id": "6586",
+        "abbr": "LIBE",
+        "name": "Civil Liberties, Justice and Home Affairs",
+        "role": "MEMBER"
+      },
+      {
         "id": "7911",
         "abbr": "",
         "name": "",
@@ -25650,7 +25668,7 @@
     "group_name": "European Conservatives and Reformists Group",
     "group_abbr": "ECR",
     "email": "jessika.vanleeuwen@europarl.europa.eu",
-    "phone": "+3222845970",
+    "phone": "+33388175970",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/256983.jpg",
@@ -25680,12 +25698,18 @@
     "group_name": "Europe of Sovereign Nations Group",
     "group_abbr": "ESN",
     "email": "roberto.vannacci@europarl.europa.eu",
-    "phone": "+3222845622",
+    "phone": "+33388175622",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/257125.jpg",
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257125",
     "committees": [
+      {
+        "id": "6586",
+        "abbr": "LIBE",
+        "name": "Civil Liberties, Justice and Home Affairs",
+        "role": "MEMBER"
+      },
       {
         "id": "7911",
         "abbr": "",
@@ -26308,6 +26332,12 @@
         "id": "6587",
         "abbr": "AFCO",
         "name": "Constitutional Affairs",
+        "role": "MEMBER_SUBSTITUTE"
+      },
+      {
+        "id": "7911",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       }
     ]
@@ -27683,6 +27713,12 @@
     "photo_url": "https://www.europarl.europa.eu/mepphoto/257069.jpg",
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257069",
     "committees": [
+      {
+        "id": "6576",
+        "abbr": "ITRE",
+        "name": "Industry, Research and Energy",
+        "role": "MEMBER"
+      },
       {
         "id": "6586",
         "abbr": "LIBE",

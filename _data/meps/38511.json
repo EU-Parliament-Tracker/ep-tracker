@@ -25,6 +25,12 @@
       "abbr": "PETI",
       "name": "Petitions",
       "role": "MEMBER"
+    },
+    {
+      "id": "6562",
+      "abbr": "AFET",
+      "name": "Foreign Affairs",
+      "role": "MEMBER_SUBSTITUTE"
     }
   ]
 }

@@ -21,16 +21,16 @@
       "role": "MEMBER_SUBSTITUTE"
     },
     {
+      "id": "6564",
+      "abbr": "INTA",
+      "name": "International Trade",
+      "role": "MEMBER"
+    },
+    {
       "id": "6572",
       "abbr": "EMPL",
       "name": "Employment and Social Affairs",
       "role": "MEMBER"
-    },
-    {
-      "id": "6564",
-      "abbr": "INTA",
-      "name": "International Trade",
-      "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6621",

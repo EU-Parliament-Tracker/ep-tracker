@@ -33,6 +33,12 @@
       "role": "MEMBER"
     },
     {
+      "id": "6584",
+      "abbr": "CULT",
+      "name": "Culture and Education",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
       "id": "6567",
       "abbr": "BUDG",
       "name": "Budgets",

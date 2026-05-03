@@ -15,12 +15,6 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257019",
   "committees": [
     {
-      "id": "6582",
-      "abbr": "AGRI",
-      "name": "Agriculture and Rural Development",
-      "role": "MEMBER"
-    },
-    {
       "id": "6591",
       "abbr": "PETI",
       "name": "Petitions",
