@@ -654,12 +654,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6982/home"
   },
   {
-    "id": "6983",
-    "abbreviation": "CJ28",
-    "name": "CJ28",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6983/home"
-  },
-  {
     "id": "6984",
     "abbreviation": "CJ29",
     "name": "CJ29",
@@ -694,6 +688,12 @@
     "abbreviation": "CJ34",
     "name": "CJ34",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6989/home"
+  },
+  {
+    "id": "6990",
+    "abbreviation": "CJ35",
+    "name": "CJ35",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6990/home"
   },
   {
     "id": "6646",
@@ -1096,12 +1096,6 @@
     "abbreviation": "DSAS",
     "name": "DSAS",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6614/home"
-  },
-  {
-    "id": "6804",
-    "abbreviation": "DSB",
-    "name": "DSB",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6804/home"
   },
   {
     "id": "6596",
@@ -2224,6 +2218,12 @@
     "abbreviation": "PS",
     "name": "PS",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6706/home"
+  },
+  {
+    "id": "6728",
+    "abbreviation": "PS",
+    "name": "PS",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6728/home"
   },
   {
     "id": "6758",

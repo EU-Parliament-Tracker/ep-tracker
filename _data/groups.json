@@ -2,14 +2,14 @@
   {
     "abbr": "EPP",
     "name": "Group of the European People's Party (Christian Democrats)",
-    "seats": 185,
+    "seats": 183,
     "color": "#003399",
     "css": "epp"
   },
   {
     "abbr": "S&D",
     "name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
-    "seats": 135,
+    "seats": 136,
     "color": "#C8001A",
     "css": "sd"
   },
@@ -44,7 +44,7 @@
   {
     "abbr": "GUE/NGL",
     "name": "The Left group in the European Parliament - GUE/NGL",
-    "seats": 46,
+    "seats": 45,
     "color": "#800000",
     "css": "gue-ngl"
   },

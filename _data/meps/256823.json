@@ -4,39 +4,14 @@
   "given_name": "Nikolas",
   "last_name": "Farantouris",
   "country": "Greece",
-  "national_party": "Independent",
-  "group_name": "The Left group in the European Parliament - GUE/NGL",
-  "group_abbr": "GUE/NGL",
+  "national_party": "PASOK-KINAL",
+  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+  "group_abbr": "S&D",
   "email": "nikolaos.farantouris@europarl.europa.eu",
   "phone": "+33388175969",
   "website": "",
   "social": {},
   "photo_url": "https://www.europarl.europa.eu/mepphoto/256823.jpg",
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256823",
-  "committees": [
-    {
-      "id": "7913",
-      "abbr": "",
-      "name": "",
-      "role": "MEMBER_SUBSTITUTE"
-    },
-    {
-      "id": "6567",
-      "abbr": "BUDG",
-      "name": "Budgets",
-      "role": "MEMBER"
-    },
-    {
-      "id": "7911",
-      "abbr": "",
-      "name": "",
-      "role": "MEMBER_SUBSTITUTE"
-    },
-    {
-      "id": "6587",
-      "abbr": "AFCO",
-      "name": "Constitutional Affairs",
-      "role": "MEMBER"
-    }
-  ]
+  "committees": []
 }

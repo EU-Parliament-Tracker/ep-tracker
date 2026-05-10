@@ -15,6 +15,12 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257093",
   "committees": [
     {
+      "id": "6576",
+      "abbr": "ITRE",
+      "name": "Industry, Research and Energy",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
       "id": "6580",
       "abbr": "TRAN",
       "name": "Transport and Tourism",
@@ -36,12 +42,6 @@
       "id": "6583",
       "abbr": "PECH",
       "name": "Fisheries",
-      "role": "MEMBER_SUBSTITUTE"
-    },
-    {
-      "id": "6576",
-      "abbr": "ITRE",
-      "name": "Industry, Research and Energy",
       "role": "MEMBER_SUBSTITUTE"
     }
   ]
