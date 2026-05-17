@@ -519,7 +519,7 @@
     "group_name": "Group of the Greens/European Free Alliance",
     "group_abbr": "Greens/EFA",
     "email": "rasmus.andresen@europarl.europa.eu",
-    "phone": "+3222845373",
+    "phone": "+33388175373",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/197448.jpg",
@@ -2972,7 +2972,7 @@
     "group_name": "Group of the Greens/European Free Alliance",
     "group_abbr": "Greens/EFA",
     "email": "gordan.bosanac@europarl.europa.eu",
-    "phone": "+33388175228",
+    "phone": "+3222845228",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/256995.jpg",
@@ -7190,12 +7190,25 @@
     "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
     "group_abbr": "S&D",
     "email": "nikolaos.farantouris@europarl.europa.eu",
-    "phone": "+33388175969",
+    "phone": "+3222845969",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/256823.jpg",
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256823",
-    "committees": []
+    "committees": [
+      {
+        "id": "6562",
+        "abbr": "AFET",
+        "name": "Foreign Affairs",
+        "role": "MEMBER_SUBSTITUTE"
+      },
+      {
+        "id": "7913",
+        "abbr": "",
+        "name": "",
+        "role": "MEMBER_SUBSTITUTE"
+      }
+    ]
   },
   "197589": {
     "id": "197589",
@@ -10987,7 +11000,7 @@
     "group_name": "Renew Europe Group",
     "group_abbr": "Renew",
     "email": "martin.hojsik@europarl.europa.eu",
-    "phone": "+33388175891",
+    "phone": "+3222845891",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/197770.jpg",
@@ -14742,7 +14755,7 @@
     "group_name": "Group of the Greens/European Free Alliance",
     "group_abbr": "Greens/EFA",
     "email": "isabella.lovin@europarl.europa.eu",
-    "phone": "+3222845375",
+    "phone": "+33388175375",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/96675.jpg",
@@ -15229,6 +15242,12 @@
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256824",
     "committees": [
       {
+        "id": "7915",
+        "abbr": "",
+        "name": "",
+        "role": "MEMBER_SUBSTITUTE"
+      },
+      {
         "id": "6576",
         "abbr": "ITRE",
         "name": "Industry, Research and Energy",
@@ -15244,12 +15263,6 @@
         "id": "6580",
         "abbr": "TRAN",
         "name": "Transport and Tourism",
-        "role": "MEMBER_SUBSTITUTE"
-      },
-      {
-        "id": "7915",
-        "abbr": "",
-        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -15492,7 +15505,7 @@
     "group_name": "Group of the Greens/European Free Alliance",
     "group_abbr": "Greens/EFA",
     "email": "erik.marquardt@europarl.europa.eu",
-    "phone": "+3222845851",
+    "phone": "+33388175851",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/197462.jpg",
@@ -16014,7 +16027,7 @@
     "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
     "group_abbr": "S&D",
     "email": "nora.mebarek@europarl.europa.eu",
-    "phone": "+33388175693",
+    "phone": "+3222845693",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/204418.jpg",
@@ -16181,12 +16194,6 @@
         "abbr": "LIBE",
         "name": "Civil Liberties, Justice and Home Affairs",
         "role": "MEMBER"
-      },
-      {
-        "id": "6562",
-        "abbr": "AFET",
-        "name": "Foreign Affairs",
-        "role": "MEMBER_SUBSTITUTE"
       }
     ]
   },

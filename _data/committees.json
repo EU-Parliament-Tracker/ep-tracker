@@ -654,6 +654,12 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6982/home"
   },
   {
+    "id": "6983",
+    "abbreviation": "CJ28",
+    "name": "CJ28",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6983/home"
+  },
+  {
     "id": "6984",
     "abbreviation": "CJ29",
     "name": "CJ29",
@@ -688,12 +694,6 @@
     "abbreviation": "CJ34",
     "name": "CJ34",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6989/home"
-  },
-  {
-    "id": "6990",
-    "abbreviation": "CJ35",
-    "name": "CJ35",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6990/home"
   },
   {
     "id": "6646",
@@ -1096,6 +1096,12 @@
     "abbreviation": "DSAS",
     "name": "DSAS",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6614/home"
+  },
+  {
+    "id": "6804",
+    "abbreviation": "DSB",
+    "name": "DSB",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6804/home"
   },
   {
     "id": "6596",
@@ -1678,12 +1684,6 @@
     "abbreviation": "KE",
     "name": "KE",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6792/home"
-  },
-  {
-    "id": "6725",
-    "abbreviation": "KESK",
-    "name": "KESK",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6725/home"
   },
   {
     "id": "6876",
@@ -2308,12 +2308,6 @@
     "abbreviation": "PiS",
     "name": "PiS",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6702/home"
-  },
-  {
-    "id": "6800",
-    "abbreviation": "Piratenpartei DE",
-    "name": "Piratenpartei DE",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6800/home"
   },
   {
     "id": "6785",
