@@ -21,12 +21,6 @@
       "role": "MEMBER_SUBSTITUTE"
     },
     {
-      "id": "6582",
-      "abbr": "AGRI",
-      "name": "Agriculture and Rural Development",
-      "role": "MEMBER_SUBSTITUTE"
-    },
-    {
       "id": "7913",
       "abbr": "",
       "name": "",
@@ -37,6 +31,12 @@
       "abbr": "IMCO",
       "name": "Internal Market and Consumer Protection",
       "role": "MEMBER"
+    },
+    {
+      "id": "6564",
+      "abbr": "INTA",
+      "name": "International Trade",
+      "role": "MEMBER_SUBSTITUTE"
     }
   ]
 }

@@ -15,12 +15,6 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/127766",
   "committees": [
     {
-      "id": "6567",
-      "abbr": "BUDG",
-      "name": "Budgets",
-      "role": "MEMBER_SUBSTITUTE"
-    },
-    {
       "id": "7007",
       "abbr": "",
       "name": "",
@@ -36,6 +30,12 @@
       "id": "6576",
       "abbr": "ITRE",
       "name": "Industry, Research and Energy",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6567",
+      "abbr": "BUDG",
+      "name": "Budgets",
       "role": "MEMBER"
     }
   ]

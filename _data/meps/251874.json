@@ -15,16 +15,16 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/251874",
   "committees": [
     {
-      "id": "6625",
-      "abbr": "DCAR",
-      "name": "DCAR",
-      "role": "MEMBER"
-    },
-    {
       "id": "7915",
       "abbr": "",
       "name": "",
       "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6563",
+      "abbr": "DEVE",
+      "name": "Development",
+      "role": "MEMBER"
     },
     {
       "id": "6572",
@@ -33,9 +33,9 @@
       "role": "MEMBER"
     },
     {
-      "id": "6563",
-      "abbr": "DEVE",
-      "name": "Development",
+      "id": "6625",
+      "abbr": "DCAR",
+      "name": "DCAR",
       "role": "MEMBER"
     }
   ]

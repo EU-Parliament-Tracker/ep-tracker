@@ -15,6 +15,12 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257298",
   "committees": [
     {
+      "id": "6582",
+      "abbr": "AGRI",
+      "name": "Agriculture and Rural Development",
+      "role": "MEMBER"
+    },
+    {
       "id": "7915",
       "abbr": "",
       "name": "",
@@ -25,12 +31,6 @@
       "abbr": "REGI",
       "name": "Regional Development",
       "role": "MEMBER"
-    },
-    {
-      "id": "6582",
-      "abbr": "AGRI",
-      "name": "Agriculture and Rural Development",
-      "role": "MEMBER_SUBSTITUTE"
     }
   ]
 }

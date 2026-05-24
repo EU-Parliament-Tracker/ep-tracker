@@ -27,15 +27,15 @@
       "role": "CHAIR_VICE"
     },
     {
-      "id": "6576",
-      "abbr": "ITRE",
-      "name": "Industry, Research and Energy",
-      "role": "MEMBER_SUBSTITUTE"
-    },
-    {
       "id": "6585",
       "abbr": "JURI",
       "name": "Legal Affairs",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6572",
+      "abbr": "EMPL",
+      "name": "Employment and Social Affairs",
       "role": "MEMBER"
     }
   ]

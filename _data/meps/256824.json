@@ -15,6 +15,12 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256824",
   "committees": [
     {
+      "id": "6568",
+      "abbr": "CONT",
+      "name": "Budgetary Control",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
       "id": "7915",
       "abbr": "",
       "name": "",

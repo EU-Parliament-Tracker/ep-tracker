@@ -690,12 +690,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6988/home"
   },
   {
-    "id": "6989",
-    "abbreviation": "CJ34",
-    "name": "CJ34",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6989/home"
-  },
-  {
     "id": "6646",
     "abbreviation": "CNR",
     "name": "CNR",
@@ -1686,6 +1680,12 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6792/home"
   },
   {
+    "id": "6725",
+    "abbreviation": "KESK",
+    "name": "KESK",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6725/home"
+  },
+  {
     "id": "6876",
     "abbreviation": "KINAL",
     "name": "KINAL",
@@ -2308,6 +2308,12 @@
     "abbreviation": "PiS",
     "name": "PiS",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6702/home"
+  },
+  {
+    "id": "6800",
+    "abbreviation": "Piratenpartei DE",
+    "name": "Piratenpartei DE",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6800/home"
   },
   {
     "id": "6785",

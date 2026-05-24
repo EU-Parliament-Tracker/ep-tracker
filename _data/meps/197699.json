@@ -15,6 +15,12 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197699",
   "committees": [
     {
+      "id": "6567",
+      "abbr": "BUDG",
+      "name": "Budgets",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
       "id": "6580",
       "abbr": "TRAN",
       "name": "Transport and Tourism",
