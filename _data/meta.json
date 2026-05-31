@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-05-30",
-  "last_updated_ts": 1780131981.4828746,
+  "last_updated": "2026-05-31",
+  "last_updated_ts": 1780216049.0700457,
   "failed_datasets": [],
   "counts": {
     "committees": 468,
-    "meps": 719,
+    "meps": 718,
     "groups": 9,
     "sessions": 107,
     "votes": 2000,

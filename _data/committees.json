@@ -24,12 +24,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/3902/home"
   },
   {
-    "id": "3903",
-    "abbreviation": "3903",
-    "name": "3903",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/3903/home"
-  },
-  {
     "id": "3904",
     "abbreviation": "3904",
     "name": "3904",
@@ -688,6 +682,12 @@
     "abbreviation": "CJ33",
     "name": "CJ33",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6988/home"
+  },
+  {
+    "id": "6989",
+    "abbreviation": "CJ34",
+    "name": "CJ34",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6989/home"
   },
   {
     "id": "6646",
