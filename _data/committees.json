@@ -24,6 +24,12 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/3902/home"
   },
   {
+    "id": "3903",
+    "abbreviation": "3903",
+    "name": "3903",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/3903/home"
+  },
+  {
     "id": "3904",
     "abbreviation": "3904",
     "name": "3904",
@@ -690,6 +696,12 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6989/home"
   },
   {
+    "id": "6990",
+    "abbreviation": "CJ35",
+    "name": "CJ35",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6990/home"
+  },
+  {
     "id": "6646",
     "abbreviation": "CNR",
     "name": "CNR",
@@ -862,12 +874,6 @@
     "abbreviation": "D-TR",
     "name": "D-TR",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6622/home"
-  },
-  {
-    "id": "6593",
-    "abbreviation": "D-UA",
-    "name": "D-UA",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6593/home"
   },
   {
     "id": "6629",
@@ -1180,12 +1186,6 @@
     "abbreviation": "EK",
     "name": "EK",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6938/home"
-  },
-  {
-    "id": "6877",
-    "abbreviation": "EKRE",
-    "name": "EKRE",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6877/home"
   },
   {
     "id": "6781",
@@ -1510,12 +1510,6 @@
     "abbreviation": "Ind.",
     "name": "Ind.",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6843/home"
-  },
-  {
-    "id": "6891",
-    "abbreviation": "Ind.",
-    "name": "Ind.",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6891/home"
   },
   {
     "id": "6798",

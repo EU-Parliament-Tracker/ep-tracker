@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-06",
-  "last_updated_ts": 1780737090.4203067,
+  "last_updated": "2026-06-07",
+  "last_updated_ts": 1780821603.660415,
   "failed_datasets": [],
   "counts": {
-    "committees": 468,
+    "committees": 467,
     "meps": 718,
     "groups": 9,
     "sessions": 107,
