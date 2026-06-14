@@ -15,12 +15,6 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124808",
   "committees": [
     {
-      "id": "6563",
-      "abbr": "DEVE",
-      "name": "Development",
-      "role": "MEMBER_SUBSTITUTE"
-    },
-    {
       "id": "6629",
       "abbr": "D-UK",
       "name": "D-UK",

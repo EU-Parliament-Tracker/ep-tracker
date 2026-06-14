@@ -1683,7 +1683,7 @@
     "group_name": "European Conservatives and Reformists Group",
     "group_abbr": "ECR",
     "email": "stephennikola.bartulica@europarl.europa.eu",
-    "phone": "+3222845272",
+    "phone": "+33388175272",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/257000.jpg",
@@ -2731,7 +2731,14 @@
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/277777.jpg",
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/277777",
-    "committees": []
+    "committees": [
+      {
+        "id": "6622",
+        "abbr": "D-TR",
+        "name": "D-TR",
+        "role": "MEMBER_SUBSTITUTE"
+      }
+    ]
   },
   "257108": {
     "id": "257108",
@@ -2995,7 +3002,7 @@
     "group_name": "Group of the Greens/European Free Alliance",
     "group_abbr": "Greens/EFA",
     "email": "gordan.bosanac@europarl.europa.eu",
-    "phone": "+3222845228",
+    "phone": "+33388175228",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/256995.jpg",
@@ -5574,6 +5581,12 @@
         "abbr": "IMCO",
         "name": "Internal Market and Consumer Protection",
         "role": "MEMBER"
+      },
+      {
+        "id": "7913",
+        "abbr": "",
+        "name": "",
+        "role": "MEMBER_SUBSTITUTE"
       },
       {
         "id": "6591",
@@ -8904,12 +8917,6 @@
         "abbr": "REGI",
         "name": "Regional Development",
         "role": "CHAIR_VICE"
-      },
-      {
-        "id": "7913",
-        "abbr": "",
-        "name": "",
-        "role": "MEMBER_SUBSTITUTE"
       }
     ]
   },
@@ -11035,7 +11042,7 @@
     "group_name": "Renew Europe Group",
     "group_abbr": "Renew",
     "email": "martin.hojsik@europarl.europa.eu",
-    "phone": "+33388175891",
+    "phone": "+3222845891",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/197770.jpg",
@@ -12860,16 +12867,22 @@
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256973",
     "committees": [
       {
-        "id": "7913",
-        "abbr": "",
-        "name": "",
-        "role": "MEMBER"
+        "id": "6563",
+        "abbr": "DEVE",
+        "name": "Development",
+        "role": "MEMBER_SUBSTITUTE"
       },
       {
         "id": "6591",
         "abbr": "PETI",
         "name": "Petitions",
         "role": "MEMBER_SUBSTITUTE"
+      },
+      {
+        "id": "7913",
+        "abbr": "",
+        "name": "",
+        "role": "MEMBER"
       },
       {
         "id": "6582",
@@ -13573,12 +13586,6 @@
     "photo_url": "https://www.europarl.europa.eu/mepphoto/256864.jpg",
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256864",
     "committees": [
-      {
-        "id": "6572",
-        "abbr": "EMPL",
-        "name": "Employment and Social Affairs",
-        "role": "MEMBER_SUBSTITUTE"
-      },
       {
         "id": "7913",
         "abbr": "",
@@ -14510,12 +14517,6 @@
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124808",
     "committees": [
       {
-        "id": "6563",
-        "abbr": "DEVE",
-        "name": "Development",
-        "role": "MEMBER_SUBSTITUTE"
-      },
-      {
         "id": "6629",
         "abbr": "D-UK",
         "name": "D-UK",
@@ -14815,7 +14816,7 @@
     "group_name": "Group of the Greens/European Free Alliance",
     "group_abbr": "Greens/EFA",
     "email": "isabella.lovin@europarl.europa.eu",
-    "phone": "+33388175375",
+    "phone": "+3222845375",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/96675.jpg",
@@ -18708,7 +18709,7 @@
     "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
     "group_abbr": "S&D",
     "email": "nikos.papandreou@europarl.europa.eu",
-    "phone": "+3222845340",
+    "phone": "+33388175340",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/244571.jpg",
@@ -21032,7 +21033,7 @@
     "given_name": "Ilaria",
     "last_name": "Salis",
     "country": "Italy",
-    "national_party": "Alleanza Verdi e Sinistra",
+    "national_party": "Sinistra Italiana",
     "group_name": "The Left group in the European Parliament - GUE/NGL",
     "group_abbr": "GUE/NGL",
     "email": "ilaria.salis@europarl.europa.eu",
@@ -27107,7 +27108,7 @@
     "id": "260695",
     "full_name": "Viktor WEISZ",
     "given_name": "Viktor",
-    "last_name": "WEISZ",
+    "last_name": "Weisz",
     "country": "Hungary",
     "national_party": "Tisztelet és Szabadság Párt",
     "group_name": "Group of the European People's Party (Christian Democrats)",
@@ -27118,7 +27119,14 @@
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/260695.jpg",
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/260695",
-    "committees": []
+    "committees": [
+      {
+        "id": "6572",
+        "abbr": "EMPL",
+        "name": "Employment and Social Affairs",
+        "role": "MEMBER_SUBSTITUTE"
+      }
+    ]
   },
   "261796": {
     "id": "261796",

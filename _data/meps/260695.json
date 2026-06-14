@@ -2,7 +2,7 @@
   "id": "260695",
   "full_name": "Viktor WEISZ",
   "given_name": "Viktor",
-  "last_name": "WEISZ",
+  "last_name": "Weisz",
   "country": "Hungary",
   "national_party": "Tisztelet és Szabadság Párt",
   "group_name": "Group of the European People's Party (Christian Democrats)",
@@ -13,5 +13,12 @@
   "social": {},
   "photo_url": "https://www.europarl.europa.eu/mepphoto/260695.jpg",
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/260695",
-  "committees": []
+  "committees": [
+    {
+      "id": "6572",
+      "abbr": "EMPL",
+      "name": "Employment and Social Affairs",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
 }
