@@ -15,16 +15,16 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256866",
   "committees": [
     {
-      "id": "6588",
-      "abbr": "FEMM",
-      "name": "Women's Rights and Gender Equality",
-      "role": "MEMBER"
-    },
-    {
       "id": "6581",
       "abbr": "REGI",
       "name": "Regional Development",
       "role": "CHAIR_VICE"
+    },
+    {
+      "id": "6582",
+      "abbr": "AGRI",
+      "name": "Agriculture and Rural Development",
+      "role": "MEMBER"
     }
   ]
 }

@@ -31,6 +31,12 @@
       "abbr": "PETI",
       "name": "Petitions",
       "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6629",
+      "abbr": "D-UK",
+      "name": "D-UK",
+      "role": "MEMBER"
     }
   ]
 }

@@ -15,16 +15,16 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256977",
   "committees": [
     {
+      "id": "7913",
+      "abbr": "",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
       "id": "6576",
       "abbr": "ITRE",
       "name": "Industry, Research and Energy",
       "role": "MEMBER"
-    },
-    {
-      "id": "7913",
-      "abbr": "",
-      "name": "",
-      "role": "MEMBER_SUBSTITUTE"
     },
     {
       "id": "6572",

@@ -2,14 +2,14 @@
   {
     "abbr": "EPP",
     "name": "Group of the European People's Party (Christian Democrats)",
-    "seats": 184,
+    "seats": 185,
     "color": "#003399",
     "css": "epp"
   },
   {
     "abbr": "S&D",
     "name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
-    "seats": 136,
+    "seats": 135,
     "color": "#C8001A",
     "css": "sd"
   },
@@ -23,21 +23,21 @@
   {
     "abbr": "ECR",
     "name": "European Conservatives and Reformists Group",
-    "seats": 81,
+    "seats": 82,
     "color": "#0066CC",
     "css": "ecr"
   },
   {
     "abbr": "Renew",
     "name": "Renew Europe Group",
-    "seats": 77,
+    "seats": 78,
     "color": "#F7931E",
     "css": "renew"
   },
   {
     "abbr": "Greens/EFA",
     "name": "Group of the Greens/European Free Alliance",
-    "seats": 53,
+    "seats": 52,
     "color": "#50A045",
     "css": "greens-efa"
   },
@@ -51,7 +51,7 @@
   {
     "abbr": "NI",
     "name": "Non-attached Members",
-    "seats": 30,
+    "seats": 29,
     "color": "#888888",
     "css": "ni"
   },

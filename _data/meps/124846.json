@@ -5,32 +5,13 @@
   "last_name": "Picierno",
   "country": "Italy",
   "national_party": "Partito Democratico",
-  "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
-  "group_abbr": "S&D",
+  "group_name": "Renew Europe Group",
+  "group_abbr": "Renew",
   "email": "giuseppina.picierno@europarl.europa.eu",
   "phone": "+3222845229",
   "website": "",
   "social": {},
   "photo_url": "https://www.europarl.europa.eu/mepphoto/124846.jpg",
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124846",
-  "committees": [
-    {
-      "id": "6586",
-      "abbr": "LIBE",
-      "name": "Civil Liberties, Justice and Home Affairs",
-      "role": "MEMBER_SUBSTITUTE"
-    },
-    {
-      "id": "7914",
-      "abbr": "",
-      "name": "",
-      "role": "MEMBER"
-    },
-    {
-      "id": "6591",
-      "abbr": "PETI",
-      "name": "Petitions",
-      "role": "MEMBER"
-    }
-  ]
+  "committees": []
 }

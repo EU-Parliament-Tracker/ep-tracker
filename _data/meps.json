@@ -1683,7 +1683,7 @@
     "group_name": "European Conservatives and Reformists Group",
     "group_abbr": "ECR",
     "email": "stephennikola.bartulica@europarl.europa.eu",
-    "phone": "+33388175272",
+    "phone": "+3222845272",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/257000.jpg",
@@ -1722,8 +1722,8 @@
     "last_name": "Bartůšek",
     "country": "Czechia",
     "national_party": "Independent",
-    "group_name": "Non-attached Members",
-    "group_abbr": "NI",
+    "group_name": "European Conservatives and Reformists Group",
+    "group_abbr": "ECR",
     "email": "nikola.bartusek@europarl.europa.eu",
     "phone": "+33388175252",
     "website": "",
@@ -2733,6 +2733,18 @@
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/277777",
     "committees": [
       {
+        "id": "6587",
+        "abbr": "AFCO",
+        "name": "Constitutional Affairs",
+        "role": "MEMBER"
+      },
+      {
+        "id": "6588",
+        "abbr": "FEMM",
+        "name": "Women's Rights and Gender Equality",
+        "role": "MEMBER"
+      },
+      {
         "id": "6622",
         "abbr": "D-TR",
         "name": "D-TR",
@@ -3002,7 +3014,7 @@
     "group_name": "Group of the Greens/European Free Alliance",
     "group_abbr": "Greens/EFA",
     "email": "gordan.bosanac@europarl.europa.eu",
-    "phone": "+33388175228",
+    "phone": "+3222845228",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/256995.jpg",
@@ -3308,7 +3320,7 @@
     "group_name": "Patriots for Europe Group",
     "group_abbr": "PfE",
     "email": "marie-luce.brasier-clain@europarl.europa.eu",
-    "phone": "+33388175482",
+    "phone": "+3222845482",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/256878.jpg",
@@ -4594,7 +4606,7 @@
     "given_name": "Mohammed",
     "last_name": "Chahim",
     "country": "Netherlands",
-    "national_party": "GroenLinks-PvdA",
+    "national_party": "Progressief Nederland",
     "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
     "group_abbr": "S&D",
     "email": "mohammed.chahim@europarl.europa.eu",
@@ -5593,6 +5605,12 @@
         "abbr": "PETI",
         "name": "Petitions",
         "role": "MEMBER_SUBSTITUTE"
+      },
+      {
+        "id": "6629",
+        "abbr": "D-UK",
+        "name": "D-UK",
+        "role": "MEMBER"
       }
     ]
   },
@@ -6858,36 +6876,6 @@
         "id": "7914",
         "abbr": "",
         "name": "",
-        "role": "MEMBER_SUBSTITUTE"
-      }
-    ]
-  },
-  "96725": {
-    "id": "96725",
-    "full_name": "Bas EICKHOUT",
-    "given_name": "Bas",
-    "last_name": "Eickhout",
-    "country": "Netherlands",
-    "national_party": "GroenLinks-PvdA",
-    "group_name": "Group of the Greens/European Free Alliance",
-    "group_abbr": "Greens/EFA",
-    "email": "bas.eickhout@europarl.europa.eu",
-    "phone": "+33388175365",
-    "website": "",
-    "social": {},
-    "photo_url": "https://www.europarl.europa.eu/mepphoto/96725.jpg",
-    "ep_profile_url": "https://www.europarl.europa.eu/meps/en/96725",
-    "committees": [
-      {
-        "id": "7913",
-        "abbr": "",
-        "name": "",
-        "role": "MEMBER_SUBSTITUTE"
-      },
-      {
-        "id": "6570",
-        "abbr": "ECON",
-        "name": "Economic and Monetary Affairs",
         "role": "MEMBER_SUBSTITUTE"
       }
     ]
@@ -8907,16 +8895,16 @@
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256866",
     "committees": [
       {
-        "id": "6588",
-        "abbr": "FEMM",
-        "name": "Women's Rights and Gender Equality",
-        "role": "MEMBER"
-      },
-      {
         "id": "6581",
         "abbr": "REGI",
         "name": "Regional Development",
         "role": "CHAIR_VICE"
+      },
+      {
+        "id": "6582",
+        "abbr": "AGRI",
+        "name": "Agriculture and Rural Development",
+        "role": "MEMBER"
       }
     ]
   },
@@ -9357,12 +9345,6 @@
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256997",
     "committees": [
       {
-        "id": "6562",
-        "abbr": "AFET",
-        "name": "Foreign Affairs",
-        "role": "MEMBER_SUBSTITUTE"
-      },
-      {
         "id": "6567",
         "abbr": "BUDG",
         "name": "Budgets",
@@ -9379,6 +9361,12 @@
         "abbr": "PETI",
         "name": "Petitions",
         "role": "MEMBER"
+      },
+      {
+        "id": "6562",
+        "abbr": "AFET",
+        "name": "Foreign Affairs",
+        "role": "MEMBER_SUBSTITUTE"
       }
     ]
   },
@@ -10924,6 +10912,23 @@
       }
     ]
   },
+  "278406": {
+    "id": "278406",
+    "full_name": "Norbert HERHAMMER",
+    "given_name": "Norbert",
+    "last_name": "Herhammer",
+    "country": "Germany",
+    "national_party": "Christlich Demokratische Union Deutschlands",
+    "group_name": "Group of the European People's Party (Christian Democrats)",
+    "group_abbr": "EPP",
+    "email": "norbert.herhammer@europarl.europa.eu",
+    "phone": "+33388175791",
+    "website": "",
+    "social": {},
+    "photo_url": "https://www.europarl.europa.eu/mepphoto/278406.jpg",
+    "ep_profile_url": "https://www.europarl.europa.eu/meps/en/278406",
+    "committees": []
+  },
   "22418": {
     "id": "22418",
     "full_name": "Esther HERRANZ GARCÍA",
@@ -11042,7 +11047,7 @@
     "group_name": "Renew Europe Group",
     "group_abbr": "Renew",
     "email": "martin.hojsik@europarl.europa.eu",
-    "phone": "+3222845891",
+    "phone": "+33388175891",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/197770.jpg",
@@ -12446,7 +12451,7 @@
     "group_name": "Renew Europe Group",
     "group_abbr": "Renew",
     "email": "billy.kelleher@europarl.europa.eu",
-    "phone": "+3222845279",
+    "phone": "+33388175279",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/197818.jpg",
@@ -12866,6 +12871,12 @@
     "photo_url": "https://www.europarl.europa.eu/mepphoto/256973.jpg",
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256973",
     "committees": [
+      {
+        "id": "6625",
+        "abbr": "DCAR",
+        "name": "DCAR",
+        "role": "MEMBER"
+      },
       {
         "id": "6563",
         "abbr": "DEVE",
@@ -14539,12 +14550,6 @@
         "abbr": "TRAN",
         "name": "Transport and Tourism",
         "role": "MEMBER_SUBSTITUTE"
-      },
-      {
-        "id": "6625",
-        "abbr": "DCAR",
-        "name": "DCAR",
-        "role": "CHAIR"
       }
     ]
   },
@@ -14816,7 +14821,7 @@
     "group_name": "Group of the Greens/European Free Alliance",
     "group_abbr": "Greens/EFA",
     "email": "isabella.lovin@europarl.europa.eu",
-    "phone": "+3222845375",
+    "phone": "+33388175375",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/96675.jpg",
@@ -15130,7 +15135,7 @@
     "given_name": "Marit",
     "last_name": "Maij",
     "country": "Netherlands",
-    "national_party": "GroenLinks-PvdA",
+    "national_party": "Progressief Nederland",
     "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
     "group_abbr": "S&D",
     "email": "marit.maij@europarl.europa.eu",
@@ -15627,12 +15632,6 @@
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257029",
     "committees": [
       {
-        "id": "7005",
-        "abbr": "",
-        "name": "",
-        "role": "MEMBER"
-      },
-      {
         "id": "6576",
         "abbr": "ITRE",
         "name": "Industry, Research and Energy",
@@ -15648,6 +15647,12 @@
         "id": "6579",
         "abbr": "IMCO",
         "name": "Internal Market and Consumer Protection",
+        "role": "MEMBER"
+      },
+      {
+        "id": "7005",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       }
     ]
@@ -18709,7 +18714,7 @@
     "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
     "group_abbr": "S&D",
     "email": "nikos.papandreou@europarl.europa.eu",
-    "phone": "+33388175340",
+    "phone": "+3222845340",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/244571.jpg",
@@ -18947,6 +18952,12 @@
         "id": "7914",
         "abbr": "",
         "name": "",
+        "role": "MEMBER_SUBSTITUTE"
+      },
+      {
+        "id": "6576",
+        "abbr": "ITRE",
+        "name": "Industry, Research and Energy",
         "role": "MEMBER_SUBSTITUTE"
       }
     ]
@@ -19360,34 +19371,15 @@
     "last_name": "Picierno",
     "country": "Italy",
     "national_party": "Partito Democratico",
-    "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
-    "group_abbr": "S&D",
+    "group_name": "Renew Europe Group",
+    "group_abbr": "Renew",
     "email": "giuseppina.picierno@europarl.europa.eu",
     "phone": "+3222845229",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/124846.jpg",
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/124846",
-    "committees": [
-      {
-        "id": "6586",
-        "abbr": "LIBE",
-        "name": "Civil Liberties, Justice and Home Affairs",
-        "role": "MEMBER_SUBSTITUTE"
-      },
-      {
-        "id": "7914",
-        "abbr": "",
-        "name": "",
-        "role": "MEMBER"
-      },
-      {
-        "id": "6591",
-        "abbr": "PETI",
-        "name": "Petitions",
-        "role": "MEMBER"
-      }
-    ]
+    "committees": []
   },
   "112744": {
     "id": "112744",
@@ -20463,7 +20455,7 @@
     "given_name": "Thijs",
     "last_name": "Reuten",
     "country": "Netherlands",
-    "national_party": "GroenLinks-PvdA",
+    "national_party": "Progressief Nederland",
     "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
     "group_abbr": "S&D",
     "email": "thijs.reuten@europarl.europa.eu",
@@ -23217,7 +23209,7 @@
     "given_name": "Tineke",
     "last_name": "Strik",
     "country": "Netherlands",
-    "national_party": "GroenLinks-PvdA",
+    "national_party": "Progressief Nederland",
     "group_name": "Group of the Greens/European Free Alliance",
     "group_abbr": "Greens/EFA",
     "email": "tineke.strik@europarl.europa.eu",
@@ -25719,7 +25711,7 @@
     "given_name": "Kim",
     "last_name": "Van Sparrentak",
     "country": "Netherlands",
-    "national_party": "GroenLinks-PvdA",
+    "national_party": "Progressief Nederland",
     "group_name": "Group of the Greens/European Free Alliance",
     "group_abbr": "Greens/EFA",
     "email": "kim.vansparrentak@europarl.europa.eu",
@@ -25975,7 +25967,7 @@
     "group_name": "Group of the European People's Party (Christian Democrats)",
     "group_abbr": "EPP",
     "email": "sabine.verheyen@europarl.europa.eu",
-    "phone": "+33388175299",
+    "phone": "+3222845299",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/96756.jpg",
@@ -26175,7 +26167,7 @@
     "given_name": "Catarina",
     "last_name": "Vieira",
     "country": "Netherlands",
-    "national_party": "GroenLinks-PvdA",
+    "national_party": "Progressief Nederland",
     "group_name": "Group of the Greens/European Free Alliance",
     "group_abbr": "Greens/EFA",
     "email": "Catarina.VIEIRA@europarl.europa.eu",
@@ -27049,16 +27041,16 @@
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/256977",
     "committees": [
       {
+        "id": "7913",
+        "abbr": "",
+        "name": "",
+        "role": "MEMBER"
+      },
+      {
         "id": "6576",
         "abbr": "ITRE",
         "name": "Industry, Research and Energy",
         "role": "MEMBER"
-      },
-      {
-        "id": "7913",
-        "abbr": "",
-        "name": "",
-        "role": "MEMBER_SUBSTITUTE"
       },
       {
         "id": "6572",
@@ -27121,10 +27113,22 @@
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/260695",
     "committees": [
       {
+        "id": "6626",
+        "abbr": "D-RS",
+        "name": "D-RS",
+        "role": "MEMBER"
+      },
+      {
         "id": "6572",
         "abbr": "EMPL",
         "name": "Employment and Social Affairs",
         "role": "MEMBER_SUBSTITUTE"
+      },
+      {
+        "id": "6584",
+        "abbr": "CULT",
+        "name": "Culture and Education",
+        "role": "MEMBER"
       }
     ]
   },
@@ -27482,7 +27486,7 @@
     "given_name": "Lara",
     "last_name": "Wolters",
     "country": "Netherlands",
-    "national_party": "GroenLinks-PvdA",
+    "national_party": "Progressief Nederland",
     "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
     "group_abbr": "S&D",
     "email": "lara.wolters@europarl.europa.eu",
@@ -27690,6 +27694,12 @@
     "photo_url": "https://www.europarl.europa.eu/mepphoto/257069.jpg",
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257069",
     "committees": [
+      {
+        "id": "6622",
+        "abbr": "D-TR",
+        "name": "D-TR",
+        "role": "MEMBER"
+      },
       {
         "id": "6576",
         "abbr": "ITRE",

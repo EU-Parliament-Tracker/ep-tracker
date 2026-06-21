@@ -15,6 +15,18 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/277777",
   "committees": [
     {
+      "id": "6587",
+      "abbr": "AFCO",
+      "name": "Constitutional Affairs",
+      "role": "MEMBER"
+    },
+    {
+      "id": "6588",
+      "abbr": "FEMM",
+      "name": "Women's Rights and Gender Equality",
+      "role": "MEMBER"
+    },
+    {
       "id": "6622",
       "abbr": "D-TR",
       "name": "D-TR",

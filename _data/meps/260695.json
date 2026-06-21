@@ -15,10 +15,22 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/260695",
   "committees": [
     {
+      "id": "6626",
+      "abbr": "D-RS",
+      "name": "D-RS",
+      "role": "MEMBER"
+    },
+    {
       "id": "6572",
       "abbr": "EMPL",
       "name": "Employment and Social Affairs",
       "role": "MEMBER_SUBSTITUTE"
+    },
+    {
+      "id": "6584",
+      "abbr": "CULT",
+      "name": "Culture and Education",
+      "role": "MEMBER"
     }
   ]
 }
