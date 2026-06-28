@@ -324,12 +324,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6582/home"
   },
   {
-    "id": "6765",
-    "abbreviation": "AKEL-ARISTERA-ND",
-    "name": "AKEL-ARISTERA-ND",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6765/home"
-  },
-  {
     "id": "6794",
     "abbreviation": "ANO 2011",
     "name": "ANO 2011",
@@ -688,6 +682,12 @@
     "abbreviation": "CJ33",
     "name": "CJ33",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6988/home"
+  },
+  {
+    "id": "6989",
+    "abbreviation": "CJ34",
+    "name": "CJ34",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6989/home"
   },
   {
     "id": "6646",

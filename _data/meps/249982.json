@@ -19,6 +19,12 @@
       "abbr": "TRAN",
       "name": "Transport and Tourism",
       "role": "MEMBER"
+    },
+    {
+      "id": "6591",
+      "abbr": "PETI",
+      "name": "Petitions",
+      "role": "MEMBER_SUBSTITUTE"
     }
   ]
 }
