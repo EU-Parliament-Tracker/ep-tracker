@@ -7572,18 +7572,6 @@
     "type": "other"
   },
   {
-    "id": "MTG-PL-2026-04-30-VOT-ITM-990172-SPLIT-1",
-    "date": "2026-04-30",
-    "title": "§ 7",
-    "result": "",
-    "for": 0,
-    "against": 0,
-    "abstention": 0,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
     "id": "MTG-PL-2026-04-30-VOT-ITM-990172-RCV-1",
     "date": "2026-04-30",
     "title": "final vote",
@@ -7666,6 +7654,18 @@
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
     "type": "other"
+  },
+  {
+    "id": "MTG-PL-2026-04-30-VOT-ITM-990172-SPLIT-1",
+    "date": "2026-04-30",
+    "title": "§ 7",
+    "result": "",
+    "for": 0,
+    "against": 0,
+    "abstention": 0,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
   },
   {
     "id": "MTG-PL-2026-04-30-VOT-ITM-990175-SPLIT-2",
@@ -8616,18 +8616,6 @@
     "type": "other"
   },
   {
-    "id": "MTG-PL-2026-04-30-VOT-ITM-990172-SPLIT-1",
-    "date": "2026-04-30",
-    "title": "§ 7",
-    "result": "",
-    "for": 0,
-    "against": 0,
-    "abstention": 0,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
     "id": "MTG-PL-2026-04-30-VOT-ITM-990172-RCV-1",
     "date": "2026-04-30",
     "title": "final vote",
@@ -8710,6 +8698,18 @@
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
     "type": "other"
+  },
+  {
+    "id": "MTG-PL-2026-04-30-VOT-ITM-990172-SPLIT-1",
+    "date": "2026-04-30",
+    "title": "§ 7",
+    "result": "",
+    "for": 0,
+    "against": 0,
+    "abstention": 0,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-30-RCV_EN.html",
+    "type": "amendment"
   },
   {
     "id": "MTG-PL-2026-04-30-VOT-ITM-990175-SPLIT-2",
@@ -14160,9 +14160,9 @@
     "type": "amendment"
   },
   {
-    "id": "MTG-PL-2026-04-28-VOT-ITM-989887-SPLIT-7",
+    "id": "MTG-PL-2026-04-28-VOT-ITM-989887-SPLIT-10",
     "date": "2026-04-28",
-    "title": "§ 28",
+    "title": "Recital AL",
     "result": "",
     "for": 0,
     "against": 0,
@@ -14172,9 +14172,9 @@
     "type": "amendment"
   },
   {
-    "id": "MTG-PL-2026-04-28-VOT-ITM-989887-SPLIT-10",
+    "id": "MTG-PL-2026-04-28-VOT-ITM-989887-SPLIT-7",
     "date": "2026-04-28",
-    "title": "Recital AL",
+    "title": "§ 28",
     "result": "",
     "for": 0,
     "against": 0,
