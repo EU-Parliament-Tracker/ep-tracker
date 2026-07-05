@@ -280,8 +280,6 @@
           "org/PFE"
         ],
         "responsible_organization_label": {
-          "fi": "PfE",
-          "sk": "PfE",
           "et": "PfE",
           "hu": "PfE",
           "pl": "PfE",
@@ -290,6 +288,10 @@
           "ro": "PfE",
           "lv": "PfE",
           "pt": "PfE",
+          "sk": "PfE",
+          "fi": "PfE",
+          "bg": "PfE",
+          "es": "PfE",
           "sv": "PfE",
           "it": "PfE",
           "ga": "PfE",
@@ -301,8 +303,6 @@
           "hr": "PfE",
           "fr": "PfE",
           "en": "PfE",
-          "bg": "PfE",
-          "es": "PfE",
           "lt": "PfE"
         },
         "hadResponsibleOrganization": [

@@ -1,23 +1,23 @@
 [
   {
-    "id": "eli/dl/doc/A-10-2025-0001",
+    "id": "eli/dl/doc/A-10-2026-0001",
     "type": "Work",
     "work_type": "def/ep-document-types/REPORT_PLENARY",
-    "identifier": "A-10-2025-0001",
-    "label": "A10-0001/2025"
+    "identifier": "A-10-2026-0001",
+    "label": "A10-0001/2026"
   },
   {
-    "id": "eli/dl/doc/A-10-2025-0002",
+    "id": "eli/dl/doc/A-10-2026-0002",
     "type": "Work",
     "work_type": "def/ep-document-types/REPORT_PLENARY",
-    "identifier": "A-10-2025-0002",
-    "label": "A10-0002/2025"
+    "identifier": "A-10-2026-0002",
+    "label": "A10-0002/2026"
   },
   {
-    "id": "eli/dl/doc/A-10-2025-0003",
+    "id": "eli/dl/doc/A-10-2026-0003",
     "type": "Work",
     "work_type": "def/ep-document-types/REPORT_PLENARY",
-    "identifier": "A-10-2025-0003",
-    "label": "A10-0003/2025"
+    "identifier": "A-10-2026-0003",
+    "label": "A10-0003/2026"
   }
 ]

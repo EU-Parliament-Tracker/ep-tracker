@@ -13,5 +13,12 @@
   "social": {},
   "photo_url": "https://www.europarl.europa.eu/mepphoto/278406.jpg",
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/278406",
-  "committees": []
+  "committees": [
+    {
+      "id": "6572",
+      "abbr": "EMPL",
+      "name": "Employment and Social Affairs",
+      "role": "MEMBER_SUBSTITUTE"
+    }
+  ]
 }
