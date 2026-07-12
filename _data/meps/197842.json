@@ -5,20 +5,13 @@
   "last_name": "Yoncheva",
   "country": "Bulgaria",
   "national_party": "Movement for Rights and Freedoms",
-  "group_name": "Non-attached Members",
-  "group_abbr": "NI",
+  "group_name": "European Conservatives and Reformists Group",
+  "group_abbr": "ECR",
   "email": "elena.yoncheva@europarl.europa.eu",
   "phone": "+3222845236",
   "website": "",
   "social": {},
   "photo_url": "https://www.europarl.europa.eu/mepphoto/197842.jpg",
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197842",
-  "committees": [
-    {
-      "id": "6576",
-      "abbr": "ITRE",
-      "name": "Industry, Research and Energy",
-      "role": "MEMBER"
-    }
-  ]
+  "committees": []
 }

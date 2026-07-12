@@ -258,6 +258,12 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/3941/home"
   },
   {
+    "id": "3942",
+    "abbreviation": "3942",
+    "name": "3942",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/3942/home"
+  },
+  {
     "id": "3943",
     "abbreviation": "3943",
     "name": "3943",
@@ -690,12 +696,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6989/home"
   },
   {
-    "id": "6990",
-    "abbreviation": "CJ35",
-    "name": "CJ35",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6990/home"
-  },
-  {
     "id": "6646",
     "abbreviation": "CNR",
     "name": "CNR",
@@ -754,6 +754,12 @@
     "abbreviation": "ChristenUnie",
     "name": "ChristenUnie",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6698/home"
+  },
+  {
+    "id": "6613",
+    "abbreviation": "D-AF",
+    "name": "D-AF",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6613/home"
   },
   {
     "id": "6627",
@@ -1008,6 +1014,12 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6724/home"
   },
   {
+    "id": "6616",
+    "abbreviation": "DKOR",
+    "name": "DKOR",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6616/home"
+  },
+  {
     "id": "6566",
     "abbreviation": "DLAT",
     "name": "DLAT",
@@ -1156,6 +1168,12 @@
     "abbreviation": "ECOLO",
     "name": "ECOLO",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6757/home"
+  },
+  {
+    "id": "6570",
+    "abbreviation": "ECON",
+    "name": "Economic and Monetary Affairs",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6570/home"
   },
   {
     "id": "6812",
@@ -2362,12 +2380,6 @@
     "abbreviation": "RPS",
     "name": "RPS",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6873/home"
-  },
-  {
-    "id": "6935",
-    "abbreviation": "Ren",
-    "name": "Ren",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6935/home"
   },
   {
     "id": "6659",

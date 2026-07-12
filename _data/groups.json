@@ -2,7 +2,7 @@
   {
     "abbr": "EPP",
     "name": "Group of the European People's Party (Christian Democrats)",
-    "seats": 185,
+    "seats": 184,
     "color": "#003399",
     "css": "epp"
   },
@@ -23,7 +23,7 @@
   {
     "abbr": "ECR",
     "name": "European Conservatives and Reformists Group",
-    "seats": 82,
+    "seats": 84,
     "color": "#0066CC",
     "css": "ecr"
   },
@@ -51,7 +51,7 @@
   {
     "abbr": "NI",
     "name": "Non-attached Members",
-    "seats": 29,
+    "seats": 28,
     "color": "#888888",
     "css": "ni"
   },

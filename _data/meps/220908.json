@@ -5,32 +5,13 @@
   "last_name": "Grims",
   "country": "Slovenia",
   "national_party": "Slovenska demokratska stranka",
-  "group_name": "Group of the European People's Party (Christian Democrats)",
-  "group_abbr": "EPP",
+  "group_name": "Non-attached Members",
+  "group_abbr": "NI",
   "email": "branko.grims@europarl.europa.eu",
   "phone": "+3222845460",
   "website": "",
   "social": {},
   "photo_url": "https://www.europarl.europa.eu/mepphoto/220908.jpg",
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/220908",
-  "committees": [
-    {
-      "id": "6586",
-      "abbr": "LIBE",
-      "name": "Civil Liberties, Justice and Home Affairs",
-      "role": "MEMBER"
-    },
-    {
-      "id": "6629",
-      "abbr": "D-UK",
-      "name": "D-UK",
-      "role": "MEMBER_SUBSTITUTE"
-    },
-    {
-      "id": "6587",
-      "abbr": "AFCO",
-      "name": "Constitutional Affairs",
-      "role": "MEMBER_SUBSTITUTE"
-    }
-  ]
+  "committees": []
 }

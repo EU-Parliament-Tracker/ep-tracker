@@ -15,6 +15,12 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257170",
   "committees": [
     {
+      "id": "7914",
+      "abbr": "",
+      "name": "",
+      "role": "MEMBER"
+    },
+    {
       "id": "6586",
       "abbr": "LIBE",
       "name": "Civil Liberties, Justice and Home Affairs",
@@ -24,12 +30,6 @@
       "id": "6623",
       "abbr": "D-MX",
       "name": "D-MX",
-      "role": "MEMBER_SUBSTITUTE"
-    },
-    {
-      "id": "7914",
-      "abbr": "",
-      "name": "",
       "role": "MEMBER_SUBSTITUTE"
     },
     {
