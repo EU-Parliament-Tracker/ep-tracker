@@ -280,6 +280,8 @@
           "org/PFE"
         ],
         "responsible_organization_label": {
+          "fi": "PfE",
+          "sk": "PfE",
           "et": "PfE",
           "hu": "PfE",
           "pl": "PfE",
@@ -288,10 +290,6 @@
           "ro": "PfE",
           "lv": "PfE",
           "pt": "PfE",
-          "sk": "PfE",
-          "fi": "PfE",
-          "bg": "PfE",
-          "es": "PfE",
           "sv": "PfE",
           "it": "PfE",
           "ga": "PfE",
@@ -303,6 +301,8 @@
           "hr": "PfE",
           "fr": "PfE",
           "en": "PfE",
+          "bg": "PfE",
+          "es": "PfE",
           "lt": "PfE"
         },
         "hadResponsibleOrganization": [
@@ -460,11 +460,22 @@
         "activity_order": "2.0",
         "had_activity_type": "def/ep-activities/REQUEST_VOTE_ROLLCALL",
         "responsible_organization_label": {
+          "es": "ESN",
+          "sv": "ESN",
+          "it": "ESN",
+          "ga": "ESN",
+          "de": "ESN",
+          "cs": "ESN",
+          "da": "ESN",
+          "nl": "ESN",
+          "lt": "ESN",
+          "hr": "ESN",
+          "fr": "ESN",
+          "en": "ESN",
           "et": "ESN",
           "hu": "ESN",
           "pl": "ESN",
           "mt": "ESN",
-          "sl": "ESN",
           "el": "ESN",
           "ro": "ESN",
           "lv": "ESN",
@@ -472,18 +483,7 @@
           "sk": "ESN",
           "fi": "ESN",
           "bg": "ESN",
-          "en": "ESN",
-          "fr": "ESN",
-          "hr": "ESN",
-          "lt": "ESN",
-          "da": "ESN",
-          "cs": "ESN",
-          "de": "ESN",
-          "ga": "ESN",
-          "it": "ESN",
-          "sv": "ESN",
-          "es": "ESN",
-          "nl": "ESN"
+          "sl": "ESN"
         }
       }
     ],
