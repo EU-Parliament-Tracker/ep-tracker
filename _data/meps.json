@@ -119,8 +119,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       }
     ]
@@ -191,8 +191,8 @@
     "committees": [
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -850,12 +850,6 @@
         "role": "MEMBER_SUBSTITUTE"
       },
       {
-        "id": "7911",
-        "abbr": "",
-        "name": "",
-        "role": "MEMBER_SUBSTITUTE"
-      },
-      {
         "id": "6586",
         "abbr": "LIBE",
         "name": "Civil Liberties, Justice and Home Affairs",
@@ -947,8 +941,8 @@
     "committees": [
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -995,8 +989,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       },
       {
@@ -1433,8 +1427,8 @@
     "committees": [
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       },
       {
@@ -1709,8 +1703,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       }
     ]
@@ -1937,8 +1931,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -2752,12 +2746,6 @@
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/277777",
     "committees": [
       {
-        "id": "6587",
-        "abbr": "AFCO",
-        "name": "Constitutional Affairs",
-        "role": "MEMBER"
-      },
-      {
         "id": "6588",
         "abbr": "FEMM",
         "name": "Women's Rights and Gender Equality",
@@ -2768,6 +2756,12 @@
         "abbr": "D-TR",
         "name": "D-TR",
         "role": "MEMBER_SUBSTITUTE"
+      },
+      {
+        "id": "6587",
+        "abbr": "AFCO",
+        "name": "Constitutional Affairs",
+        "role": "CHAIR_VICE"
       }
     ]
   },
@@ -3718,6 +3712,12 @@
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/99878",
     "committees": [
       {
+        "id": "6570",
+        "abbr": "ECON",
+        "name": "Economic and Monetary Affairs",
+        "role": "MEMBER_SUBSTITUTE"
+      },
+      {
         "id": "6581",
         "abbr": "REGI",
         "name": "Regional Development",
@@ -4097,8 +4097,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -4808,12 +4808,6 @@
         "abbr": "D-CL",
         "name": "D-CL",
         "role": "MEMBER"
-      },
-      {
-        "id": "6585",
-        "abbr": "JURI",
-        "name": "Legal Affairs",
-        "role": "MEMBER_SUBSTITUTE"
       }
     ]
   },
@@ -4847,8 +4841,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       }
     ]
@@ -4895,8 +4889,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       }
     ]
@@ -5027,8 +5021,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -5369,8 +5363,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "CHAIR"
       },
       {
@@ -5800,6 +5794,12 @@
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257155",
     "committees": [
       {
+        "id": "7911",
+        "abbr": "",
+        "name": "",
+        "role": "MEMBER_SUBSTITUTE"
+      },
+      {
         "id": "7005",
         "abbr": "",
         "name": "",
@@ -6161,8 +6161,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       }
     ]
@@ -6485,8 +6485,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -6539,8 +6539,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "CHAIR_VICE"
       },
       {
@@ -6725,8 +6725,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       },
       {
@@ -6953,8 +6953,8 @@
     "committees": [
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -7115,8 +7115,8 @@
     "committees": [
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -7253,8 +7253,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -7745,8 +7745,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       }
     ]
@@ -7829,8 +7829,8 @@
     "committees": [
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       },
       {
@@ -7937,8 +7937,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       },
       {
@@ -9479,8 +9479,8 @@
     "committees": [
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -9533,8 +9533,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       },
       {
@@ -10762,8 +10762,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       }
     ]
@@ -10912,8 +10912,8 @@
     "committees": [
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       },
       {
@@ -11204,7 +11204,7 @@
     "group_name": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
     "group_abbr": "S&D",
     "email": "alicia.homs@europarl.europa.eu",
-    "phone": "+3222845320",
+    "phone": "+33388175320",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/122978.jpg",
@@ -11493,12 +11493,6 @@
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/197516",
     "committees": [
       {
-        "id": "6576",
-        "abbr": "ITRE",
-        "name": "Industry, Research and Energy",
-        "role": "MEMBER_SUBSTITUTE"
-      },
-      {
         "id": "6587",
         "abbr": "AFCO",
         "name": "Constitutional Affairs",
@@ -11566,8 +11560,8 @@
     "committees": [
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       },
       {
@@ -11938,8 +11932,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       },
       {
@@ -12007,7 +12001,14 @@
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/257256.jpg",
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257256",
-    "committees": []
+    "committees": [
+      {
+        "id": "6576",
+        "abbr": "ITRE",
+        "name": "Industry, Research and Energy",
+        "role": "MEMBER_SUBSTITUTE"
+      }
+    ]
   },
   "278815": {
     "id": "278815",
@@ -12327,8 +12328,8 @@
     "committees": [
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -12885,7 +12886,7 @@
     "given_name": "Michał",
     "last_name": "Kobosko",
     "country": "Poland",
-    "national_party": "Independent",
+    "national_party": "Unia Centrum",
     "group_name": "Renew Europe Group",
     "group_abbr": "Renew",
     "email": "michal.kobosko@europarl.europa.eu",
@@ -13263,8 +13264,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -14319,8 +14320,8 @@
     "committees": [
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       },
       {
@@ -14889,8 +14890,8 @@
     "committees": [
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       },
       {
@@ -15027,8 +15028,8 @@
     "committees": [
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       },
       {
@@ -16353,8 +16354,8 @@
     "committees": [
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -16574,8 +16575,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "CHAIR_VICE"
       },
       {
@@ -16610,8 +16611,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       }
     ]
@@ -16682,8 +16683,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       },
       {
@@ -17150,8 +17151,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       }
     ]
@@ -18062,8 +18063,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       }
     ]
@@ -18906,7 +18907,7 @@
     "group_name": "Patriots for Europe Group",
     "group_abbr": "PfE",
     "email": "aldo.patriciello@europarl.europa.eu",
-    "phone": "+3222845418",
+    "phone": "+33388175418",
     "website": "",
     "social": {},
     "photo_url": "https://www.europarl.europa.eu/mepphoto/36392.jpg",
@@ -19832,8 +19833,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "CHAIR_VICE"
       },
       {
@@ -20930,8 +20931,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       },
       {
@@ -21464,8 +21465,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -21926,8 +21927,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -22544,8 +22545,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -22682,8 +22683,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       }
     ]
@@ -23126,8 +23127,8 @@
     "committees": [
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -23696,8 +23697,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       }
     ]
@@ -24523,6 +24524,12 @@
     "ep_profile_url": "https://www.europarl.europa.eu/meps/en/96697",
     "committees": [
       {
+        "id": "6591",
+        "abbr": "PETI",
+        "name": "Petitions",
+        "role": "MEMBER_SUBSTITUTE"
+      },
+      {
         "id": "7005",
         "abbr": "",
         "name": "",
@@ -24790,6 +24797,12 @@
         "id": "6580",
         "abbr": "TRAN",
         "name": "Transport and Tourism",
+        "role": "MEMBER_SUBSTITUTE"
+      },
+      {
+        "id": "6585",
+        "abbr": "JURI",
+        "name": "Legal Affairs",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -27217,8 +27230,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       }
     ]
@@ -27259,8 +27272,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       }
     ]
@@ -27289,8 +27302,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -27649,8 +27662,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "CHAIR_VICE"
       },
       {
@@ -27888,8 +27901,8 @@
     "committees": [
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER_SUBSTITUTE"
       },
       {
@@ -28230,8 +28243,8 @@
       },
       {
         "id": "6583",
-        "abbr": "PECH",
-        "name": "Fisheries",
+        "abbr": "",
+        "name": "",
         "role": "MEMBER"
       },
       {

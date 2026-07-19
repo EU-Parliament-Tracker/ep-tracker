@@ -15,6 +15,12 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/99878",
   "committees": [
     {
+      "id": "6570",
+      "abbr": "ECON",
+      "name": "Economic and Monetary Affairs",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
       "id": "6581",
       "abbr": "REGI",
       "name": "Regional Development",

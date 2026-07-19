@@ -15,6 +15,12 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/96697",
   "committees": [
     {
+      "id": "6591",
+      "abbr": "PETI",
+      "name": "Petitions",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
       "id": "7005",
       "abbr": "",
       "name": "",

@@ -2082,12 +2082,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6675/home"
   },
   {
-    "id": "6583",
-    "abbreviation": "PECH",
-    "name": "Fisheries",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6583/home"
-  },
-  {
     "id": "6591",
     "abbreviation": "PETI",
     "name": "Petitions",
@@ -2380,6 +2374,12 @@
     "abbreviation": "RPS",
     "name": "RPS",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6873/home"
+  },
+  {
+    "id": "6935",
+    "abbreviation": "Ren",
+    "name": "Ren",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6935/home"
   },
   {
     "id": "6659",

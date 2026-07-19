@@ -15,6 +15,12 @@
   "ep_profile_url": "https://www.europarl.europa.eu/meps/en/257155",
   "committees": [
     {
+      "id": "7911",
+      "abbr": "",
+      "name": "",
+      "role": "MEMBER_SUBSTITUTE"
+    },
+    {
       "id": "7005",
       "abbr": "",
       "name": "",
