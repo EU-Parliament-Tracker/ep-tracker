@@ -15888,7 +15888,7 @@
     "type": "other"
   },
   {
-    "id": "MTG-PL-2026-04-29-VOT-ITM-989965-RCV-1",
+    "id": "MTG-PL-2026-04-29-VOT-ITM-989965-RCV-2",
     "date": "2026-04-29",
     "title": "Amendment 2",
     "result": "",
@@ -15900,7 +15900,7 @@
     "type": "other"
   },
   {
-    "id": "MTG-PL-2026-04-29-VOT-ITM-989965-RCV-2",
+    "id": "MTG-PL-2026-04-29-VOT-ITM-989965-RCV-1",
     "date": "2026-04-29",
     "title": "Amendment 2",
     "result": "",
@@ -19920,16 +19920,16 @@
     "type": "amendment"
   },
   {
-    "id": "MTG-PL-2026-03-12-VOT-ITM-986076-SPLIT-7",
+    "id": "MTG-PL-2026-03-12-VOT-ITM-986076-RCV-2",
     "date": "2026-03-12",
-    "title": "§ 8",
+    "title": "Amendments 15, 17, 18",
     "result": "",
     "for": 0,
     "against": 0,
     "abstention": 0,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-03-12-RCV_EN.html",
-    "type": "amendment"
+    "type": "other"
   },
   {
     "id": "MTG-PL-2026-03-12-VOT-ITM-986076-SPLIT-5",
@@ -19944,16 +19944,16 @@
     "type": "other"
   },
   {
-    "id": "MTG-PL-2026-03-12-VOT-ITM-986076-RCV-2",
+    "id": "MTG-PL-2026-03-12-VOT-ITM-986076-SPLIT-7",
     "date": "2026-03-12",
-    "title": "Amendments 15, 17, 18",
+    "title": "§ 8",
     "result": "",
     "for": 0,
     "against": 0,
     "abstention": 0,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-03-12-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "MTG-PL-2026-03-12-VOT-ITM-986076-RCV-6",
@@ -20316,16 +20316,16 @@
     "type": "amendment"
   },
   {
-    "id": "MTG-PL-2026-03-12-VOT-ITM-986076-SPLIT-7",
+    "id": "MTG-PL-2026-03-12-VOT-ITM-986076-RCV-2",
     "date": "2026-03-12",
-    "title": "§ 8",
+    "title": "Amendments 15, 17, 18",
     "result": "",
     "for": 0,
     "against": 0,
     "abstention": 0,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-03-12-RCV_EN.html",
-    "type": "amendment"
+    "type": "other"
   },
   {
     "id": "MTG-PL-2026-03-12-VOT-ITM-986076-SPLIT-5",
@@ -20340,16 +20340,16 @@
     "type": "other"
   },
   {
-    "id": "MTG-PL-2026-03-12-VOT-ITM-986076-RCV-2",
+    "id": "MTG-PL-2026-03-12-VOT-ITM-986076-SPLIT-7",
     "date": "2026-03-12",
-    "title": "Amendments 15, 17, 18",
+    "title": "§ 8",
     "result": "",
     "for": 0,
     "against": 0,
     "abstention": 0,
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-03-12-RCV_EN.html",
-    "type": "other"
+    "type": "amendment"
   },
   {
     "id": "MTG-PL-2026-03-12-VOT-ITM-986076-RCV-6",
@@ -23508,18 +23508,6 @@
     "type": "other"
   },
   {
-    "id": "MTG-PL-2026-03-10-VOT-ITM-986137-RCV-1",
-    "date": "2026-03-10",
-    "title": "final vote",
-    "result": "",
-    "for": 0,
-    "against": 0,
-    "abstention": 0,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-03-10-RCV_EN.html",
-    "type": "other"
-  },
-  {
     "id": "MTG-PL-2026-03-10-VOT-ITM-986137-RCV-3",
     "date": "2026-03-10",
     "title": "Amendments 1, 2, 3 , 4;",
@@ -23542,6 +23530,18 @@
     "ep_ref": "",
     "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-03-10-RCV_EN.html",
     "type": "amendment"
+  },
+  {
+    "id": "MTG-PL-2026-03-10-VOT-ITM-986137-RCV-1",
+    "date": "2026-03-10",
+    "title": "final vote",
+    "result": "",
+    "for": 0,
+    "against": 0,
+    "abstention": 0,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-03-10-RCV_EN.html",
+    "type": "other"
   },
   {
     "id": "MTG-PL-2026-03-09-VOT-ITM-000001",

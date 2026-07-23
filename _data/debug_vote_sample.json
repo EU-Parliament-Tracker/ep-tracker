@@ -401,13 +401,17 @@
         "activity_order": "3.0",
         "had_activity_type": "def/ep-activities/REQUEST_VOTE_ROLLCALL",
         "responsible_organization_label": {
+          "lv": "PfE",
+          "pt": "PfE",
+          "sk": "PfE",
+          "fi": "PfE",
+          "et": "PfE",
+          "hu": "PfE",
+          "pl": "PfE",
           "bg": "PfE",
           "en": "PfE",
           "fr": "PfE",
           "hr": "PfE",
-          "el": "PfE",
-          "ro": "PfE",
-          "lv": "PfE",
           "nl": "PfE",
           "mt": "PfE",
           "da": "PfE",
@@ -417,14 +421,10 @@
           "it": "PfE",
           "sv": "PfE",
           "es": "PfE",
-          "sl": "PfE",
-          "pl": "PfE",
-          "hu": "PfE",
-          "et": "PfE",
           "lt": "PfE",
-          "pt": "PfE",
-          "sk": "PfE",
-          "fi": "PfE"
+          "sl": "PfE",
+          "el": "PfE",
+          "ro": "PfE"
         }
       },
       {
@@ -508,8 +508,8 @@
       "da": "<remarkFreeTexts order=\"2\"><title>Diverse\n</title><remarkFreeText><translation>Ændringsforslag 2a var taget tilbage.</translation></remarkFreeText></remarkFreeTexts>",
       "lv": "<remarkFreeTexts order=\"2\"><title>Dažādi\n</title><remarkFreeText><translation>Grozījums Nr. 2 bija atsaukts.</translation></remarkFreeText></remarkFreeTexts>",
       "el": "<remarkFreeTexts order=\"2\"><title>Διάφορα\n</title><remarkFreeText><translation>Η τροπολογία 2 αποσύρεται.</translation></remarkFreeText></remarkFreeTexts>",
-      "sl": "<remarkFreeTexts order=\"2\"><title>Razno\n</title><remarkFreeText><translation>Predlog spremembe 2 je bil umaknjen.</translation></remarkFreeText></remarkFreeTexts>",
       "ro": "<remarkFreeTexts order=\"2\"><title>Diverse\n</title><remarkFreeText><translation>Amendamentul 2 a fost retras.</translation></remarkFreeText></remarkFreeTexts>",
+      "sl": "<remarkFreeTexts order=\"2\"><title>Razno\n</title><remarkFreeText><translation>Predlog spremembe 2 je bil umaknjen.</translation></remarkFreeText></remarkFreeTexts>",
       "de": "<remarkFreeTexts order=\"2\"><title>Verschiedenes\n</title><remarkFreeText><translation>Änderungsantrag 2 wurde zurückgezogen.</translation></remarkFreeText></remarkFreeTexts>",
       "sv": "<remarkFreeTexts order=\"2\"><title>Övrigt\n</title><remarkFreeText><translation>Ändringsförslag 2 drogs tillbaka.</translation></remarkFreeText></remarkFreeTexts>"
     },
