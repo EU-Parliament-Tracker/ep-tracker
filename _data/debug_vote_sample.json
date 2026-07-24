@@ -401,17 +401,13 @@
         "activity_order": "3.0",
         "had_activity_type": "def/ep-activities/REQUEST_VOTE_ROLLCALL",
         "responsible_organization_label": {
-          "lv": "PfE",
-          "pt": "PfE",
-          "sk": "PfE",
-          "fi": "PfE",
-          "et": "PfE",
-          "hu": "PfE",
-          "pl": "PfE",
           "bg": "PfE",
           "en": "PfE",
           "fr": "PfE",
           "hr": "PfE",
+          "el": "PfE",
+          "ro": "PfE",
+          "lv": "PfE",
           "nl": "PfE",
           "mt": "PfE",
           "da": "PfE",
@@ -421,10 +417,14 @@
           "it": "PfE",
           "sv": "PfE",
           "es": "PfE",
-          "lt": "PfE",
           "sl": "PfE",
-          "el": "PfE",
-          "ro": "PfE"
+          "pl": "PfE",
+          "hu": "PfE",
+          "et": "PfE",
+          "lt": "PfE",
+          "pt": "PfE",
+          "sk": "PfE",
+          "fi": "PfE"
         }
       },
       {
