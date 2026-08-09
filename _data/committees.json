@@ -570,12 +570,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6966/home"
   },
   {
-    "id": "6967",
-    "abbreviation": "CJ12",
-    "name": "CJ12",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6967/home"
-  },
-  {
     "id": "6968",
     "abbreviation": "CJ13",
     "name": "CJ13",
@@ -688,6 +682,18 @@
     "abbreviation": "CJ33",
     "name": "CJ33",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6988/home"
+  },
+  {
+    "id": "6989",
+    "abbreviation": "CJ34",
+    "name": "CJ34",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6989/home"
+  },
+  {
+    "id": "6990",
+    "abbreviation": "CJ35",
+    "name": "CJ35",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6990/home"
   },
   {
     "id": "6646",
@@ -2302,12 +2308,6 @@
     "abbreviation": "Perus",
     "name": "Perus",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6670/home"
-  },
-  {
-    "id": "6702",
-    "abbreviation": "PiS",
-    "name": "PiS",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6702/home"
   },
   {
     "id": "6800",

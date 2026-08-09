@@ -149,6 +149,17 @@
     "ep_url": ""
   },
   {
+    "id": "E-10-2026-000345",
+    "date": "2026-01-28",
+    "title": "Handling of bilateral investment treaties with Russia and Belarus",
+    "type": "Written Question",
+    "ref": "",
+    "authors": [
+      "197694"
+    ],
+    "ep_url": ""
+  },
+  {
     "id": "E-10-2026-000347",
     "date": "2026-01-28",
     "title": "EU anti-racism strategy 2026-2030",
@@ -1676,8 +1687,8 @@
       "197447",
       "257063",
       "256902",
-      "197435",
       "197863",
+      "197435",
       "257011",
       "198076"
     ],
@@ -3789,15 +3800,6 @@
     "authors": [
       "256941"
     ],
-    "ep_url": ""
-  },
-  {
-    "id": "E-10-2026-000345",
-    "date": "",
-    "title": "",
-    "type": "Written Question",
-    "ref": "",
-    "authors": [],
     "ep_url": ""
   }
 ]
