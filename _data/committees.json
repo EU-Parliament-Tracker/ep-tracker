@@ -690,12 +690,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6988/home"
   },
   {
-    "id": "6989",
-    "abbreviation": "CJ34",
-    "name": "CJ34",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6989/home"
-  },
-  {
     "id": "6646",
     "abbreviation": "CNR",
     "name": "CNR",
@@ -1306,6 +1300,12 @@
     "abbreviation": "FVD",
     "name": "FVD",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6780/home"
+  },
+  {
+    "id": "6799",
+    "abbreviation": "Familien-Partei DE",
+    "name": "Familien-Partei DE",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6799/home"
   },
   {
     "id": "6831",
