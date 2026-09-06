@@ -311,6 +311,17 @@
     "ep_url": ""
   },
   {
+    "id": "E-10-2026-000299",
+    "date": "2026-01-27",
+    "title": "Smart cars as a potential cybersecurity risk",
+    "type": "Written Question",
+    "ref": "",
+    "authors": [
+      "124884"
+    ],
+    "ep_url": ""
+  },
+  {
     "id": "E-10-2026-000301",
     "date": "2026-01-27",
     "title": "Urgent need for the EU to act immediately to trigger the Solidarity Fund in the light of the extreme weather events in Sicily",
@@ -2307,8 +2318,8 @@
       "257135",
       "257138",
       "257126",
-      "257133",
       "124813",
+      "257133",
       "257155",
       "257140"
     ],
@@ -3789,15 +3800,6 @@
     "authors": [
       "256941"
     ],
-    "ep_url": ""
-  },
-  {
-    "id": "E-10-2026-000299",
-    "date": "",
-    "title": "",
-    "type": "Written Question",
-    "ref": "",
-    "authors": [],
     "ep_url": ""
   }
 ]
