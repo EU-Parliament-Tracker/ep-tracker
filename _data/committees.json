@@ -6,12 +6,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6790/home"
   },
   {
-    "id": "6853",
-    "abbreviation": "-",
-    "name": "-",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6853/home"
-  },
-  {
     "id": "3901",
     "abbreviation": "3901",
     "name": "3901",
@@ -282,22 +276,10 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6777/home"
   },
   {
-    "id": "6910",
-    "abbreviation": "A-IV-RE",
-    "name": "A-IV-RE",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6910/home"
-  },
-  {
     "id": "6640",
     "abbreviation": "AD",
     "name": "AD",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6640/home"
-  },
-  {
-    "id": "6929",
-    "abbreviation": "ADU",
-    "name": "ADU",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6929/home"
   },
   {
     "id": "6786",
@@ -336,18 +318,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6794/home"
   },
   {
-    "id": "6951",
-    "abbreviation": "ANS",
-    "name": "ANS",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6951/home"
-  },
-  {
-    "id": "6889",
-    "abbreviation": "ANTICAPITALISTAS",
-    "name": "ANTICAPITALISTAS",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6889/home"
-  },
-  {
     "id": "6791",
     "abbreviation": "AP!",
     "name": "AP!",
@@ -360,46 +330,10 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6655/home"
   },
   {
-    "id": "6915",
-    "abbreviation": "AUR",
-    "name": "AUR",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6915/home"
-  },
-  {
-    "id": "6944",
-    "abbreviation": "AVS",
-    "name": "AVS",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6944/home"
-  },
-  {
-    "id": "6913",
-    "abbreviation": "AZ",
-    "name": "AZ",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6913/home"
-  },
-  {
     "id": "6802",
     "abbreviation": "AfD",
     "name": "AfD",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6802/home"
-  },
-  {
-    "id": "6842",
-    "abbreviation": "Agir",
-    "name": "Agir",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6842/home"
-  },
-  {
-    "id": "6926",
-    "abbreviation": "Ahora Repúblicas",
-    "name": "Ahora Repúblicas",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6926/home"
-  },
-  {
-    "id": "6888",
-    "abbreviation": "Azione",
-    "name": "Azione",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6888/home"
   },
   {
     "id": "6778",
@@ -408,22 +342,10 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6778/home"
   },
   {
-    "id": "6851",
-    "abbreviation": "BBB",
-    "name": "BBB",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6851/home"
-  },
-  {
     "id": "6631",
     "abbreviation": "BCPR",
     "name": "BCPR",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6631/home"
-  },
-  {
-    "id": "6911",
-    "abbreviation": "BD",
-    "name": "BD",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6911/home"
   },
   {
     "id": "6707",
@@ -432,22 +354,10 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6707/home"
   },
   {
-    "id": "6844",
-    "abbreviation": "BNG",
-    "name": "BNG",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6844/home"
-  },
-  {
     "id": "6762",
     "abbreviation": "BSP",
     "name": "BSP",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6762/home"
-  },
-  {
-    "id": "6850",
-    "abbreviation": "BSW",
-    "name": "BSW",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6850/home"
   },
   {
     "id": "6567",
@@ -460,12 +370,6 @@
     "abbreviation": "BURO",
     "name": "BURO",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6630/home"
-  },
-  {
-    "id": "6822",
-    "abbreviation": "Bezpartyjna",
-    "name": "Bezpartyjna",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6822/home"
   },
   {
     "id": "6716",
@@ -492,12 +396,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6697/home"
   },
   {
-    "id": "6879",
-    "abbreviation": "CDS-PP",
-    "name": "CDS-PP",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6879/home"
-  },
-  {
     "id": "6654",
     "abbreviation": "CDU",
     "name": "CDU",
@@ -508,186 +406,6 @@
     "abbreviation": "CDU",
     "name": "CDU",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6771/home"
-  },
-  {
-    "id": "6956",
-    "abbreviation": "CJ01",
-    "name": "CJ01",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6956/home"
-  },
-  {
-    "id": "6957",
-    "abbreviation": "CJ02",
-    "name": "CJ02",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6957/home"
-  },
-  {
-    "id": "6958",
-    "abbreviation": "CJ03",
-    "name": "CJ03",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6958/home"
-  },
-  {
-    "id": "6959",
-    "abbreviation": "CJ04",
-    "name": "CJ04",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6959/home"
-  },
-  {
-    "id": "6960",
-    "abbreviation": "CJ05",
-    "name": "CJ05",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6960/home"
-  },
-  {
-    "id": "6961",
-    "abbreviation": "CJ06",
-    "name": "CJ06",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6961/home"
-  },
-  {
-    "id": "6962",
-    "abbreviation": "CJ07",
-    "name": "CJ07",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6962/home"
-  },
-  {
-    "id": "6963",
-    "abbreviation": "CJ08",
-    "name": "CJ08",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6963/home"
-  },
-  {
-    "id": "6964",
-    "abbreviation": "CJ09",
-    "name": "CJ09",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6964/home"
-  },
-  {
-    "id": "6966",
-    "abbreviation": "CJ11",
-    "name": "CJ11",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6966/home"
-  },
-  {
-    "id": "6967",
-    "abbreviation": "CJ12",
-    "name": "CJ12",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6967/home"
-  },
-  {
-    "id": "6968",
-    "abbreviation": "CJ13",
-    "name": "CJ13",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6968/home"
-  },
-  {
-    "id": "6970",
-    "abbreviation": "CJ15",
-    "name": "CJ15",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6970/home"
-  },
-  {
-    "id": "6971",
-    "abbreviation": "CJ16",
-    "name": "CJ16",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6971/home"
-  },
-  {
-    "id": "6972",
-    "abbreviation": "CJ17",
-    "name": "CJ17",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6972/home"
-  },
-  {
-    "id": "6973",
-    "abbreviation": "CJ18",
-    "name": "CJ18",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6973/home"
-  },
-  {
-    "id": "6974",
-    "abbreviation": "CJ19",
-    "name": "CJ19",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6974/home"
-  },
-  {
-    "id": "6975",
-    "abbreviation": "CJ20",
-    "name": "CJ20",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6975/home"
-  },
-  {
-    "id": "6976",
-    "abbreviation": "CJ21",
-    "name": "CJ21",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6976/home"
-  },
-  {
-    "id": "6977",
-    "abbreviation": "CJ22",
-    "name": "CJ22",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6977/home"
-  },
-  {
-    "id": "6978",
-    "abbreviation": "CJ23",
-    "name": "CJ23",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6978/home"
-  },
-  {
-    "id": "6979",
-    "abbreviation": "CJ24",
-    "name": "CJ24",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6979/home"
-  },
-  {
-    "id": "6980",
-    "abbreviation": "CJ25",
-    "name": "CJ25",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6980/home"
-  },
-  {
-    "id": "6982",
-    "abbreviation": "CJ27",
-    "name": "CJ27",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6982/home"
-  },
-  {
-    "id": "6983",
-    "abbreviation": "CJ28",
-    "name": "CJ28",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6983/home"
-  },
-  {
-    "id": "6984",
-    "abbreviation": "CJ29",
-    "name": "CJ29",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6984/home"
-  },
-  {
-    "id": "6985",
-    "abbreviation": "CJ30",
-    "name": "CJ30",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6985/home"
-  },
-  {
-    "id": "6986",
-    "abbreviation": "CJ31",
-    "name": "CJ31",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6986/home"
-  },
-  {
-    "id": "6987",
-    "abbreviation": "CJ32",
-    "name": "CJ32",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6987/home"
-  },
-  {
-    "id": "6988",
-    "abbreviation": "CJ33",
-    "name": "CJ33",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6988/home"
   },
   {
     "id": "6646",
@@ -736,12 +454,6 @@
     "abbreviation": "Catalunya en Comú",
     "name": "Catalunya en Comú",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6784/home"
-  },
-  {
-    "id": "6927",
-    "abbreviation": "Chega",
-    "name": "Chega",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6927/home"
   },
   {
     "id": "6698",
@@ -930,12 +642,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6615/home"
   },
   {
-    "id": "6939",
-    "abbreviation": "DC",
-    "name": "DC",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6939/home"
-  },
-  {
     "id": "6577",
     "abbreviation": "DCAB",
     "name": "DCAB",
@@ -958,12 +664,6 @@
     "abbreviation": "DCAS",
     "name": "DCAS",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6618/home"
-  },
-  {
-    "id": "6832",
-    "abbreviation": "DCE",
-    "name": "DCE",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6832/home"
   },
   {
     "id": "6589",
@@ -1116,18 +816,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6656/home"
   },
   {
-    "id": "6922",
-    "abbreviation": "DVD",
-    "name": "DVD",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6922/home"
-  },
-  {
-    "id": "6829",
-    "abbreviation": "Darbo partija",
-    "name": "Darbo partija",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6829/home"
-  },
-  {
     "id": "6748",
     "abbreviation": "Die Grünen",
     "name": "Die Grünen",
@@ -1152,12 +840,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6684/home"
   },
   {
-    "id": "6896",
-    "abbreviation": "E.Verde",
-    "name": "E.Verde",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6896/home"
-  },
-  {
     "id": "6757",
     "abbreviation": "ECOLO",
     "name": "ECOLO",
@@ -1176,34 +858,10 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6812/home"
   },
   {
-    "id": "6938",
-    "abbreviation": "EK",
-    "name": "EK",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6938/home"
-  },
-  {
-    "id": "6877",
-    "abbreviation": "EKRE",
-    "name": "EKRE",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6877/home"
-  },
-  {
     "id": "6781",
     "abbreviation": "EL",
     "name": "EL",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6781/home"
-  },
-  {
-    "id": "6924",
-    "abbreviation": "ELAM",
-    "name": "ELAM",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6924/home"
-  },
-  {
-    "id": "6839",
-    "abbreviation": "EM",
-    "name": "EM",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6839/home"
   },
   {
     "id": "6572",
@@ -1222,12 +880,6 @@
     "abbreviation": "ERC",
     "name": "ERC",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6669/home"
-  },
-  {
-    "id": "6863",
-    "abbreviation": "Enhedslisten",
-    "name": "Enhedslisten",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6863/home"
   },
   {
     "id": "6727",
@@ -1272,18 +924,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6744/home"
   },
   {
-    "id": "6943",
-    "abbreviation": "FOKUS",
-    "name": "FOKUS",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6943/home"
-  },
-  {
-    "id": "6917",
-    "abbreviation": "FOLKLISTAN",
-    "name": "FOLKLISTAN",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6917/home"
-  },
-  {
     "id": "6715",
     "abbreviation": "FP",
     "name": "FP",
@@ -1308,12 +948,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6799/home"
   },
   {
-    "id": "6831",
-    "abbreviation": "FdL",
-    "name": "FdL",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6831/home"
-  },
-  {
     "id": "6737",
     "abbreviation": "Fidesz-KDNP",
     "name": "Fidesz-KDNP",
@@ -1332,12 +966,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6761/home"
   },
   {
-    "id": "6887",
-    "abbreviation": "GO",
-    "name": "GO",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6887/home"
-  },
-  {
     "id": "6743",
     "abbreviation": "GP",
     "name": "GP",
@@ -1350,28 +978,10 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6750/home"
   },
   {
-    "id": "6882",
-    "abbreviation": "GRS",
-    "name": "GRS",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6882/home"
-  },
-  {
     "id": "6773",
     "abbreviation": "GRÜNE.",
     "name": "GRÜNE.",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6773/home"
-  },
-  {
-    "id": "6909",
-    "abbreviation": "GS",
-    "name": "GS",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6909/home"
-  },
-  {
-    "id": "6883",
-    "abbreviation": "Gods",
-    "name": "Gods",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6883/home"
   },
   {
     "id": "6694",
@@ -1386,58 +996,10 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6734/home"
   },
   {
-    "id": "6824",
-    "abbreviation": "HKS",
-    "name": "HKS",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6824/home"
-  },
-  {
-    "id": "6895",
-    "abbreviation": "HREP",
-    "name": "HREP",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6895/home"
-  },
-  {
-    "id": "6904",
-    "abbreviation": "HS",
-    "name": "HS",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6904/home"
-  },
-  {
-    "id": "6919",
-    "abbreviation": "Hor",
-    "name": "Hor",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6919/home"
-  },
-  {
-    "id": "6898",
-    "abbreviation": "Hrast",
-    "name": "Hrast",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6898/home"
-  },
-  {
-    "id": "6852",
-    "abbreviation": "I",
-    "name": "I",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6852/home"
-  },
-  {
-    "id": "6946",
-    "abbreviation": "IC",
-    "name": "IC",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6946/home"
-  },
-  {
     "id": "6796",
     "abbreviation": "IDS-DDI",
     "name": "IDS-DDI",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6796/home"
-  },
-  {
-    "id": "6869",
-    "abbreviation": "IFC",
-    "name": "IFC",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6869/home"
   },
   {
     "id": "6641",
@@ -1458,12 +1020,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6564/home"
   },
   {
-    "id": "6931",
-    "abbreviation": "ITN",
-    "name": "ITN",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6931/home"
-  },
-  {
     "id": "6576",
     "abbreviation": "ITRE",
     "name": "Industry, Research and Energy",
@@ -1476,148 +1032,16 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6668/home"
   },
   {
-    "id": "6923",
-    "abbreviation": "IV - Centro",
-    "name": "IV - Centro",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6923/home"
-  },
-  {
     "id": "6739",
     "abbreviation": "Ind.",
     "name": "Ind.",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6739/home"
   },
   {
-    "id": "6819",
-    "abbreviation": "Ind.",
-    "name": "Ind.",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6819/home"
-  },
-  {
-    "id": "6825",
-    "abbreviation": "Ind.",
-    "name": "Ind.",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6825/home"
-  },
-  {
-    "id": "6837",
-    "abbreviation": "Ind.",
-    "name": "Ind.",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6837/home"
-  },
-  {
-    "id": "6843",
-    "abbreviation": "Ind.",
-    "name": "Ind.",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6843/home"
-  },
-  {
-    "id": "6891",
-    "abbreviation": "Ind.",
-    "name": "Ind.",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6891/home"
-  },
-  {
     "id": "6798",
     "abbreviation": "Independent",
     "name": "Independent",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6798/home"
-  },
-  {
-    "id": "6823",
-    "abbreviation": "Independent",
-    "name": "Independent",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6823/home"
-  },
-  {
-    "id": "6826",
-    "abbreviation": "Independent",
-    "name": "Independent",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6826/home"
-  },
-  {
-    "id": "6833",
-    "abbreviation": "Independent",
-    "name": "Independent",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6833/home"
-  },
-  {
-    "id": "6834",
-    "abbreviation": "Independent",
-    "name": "Independent",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6834/home"
-  },
-  {
-    "id": "6836",
-    "abbreviation": "Independent",
-    "name": "Independent",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6836/home"
-  },
-  {
-    "id": "6900",
-    "abbreviation": "Independent",
-    "name": "Independent",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6900/home"
-  },
-  {
-    "id": "6918",
-    "abbreviation": "Independent",
-    "name": "Independent",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6918/home"
-  },
-  {
-    "id": "6941",
-    "abbreviation": "Independent",
-    "name": "Independent",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6941/home"
-  },
-  {
-    "id": "6950",
-    "abbreviation": "Independent",
-    "name": "Independent",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6950/home"
-  },
-  {
-    "id": "6828",
-    "abbreviation": "Independiente",
-    "name": "Independiente",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6828/home"
-  },
-  {
-    "id": "6841",
-    "abbreviation": "Indépendant",
-    "name": "Indépendant",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6841/home"
-  },
-  {
-    "id": "6885",
-    "abbreviation": "Italia Viva",
-    "name": "Italia Viva",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6885/home"
-  },
-  {
-    "id": "6897",
-    "abbreviation": "JA21",
-    "name": "JA21",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6897/home"
-  },
-  {
-    "id": "6936",
-    "abbreviation": "JK",
-    "name": "JK",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6936/home"
-  },
-  {
-    "id": "6934",
-    "abbreviation": "JUNTS UE",
-    "name": "JUNTS UE",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6934/home"
-  },
-  {
-    "id": "6886",
-    "abbreviation": "JUNTS-UE",
-    "name": "JUNTS-UE",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6886/home"
   },
   {
     "id": "6585",
@@ -1650,22 +1074,10 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6714/home"
   },
   {
-    "id": "6952",
-    "abbreviation": "KD",
-    "name": "KD",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6952/home"
-  },
-  {
     "id": "6722",
     "abbreviation": "KDH",
     "name": "KDH",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6722/home"
-  },
-  {
-    "id": "6818",
-    "abbreviation": "KDNP",
-    "name": "KDNP",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6818/home"
   },
   {
     "id": "6770",
@@ -1686,34 +1098,16 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6725/home"
   },
   {
-    "id": "6876",
-    "abbreviation": "KINAL",
-    "name": "KINAL",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6876/home"
-  },
-  {
     "id": "6733",
     "abbreviation": "KKE",
     "name": "KKE",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6733/home"
   },
   {
-    "id": "6947",
-    "abbreviation": "KLJUC",
-    "name": "KLJUC",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6947/home"
-  },
-  {
     "id": "6726",
     "abbreviation": "KOK",
     "name": "KOK",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6726/home"
-  },
-  {
-    "id": "6942",
-    "abbreviation": "KOSMOS",
-    "name": "KOSMOS",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6942/home"
   },
   {
     "id": "6635",
@@ -1728,22 +1122,10 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6769/home"
   },
   {
-    "id": "6856",
-    "abbreviation": "Konfederacja",
-    "name": "Konfederacja",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6856/home"
-  },
-  {
     "id": "6642",
     "abbreviation": "L",
     "name": "L",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6642/home"
-  },
-  {
-    "id": "6870",
-    "abbreviation": "L",
-    "name": "L",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6870/home"
   },
   {
     "id": "6789",
@@ -1752,28 +1134,10 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6789/home"
   },
   {
-    "id": "6920",
-    "abbreviation": "LEE",
-    "name": "LEE",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6920/home"
-  },
-  {
-    "id": "6878",
-    "abbreviation": "LFI",
-    "name": "LFI",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6878/home"
-  },
-  {
     "id": "6586",
     "abbreviation": "LIBE",
     "name": "Civil Liberties, Justice and Home Affairs",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6586/home"
-  },
-  {
-    "id": "6838",
-    "abbreviation": "LKR",
-    "name": "LKR",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6838/home"
   },
   {
     "id": "6687",
@@ -1788,22 +1152,10 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6679/home"
   },
   {
-    "id": "6867",
-    "abbreviation": "LMŠ",
-    "name": "LMŠ",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6867/home"
-  },
-  {
     "id": "6653",
     "abbreviation": "LP",
     "name": "LP",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6653/home"
-  },
-  {
-    "id": "6930",
-    "abbreviation": "LPV",
-    "name": "LPV",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6930/home"
   },
   {
     "id": "6677",
@@ -1842,88 +1194,16 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6680/home"
   },
   {
-    "id": "6855",
-    "abbreviation": "LaREM/MoDEM",
-    "name": "LaREM/MoDEM",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6855/home"
-  },
-  {
-    "id": "6827",
-    "abbreviation": "Les Républicains",
-    "name": "Les Républicains",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6827/home"
-  },
-  {
-    "id": "6875",
-    "abbreviation": "Les centristes",
-    "name": "Les centristes",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6875/home"
-  },
-  {
-    "id": "6953",
-    "abbreviation": "Les Écologistes",
-    "name": "Les Écologistes",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6953/home"
-  },
-  {
-    "id": "6903",
-    "abbreviation": "LesEng",
-    "name": "LesEng",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6903/home"
-  },
-  {
-    "id": "6955",
-    "abbreviation": "Levica",
-    "name": "Levica",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6955/home"
-  },
-  {
     "id": "6713",
     "abbreviation": "M",
     "name": "M",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6713/home"
   },
   {
-    "id": "6948",
-    "abbreviation": "M",
-    "name": "M",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6948/home"
-  },
-  {
     "id": "6674",
     "abbreviation": "M5S",
     "name": "M5S",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6674/home"
-  },
-  {
-    "id": "6892",
-    "abbreviation": "MDD",
-    "name": "MDD",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6892/home"
-  },
-  {
-    "id": "6854",
-    "abbreviation": "MHM",
-    "name": "MHM",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6854/home"
-  },
-  {
-    "id": "6921",
-    "abbreviation": "MK",
-    "name": "MK",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6921/home"
-  },
-  {
-    "id": "6925",
-    "abbreviation": "MKKP",
-    "name": "MKKP",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6925/home"
-  },
-  {
-    "id": "6868",
-    "abbreviation": "MOM",
-    "name": "MOM",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6868/home"
   },
   {
     "id": "6717",
@@ -1938,12 +1218,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6756/home"
   },
   {
-    "id": "6846",
-    "abbreviation": "MRSL",
-    "name": "MRSL",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6846/home"
-  },
-  {
     "id": "6736",
     "abbreviation": "MSZP",
     "name": "MSZP",
@@ -1954,18 +1228,6 @@
     "abbreviation": "Maďarská Aliancia",
     "name": "Maďarská Aliancia",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6657/home"
-  },
-  {
-    "id": "6821",
-    "abbreviation": "MoDem",
-    "name": "MoDem",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6821/home"
-  },
-  {
-    "id": "6954",
-    "abbreviation": "Most",
-    "name": "Most",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6954/home"
   },
   {
     "id": "6647",
@@ -1986,12 +1248,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6730/home"
   },
   {
-    "id": "6880",
-    "abbreviation": "ND",
-    "name": "ND",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6880/home"
-  },
-  {
     "id": "6749",
     "abbreviation": "NEOS",
     "name": "NEOS",
@@ -2004,12 +1260,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6561/home"
   },
   {
-    "id": "6899",
-    "abbreviation": "NL",
-    "name": "NL",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6899/home"
-  },
-  {
     "id": "6639",
     "abbreviation": "NSC",
     "name": "NSC",
@@ -2020,12 +1270,6 @@
     "abbreviation": "NSi-KD",
     "name": "NSi-KD",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6720/home"
-  },
-  {
-    "id": "6916",
-    "abbreviation": "New Left",
-    "name": "New Left",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6916/home"
   },
   {
     "id": "6662",
@@ -2050,12 +1294,6 @@
     "abbreviation": "OĽaNO",
     "name": "OĽaNO",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6782/home"
-  },
-  {
-    "id": "6866",
-    "abbreviation": "PAN",
-    "name": "PAN",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6866/home"
   },
   {
     "id": "6814",
@@ -2088,28 +1326,10 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6591/home"
   },
   {
-    "id": "6862",
-    "abbreviation": "PIR",
-    "name": "PIR",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6862/home"
-  },
-  {
     "id": "6689",
     "abbreviation": "PL",
     "name": "PL",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6689/home"
-  },
-  {
-    "id": "6893",
-    "abbreviation": "PL2050",
-    "name": "PL2050",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6893/home"
-  },
-  {
-    "id": "6857",
-    "abbreviation": "PLUS",
-    "name": "PLUS",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6857/home"
   },
   {
     "id": "6710",
@@ -2124,22 +1344,10 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6690/home"
   },
   {
-    "id": "6914",
-    "abbreviation": "PNCR",
-    "name": "PNCR",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6914/home"
-  },
-  {
     "id": "6709",
     "abbreviation": "PNL",
     "name": "PNL",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6709/home"
-  },
-  {
-    "id": "6820",
-    "abbreviation": "PNV",
-    "name": "PNV",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6820/home"
   },
   {
     "id": "6729",
@@ -2166,30 +1374,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6666/home"
   },
   {
-    "id": "6849",
-    "abbreviation": "PP",
-    "name": "PP",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6849/home"
-  },
-  {
-    "id": "6932",
-    "abbreviation": "PP-DB",
-    "name": "PP-DB",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6932/home"
-  },
-  {
-    "id": "6830",
-    "abbreviation": "PPU",
-    "name": "PPU",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6830/home"
-  },
-  {
-    "id": "6845",
-    "abbreviation": "PRAVO I PRAVDA",
-    "name": "PRAVO I PRAVDA",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6845/home"
-  },
-  {
     "id": "6633",
     "abbreviation": "PRCO",
     "name": "PRCO",
@@ -2200,18 +1384,6 @@
     "abbreviation": "PRDE",
     "name": "PRDE",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6634/home"
-  },
-  {
-    "id": "6858",
-    "abbreviation": "PROR",
-    "name": "PROR",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6858/home"
-  },
-  {
-    "id": "6890",
-    "abbreviation": "PRP",
-    "name": "PRP",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6890/home"
   },
   {
     "id": "6706",
@@ -2230,12 +1402,6 @@
     "abbreviation": "PS",
     "name": "PS",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6758/home"
-  },
-  {
-    "id": "6874",
-    "abbreviation": "PS",
-    "name": "PS",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6874/home"
   },
   {
     "id": "6816",
@@ -2268,34 +1434,10 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6667/home"
   },
   {
-    "id": "6906",
-    "abbreviation": "PUSL",
-    "name": "PUSL",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6906/home"
-  },
-  {
-    "id": "6860",
-    "abbreviation": "PVDA-PTB",
-    "name": "PVDA-PTB",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6860/home"
-  },
-  {
     "id": "6696",
     "abbreviation": "PVV",
     "name": "PVV",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6696/home"
-  },
-  {
-    "id": "6840",
-    "abbreviation": "Parti Radical",
-    "name": "Parti Radical",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6840/home"
-  },
-  {
-    "id": "6901",
-    "abbreviation": "Patriot",
-    "name": "Patriot",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6901/home"
   },
   {
     "id": "6670",
@@ -2322,12 +1464,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6785/home"
   },
   {
-    "id": "6933",
-    "abbreviation": "Progresīvie",
-    "name": "Progresīvie",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6933/home"
-  },
-  {
     "id": "6692",
     "abbreviation": "PvdA",
     "name": "PvdA",
@@ -2346,40 +1482,10 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6632/home"
   },
   {
-    "id": "6902",
-    "abbreviation": "R",
-    "name": "R",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6902/home"
-  },
-  {
     "id": "6581",
     "abbreviation": "REGI",
     "name": "Regional Development",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6581/home"
-  },
-  {
-    "id": "6905",
-    "abbreviation": "REPER",
-    "name": "REPER",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6905/home"
-  },
-  {
-    "id": "6848",
-    "abbreviation": "RN",
-    "name": "RN",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6848/home"
-  },
-  {
-    "id": "6873",
-    "abbreviation": "RPS",
-    "name": "RPS",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6873/home"
-  },
-  {
-    "id": "6935",
-    "abbreviation": "Ren",
-    "name": "Ren",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6935/home"
   },
   {
     "id": "6659",
@@ -2412,12 +1518,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6810/home"
   },
   {
-    "id": "6937",
-    "abbreviation": "SD",
-    "name": "SD",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6937/home"
-  },
-  {
     "id": "6665",
     "abbreviation": "SDE",
     "name": "SDE",
@@ -2448,12 +1548,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6783/home"
   },
   {
-    "id": "6884",
-    "abbreviation": "SE",
-    "name": "SE",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6884/home"
-  },
-  {
     "id": "6740",
     "abbreviation": "SF",
     "name": "SF",
@@ -2470,12 +1564,6 @@
     "abbreviation": "SGP",
     "name": "SGP",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6699/home"
-  },
-  {
-    "id": "6894",
-    "abbreviation": "SIT",
-    "name": "SIT",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6894/home"
   },
   {
     "id": "6806",
@@ -2502,22 +1590,10 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6723/home"
   },
   {
-    "id": "6949",
-    "abbreviation": "SMR",
-    "name": "SMR",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6949/home"
-  },
-  {
     "id": "6645",
     "abbreviation": "SOS RO",
     "name": "SOS RO",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6645/home"
-  },
-  {
-    "id": "6940",
-    "abbreviation": "SP",
-    "name": "SP",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6940/home"
   },
   {
     "id": "6753",
@@ -2530,12 +1606,6 @@
     "abbreviation": "SPD",
     "name": "SPD",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6772/home"
-  },
-  {
-    "id": "6864",
-    "abbreviation": "SPD",
-    "name": "SPD",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6864/home"
   },
   {
     "id": "6788",
@@ -2560,12 +1630,6 @@
     "abbreviation": "SSW",
     "name": "SSW",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6636/home"
-  },
-  {
-    "id": "6835",
-    "abbreviation": "STAN",
-    "name": "STAN",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6835/home"
   },
   {
     "id": "3730",
@@ -2616,12 +1680,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6685/home"
   },
   {
-    "id": "6847",
-    "abbreviation": "TISZA",
-    "name": "TISZA",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6847/home"
-  },
-  {
     "id": "6793",
     "abbreviation": "TOP09/STAN",
     "name": "TOP09/STAN",
@@ -2646,18 +1704,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6711/home"
   },
   {
-    "id": "6872",
-    "abbreviation": "USR",
-    "name": "USR",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6872/home"
-  },
-  {
-    "id": "6865",
-    "abbreviation": "USR-PLUS",
-    "name": "USR-PLUS",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6865/home"
-  },
-  {
     "id": "6663",
     "abbreviation": "V",
     "name": "V",
@@ -2676,12 +1722,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6718/home"
   },
   {
-    "id": "6859",
-    "abbreviation": "V",
-    "name": "V",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6859/home"
-  },
-  {
     "id": "6795",
     "abbreviation": "VAS",
     "name": "VAS",
@@ -2698,18 +1738,6 @@
     "abbreviation": "VMRO",
     "name": "VMRO",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6805/home"
-  },
-  {
-    "id": "6945",
-    "abbreviation": "VOLT",
-    "name": "VOLT",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6945/home"
-  },
-  {
-    "id": "6871",
-    "abbreviation": "VOX",
-    "name": "VOX",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6871/home"
   },
   {
     "id": "6691",
@@ -2736,18 +1764,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6638/home"
   },
   {
-    "id": "6912",
-    "abbreviation": "Vooruit",
-    "name": "Vooruit",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6912/home"
-  },
-  {
-    "id": "6861",
-    "abbreviation": "Wiosna",
-    "name": "Wiosna",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6861/home"
-  },
-  {
     "id": "6732",
     "abbreviation": "XA",
     "name": "XA",
@@ -2760,28 +1776,10 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6660/home"
   },
   {
-    "id": "6928",
-    "abbreviation": "Zdravý rozum",
-    "name": "Zdravý rozum",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6928/home"
-  },
-  {
-    "id": "6907",
-    "abbreviation": "Zentrum",
-    "name": "Zentrum",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6907/home"
-  },
-  {
     "id": "6759",
     "abbreviation": "cdH",
     "name": "cdH",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6759/home"
-  },
-  {
-    "id": "6908",
-    "abbreviation": "insieme",
-    "name": "insieme",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6908/home"
   },
   {
     "id": "6637",
@@ -2800,11 +1798,5 @@
     "abbreviation": "ÖVP",
     "name": "ÖVP",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6745/home"
-  },
-  {
-    "id": "6881",
-    "abbreviation": "ŽZ",
-    "name": "ŽZ",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6881/home"
   }
 ]
