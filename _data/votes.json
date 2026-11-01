@@ -5688,18 +5688,6 @@
     "type": "final"
   },
   {
-    "id": "MTG-PL-2026-09-17-VOT-ITM-993135-SPLIT-14",
-    "date": "2026-09-17",
-    "title": "Recital H",
-    "result": "",
-    "for": 0,
-    "against": 0,
-    "abstention": 0,
-    "ep_ref": "",
-    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-09-17-RCV_EN.html",
-    "type": "amendment"
-  },
-  {
     "id": "MTG-PL-2026-09-17-VOT-ITM-993135-SPLIT-2",
     "date": "2026-09-17",
     "title": "§ 1",
@@ -5715,6 +5703,18 @@
     "id": "MTG-PL-2026-09-17-VOT-ITM-993135-SPLIT-3",
     "date": "2026-09-17",
     "title": "§ 6",
+    "result": "",
+    "for": 0,
+    "against": 0,
+    "abstention": 0,
+    "ep_ref": "",
+    "ep_url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-09-17-RCV_EN.html",
+    "type": "amendment"
+  },
+  {
+    "id": "MTG-PL-2026-09-17-VOT-ITM-993135-SPLIT-14",
+    "date": "2026-09-17",
+    "title": "Recital H",
     "result": "",
     "for": 0,
     "against": 0,
@@ -16862,7 +16862,7 @@
   {
     "id": "MTG-PL-2026-06-16-VOT-ITM-992833-SEPARATE-1",
     "date": "2026-06-16",
-    "title": "§ 17 and recital J",
+    "title": "§ 17; Recital J",
     "result": "",
     "for": 0,
     "against": 0,
@@ -16934,7 +16934,7 @@
   {
     "id": "MTG-PL-2026-06-16-VOT-ITM-992833-RCV-2",
     "date": "2026-06-16",
-    "title": "§§ 11 (2nd part), 15 (2nd part); recitals U, G (2nd part), AC (2nd part)",
+    "title": "§§ 11 (2nd part), 15 (2nd part); Recitals U, G (2nd part), AC (2nd part)",
     "result": "",
     "for": 0,
     "against": 0,
@@ -17378,7 +17378,7 @@
   {
     "id": "MTG-PL-2026-06-16-VOT-ITM-992833-SEPARATE-1",
     "date": "2026-06-16",
-    "title": "§ 17 and recital J",
+    "title": "§ 17; Recital J",
     "result": "",
     "for": 0,
     "against": 0,
@@ -17450,7 +17450,7 @@
   {
     "id": "MTG-PL-2026-06-16-VOT-ITM-992833-RCV-2",
     "date": "2026-06-16",
-    "title": "§§ 11 (2nd part), 15 (2nd part); recitals U, G (2nd part), AC (2nd part)",
+    "title": "§§ 11 (2nd part), 15 (2nd part); Recitals U, G (2nd part), AC (2nd part)",
     "result": "",
     "for": 0,
     "against": 0,
