@@ -372,6 +372,12 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6944/home"
   },
   {
+    "id": "6913",
+    "abbreviation": "AZ",
+    "name": "AZ",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6913/home"
+  },
+  {
     "id": "6802",
     "abbreviation": "AfD",
     "name": "AfD",
@@ -684,18 +690,6 @@
     "ep_url": "https://www.europarl.europa.eu/committees/en/6988/home"
   },
   {
-    "id": "6989",
-    "abbreviation": "CJ34",
-    "name": "CJ34",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6989/home"
-  },
-  {
-    "id": "6990",
-    "abbreviation": "CJ35",
-    "name": "CJ35",
-    "ep_url": "https://www.europarl.europa.eu/committees/en/6990/home"
-  },
-  {
     "id": "6646",
     "abbreviation": "CNR",
     "name": "CNR",
@@ -922,6 +916,12 @@
     "abbreviation": "DANZ",
     "name": "DANZ",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6617/home"
+  },
+  {
+    "id": "6601",
+    "abbreviation": "DARP",
+    "name": "DARP",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6601/home"
   },
   {
     "id": "6615",
@@ -1984,6 +1984,12 @@
     "abbreviation": "N.D.",
     "name": "N.D.",
     "ep_url": "https://www.europarl.europa.eu/committees/en/6730/home"
+  },
+  {
+    "id": "6880",
+    "abbreviation": "ND",
+    "name": "ND",
+    "ep_url": "https://www.europarl.europa.eu/committees/en/6880/home"
   },
   {
     "id": "6749",
